@@ -28,11 +28,25 @@ function cleanInlineMarkdown(value: string): string {
     .trim();
 }
 
+/* 따옴표 안의 . ! ? 는 문장 경계가 아니다 — Intl.Segmenter가 '안녕, Flutter!' 같은
+   인용 문자열에서 문장을 쪼개는 것을 자리 표시 문자로 보호했다가 복원한다.
+   (실전 교재 검수 1회차가 잡은 추출기 결함, 2026-08-26) */
+const PUNCT_GUARD: Record<string, string> = { ".": "\u0001", "!": "\u0002", "?": "\u0003" };
+const PUNCT_RESTORE: Record<string, string> = { "\u0001": ".", "\u0002": "!", "\u0003": "?" };
+
+function guardQuotedPunctuation(text: string): string {
+  return text.replace(/([\x27"\u2018\u201c])([^\x27"\u2018\u2019\u201c\u201d]{0,80}?)([\x27"\u2019\u201d])/gu, (m) =>
+    m.replace(/[.!?]/gu, (ch) => PUNCT_GUARD[ch] as string),
+  );
+}
+
 function segmentText(value: string): string[] {
   const clean = cleanInlineMarkdown(value);
   if (!clean) return [];
   const segmenter = new Intl.Segmenter("ko", { granularity: "sentence" });
-  return [...segmenter.segment(clean)].map(({ segment }) => segment.trim()).filter(Boolean);
+  return [...segmenter.segment(guardQuotedPunctuation(clean))]
+    .map(({ segment }) => segment.replace(/[\u0001-\u0003]/gu, (ch) => PUNCT_RESTORE[ch] as string).trim())
+    .filter(Boolean);
 }
 
 export function extractReviewUnits(raw: string, relativePath: string): ReviewUnit[] {
