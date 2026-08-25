@@ -1,6 +1,12 @@
 import { mkdirSync, writeFileSync, readFileSync, rmSync, existsSync } from "node:fs";
 import { join } from "node:path";
-import { combinedSha256, sha256Hex, sentenceSha256, shortHash } from "./fingerprint.js";
+import {
+  combinedSha256,
+  courseContentSha256,
+  sha256Hex,
+  sentenceSha256,
+  shortHash,
+} from "./fingerprint.js";
 import { ulid } from "./ids.js";
 import { MR_CODES } from "./schemas/manual-review.js";
 
@@ -224,7 +230,13 @@ export function writeFixtureCourse(root: string, sabotage: Sabotage = {}) {
       pass: machineDefects.length === 0,
       blocker_count: machineDefects.length,
       warning_count: 0,
-      inputs: inputPaths.map((p) => ({ path: p, sha256: sha256Hex(read(p)) })),
+      inputs: inputPaths.map((p) => ({
+        path: p,
+        sha256:
+          p === "course.json"
+            ? courseContentSha256(JSON.parse(read(p).toString("utf8")))
+            : sha256Hex(read(p)),
+      })),
       standards: {
         scoring_rules_sha256: std("scoring-rules.md"),
         manual_review_items_sha256: std("manual-review-items.md"),

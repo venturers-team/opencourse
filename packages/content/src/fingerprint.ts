@@ -30,3 +30,30 @@ export function combinedSha256(parts: Uint8Array[]): string {
   }
   return h.digest("hex");
 }
+
+/** 키를 재귀적으로 정렬한 결정적 직렬화. */
+export function stableStringify(value: unknown): string {
+  if (Array.isArray(value)) return `[${value.map(stableStringify).join(",")}]`;
+  if (value && typeof value === "object") {
+    const entries = Object.entries(value as Record<string, unknown>)
+      .sort(([a], [b]) => (a < b ? -1 : a > b ? 1 : 0))
+      .map(([k, v]) => `${JSON.stringify(k)}:${stableStringify(v)}`);
+    return `{${entries.join(",")}}`;
+  }
+  return JSON.stringify(value);
+}
+
+/** 상태 전환에 흔들리지 않는 course.json 내용 지문 (docs/11 §4). */
+const COURSE_VOLATILE_KEYS = [
+  "status",
+  "updated_at",
+  "published_at",
+  "edit_count",
+  "rewrite_after_publish_count",
+];
+
+export function courseContentSha256(courseRaw: unknown): string {
+  const clone = { ...(courseRaw as Record<string, unknown>) };
+  for (const key of COURSE_VOLATILE_KEYS) delete clone[key];
+  return sha256Hex(stableStringify(clone));
+}

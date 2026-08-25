@@ -1,6 +1,6 @@
 import { readFileSync, existsSync } from "node:fs";
 import { join } from "node:path";
-import { combinedSha256, sha256Hex } from "./fingerprint.js";
+import { combinedSha256, courseContentSha256, sha256Hex } from "./fingerprint.js";
 import { CourseSchema, type Course } from "./schemas/course.js";
 import { MachineCheckSchema } from "./schemas/machine-check.js";
 import { SentenceReviewSchema } from "./schemas/sentence-review.js";
@@ -69,7 +69,11 @@ export function canPublish(courseDir: string, standardsDir: string): GateResult 
     else {
       if (!mc.data.pass) reasons.push(`기계 검사 미통과: 차단 ${mc.data.blocker_count}건`);
       for (const input of mc.data.inputs) {
-        if (fileHash(join(courseDir, input.path)) !== input.sha256) {
+        const current =
+          input.path === "course.json"
+            ? courseContentSha256(courseRaw)
+            : fileHash(join(courseDir, input.path));
+        if (current !== input.sha256) {
           reasons.push(`기계 검사가 무효입니다: ${input.path}의 지문이 바뀌었습니다`);
         }
       }

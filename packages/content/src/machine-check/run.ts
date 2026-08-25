@@ -1,6 +1,6 @@
 import { existsSync, readFileSync, writeFileSync, mkdirSync } from "node:fs";
 import { join } from "node:path";
-import { sha256Hex } from "../fingerprint.js";
+import { courseContentSha256, sha256Hex } from "../fingerprint.js";
 import { extractReviewUnits } from "../units.js";
 import { DEFECT_CODES, MachineCheckSchema, type MachineCheck } from "../schemas/machine-check.js";
 import { staticRules, type StaticInput } from "./static-rules.js";
@@ -94,7 +94,11 @@ export function runMachineCheck(
   ];
   const inputs = inputPaths.map((p) => ({
     path: p,
-    sha256: sha256Hex(readFileSync(join(courseDir, p))),
+    // course.json은 상태 전환(발행·숨김)이 검사를 무효화하지 않도록 내용 지문을 쓴다
+    sha256:
+      p === "course.json"
+        ? courseContentSha256(JSON.parse(readFileSync(join(courseDir, p), "utf8")))
+        : sha256Hex(readFileSync(join(courseDir, p))),
   }));
 
   const stdHash = (name: string) => {
