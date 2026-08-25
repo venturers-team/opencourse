@@ -14,7 +14,12 @@
     "lint": "pnpm -r lint",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "course": "pnpm --filter @opencourse/pipeline build && node packages/pipeline/dist/cli.js"
+    "course": "pnpm --filter @opencourse/pipeline build && node packages/pipeline/dist/cli.js",
+    "ops": "pnpm --filter @opencourse/pipeline build && node packages/pipeline/dist/ops-cli.js",
+    "status": "pnpm ops status",
+    "metrics": "pnpm ops metrics",
+    "board": "pnpm ops board",
+    "board:check": "pnpm ops board:check"
   },
   "devDependencies": {
     "prettier": "^3.3.3",

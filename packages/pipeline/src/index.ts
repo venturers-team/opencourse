@@ -15,3 +15,8 @@ export * from "./review/sentence-session.js";
 export * from "./review/section-session.js";
 export * from "./review/edit-impact.js";
 export * from "./publishing.js";
+export * from "./ops/metrics.js";
+export * from "./ops/board.js";
+export * from "./ops/manual.js";
+export * from "./ops/assets.js";
+export * from "./ops/styles.js";

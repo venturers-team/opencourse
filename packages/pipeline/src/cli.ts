@@ -3,6 +3,7 @@ import { resolve, join } from "node:path";
 import { courseStatus, createCourse, repoPaths, setStatus } from "./lifecycle.js";
 import { registerDraft } from "./draft-register.js";
 import { loadThresholds, preflight } from "./thresholds.js";
+import { writeStatusBoard } from "./ops/board.js";
 
 /**
  * 생성 파이프라인 CLI — 저장소 루트에서 실행한다.
@@ -40,6 +41,7 @@ switch (cmd) {
       styleVersion: opt("style-version", "v1"),
       runId: opt("run-id", `gen-${Date.now()}`),
     });
+    writeStatusBoard(process.cwd());
     console.log(`만들었습니다: ${slug} (${resolve(dir)})`);
     console.log("다음: 목차를 제안하고 승인받은 뒤 챕터를 생성하십시오 (S3~S10).");
     break;
@@ -92,6 +94,7 @@ switch (cmd) {
       for (const m of r.missing) console.log(`  - ${m}`);
       process.exit(1);
     }
+    writeStatusBoard(process.cwd());
     console.log(
       `초안으로 등록했습니다. 기계 검사: ${r.machineCheck?.pass ? "통과" : `차단 ${r.machineCheck?.blocker_count}건`}`,
     );
@@ -110,6 +113,7 @@ switch (cmd) {
       for (const reason of r.reasons) console.log(`  - ${reason}`);
       process.exit(1);
     }
+    writeStatusBoard(process.cwd());
     console.log(
       cmd === "publish"
         ? "발행 상태로 바꿨습니다. 커밋·푸시하면 공개됩니다."

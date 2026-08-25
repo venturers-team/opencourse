@@ -33,10 +33,14 @@
 ## 명령
 
 ```bash
-pnpm install        # 의존성
-pnpm build          # 전체 빌드
-pnpm test           # 전체 테스트
-pnpm typecheck      # 타입 검사
+pnpm install / build / test / typecheck        # 개발 기본
+pnpm status [슬러그]    # 교재·게이트·지표·미커밋 요약 (+보드 갱신)
+pnpm metrics            # 세 지표 JSON
+pnpm board              # ops/STATUS.md 재생성
+pnpm board:check        # 보드가 낡았는지 검사 (CI에서도 돈다)
+pnpm course create|status|preflight|register|publish|hide   # 생성 파이프라인 (S1~S12)
+pnpm check <슬러그>     # 기계 검사 (정적+구조)
+pnpm ops manual|exception|media|styles          # 수동 검토·예외 승인·자산·스타일
 ```
 
-(운영 CLI `pnpm status`·`pnpm metrics` 등은 6단계에서 생긴다)
+상태를 바꾸는 명령은 보드를 자동 재생성한다. 보드가 낡으면 CI가 실패한다.
