@@ -4,3 +4,16 @@
  * 이 패키지는 그 문서를 코드로 옮긴 것이다 (구현 계획 1단계).
  */
 export const SCHEMA_VERSION = 1;
+
+export * from "./fingerprint.js";
+export * from "./ids.js";
+export * from "./severity.js";
+export * from "./schemas/course.js";
+export * from "./schemas/media.js";
+export * from "./schemas/machine-check.js";
+export * from "./schemas/sentence-review.js";
+export * from "./schemas/section-review.js";
+export * from "./schemas/manual-review.js";
+export * from "./schemas/misc.js";
+export * from "./can-publish.js";
+export * from "./fixture.js";
