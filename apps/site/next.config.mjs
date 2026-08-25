@@ -3,7 +3,7 @@
  *  미리보기 모드에서는 정적 출력(export)을 켜지 않는다 — 초안이 산출물에 들어갈 수 없다. */
 const preview = process.env.OPENCOURSE_PREVIEW === "1";
 const nextConfig = {
-  ...(preview ? {} : { output: "export" }),
+  ...(preview ? { distDir: ".next-preview" } : { output: "export" }),
   trailingSlash: true,
   images: { unoptimized: true },
   transpilePackages: ["@opencourse/ui"],
