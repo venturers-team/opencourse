@@ -20,7 +20,7 @@
   "content_style": "차분하고 친근한 설명체",
   "status": "generating",
   "created_at": "2026-08-25T13:50:49Z",
-  "updated_at": "2026-08-25T13:50:49Z",
+  "updated_at": "2026-08-25T15:13:20Z",
   "published_at": null,
   "style_version": "v1",
   "estimated_minutes": 300,
@@ -28,20 +28,113 @@
   "rewrite_after_publish_count": 0,
   "chapters": [
     {
-      "id": "01-overview",
-      "title": "임시 — 목차 승인 전",
-      "summary": "목차가 승인되면 교체된다",
-      "estimated_minutes": 300,
+      "id": "01-vibe-coding",
+      "title": "바이브 코딩이란",
+      "summary": "AI와 함께 만드는 개발 흐름과 이 교재의 사용법, 준비물 확인.",
+      "estimated_minutes": 50,
       "outcomes": [
-        "위젯 트리로 화면 구조를 읽고 그릴 수 있다",
-        "AI 도구에게 원하는 화면을 구조로 설명하는 프롬프트를 쓸 수 있다",
-        "받은 코드를 트리와 대조해 읽고 작은 수정을 직접 할 수 있다",
-        "setState로 사용자 입력에 반응하는 화면을 만들 수 있다"
+        "바이브 코딩이 무엇인지 자기 말로 설명할 수 있다"
       ],
       "subchapters": [
         {
           "file": "01.mdx",
-          "title": "임시"
+          "title": "AI와 함께 만든다는 것"
+        },
+        {
+          "file": "02.mdx",
+          "title": "이 교재의 사용법"
+        },
+        {
+          "file": "03.mdx",
+          "title": "준비물 확인"
+        }
+      ]
+    },
+    {
+      "id": "02-first-project",
+      "title": "첫 프로젝트 만들기",
+      "summary": "Flutter 프로젝트의 생김새를 익히고 AI에게 부탁한 첫 화면을 실행해 본다.",
+      "estimated_minutes": 60,
+      "outcomes": [
+        "빈 앱을 만들어 실행할 수 있다"
+      ],
+      "subchapters": [
+        {
+          "file": "01.mdx",
+          "title": "Flutter 프로젝트의 생김새"
+        },
+        {
+          "file": "02.mdx",
+          "title": "AI에게 첫 화면 부탁하기"
+        },
+        {
+          "file": "03.mdx",
+          "title": "실행하고 확인하기"
+        }
+      ]
+    },
+    {
+      "id": "03-widget-tree",
+      "title": "위젯 트리 이해하기",
+      "summary": "모든 것이 위젯 — 코드를 그림으로 읽고, 고칠 곳을 트리에서 먼저 찾는다.",
+      "estimated_minutes": 70,
+      "outcomes": [
+        "위젯 트리로 화면 구조를 읽고 그릴 수 있다"
+      ],
+      "subchapters": [
+        {
+          "file": "01.mdx",
+          "title": "위젯이 뭐예요"
+        },
+        {
+          "file": "02.mdx",
+          "title": "트리 읽는 법"
+        },
+        {
+          "file": "03.mdx",
+          "title": "트리 고쳐 그리기"
+        }
+      ]
+    },
+    {
+      "id": "04-state",
+      "title": "상태로 움직이는 화면",
+      "summary": "상태와 setState로 사용자 입력에 반응하는 화면을 만든다.",
+      "estimated_minutes": 70,
+      "outcomes": [
+        "setState로 입력에 반응하는 화면을 만들 수 있다"
+      ],
+      "subchapters": [
+        {
+          "file": "01.mdx",
+          "title": "상태가 뭐예요"
+        },
+        {
+          "file": "02.mdx",
+          "title": "setState 한 걸음"
+        },
+        {
+          "file": "03.mdx",
+          "title": "실습 — 숫자 세기 버튼"
+        }
+      ]
+    },
+    {
+      "id": "05-wrap-up",
+      "title": "마무리 — 나만의 카드 앱",
+      "summary": "배운 전부로 프로필 카드 앱을 완성하고, 막혔을 때 질문하는 법을 익힌다.",
+      "estimated_minutes": 50,
+      "outcomes": [
+        "배운 것을 조합해 작은 앱 하나를 완성할 수 있다"
+      ],
+      "subchapters": [
+        {
+          "file": "01.mdx",
+          "title": "프로필 카드 조립 실습"
+        },
+        {
+          "file": "02.mdx",
+          "title": "막혔을 때 질문하는 법"
         }
       ]
     }

@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "course_id": "01M0WK073ZX0BQY9QHJKYRNHRY",
+  "checked_at": "2026-08-25T15:17:47Z",
+  "pass": false,
+  "blocker_count": 2,
+  "warning_count": 1,
+  "inputs": [
+    {
+      "path": "course.json",
+      "sha256": "af52f44b5df85e01df6bc5041db397826ea5f94db7465f0709e8397f5f73bacd"
+    },
+    {
+      "path": "chapters/01-vibe-coding/01.mdx",
+      "sha256": "b5a3154ec3dadfba417106c9c30703c3998c3b31a917172cd81b5427a8fa10b7"
+    },
+    {
+      "path": "chapters/01-vibe-coding/02.mdx",
+      "sha256": "9836eb9fc40a75fa2fb1f585cba7e1777ab505ddc124610a0a2a8000405a478a"
+    },
+    {
+      "path": "chapters/01-vibe-coding/03.mdx",
+      "sha256": "e3f7303709a3b3bb71fe30c25a46f2f50883af1eb94aa68ad4a2f678160796e0"
+    }
+  ],
+  "standards": {
+    "scoring_rules_sha256": "d8ba111f4769b5f6a7fbefa3ed4c102d0544aceed0fbd3e99779dfad05baae0f",
+    "manual_review_items_sha256": "013971ef0fb46eb63d03e6913210d5aeb36138f5aeff06862b1ecf353212942b",
+    "thresholds_sha256": "986a7f0cc8e041c4e3b5ff5d4ac80a4060c4b109f8c0e9f012ece66f922974c7"
+  },
+  "defects": [
+    {
+      "code": "ST02",
+      "kind": "static",
+      "grade": "block",
+      "message": "source-map.json이 없어 어떤 자료에서 왔는지 확인할 수 없습니다",
+      "path": "review/source-map.json",
+      "line": null,
+      "detail": null
+    },
+    {
+      "code": "ST08",
+      "kind": "static",
+      "grade": "warn",
+      "message": "rubric.json이 없습니다",
+      "path": "review/rubric.json",
+      "line": null,
+      "detail": null
+    },
+    {
+      "code": "ST09",
+      "kind": "static",
+      "grade": "block",
+      "message": "manual-review.json이 없습니다 — 수동 검토가 기록되지 않았습니다",
+      "path": "review/manual-review.json",
+      "line": null,
+      "detail": null
+    }
+  ]
+}

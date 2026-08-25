@@ -1,0 +1,28 @@
+<!doctype html><meta charset="utf-8"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css"><style>
+:root{--blue:#3969f0;--tint:#eef3fe;--txt:#1b2230;--mut:#646d7c;--bg2:#f4f6fa}
+body{margin:0;font-family:"Pretendard Variable",Pretendard,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+#fig{width:1280px;height:720px;background:#fff;color:var(--txt);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:36px;position:relative}
+.cap{position:absolute;left:48px;top:40px;font-size:26px;font-weight:800;letter-spacing:-0.02em}
+.node{background:#fff;border:2.5px solid var(--blue);border-radius:18px;padding:18px 30px;font-size:26px;font-weight:800}
+.leaf{background:var(--tint);color:var(--blue);border-radius:16px;padding:16px 26px;font-size:24px;font-weight:700}
+.plain{background:var(--bg2);border:2px solid #d6dce8;border-radius:16px;padding:16px 26px;font-size:24px;font-weight:600}
+.arrow{font-size:34px;color:var(--blue);font-weight:800}
+.mut{color:var(--mut);font-size:20px;font-weight:600}
+.col{display:flex;flex-direction:column;align-items:center;gap:14px}
+.row{display:flex;align-items:center;gap:22px}
+.vline{width:3px;height:26px;background:#9db5e8;border-radius:2px}
+.mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+</style>
+<div id="fig">
+  <p class="cap">프로필 카드의 위젯 트리</p>
+  <div class="col">
+    <div class="node mono">Card</div><div class="vline"></div>
+    <div class="plain mono">Column</div><div class="vline"></div>
+    <div class="row">
+      <div class="leaf mono">CircleAvatar</div>
+      <div class="leaf mono">Text(이름)</div>
+      <div class="leaf mono">Text(한 줄 소개)</div>
+    </div>
+    <span class="mut">세로로 쌓는 세 자식 — 챕터 3·4에서 배운 그대로예요</span>
+  </div>
+</div>

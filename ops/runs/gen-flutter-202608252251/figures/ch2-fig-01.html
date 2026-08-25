@@ -1,0 +1,24 @@
+<!doctype html><meta charset="utf-8"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css"><style>
+:root{--blue:#3969f0;--tint:#eef3fe;--txt:#1b2230;--mut:#646d7c;--bg2:#f4f6fa}
+body{margin:0;font-family:"Pretendard Variable",Pretendard,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+#fig{width:1280px;height:720px;background:#fff;color:var(--txt);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:36px;position:relative}
+.cap{position:absolute;left:48px;top:40px;font-size:26px;font-weight:800;letter-spacing:-0.02em}
+.node{background:#fff;border:2.5px solid var(--blue);border-radius:18px;padding:18px 30px;font-size:26px;font-weight:800}
+.leaf{background:var(--tint);color:var(--blue);border-radius:16px;padding:16px 26px;font-size:24px;font-weight:700}
+.plain{background:var(--bg2);border:2px solid #d6dce8;border-radius:16px;padding:16px 26px;font-size:24px;font-weight:600}
+.arrow{font-size:34px;color:var(--blue);font-weight:800}
+.mut{color:var(--mut);font-size:20px;font-weight:600}
+.col{display:flex;flex-direction:column;align-items:center;gap:14px}
+.row{display:flex;align-items:center;gap:22px}
+.vline{width:3px;height:26px;background:#9db5e8;border-radius:2px}
+.mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+</style>
+<div id="fig">
+  <p class="cap">Flutter 프로젝트 지도 — 기억할 곳은 하나</p>
+  <div class="col" style="align-items:flex-start;gap:12px">
+    <div class="plain mono">my_first_app/</div>
+    <div class="row" style="margin-left:60px"><div class="vline" style="height:3px;width:26px"></div><div class="node mono">lib/main.dart</div><span class="mut">← 우리가 읽고 고치는 파일</span></div>
+    <div class="row" style="margin-left:60px"><div class="vline" style="height:3px;width:26px"></div><div class="plain mono">pubspec.yaml</div><span class="mut">앱의 이름표와 부품 목록</span></div>
+    <div class="row" style="margin-left:60px"><div class="vline" style="height:3px;width:26px"></div><div class="plain mono">android/ · ios/ …</div><span class="mut">지금은 열지 않아도 되는 방</span></div>
+  </div>
+</div>

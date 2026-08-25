@@ -1,0 +1,27 @@
+<!doctype html><meta charset="utf-8"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css"><style>
+:root{--blue:#3969f0;--tint:#eef3fe;--txt:#1b2230;--mut:#646d7c;--bg2:#f4f6fa}
+body{margin:0;font-family:"Pretendard Variable",Pretendard,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+#fig{width:1280px;height:720px;background:#fff;color:var(--txt);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:36px;position:relative}
+.cap{position:absolute;left:48px;top:40px;font-size:26px;font-weight:800;letter-spacing:-0.02em}
+.node{background:#fff;border:2.5px solid var(--blue);border-radius:18px;padding:18px 30px;font-size:26px;font-weight:800}
+.leaf{background:var(--tint);color:var(--blue);border-radius:16px;padding:16px 26px;font-size:24px;font-weight:700}
+.plain{background:var(--bg2);border:2px solid #d6dce8;border-radius:16px;padding:16px 26px;font-size:24px;font-weight:600}
+.arrow{font-size:34px;color:var(--blue);font-weight:800}
+.mut{color:var(--mut);font-size:20px;font-weight:600}
+.col{display:flex;flex-direction:column;align-items:center;gap:14px}
+.row{display:flex;align-items:center;gap:22px}
+.vline{width:3px;height:26px;background:#9db5e8;border-radius:2px}
+.mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+</style>
+<div id="fig">
+  <p class="cap">setState가 화면을 다시 그리는 흐름</p>
+  <div class="row">
+    <div class="col"><div class="plain">버튼을 탭</div><span class="mut">학습자의 입력</span></div>
+    <span class="arrow">→</span>
+    <div class="col"><div class="node mono">setState( 상태 바꾸기 )</div><span class="mut">기억하는 값이 바뀜</span></div>
+    <span class="arrow">→</span>
+    <div class="col"><div class="plain mono">build() 다시 실행</div><span class="mut">트리를 다시 만듦</span></div>
+    <span class="arrow">→</span>
+    <div class="col"><div class="leaf">새 화면</div><span class="mut">바뀐 값이 보임</span></div>
+  </div>
+</div>

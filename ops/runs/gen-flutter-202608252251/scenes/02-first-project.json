@@ -1,0 +1,11 @@
+{
+  "chapter_id": "02-first-project",
+  "note": "S8 장면 목록 — 시간값은 S9 음성 실측 뒤 확정",
+  "scenes": [
+    { "index": 0, "narration": "이 챕터에서는 첫 프로젝트를 만들어 실행까지 해 봐요.", "visual": { "type": "title", "text": "첫 프로젝트 만들기" } },
+    { "index": 1, "narration": "프로젝트에서 기억할 곳은 lib 폴더의 main.dart 하나예요.", "visual": { "type": "figure", "media_id": "fig-01" } },
+    { "index": 2, "narration": "좋은 부탁은 무엇이 어디에 보일지를 말해 줘요.", "visual": { "type": "bullets", "items": ["무엇을", "어디에", "보이게 할지"] } },
+    { "index": 3, "narration": "받은 코드는 따옴표 안의 우리말부터 찾아 읽어요.", "visual": { "type": "code", "text": "Text('안녕, Flutter!')" } },
+    { "index": 4, "narration": "부탁하고, 실행하고, 대조하기 — 이 세 걸음이 한 바퀴예요.", "visual": { "type": "bullets", "items": ["부탁하기", "실행하기", "대조하기"] } }
+  ]
+}
