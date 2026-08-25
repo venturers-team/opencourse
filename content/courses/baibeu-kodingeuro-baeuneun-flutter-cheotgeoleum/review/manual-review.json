@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "course_id": "01M0WK073ZX0BQY9QHJKYRNHRY",
+  "items": [
+    {
+      "code": "MR01",
+      "grade": "block",
+      "status": "pending",
+      "note": null,
+      "waive_reason": null,
+      "actor": null,
+      "at": null,
+      "evidence": null
+    },
+    {
+      "code": "MR02",
+      "grade": "block",
+      "status": "pending",
+      "note": null,
+      "waive_reason": null,
+      "actor": null,
+      "at": null,
+      "evidence": null
+    },
+    {
+      "code": "MR03",
+      "grade": "block",
+      "status": "pending",
+      "note": null,
+      "waive_reason": null,
+      "actor": null,
+      "at": null,
+      "evidence": null
+    },
+    {
+      "code": "MR04",
+      "grade": "block",
+      "status": "pending",
+      "note": null,
+      "waive_reason": null,
+      "actor": null,
+      "at": null,
+      "evidence": null
+    },
+    {
+      "code": "MR05",
+      "grade": "block",
+      "status": "pending",
+      "note": null,
+      "waive_reason": null,
+      "actor": null,
+      "at": null,
+      "evidence": null
+    },
+    {
+      "code": "MR06",
+      "grade": "warn",
+      "status": "pending",
+      "note": null,
+      "waive_reason": null,
+      "actor": null,
+      "at": null,
+      "evidence": null
+    },
+    {
+      "code": "MR07",
+      "grade": "warn",
+      "status": "pending",
+      "note": null,
+      "waive_reason": null,
+      "actor": null,
+      "at": null,
+      "evidence": null
+    },
+    {
+      "code": "MR08",
+      "grade": "warn",
+      "status": "pending",
+      "note": null,
+      "waive_reason": null,
+      "actor": null,
+      "at": null,
+      "evidence": null
+    },
+    {
+      "code": "MR09",
+      "grade": "warn",
+      "status": "pending",
+      "note": null,
+      "waive_reason": null,
+      "actor": null,
+      "at": null,
+      "evidence": null
+    }
+  ],
+  "waived_count_total": 0,
+  "updated_at": "2026-08-25T15:42:50Z"
+}

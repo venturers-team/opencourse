@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "chapter_id": "01-vibe-coding",
+  "gap_sec": 2,
+  "total_duration_sec": 31.36,
+  "scenes": [
+    {
+      "index": 0,
+      "start_sec": 0,
+      "duration_sec": 3.6,
+      "narration": "이 챕터에서는 바이브 코딩이 무엇인지 알아봐요.",
+      "visual": {
+        "type": "title",
+        "text": "바이브 코딩이란"
+      }
+    },
+    {
+      "index": 1,
+      "start_sec": 5.6,
+      "duration_sec": 4.96,
+      "narration": "원하는 것을 말로 설명하면 AI 코딩 도구가 코드를 만들어 줘요.",
+      "visual": {
+        "type": "bullets",
+        "items": [
+          "말로 설명하면",
+          "AI가 코드를 만들고",
+          "사람이 읽고 판단해요"
+        ]
+      }
+    },
+    {
+      "index": 2,
+      "start_sec": 12.56,
+      "duration_sec": 6.4,
+      "narration": "사람이 방향을 정하고, AI가 코드를 쓰고, 그 코드가 앱이 돼요.",
+      "visual": {
+        "type": "figure",
+        "media_id": "fig-01"
+      }
+    },
+    {
+      "index": 3,
+      "start_sec": 20.96,
+      "duration_sec": 4.08,
+      "narration": "챕터마다 읽고, 그려 보고, 실습하는 순서로 진행해요.",
+      "visual": {
+        "type": "bullets",
+        "items": [
+          "읽기",
+          "그려 보기",
+          "실습"
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "start_sec": 27.04,
+      "duration_sec": 4.32,
+      "narration": "노트북과 인터넷만 있으면 지금 시작할 수 있어요.",
+      "visual": {
+        "type": "title",
+        "text": "준비물은 노트북 하나"
+      }
+    }
+  ]
+}

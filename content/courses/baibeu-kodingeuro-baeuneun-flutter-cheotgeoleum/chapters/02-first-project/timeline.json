@@ -1,9 +1,13 @@
 {
+  "schema_version": 1,
   "chapter_id": "02-first-project",
-  "note": "S8 장면 목록 — 시간값은 S9 음성 실측 뒤 확정",
+  "gap_sec": 2,
+  "total_duration_sec": 29.44,
   "scenes": [
     {
       "index": 0,
+      "start_sec": 0,
+      "duration_sec": 4.16,
       "narration": "이 챕터에서는 첫 프로젝트를 만들어 실행까지 해 봐요.",
       "visual": {
         "type": "title",
@@ -12,6 +16,8 @@
     },
     {
       "index": 1,
+      "start_sec": 6.16,
+      "duration_sec": 3.68,
       "narration": "프로젝트에서 기억할 파일은 단 하나뿐이에요.",
       "visual": {
         "type": "figure",
@@ -20,6 +26,8 @@
     },
     {
       "index": 2,
+      "start_sec": 11.84,
+      "duration_sec": 3.92,
       "narration": "좋은 부탁은 무엇이 어디에 보일지를 말해 줘요.",
       "visual": {
         "type": "bullets",
@@ -32,6 +40,8 @@
     },
     {
       "index": 3,
+      "start_sec": 17.76,
+      "duration_sec": 3.84,
       "narration": "받은 코드는 따옴표 안의 우리말부터 찾아 읽어요.",
       "visual": {
         "type": "code",
@@ -40,6 +50,8 @@
     },
     {
       "index": 4,
+      "start_sec": 23.6,
+      "duration_sec": 5.84,
       "narration": "부탁하고, 실행하고, 대조하기 — 이 세 걸음이 한 바퀴예요.",
       "visual": {
         "type": "bullets",

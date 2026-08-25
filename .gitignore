@@ -11,3 +11,4 @@ out/
 coverage/
 test-results/
 playwright-report/
+ops/media-local/

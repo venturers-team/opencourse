@@ -1,0 +1,4006 @@
+{
+  "schema_version": 1,
+  "course_id": "01M0WK073ZX0BQY9QHJKYRNHRY",
+  "protocol": {
+    "review_protocol_sha256": "a9d3853570d0302b7a46d50ceca0bc5f558ea3d821d35d0d0171a47ac89bb12d",
+    "beginner_baseline_sha256": "a34d6b34db149fe0376b18636113e92c023b1ebddc341e308d3e2c8da779d897",
+    "thresholds_sha256": "986a7f0cc8e041c4e3b5ff5d4ac80a4060c4b109f8c0e9f012ece66f922974c7"
+  },
+  "source_sha256": "9e752f3256b9b285883e48698111c36f37426de159ed50284aa457ba0970026d",
+  "status": "in_progress",
+  "rounds": [
+    {
+      "round": 1,
+      "started_at": "2026-08-25T15:46:06Z",
+      "ended_at": null,
+      "clean_pass": false,
+      "source_sha256": "9e752f3256b9b285883e48698111c36f37426de159ed50284aa457ba0970026d",
+      "ended_reason": null
+    }
+  ],
+  "units": [
+    {
+      "id": "01-vibe-coding/01.mdx:1:0516ceef1f",
+      "path": "01-vibe-coding/01.mdx",
+      "line": 6,
+      "ordinal": 1,
+      "kind": "prose",
+      "text": "코딩이라고 하면 검은 화면에 알 수 없는 글자를 빠르게 치는 모습을 떠올리기 쉬워요.",
+      "text_sha256": "0516ceef1f813b7c6c29b5c98b960caaf5da568e279fac4cf151fb60b659c1d1"
+    },
+    {
+      "id": "01-vibe-coding/01.mdx:2:d057a2d690",
+      "path": "01-vibe-coding/01.mdx",
+      "line": 6,
+      "ordinal": 2,
+      "kind": "prose",
+      "text": "그래서 시작하기도 전에 겁부터 나요.",
+      "text_sha256": "d057a2d690137cdaee9974a68d57069895ddfef5fe34cb1a382359294c2f5ed9"
+    },
+    {
+      "id": "01-vibe-coding/01.mdx:3:2062601e82",
+      "path": "01-vibe-coding/01.mdx",
+      "line": 6,
+      "ordinal": 3,
+      "kind": "prose",
+      "text": "하지만 이 교재에서 하는 코딩은 달라요.",
+      "text_sha256": "2062601e82efcc29c8e742bba1ccba742172a5e99cef7a92d734223cbd9e6ab3"
+    },
+    {
+      "id": "01-vibe-coding/01.mdx:4:291b97b20e",
+      "path": "01-vibe-coding/01.mdx",
+      "line": 6,
+      "ordinal": 4,
+      "kind": "prose",
+      "text": "우리는 코딩을 대화로 하는 조립처럼 해 볼 거예요.",
+      "text_sha256": "291b97b20e1b294c6dc0a75a3ad4d39d160459c2d42a3a6670b9398ed08aa4a2"
+    },
+    {
+      "id": "01-vibe-coding/01.mdx:5:5977dc16de",
+      "path": "01-vibe-coding/01.mdx",
+      "line": 6,
+      "ordinal": 5,
+      "kind": "prose",
+      "text": "원하는 것을 말로 설명하면 부품이 만들어지고, 그 부품을 맞춰 보며 앱을 완성해요.",
+      "text_sha256": "5977dc16dec9a3a21a9cb5b5d4edb1e45c5eb12d25d5cd86e563dfdbdef3301b"
+    },
+    {
+      "id": "01-vibe-coding/01.mdx:6:6a5f909d8c",
+      "path": "01-vibe-coding/01.mdx",
+      "line": 6,
+      "ordinal": 6,
+      "kind": "prose",
+      "text": "복잡한 것을 한 번에 만들지 않아요.",
+      "text_sha256": "6a5f909d8cb2e7dba8c55e6986eedc9c917c47dbbbde2b1f2f33a6b5f90bee68"
+    },
+    {
+      "id": "01-vibe-coding/01.mdx:7:db6539e316",
+      "path": "01-vibe-coding/01.mdx",
+      "line": 6,
+      "ordinal": 7,
+      "kind": "prose",
+      "text": "작은 조각을 하나씩 맞춰 가요.",
+      "text_sha256": "db6539e316684e3ae82a1152096c74f4926d9b6740473f60fa9f866f3e0bef13"
+    },
+    {
+      "id": "01-vibe-coding/01.mdx:8:08f2660c41",
+      "path": "01-vibe-coding/01.mdx",
+      "line": 8,
+      "ordinal": 8,
+      "kind": "prose",
+      "text": "이런 방식을 바이브 코딩이라고 불러요.",
+      "text_sha256": "08f2660c413bf22b75655a3295c9a6e469b4a666219dca26ce791f4cf291b4f0"
+    },
+    {
+      "id": "01-vibe-coding/01.mdx:9:3952f7c8f2",
+      "path": "01-vibe-coding/01.mdx",
+      "line": 8,
+      "ordinal": 9,
+      "kind": "prose",
+      "text": "만들고 싶은 것을 말로 설명하면 AI 코딩 도구가 코드를 만들어 줘요.",
+      "text_sha256": "3952f7c8f2a3d39629b3d6fbffe0b7225b5d673b58dc775e3f4350001980a02d"
+    },
+    {
+      "id": "01-vibe-coding/01.mdx:10:01bea70a5c",
+      "path": "01-vibe-coding/01.mdx",
+      "line": 8,
+      "ordinal": 10,
+      "kind": "prose",
+      "text": "코드는 컴퓨터에게 내리는 지시문이에요.",
+      "text_sha256": "01bea70a5c819e0cf4a50a800de083d7cfc5feb2b7ea5869da65872ee8d0a68d"
+    },
+    {
+      "id": "01-vibe-coding/01.mdx:11:541e2207f7",
+      "path": "01-vibe-coding/01.mdx",
+      "line": 8,
+      "ordinal": 11,
+      "kind": "prose",
+      "text": "사람은 그 결과를 읽어 보고, 마음에 들지 않는 부분을 고쳐 달라고 다시 말해요.",
+      "text_sha256": "541e2207f7521f62d61a4ee658634efd19bb6d3fe7718df19f4a69a52312a424"
+    },
+    {
+      "id": "01-vibe-coding/01.mdx:12:8460cf6a67",
+      "path": "01-vibe-coding/01.mdx",
+      "line": 8,
+      "ordinal": 12,
+      "kind": "prose",
+      "text": "정리하면 이런 관계예요.",
+      "text_sha256": "8460cf6a67e13746818384effa7301debbe8c2c674fac1f382ef0adea6d160a3"
+    },
+    {
+      "id": "01-vibe-coding/01.mdx:13:9bfabf8489",
+      "path": "01-vibe-coding/01.mdx",
+      "line": 8,
+      "ordinal": 13,
+      "kind": "prose",
+      "text": "사람이 방향을 정하고, AI 도우미가 코드를 쓰고, 그 코드가 앱이 돼요.",
+      "text_sha256": "9bfabf8489441a8d050f58b0030d3666496a759fb659a2798a54bb2e41ee7cbf"
+    },
+    {
+      "id": "01-vibe-coding/01.mdx:14:c479f7bc1b",
+      "path": "01-vibe-coding/01.mdx",
+      "line": 12,
+      "ordinal": 14,
+      "kind": "prose",
+      "text": "프로그래밍 경험이 없어도 시작할 수 있는 이유가 여기에 있어요.",
+      "text_sha256": "c479f7bc1b7ed4ec1a9c67e6b7cc20e482e1c0c87ec68644a4d7763b0a0cd686"
+    },
+    {
+      "id": "01-vibe-coding/01.mdx:15:64dc90250a",
+      "path": "01-vibe-coding/01.mdx",
+      "line": 12,
+      "ordinal": 15,
+      "kind": "prose",
+      "text": "첫 코드를 쓰는 일은 AI가 대신해 줘요.",
+      "text_sha256": "64dc90250ab492df121deff3dff05dc50314821ab8308fb246a56103bab78a02"
+    },
+    {
+      "id": "01-vibe-coding/01.mdx:16:2649c6afc3",
+      "path": "01-vibe-coding/01.mdx",
+      "line": 12,
+      "ordinal": 16,
+      "kind": "prose",
+      "text": "그래서 학습자가 처음부터 문법을 외울 필요가 없어요.",
+      "text_sha256": "2649c6afc396d83271c5f715408836b243e26d7c636395d1a9d3da2963ee5a75"
+    },
+    {
+      "id": "01-vibe-coding/01.mdx:17:8764348b94",
+      "path": "01-vibe-coding/01.mdx",
+      "line": 12,
+      "ordinal": 17,
+      "kind": "prose",
+      "text": "문법은 프로그래밍 언어의 쓰기 규칙이에요.",
+      "text_sha256": "8764348b94a93a4dfa054a0912d9fb6816f3ff1109f5c3dcb8898c9e3ad8885d"
+    },
+    {
+      "id": "01-vibe-coding/01.mdx:18:51e74a6237",
+      "path": "01-vibe-coding/01.mdx",
+      "line": 12,
+      "ordinal": 18,
+      "kind": "prose",
+      "text": "타자가 느려도, 수학이 어려워도 괜찮아요.",
+      "text_sha256": "51e74a62379a2287bfb3d0aa894fee9ee7da4f2df09621e736aff387c7298127"
+    },
+    {
+      "id": "01-vibe-coding/01.mdx:19:161de7ae9b",
+      "path": "01-vibe-coding/01.mdx",
+      "line": 12,
+      "ordinal": 19,
+      "kind": "prose",
+      "text": "우리말로 원하는 것을 차근차근 설명할 수 있다면, 이미 시작할 준비가 된 거예요.",
+      "text_sha256": "161de7ae9bd05b388fbdc60ac101b479c7a7bd39b3cabcf7ed869ee74daf9d98"
+    },
+    {
+      "id": "01-vibe-coding/01.mdx:20:66a2c60fe9",
+      "path": "01-vibe-coding/01.mdx",
+      "line": 14,
+      "ordinal": 20,
+      "kind": "prose",
+      "text": "그렇다고 배울 것이 없다는 뜻은 아니에요.",
+      "text_sha256": "66a2c60fe910a995461cca0a0b157f883c68a99e81cc9dc997a255ce048b175d"
+    },
+    {
+      "id": "01-vibe-coding/01.mdx:21:f92644d726",
+      "path": "01-vibe-coding/01.mdx",
+      "line": 14,
+      "ordinal": 21,
+      "kind": "prose",
+      "text": "AI가 만든 코드가 늘 정답은 아니에요.",
+      "text_sha256": "f92644d726236e672cfebb617606c8742902b075a3b27fa0e3fcd13f9b1b7346"
+    },
+    {
+      "id": "01-vibe-coding/01.mdx:22:176c659706",
+      "path": "01-vibe-coding/01.mdx",
+      "line": 14,
+      "ordinal": 22,
+      "kind": "prose",
+      "text": "엉뚱한 화면이 나오기도 하고, 요청과 다른 결과가 나오기도 해요.",
+      "text_sha256": "176c659706886a22add6db0a836e62e1c18c3536bd533608dbaf18b76df42251"
+    },
+    {
+      "id": "01-vibe-coding/01.mdx:23:d4fe44c743",
+      "path": "01-vibe-coding/01.mdx",
+      "line": 14,
+      "ordinal": 23,
+      "kind": "prose",
+      "text": "그때 코드를 읽고 어디가 이상한지 판단하는 사람은 학습자예요.",
+      "text_sha256": "d4fe44c7435054faed93a0b08503feb98fbef197726b0ce7eaf01e220729f9f9"
+    },
+    {
+      "id": "01-vibe-coding/01.mdx:24:30b7da3d47",
+      "path": "01-vibe-coding/01.mdx",
+      "line": 14,
+      "ordinal": 24,
+      "kind": "prose",
+      "text": "이 교재의 목표가 바로 그 힘이에요.",
+      "text_sha256": "30b7da3d4757b2bbba9dfe1f724a44fdcda43fea465b5baa2bf78c0f806d7e41"
+    },
+    {
+      "id": "01-vibe-coding/01.mdx:25:cb79d6610d",
+      "path": "01-vibe-coding/01.mdx",
+      "line": 14,
+      "ordinal": 25,
+      "kind": "prose",
+      "text": "코드를 처음부터 끝까지 혼자 쓰는 힘이 아니라, AI가 쓴 코드를 읽고 판단해서 더 나은 방향으로 이끄는 힘이요.",
+      "text_sha256": "cb79d6610d54a09c707ad293d3d3c2e58af779cc8d91b6343b211fe82f032177"
+    },
+    {
+      "id": "01-vibe-coding/01.mdx:26:480c50e584",
+      "path": "01-vibe-coding/01.mdx",
+      "line": 14,
+      "ordinal": 26,
+      "kind": "prose",
+      "text": "틀린 부분을 발견하고 고쳐 달라고 말하는 것도 훌륭한 코딩이에요.",
+      "text_sha256": "480c50e5844f3360f5e7bea8477f38b04c91fb688cb446eb56432403327cdfb6"
+    },
+    {
+      "id": "01-vibe-coding/01.mdx:27:af490cf803",
+      "path": "01-vibe-coding/01.mdx",
+      "line": 14,
+      "ordinal": 27,
+      "kind": "prose",
+      "text": "그 힘은 대화를 반복할수록 조금씩 자라요.",
+      "text_sha256": "af490cf8031eecc8f9b3758e98d785081ff49fea4412dee2e20ecdc166eddcdf"
+    },
+    {
+      "id": "01-vibe-coding/02.mdx:1:a6eb120330",
+      "path": "01-vibe-coding/02.mdx",
+      "line": 6,
+      "ordinal": 1,
+      "kind": "prose",
+      "text": "이 교재는 다섯 개의 챕터로 이어져요.",
+      "text_sha256": "a6eb120330b921f859fc21610d2862a174e140b7c01e27b1e55fcb44684e064b"
+    },
+    {
+      "id": "01-vibe-coding/02.mdx:2:e73f75218d",
+      "path": "01-vibe-coding/02.mdx",
+      "line": 6,
+      "ordinal": 2,
+      "kind": "prose",
+      "text": "먼저 바이브 코딩이 무엇인지 알아보고, 첫 프로젝트를 만들어요.",
+      "text_sha256": "e73f75218de85873d2f3cb9df8d46e191967e3f2428b05cf2e0fbb71efa56d30"
+    },
+    {
+      "id": "01-vibe-coding/02.mdx:3:30e2ec762e",
+      "path": "01-vibe-coding/02.mdx",
+      "line": 6,
+      "ordinal": 3,
+      "kind": "prose",
+      "text": "그다음 화면을 이루는 조각이 어떻게 쌓이는지, 곧 위젯 트리를 이해해요.",
+      "text_sha256": "30e2ec762e3b39c70819dc6da4dc7d411245073b595af212831d2e397fd9cd9f"
+    },
+    {
+      "id": "01-vibe-coding/02.mdx:4:ab180b86b9",
+      "path": "01-vibe-coding/02.mdx",
+      "line": 6,
+      "ordinal": 4,
+      "kind": "prose",
+      "text": "이어서 상태로 움직이는 화면을 만들고, 마지막에 나만의 카드 앱을 완성해요.",
+      "text_sha256": "ab180b86b9353c55a69178228c4a40dbba205c22b75e4a7378bbf3b9ad56062d"
+    },
+    {
+      "id": "01-vibe-coding/02.mdx:5:a8d4f5f271",
+      "path": "01-vibe-coding/02.mdx",
+      "line": 6,
+      "ordinal": 5,
+      "kind": "prose",
+      "text": "앞에서 만든 것이 다음 챕터의 재료가 돼요.",
+      "text_sha256": "a8d4f5f2717b878123e65b034bf1a40179f6110f0810dbbbe18297e4f8c59446"
+    },
+    {
+      "id": "01-vibe-coding/02.mdx:6:70438123be",
+      "path": "01-vibe-coding/02.mdx",
+      "line": 6,
+      "ordinal": 6,
+      "kind": "prose",
+      "text": "그래서 순서대로 읽는 것을 권해요.",
+      "text_sha256": "70438123bee76da8a3890b8755b852eddc51bb4f38ed824abd668f6f676e5a87"
+    },
+    {
+      "id": "01-vibe-coding/02.mdx:7:573c40a881",
+      "path": "01-vibe-coding/02.mdx",
+      "line": 8,
+      "ordinal": 7,
+      "kind": "prose",
+      "text": "각 챕터는 같은 흐름으로 진행돼요.",
+      "text_sha256": "573c40a881411c5872ffef70e809cd0ebbfc72e6b20942b990293939dfb76218"
+    },
+    {
+      "id": "01-vibe-coding/02.mdx:8:bdc1fa9220",
+      "path": "01-vibe-coding/02.mdx",
+      "line": 8,
+      "ordinal": 8,
+      "kind": "prose",
+      "text": "먼저 읽고, 그다음 그려 보고, 마지막에 실습해요.",
+      "text_sha256": "bdc1fa9220f28e265dc0d32c504e434bddd137d1b1d04f5447810a34229ac36c"
+    },
+    {
+      "id": "01-vibe-coding/02.mdx:9:5b4b2427dd",
+      "path": "01-vibe-coding/02.mdx",
+      "line": 8,
+      "ordinal": 9,
+      "kind": "prose",
+      "text": "읽기에서는 개념을 익혀요.",
+      "text_sha256": "5b4b2427dd8d7174b69e0346922591fc47ebf8c4e0ebcbcc6283c8644f501275"
+    },
+    {
+      "id": "01-vibe-coding/02.mdx:10:4b8d6873be",
+      "path": "01-vibe-coding/02.mdx",
+      "line": 8,
+      "ordinal": 10,
+      "kind": "prose",
+      "text": "그려 보기에서는 방금 읽은 내용을 종이에 손으로 정리해요.",
+      "text_sha256": "4b8d6873bee163ea75295a3e19ef74cb54df05e14719afb2f13c8e2cdebd101c"
+    },
+    {
+      "id": "01-vibe-coding/02.mdx:11:1c7baccaf9",
+      "path": "01-vibe-coding/02.mdx",
+      "line": 8,
+      "ordinal": 11,
+      "kind": "prose",
+      "text": "그림 실력은 필요 없어요.",
+      "text_sha256": "1c7baccaf925599f82ab2b05912b281911632c18050527922f1a9805abcfd89d"
+    },
+    {
+      "id": "01-vibe-coding/02.mdx:12:bbda498494",
+      "path": "01-vibe-coding/02.mdx",
+      "line": 8,
+      "ordinal": 12,
+      "kind": "prose",
+      "text": "네모와 화살표면 충분해요.",
+      "text_sha256": "bbda49849458ade7ed50ffbac9ea455cef97408ee4ee1611c4aa4e1fc7bc83f8"
+    },
+    {
+      "id": "01-vibe-coding/02.mdx:13:9502774e57",
+      "path": "01-vibe-coding/02.mdx",
+      "line": 8,
+      "ordinal": 13,
+      "kind": "prose",
+      "text": "손으로 그려 보면 이해한 부분과 아직 흐릿한 부분이 구분돼요.",
+      "text_sha256": "9502774e5735d21f0061570f730cc1497e543d7001be71fd26970383c81d4af8"
+    },
+    {
+      "id": "01-vibe-coding/02.mdx:14:ddbc563ee5",
+      "path": "01-vibe-coding/02.mdx",
+      "line": 8,
+      "ordinal": 14,
+      "kind": "prose",
+      "text": "실습에서는 직접 앱을 만지며 확인해요.",
+      "text_sha256": "ddbc563ee5492cca3d97c262da586c4501ebe10a442ce5c5e1dbc291e022e2af"
+    },
+    {
+      "id": "01-vibe-coding/02.mdx:15:65309653f6",
+      "path": "01-vibe-coding/02.mdx",
+      "line": 10,
+      "ordinal": 15,
+      "kind": "prose",
+      "text": "챕터 첫머리에는 90초짜리 개요 영상이 있어요.",
+      "text_sha256": "65309653f6f42a9165d815b8dfea9d5d5a6461580730d4bed202767018b3c008"
+    },
+    {
+      "id": "01-vibe-coding/02.mdx:16:5188ce72e2",
+      "path": "01-vibe-coding/02.mdx",
+      "line": 10,
+      "ordinal": 16,
+      "kind": "prose",
+      "text": "본문을 읽기 전에 먼저 보세요.",
+      "text_sha256": "5188ce72e2e59f124d65f065fd2c505a09096f8df90e3ba830d348e991761ce7"
+    },
+    {
+      "id": "01-vibe-coding/02.mdx:17:2c6825c203",
+      "path": "01-vibe-coding/02.mdx",
+      "line": 10,
+      "ordinal": 17,
+      "kind": "prose",
+      "text": "이 영상은 챕터 전체의 지도를 그려 주는 용도예요.",
+      "text_sha256": "2c6825c2031f580d999267c8e752a5f736e982a7225d1e9066c69e0377731ba6"
+    },
+    {
+      "id": "01-vibe-coding/02.mdx:18:6174fbd14a",
+      "path": "01-vibe-coding/02.mdx",
+      "line": 10,
+      "ordinal": 18,
+      "kind": "prose",
+      "text": "한 번에 다 이해하려고 애쓰지 않아도 돼요.",
+      "text_sha256": "6174fbd14a58f2c78d5c1682ffc5830a5b1a66137756dba3068e9e311f450e0b"
+    },
+    {
+      "id": "01-vibe-coding/02.mdx:19:686f8cb686",
+      "path": "01-vibe-coding/02.mdx",
+      "line": 10,
+      "ordinal": 19,
+      "kind": "prose",
+      "text": "흐름만 눈에 담으면 충분해요.",
+      "text_sha256": "686f8cb68623c2242a6cf9c720dfc060776b6fd36575903b17123bbfd27ddde4"
+    },
+    {
+      "id": "01-vibe-coding/02.mdx:20:f8f51ad55c",
+      "path": "01-vibe-coding/02.mdx",
+      "line": 10,
+      "ordinal": 20,
+      "kind": "prose",
+      "text": "지도를 먼저 보면 지금 읽는 부분이 어디쯤인지 알 수 있어요.",
+      "text_sha256": "f8f51ad55c067a698de83e1c2897e6e445fecc4823ff3b827164317f1a960149"
+    },
+    {
+      "id": "01-vibe-coding/02.mdx:21:04bef4535b",
+      "path": "01-vibe-coding/02.mdx",
+      "line": 12,
+      "ordinal": 21,
+      "kind": "prose",
+      "text": "읽다가 막히면 화면 오른쪽 아래의 도우미를 눌러 보세요.",
+      "text_sha256": "04bef4535b6855755c8c85ea13cb32d4e06925ba64021a3336edc6abeb5b6fd9"
+    },
+    {
+      "id": "01-vibe-coding/02.mdx:22:7b157607b2",
+      "path": "01-vibe-coding/02.mdx",
+      "line": 12,
+      "ordinal": 22,
+      "kind": "prose",
+      "text": "도우미는 질문에 답해 주는 AI예요.",
+      "text_sha256": "7b157607b2a6ff0a410f10f2a2337243956923db76cdd0dcbeee0ac7a3f85023"
+    },
+    {
+      "id": "01-vibe-coding/02.mdx:23:e9dce7df86",
+      "path": "01-vibe-coding/02.mdx",
+      "line": 12,
+      "ordinal": 23,
+      "kind": "prose",
+      "text": "지금 읽고 있는 문장을 그대로 붙여 넣고 물어봐도 괜찮아요.",
+      "text_sha256": "e9dce7df86e3e3e0aa72c15cafce166635a6eb77a8dd281a54c01eed3ad4fbfb"
+    },
+    {
+      "id": "01-vibe-coding/02.mdx:24:a89b8ea8fb",
+      "path": "01-vibe-coding/02.mdx",
+      "line": 12,
+      "ordinal": 24,
+      "kind": "prose",
+      "text": "질문을 멋지게 다듬을 필요는 없어요.",
+      "text_sha256": "a89b8ea8fbc1ea27e51a66f04961e46db3a6917924508bf1a41c247d3ad3427e"
+    },
+    {
+      "id": "01-vibe-coding/02.mdx:25:e085526b44",
+      "path": "01-vibe-coding/02.mdx",
+      "line": 12,
+      "ordinal": 25,
+      "kind": "prose",
+      "text": "도우미와의 대화는 평가나 성적에 쓰이지 않아요.",
+      "text_sha256": "e085526b4460fed69a122eed6ed2f068f53bf9099db2dcc9a038b954b3d88405"
+    },
+    {
+      "id": "01-vibe-coding/02.mdx:26:375f0a9424",
+      "path": "01-vibe-coding/02.mdx",
+      "line": 12,
+      "ordinal": 26,
+      "kind": "prose",
+      "text": "그러니 모른다는 사실을 숨기지 말고 편하게 물어보세요.",
+      "text_sha256": "375f0a9424fb88cecddc5891605dc02ab27ea68771ebb10eb38d26ae02649817"
+    },
+    {
+      "id": "01-vibe-coding/02.mdx:27:518c3f75c7",
+      "path": "01-vibe-coding/02.mdx",
+      "line": 14,
+      "ordinal": 27,
+      "kind": "prose",
+      "text": "마지막으로 부탁이 하나 있어요.",
+      "text_sha256": "518c3f75c79f4425de5fae7bd8aa0fa5de7236c2e24d496b2be115ed82be1695"
+    },
+    {
+      "id": "01-vibe-coding/02.mdx:28:7bc3ecf25e",
+      "path": "01-vibe-coding/02.mdx",
+      "line": 14,
+      "ordinal": 28,
+      "kind": "prose",
+      "text": "실습을 건너뛰지 마세요.",
+      "text_sha256": "7bc3ecf25e3c7c78ef306fa6b145d2c1087547ea609292ecc039362285d8d686"
+    },
+    {
+      "id": "01-vibe-coding/02.mdx:29:317717c4c3",
+      "path": "01-vibe-coding/02.mdx",
+      "line": 14,
+      "ordinal": 29,
+      "kind": "prose",
+      "text": "읽기만 하면 다 아는 것 같은 기분이 들어요.",
+      "text_sha256": "317717c4c317b02416c63e9d4ac11a01cb41ec1b6be6716fa6504e3559c444a0"
+    },
+    {
+      "id": "01-vibe-coding/02.mdx:30:f4f10af59a",
+      "path": "01-vibe-coding/02.mdx",
+      "line": 14,
+      "ordinal": 30,
+      "kind": "prose",
+      "text": "하지만 손을 움직이면 어디서 막히는지가 드러나요.",
+      "text_sha256": "f4f10af59a94e015b1efbf5e6906f40df1b13d0cf76972f9be633eef673e4d20"
+    },
+    {
+      "id": "01-vibe-coding/02.mdx:31:a4d9e97fb5",
+      "path": "01-vibe-coding/02.mdx",
+      "line": 14,
+      "ordinal": 31,
+      "kind": "prose",
+      "text": "그 막히는 지점이 진짜 배움이 시작되는 자리예요.",
+      "text_sha256": "a4d9e97fb517310f3e96cffff6dbaa0ac3450f50a5010f89c718d4579e93132f"
+    },
+    {
+      "id": "01-vibe-coding/02.mdx:32:9b6473dd6b",
+      "path": "01-vibe-coding/02.mdx",
+      "line": 14,
+      "ordinal": 32,
+      "kind": "prose",
+      "text": "자전거를 책으로만 배운 사람은 안장에 오르면 흔들려요.",
+      "text_sha256": "9b6473dd6b9cd009fdbc304d2f8963be55921231285309a5233336e6f3d8ff6c"
+    },
+    {
+      "id": "01-vibe-coding/02.mdx:33:7b2eae28eb",
+      "path": "01-vibe-coding/02.mdx",
+      "line": 14,
+      "ordinal": 33,
+      "kind": "prose",
+      "text": "코딩도 같아요.",
+      "text_sha256": "7b2eae28eb2388be1402d3b7420984238426510ad3b203859eb784b9a5a488a5"
+    },
+    {
+      "id": "01-vibe-coding/02.mdx:34:a5728309a1",
+      "path": "01-vibe-coding/02.mdx",
+      "line": 14,
+      "ordinal": 34,
+      "kind": "prose",
+      "text": "조금 서툴러도 직접 만들어 본 학습자가 결국 더 멀리 가요.",
+      "text_sha256": "a5728309a1ac1c1d9020607b9a2289cf2cc8712a50073b08ba936b87880dd9ea"
+    },
+    {
+      "id": "01-vibe-coding/03.mdx:1:e238828f89",
+      "path": "01-vibe-coding/03.mdx",
+      "line": 6,
+      "ordinal": 1,
+      "kind": "prose",
+      "text": "공부를 시작하기 전에 필요한 것들을 확인해요.",
+      "text_sha256": "e238828f89aad38109d3501073826a23eeb04b5b40d54b41b24350b1ed6ceae3"
+    },
+    {
+      "id": "01-vibe-coding/03.mdx:2:346579eee7",
+      "path": "01-vibe-coding/03.mdx",
+      "line": 6,
+      "ordinal": 2,
+      "kind": "prose",
+      "text": "준비물은 생각보다 단출해요.",
+      "text_sha256": "346579eee7bb7da5a088218c24b7e968348de9d44b0887038077f0e3b56c567d"
+    },
+    {
+      "id": "01-vibe-coding/03.mdx:3:1c138f7a59",
+      "path": "01-vibe-coding/03.mdx",
+      "line": 6,
+      "ordinal": 3,
+      "kind": "prose",
+      "text": "세 가지면 돼요.",
+      "text_sha256": "1c138f7a59d3acf5083ca74fd212c8cc2fe45f77996278c06e8f343ec040b1dc"
+    },
+    {
+      "id": "01-vibe-coding/03.mdx:4:cea0322d84",
+      "path": "01-vibe-coding/03.mdx",
+      "line": 8,
+      "ordinal": 4,
+      "kind": "prose",
+      "text": "첫 번째는 노트북이에요.",
+      "text_sha256": "cea0322d84653b4349842f43538cf80a1fd2c8cd199b818942f999995280deb3"
+    },
+    {
+      "id": "01-vibe-coding/03.mdx:5:a5e1389499",
+      "path": "01-vibe-coding/03.mdx",
+      "line": 8,
+      "ordinal": 5,
+      "kind": "prose",
+      "text": "지금 쓰고 있는 것이면 충분해요.",
+      "text_sha256": "a5e138949906e90cf50676673a647efdef961d321350c7a96ea49c9c96a9f6d5"
+    },
+    {
+      "id": "01-vibe-coding/03.mdx:6:0e6db4e33b",
+      "path": "01-vibe-coding/03.mdx",
+      "line": 8,
+      "ordinal": 6,
+      "kind": "prose",
+      "text": "윈도우도 맥도 모두 괜찮아요.",
+      "text_sha256": "0e6db4e33b1478676e167adc6d6198dc2d189d97ac94c140c0076ca7c9bc90f1"
+    },
+    {
+      "id": "01-vibe-coding/03.mdx:7:30253babe4",
+      "path": "01-vibe-coding/03.mdx",
+      "line": 8,
+      "ordinal": 7,
+      "kind": "prose",
+      "text": "최신 기종일 필요는 없어요.",
+      "text_sha256": "30253babe494fdc40b7f814ab18cb968e9b0bcfd586b1a9394bcb2119d5fce21"
+    },
+    {
+      "id": "01-vibe-coding/03.mdx:8:ae6d6765ce",
+      "path": "01-vibe-coding/03.mdx",
+      "line": 8,
+      "ordinal": 8,
+      "kind": "prose",
+      "text": "저장 공간은 여유가 있으면 좋아요.",
+      "text_sha256": "ae6d6765cece5d10eceeeb07f786655889a452981fcbad8972c3205220ae15e0"
+    },
+    {
+      "id": "01-vibe-coding/03.mdx:9:17b4cdae72",
+      "path": "01-vibe-coding/03.mdx",
+      "line": 10,
+      "ordinal": 9,
+      "kind": "prose",
+      "text": "두 번째는 인터넷이에요.",
+      "text_sha256": "17b4cdae722f10ee71a559574cc06c4ebe1369272e5f224335cd366205b223a2"
+    },
+    {
+      "id": "01-vibe-coding/03.mdx:10:6174c69cc0",
+      "path": "01-vibe-coding/03.mdx",
+      "line": 10,
+      "ordinal": 10,
+      "kind": "prose",
+      "text": "바이브 코딩은 AI 코딩 도구와 대화를 주고받으며 진행돼요.",
+      "text_sha256": "6174c69cc038a74152091eea0cfa2e07bbd857ba55ffe69c32a189a74de21eb9"
+    },
+    {
+      "id": "01-vibe-coding/03.mdx:11:309be28a4f",
+      "path": "01-vibe-coding/03.mdx",
+      "line": 10,
+      "ordinal": 11,
+      "kind": "prose",
+      "text": "이 대화가 인터넷을 타고 오가요.",
+      "text_sha256": "309be28a4f92b1718edd01bdff8c6654606e9f4e56c9919483dcd633d6c4f4ff"
+    },
+    {
+      "id": "01-vibe-coding/03.mdx:12:86186889d1",
+      "path": "01-vibe-coding/03.mdx",
+      "line": 10,
+      "ordinal": 12,
+      "kind": "prose",
+      "text": "그래서 안정적으로 접속할 수 있는 환경이 필요해요.",
+      "text_sha256": "86186889d11ba39670f58b7a2f71d2d3f3b53ba8dbbf264724c04c931ece19fa"
+    },
+    {
+      "id": "01-vibe-coding/03.mdx:13:08bd73a208",
+      "path": "01-vibe-coding/03.mdx",
+      "line": 10,
+      "ordinal": 13,
+      "kind": "prose",
+      "text": "학교나 집의 와이파이면 충분해요.",
+      "text_sha256": "08bd73a208434d160aa06329bbf46a35c270301746ad34a6fbddccc43dcc558c"
+    },
+    {
+      "id": "01-vibe-coding/03.mdx:14:3fc7584409",
+      "path": "01-vibe-coding/03.mdx",
+      "line": 12,
+      "ordinal": 14,
+      "kind": "prose",
+      "text": "세 번째는 시간이에요.",
+      "text_sha256": "3fc758440991dd1ce1d0006d3bc751f24aa8377459f203575962a5a84d2d8381"
+    },
+    {
+      "id": "01-vibe-coding/03.mdx:15:aee36b67ee",
+      "path": "01-vibe-coding/03.mdx",
+      "line": 12,
+      "ordinal": 15,
+      "kind": "prose",
+      "text": "코딩은 눈으로만 읽으면 늘지 않아요.",
+      "text_sha256": "aee36b67eefed7a36cce5480e68fcff5e8c6932f5f730629fd45c7660669bb8b"
+    },
+    {
+      "id": "01-vibe-coding/03.mdx:16:72985a7457",
+      "path": "01-vibe-coding/03.mdx",
+      "line": 12,
+      "ordinal": 16,
+      "kind": "prose",
+      "text": "직접 만들어 보는 시간이 쌓여야 해요.",
+      "text_sha256": "72985a7457fab092b499e3fe329d3e716dd75ee05c1d2c49a88cccc140d9162c"
+    },
+    {
+      "id": "01-vibe-coding/03.mdx:17:76498ac324",
+      "path": "01-vibe-coding/03.mdx",
+      "line": 12,
+      "ordinal": 17,
+      "kind": "prose",
+      "text": "한 번에 오래 하기보다 짧게 자주 하는 편이 좋아요.",
+      "text_sha256": "76498ac324307f7a546389f547e5756ec0b00fce7adc4c0eb9c31656d2e57319"
+    },
+    {
+      "id": "01-vibe-coding/03.mdx:18:99291555fc",
+      "path": "01-vibe-coding/03.mdx",
+      "line": 14,
+      "ordinal": 18,
+      "kind": "prose",
+      "text": "설치가 걱정되는 학습자도 있을 거예요.",
+      "text_sha256": "99291555fc4b222f66e5294011e418bbaf068b7db8bfd928d1faf4a43c86ee95"
+    },
+    {
+      "id": "01-vibe-coding/03.mdx:19:99f1275a28",
+      "path": "01-vibe-coding/03.mdx",
+      "line": 14,
+      "ordinal": 19,
+      "kind": "prose",
+      "text": "괜찮아요.",
+      "text_sha256": "99f1275a28300f013f6fe2ba8b5535f1fecf5668edcfc9b733b5c8539fa511c0"
+    },
+    {
+      "id": "01-vibe-coding/03.mdx:20:927dc2dc71",
+      "path": "01-vibe-coding/03.mdx",
+      "line": 14,
+      "ordinal": 20,
+      "kind": "prose",
+      "text": "처음에는 아무것도 설치하지 않아도 돼요.",
+      "text_sha256": "927dc2dc719af4b0d0c0129e407a3f83f9e2a4c5b0e9e81eae5bf78e2c9a3a73"
+    },
+    {
+      "id": "01-vibe-coding/03.mdx:21:ac825f8c68",
+      "path": "01-vibe-coding/03.mdx",
+      "line": 14,
+      "ordinal": 21,
+      "kind": "prose",
+      "text": "Flutter에는 브라우저에서 바로 코드를 써 보고 결과를 확인할 수 있는 공식 온라인 연습장이 있어요.",
+      "text_sha256": "ac825f8c68e52725ceaeef096481f4e9745a182eb1c37359e2a2fc9b3657ff4c"
+    },
+    {
+      "id": "01-vibe-coding/03.mdx:22:f651791236",
+      "path": "01-vibe-coding/03.mdx",
+      "line": 14,
+      "ordinal": 22,
+      "kind": "prose",
+      "text": "DartPad라고 불러요.",
+      "text_sha256": "f6517912366481174cf988a1d582beff43cea7f2f0ea56e96c2b4ea988e12cc5"
+    },
+    {
+      "id": "01-vibe-coding/03.mdx:23:ed5d05589c",
+      "path": "01-vibe-coding/03.mdx",
+      "line": 14,
+      "ordinal": 23,
+      "kind": "prose",
+      "text": "프로그램을 깔지 않고 코드를 쓰고 결과를 확인하는 웹 페이지예요.",
+      "text_sha256": "ed5d05589c055a24f54a2e70f2113ee15dc41ef8c4671ee29292daae961c4701"
+    },
+    {
+      "id": "01-vibe-coding/03.mdx:24:7340e68da6",
+      "path": "01-vibe-coding/03.mdx",
+      "line": 14,
+      "ordinal": 24,
+      "kind": "prose",
+      "text": "그림을 본격적으로 그리기 전에 쓰는 낙서장 같은 거예요.",
+      "text_sha256": "7340e68da66d2e167ae7233c5d79d0c75870f7d38229e22199926fcf52f342d7"
+    },
+    {
+      "id": "01-vibe-coding/03.mdx:25:df2784be9b",
+      "path": "01-vibe-coding/03.mdx",
+      "line": 14,
+      "ordinal": 25,
+      "kind": "prose",
+      "text": "검색창에 이름만 치면 찾을 수 있어요.",
+      "text_sha256": "df2784be9b723798255dd69e7124ca9977a2b1f532548c676d93acdedbb1c2ed"
+    },
+    {
+      "id": "01-vibe-coding/03.mdx:26:a0ae394442",
+      "path": "01-vibe-coding/03.mdx",
+      "line": 16,
+      "ordinal": 26,
+      "kind": "prose",
+      "text": "AI 코딩 도구도 필요해요.",
+      "text_sha256": "a0ae39444246ad5da03d5dc04109e29040ba59732ad7d240cc3997019d622deb"
+    },
+    {
+      "id": "01-vibe-coding/03.mdx:27:12039f4225",
+      "path": "01-vibe-coding/03.mdx",
+      "line": 16,
+      "ordinal": 27,
+      "kind": "prose",
+      "text": "종류가 여러 가지라 고르기 어려울 수 있어요.",
+      "text_sha256": "12039f4225574f547354aaefc88e5dde53e9c7c8a92cc1c26811188d2dce2be6"
+    },
+    {
+      "id": "01-vibe-coding/03.mdx:28:8e6d76ec62",
+      "path": "01-vibe-coding/03.mdx",
+      "line": 16,
+      "ordinal": 28,
+      "kind": "prose",
+      "text": "고민하지 않아도 돼요.",
+      "text_sha256": "8e6d76ec62874fe1a1c45ec83f39f1dd12bec7aa6fb434ad152547fde71c79f0"
+    },
+    {
+      "id": "01-vibe-coding/03.mdx:29:6e2ba32003",
+      "path": "01-vibe-coding/03.mdx",
+      "line": 16,
+      "ordinal": 29,
+      "kind": "prose",
+      "text": "수업에서 안내하는 AI 코딩 도구를 그대로 쓰면 돼요.",
+      "text_sha256": "6e2ba3200350dd7993c2a9a531352e3a63fbed162ed6f51171b8d0215bfd3c3c"
+    },
+    {
+      "id": "01-vibe-coding/03.mdx:30:2495c016a1",
+      "path": "01-vibe-coding/03.mdx",
+      "line": 16,
+      "ordinal": 30,
+      "kind": "prose",
+      "text": "도구마다 이름은 달라도 쓰는 방법은 비슷해요.",
+      "text_sha256": "2495c016a14e26c598565b4db46abb4df99b5978550cfd77c99a20ac3165a52c"
+    },
+    {
+      "id": "01-vibe-coding/03.mdx:31:7d508c4f45",
+      "path": "01-vibe-coding/03.mdx",
+      "line": 18,
+      "ordinal": 31,
+      "kind": "prose",
+      "text": "아래 목록에 모두 표시할 수 있으면 준비 끝이에요.",
+      "text_sha256": "7d508c4f458d8834eeb8c6f77a1faa96a65a78d94f89c9215e4b3dc7ec26937d"
+    },
+    {
+      "id": "01-vibe-coding/03.mdx:32:35fb078139",
+      "path": "01-vibe-coding/03.mdx",
+      "line": 20,
+      "ordinal": 32,
+      "kind": "list",
+      "text": "내 노트북이 있다 (윈도우·맥 모두 가능)",
+      "text_sha256": "35fb0781395c50c031e402bec26febfd5842f6396756fe83cf3d70fe851a9726"
+    },
+    {
+      "id": "01-vibe-coding/03.mdx:33:8542ddf7e6",
+      "path": "01-vibe-coding/03.mdx",
+      "line": 21,
+      "ordinal": 33,
+      "kind": "list",
+      "text": "인터넷에 안정적으로 접속할 수 있다",
+      "text_sha256": "8542ddf7e6a83218222d94d3fae99b8c5f442a87f04145cf1ac55a42fa5e5aa5"
+    },
+    {
+      "id": "01-vibe-coding/03.mdx:34:de7db36f38",
+      "path": "01-vibe-coding/03.mdx",
+      "line": 22,
+      "ordinal": 34,
+      "kind": "list",
+      "text": "브라우저에서 온라인 연습장을 열어 봤다",
+      "text_sha256": "de7db36f389a6e9450108b517ea77fcc843736bbdfd9d0be14664ee9fbb22375"
+    },
+    {
+      "id": "01-vibe-coding/03.mdx:35:db94f6c0f4",
+      "path": "01-vibe-coding/03.mdx",
+      "line": 23,
+      "ordinal": 35,
+      "kind": "list",
+      "text": "일주일에 코딩에 쓸 시간을 정해 두었다",
+      "text_sha256": "db94f6c0f4623732ab1f6da0c2fc33258998ec49969870d01fadb0ed1775f317"
+    },
+    {
+      "id": "01-vibe-coding/03.mdx:36:7db81f8129",
+      "path": "01-vibe-coding/03.mdx",
+      "line": 25,
+      "ordinal": 36,
+      "kind": "prose",
+      "text": "이제 다음 챕터에서 첫 프로젝트를 함께 만들어 봐요.",
+      "text_sha256": "7db81f812909f5c93fc15a39e6d4e10052fc0fbc1534358ab081ec53c3375407"
+    },
+    {
+      "id": "02-first-project/01.mdx:1:9aa2109239",
+      "path": "02-first-project/01.mdx",
+      "line": 6,
+      "ordinal": 1,
+      "kind": "prose",
+      "text": "이번 챕터에서는 첫 프로젝트를 만들어요.",
+      "text_sha256": "9aa210923960be246f5757badcc74697a3c158c91aefd18d912c1e57d353dc1a"
+    },
+    {
+      "id": "02-first-project/01.mdx:2:c75f9326ab",
+      "path": "02-first-project/01.mdx",
+      "line": 6,
+      "ordinal": 2,
+      "kind": "prose",
+      "text": "그 전에 프로젝트가 어떻게 생겼는지 먼저 구경해요.",
+      "text_sha256": "c75f9326ab511ff245adf59aad258d327ae74b082882dcdccca0773e942ca504"
+    },
+    {
+      "id": "02-first-project/01.mdx:3:0fb637d3f3",
+      "path": "02-first-project/01.mdx",
+      "line": 8,
+      "ordinal": 3,
+      "kind": "prose",
+      "text": "Flutter는 구글이 만든 앱 제작 도구예요.",
+      "text_sha256": "0fb637d3f35bca09c1fe87f32a6e320432bff385214016e5cb3bae4c11d697d3"
+    },
+    {
+      "id": "02-first-project/01.mdx:4:ee45c120ac",
+      "path": "02-first-project/01.mdx",
+      "line": 8,
+      "ordinal": 4,
+      "kind": "prose",
+      "text": "코드를 한 번만 쓰면 스마트폰, 태블릿, 컴퓨터에서 모두 도는 앱을 만들 수 있어요.",
+      "text_sha256": "ee45c120ac59ec50bab52cada3c4ee875690622064c8dd298a902a92a40623da"
+    },
+    {
+      "id": "02-first-project/01.mdx:5:b1e012c643",
+      "path": "02-first-project/01.mdx",
+      "line": 8,
+      "ordinal": 5,
+      "kind": "prose",
+      "text": "Flutter 공식 문서도 이 점을 가장 먼저 소개해요.",
+      "text_sha256": "b1e012c64350378b809bab3cfdece9975a5e40c1195aaf7ccc4e497f0b81768b"
+    },
+    {
+      "id": "02-first-project/01.mdx:6:1d0e0c7b13",
+      "path": "02-first-project/01.mdx",
+      "line": 10,
+      "ordinal": 6,
+      "kind": "prose",
+      "text": "프로젝트라는 말부터 풀어 볼게요.",
+      "text_sha256": "1d0e0c7b13f9fa3ad3272e48f26ee259fd1a582d86d11fec08712b326bdba022"
+    },
+    {
+      "id": "02-first-project/01.mdx:7:b3737737e0",
+      "path": "02-first-project/01.mdx",
+      "line": 10,
+      "ordinal": 7,
+      "kind": "prose",
+      "text": "앱 하나는 파일 하나로 만들어지지 않아요.",
+      "text_sha256": "b3737737e08a0e036e19c92ab7f483e3091f94c7fa5c3a9f1366f0a498c7aa0b"
+    },
+    {
+      "id": "02-first-project/01.mdx:8:397b5cfd10",
+      "path": "02-first-project/01.mdx",
+      "line": 10,
+      "ordinal": 8,
+      "kind": "prose",
+      "text": "여러 파일이 모여 앱 하나가 돼요.",
+      "text_sha256": "397b5cfd10dd8ed9d9b8685ebd16fee188f00014711e5e7846d6a9af1413222c"
+    },
+    {
+      "id": "02-first-project/01.mdx:9:6352e8a988",
+      "path": "02-first-project/01.mdx",
+      "line": 10,
+      "ordinal": 9,
+      "kind": "prose",
+      "text": "이 파일들을 한 폴더에 모아 둔 묶음이 프로젝트예요.",
+      "text_sha256": "6352e8a988fa479030a310fbd3b13a89237507694f42312775abf9439f32fe2a"
+    },
+    {
+      "id": "02-first-project/01.mdx:10:4c5288b438",
+      "path": "02-first-project/01.mdx",
+      "line": 10,
+      "ordinal": 10,
+      "kind": "prose",
+      "text": "폴더는 파일을 담는 상자라고 생각하면 돼요.",
+      "text_sha256": "4c5288b4381079eaa7e0f4440b3264e28ee5880dc83b8b6924d8fcbdfba4e7b2"
+    },
+    {
+      "id": "02-first-project/01.mdx:11:d451c7bee9",
+      "path": "02-first-project/01.mdx",
+      "line": 12,
+      "ordinal": 11,
+      "kind": "prose",
+      "text": "새 프로젝트를 열면 폴더와 파일이 잔뜩 보여요.",
+      "text_sha256": "d451c7bee9c33d09083705d5a5796d94301775121d458ef8ad8b329a4949a22d"
+    },
+    {
+      "id": "02-first-project/01.mdx:12:9e666c7c61",
+      "path": "02-first-project/01.mdx",
+      "line": 12,
+      "ordinal": 12,
+      "kind": "prose",
+      "text": "처음 보면 겁이 나요.",
+      "text_sha256": "9e666c7c619fedaaebbd8a4e32047bf05ab0a8fa85c5ddd20d119f12b4a07b6c"
+    },
+    {
+      "id": "02-first-project/01.mdx:13:99f1275a28",
+      "path": "02-first-project/01.mdx",
+      "line": 12,
+      "ordinal": 13,
+      "kind": "prose",
+      "text": "괜찮아요.",
+      "text_sha256": "99f1275a28300f013f6fe2ba8b5535f1fecf5668edcfc9b733b5c8539fa511c0"
+    },
+    {
+      "id": "02-first-project/01.mdx:14:bd9f82e9b7",
+      "path": "02-first-project/01.mdx",
+      "line": 12,
+      "ordinal": 14,
+      "kind": "prose",
+      "text": "우리가 기억할 곳은 딱 하나예요. lib 폴더 안의 main.dart 파일이에요.",
+      "text_sha256": "bd9f82e9b7a7b0834c8a8812254c1b5dca38dc190563153b27c2ff94756b1a43"
+    },
+    {
+      "id": "02-first-project/01.mdx:15:ea641fd8aa",
+      "path": "02-first-project/01.mdx",
+      "line": 12,
+      "ordinal": 15,
+      "kind": "prose",
+      "text": "앱의 화면과 동작을 정하는 코드가 여기에 있어요.",
+      "text_sha256": "ea641fd8aa7a2aa52963ce55debab38a080dd84296265a73483e33a2cb1c9ad0"
+    },
+    {
+      "id": "02-first-project/01.mdx:16:c5bdd8e0c8",
+      "path": "02-first-project/01.mdx",
+      "line": 12,
+      "ordinal": 16,
+      "kind": "prose",
+      "text": "우리가 읽고, AI 코딩 도구에게 고쳐 달라고 말할 파일도 바로 이 파일이에요. main.dart라는 이름은 Flutter가 쓰는 프로그래밍 언어 Dart에서 왔어요.",
+      "text_sha256": "c5bdd8e0c8294aec152c675ec88a9f7466759f8ded062f08d44a46f1052ce451"
+    },
+    {
+      "id": "02-first-project/01.mdx:17:029998f895",
+      "path": "02-first-project/01.mdx",
+      "line": 12,
+      "ordinal": 17,
+      "kind": "prose",
+      "text": "앞 챕터에서 연습장으로 소개한 DartPad의 그 Dart예요.",
+      "text_sha256": "029998f8951e01923efe65b8c2b25c3ec2a43c3bb1ee7e7e265125b082d17feb"
+    },
+    {
+      "id": "02-first-project/01.mdx:18:cc36c32d93",
+      "path": "02-first-project/01.mdx",
+      "line": 16,
+      "ordinal": 18,
+      "kind": "prose",
+      "text": "위 그림은 프로젝트 폴더의 지도예요.",
+      "text_sha256": "cc36c32d932abace91282e8751e0cd6779fa26b0b085f3e4a95a185f645360af"
+    },
+    {
+      "id": "02-first-project/01.mdx:19:9dec942e17",
+      "path": "02-first-project/01.mdx",
+      "line": 16,
+      "ordinal": 19,
+      "kind": "prose",
+      "text": "몇 곳만 더 짚어 볼게요. pubspec.yaml은 앱의 이름표이자 부품 목록이에요.",
+      "text_sha256": "9dec942e17f5ae3d2f57430bed2784c9625b62fcc66c4b8a74a50b61cd58b14e"
+    },
+    {
+      "id": "02-first-project/01.mdx:20:f29edd0f5a",
+      "path": "02-first-project/01.mdx",
+      "line": 16,
+      "ordinal": 20,
+      "kind": "prose",
+      "text": "앱의 이름과, 앱이 빌려 쓰는 부품들이 적혀 있어요. android나 ios 같은 폴더는 각 기기에 맞춰 앱을 포장하는 방이에요.",
+      "text_sha256": "f29edd0f5a2abc881c13fb8eec6526a06b026a1677bd8e79eefaa2a5a60158f1"
+    },
+    {
+      "id": "02-first-project/01.mdx:21:0c65b6b573",
+      "path": "02-first-project/01.mdx",
+      "line": 16,
+      "ordinal": 21,
+      "kind": "prose",
+      "text": "지금은 문을 열지 않아도 돼요.",
+      "text_sha256": "0c65b6b573f754de343a3ebe79e2fa372fa1c5d91f308abef71f64fa11c18460"
+    },
+    {
+      "id": "02-first-project/01.mdx:22:b930d38124",
+      "path": "02-first-project/01.mdx",
+      "line": 16,
+      "ordinal": 22,
+      "kind": "prose",
+      "text": "Flutter가 알아서 관리해요.",
+      "text_sha256": "b930d381241a6fd00b9a47e6c34297b051bcb2a18fb4ecec168e08f144d776fd"
+    },
+    {
+      "id": "02-first-project/01.mdx:23:a9da8ffc19",
+      "path": "02-first-project/01.mdx",
+      "line": 18,
+      "ordinal": 23,
+      "kind": "prose",
+      "text": "다 이해하지 못해도 괜찮아요.",
+      "text_sha256": "a9da8ffc198d3d5ac52e3c5bf6016ccc1aba0786f4e7902d60f78c0820c0fbb0"
+    },
+    {
+      "id": "02-first-project/01.mdx:24:d25f6bee73",
+      "path": "02-first-project/01.mdx",
+      "line": 18,
+      "ordinal": 24,
+      "kind": "prose",
+      "text": "낯선 도시에서 지도를 볼 때도 모든 골목을 외우지는 않아요.",
+      "text_sha256": "d25f6bee7309a98a85a0bcb6a7d180e68b9dc3fed2f11d2cd6afb80df8aea43c"
+    },
+    {
+      "id": "02-first-project/01.mdx:25:b30f20098c",
+      "path": "02-first-project/01.mdx",
+      "line": 18,
+      "ordinal": 25,
+      "kind": "prose",
+      "text": "내 위치만 알면 길을 잃지 않아요.",
+      "text_sha256": "b30f20098ce0f132bd02704963c2fb97bd72b1b9ca0408cef88b287029759730"
+    },
+    {
+      "id": "02-first-project/01.mdx:26:a2b26ee24d",
+      "path": "02-first-project/01.mdx",
+      "line": 18,
+      "ordinal": 26,
+      "kind": "prose",
+      "text": "이 프로젝트에서 우리의 위치는 lib/main.dart예요.",
+      "text_sha256": "a2b26ee24dbc3281e1e4c9571985e526409578449ef840fcda8606bc55457982"
+    },
+    {
+      "id": "02-first-project/01.mdx:27:bb36e9e16f",
+      "path": "02-first-project/01.mdx",
+      "line": 18,
+      "ordinal": 27,
+      "kind": "prose",
+      "text": "여기만 기억하면 돼요.",
+      "text_sha256": "bb36e9e16f501c27574a630d7937bd981d4421acc1ed70e2734a7223dff40d9e"
+    },
+    {
+      "id": "02-first-project/02.mdx:1:07219848c9",
+      "path": "02-first-project/02.mdx",
+      "line": 6,
+      "ordinal": 1,
+      "kind": "prose",
+      "text": "2.1에서 lib/main.dart가 앱의 시작점이라는 걸 봤어요.",
+      "text_sha256": "07219848c905be3a01228f07effded2634d4f1b01bc06abb3015906f837ae793"
+    },
+    {
+      "id": "02-first-project/02.mdx:2:655b468464",
+      "path": "02-first-project/02.mdx",
+      "line": 6,
+      "ordinal": 2,
+      "kind": "prose",
+      "text": "이제 그 파일에 들어갈 첫 화면을 AI에게 부탁해 볼 차례예요.",
+      "text_sha256": "655b468464ded166f103d52db94c296505cbb03095690499b3c8b77c6d567b1e"
+    },
+    {
+      "id": "02-first-project/02.mdx:3:102e262111",
+      "path": "02-first-project/02.mdx",
+      "line": 6,
+      "ordinal": 3,
+      "kind": "prose",
+      "text": "AI에게 건네는 부탁의 문장을 프롬프트라고 해요.",
+      "text_sha256": "102e2621117bacee1f22f458084bd1c3ce4459696f52e22232d9042ffb9ad7ff"
+    },
+    {
+      "id": "02-first-project/02.mdx:4:0e96c5bcf1",
+      "path": "02-first-project/02.mdx",
+      "line": 6,
+      "ordinal": 4,
+      "kind": "prose",
+      "text": "우리는 말로 설명해요.",
+      "text_sha256": "0e96c5bcf1ce9fb5409c14e412176335287621b9f3aa2937645d24e27ba6aaf9"
+    },
+    {
+      "id": "02-first-project/02.mdx:5:3c11faf80f",
+      "path": "02-first-project/02.mdx",
+      "line": 6,
+      "ordinal": 5,
+      "kind": "prose",
+      "text": "AI 코딩 도구는 그 말을 코드로 바꿔 줘요.",
+      "text_sha256": "3c11faf80f1289d7f4036e0038af14bf0951f2a8abf5999bb6f96c87d4b657fb"
+    },
+    {
+      "id": "02-first-project/02.mdx:6:0eb9a927e3",
+      "path": "02-first-project/02.mdx",
+      "line": 8,
+      "ordinal": 6,
+      "kind": "prose",
+      "text": "그런데 부탁에도 요령이 있어요.",
+      "text_sha256": "0eb9a927e30ecae80b0c9679746e77532d84ebecdd578a987055c576a4f69e81"
+    },
+    {
+      "id": "02-first-project/02.mdx:7:15a5baa342",
+      "path": "02-first-project/02.mdx",
+      "line": 8,
+      "ordinal": 7,
+      "kind": "prose",
+      "text": "\"앱 만들어 줘\"는 아쉬운 부탁이에요.",
+      "text_sha256": "15a5baa3423c2e085c41c36f33b47d669990ad21b199eb9c3d1d6bec4c94df2c"
+    },
+    {
+      "id": "02-first-project/02.mdx:8:21287e5cd1",
+      "path": "02-first-project/02.mdx",
+      "line": 8,
+      "ordinal": 8,
+      "kind": "prose",
+      "text": "AI가 무엇을 만들어야 할지 알 수 없거든요.",
+      "text_sha256": "21287e5cd12b31aab3055c2af579fd95a44007668f1718f72d4c9e62b49b23dc"
+    },
+    {
+      "id": "02-first-project/02.mdx:9:68fb847762",
+      "path": "02-first-project/02.mdx",
+      "line": 8,
+      "ordinal": 9,
+      "kind": "prose",
+      "text": "좋은 부탁은 화면에 무엇이, 어디에 보일지 말해 줘요.",
+      "text_sha256": "68fb8477622b3aad7a028f82f15558b79e82a81a6df999885b611d2b4ae8d4e2"
+    },
+    {
+      "id": "02-first-project/02.mdx:10:028459a640",
+      "path": "02-first-project/02.mdx",
+      "line": 8,
+      "ordinal": 10,
+      "kind": "prose",
+      "text": "예를 들면 이렇게요.",
+      "text_sha256": "028459a64043894ff99d1952baa31f3d8d1971e52918f053a9e2db6251b402ac"
+    },
+    {
+      "id": "02-first-project/02.mdx:11:10166c5419",
+      "path": "02-first-project/02.mdx",
+      "line": 10,
+      "ordinal": 11,
+      "kind": "quote",
+      "text": "화면 위쪽에 '나의 첫 앱'이라는 제목 바가 있고, 가운데에 '안녕, Flutter!'",
+      "text_sha256": "10166c5419f04a82afbc4f834852492d24a08c0c01dfcf01361a3b34db896f09"
+    },
+    {
+      "id": "02-first-project/02.mdx:12:97bafc65cd",
+      "path": "02-first-project/02.mdx",
+      "line": 10,
+      "ordinal": 12,
+      "kind": "quote",
+      "text": "인사말이 보이는 화면을 만들어 줘.",
+      "text_sha256": "97bafc65cd187ce772cf644f36082f53407fa787f79b54455305d83bf8be02f0"
+    },
+    {
+      "id": "02-first-project/02.mdx:13:c0e5511a05",
+      "path": "02-first-project/02.mdx",
+      "line": 12,
+      "ordinal": 13,
+      "kind": "prose",
+      "text": "이 부탁에는 무엇('나의 첫 앱' 제목 바, 인사말)과 어디(위쪽, 가운데)가 함께 들어 있어요.",
+      "text_sha256": "c0e5511a055e66bda307ba940c38c99fff34b3caa0e90b062268cf44bf84d8c3"
+    },
+    {
+      "id": "02-first-project/02.mdx:14:29a6517e5f",
+      "path": "02-first-project/02.mdx",
+      "line": 12,
+      "ordinal": 14,
+      "kind": "prose",
+      "text": "이런 부탁을 받으면 AI는 lib/main.dart에 넣을 코드를 돌려줘요.",
+      "text_sha256": "29a6517e5fadeec45d0917c59befad782c16a1477bea092aa6623a92654ebfb6"
+    },
+    {
+      "id": "02-first-project/02.mdx:15:386527ac17",
+      "path": "02-first-project/02.mdx",
+      "line": 12,
+      "ordinal": 15,
+      "kind": "prose",
+      "text": "단순하게 줄이면 이런 모양이에요.",
+      "text_sha256": "386527ac175989c0b775002bdcbc2aa1f6731beb42b41551a3f080c21b7add7f"
+    },
+    {
+      "id": "02-first-project/02.mdx:16:04b6a791f1",
+      "path": "02-first-project/02.mdx",
+      "line": 27,
+      "ordinal": 16,
+      "kind": "prose",
+      "text": "한 줄로 풀면, runApp은 \"이 내용으로 앱을 시작해\"라는 지시고, 그 괄호 안이 화면에 보일 것들이에요.",
+      "text_sha256": "04b6a791f100cb72b91a22491f5449be008152fdb16f101015e6690c2c695ff8"
+    },
+    {
+      "id": "02-first-project/02.mdx:17:932985c4d1",
+      "path": "02-first-project/02.mdx",
+      "line": 29,
+      "ordinal": 17,
+      "kind": "prose",
+      "text": "코드가 낯설어 보여도 괜찮아요.",
+      "text_sha256": "932985c4d1e8bc6f1a6edca2a89c7313ffa556793b276933df746856cab885fe"
+    },
+    {
+      "id": "02-first-project/02.mdx:18:9d3a9bde05",
+      "path": "02-first-project/02.mdx",
+      "line": 29,
+      "ordinal": 18,
+      "kind": "prose",
+      "text": "지금은 전부 읽지 않아도 돼요.",
+      "text_sha256": "9d3a9bde05d91123480aa2cb6e378fd718d5e1037dca56a7d5251b612432f306"
+    },
+    {
+      "id": "02-first-project/02.mdx:19:07f467f5a0",
+      "path": "02-first-project/02.mdx",
+      "line": 29,
+      "ordinal": 19,
+      "kind": "prose",
+      "text": "첫 읽기 요령 하나만 기억해요.",
+      "text_sha256": "07f467f5a0a2b522c5f68fde092fd81644886503481300c756b249008a358e52"
+    },
+    {
+      "id": "02-first-project/02.mdx:20:1627389080",
+      "path": "02-first-project/02.mdx",
+      "line": 29,
+      "ordinal": 20,
+      "kind": "prose",
+      "text": "따옴표 안의 우리말만 찾아보는 거예요.",
+      "text_sha256": "162738908089a54abe9c6c16630961ed5e4d3e9b70db40bad4388ec6edeb1ed3"
+    },
+    {
+      "id": "02-first-project/02.mdx:21:5e72efddbf",
+      "path": "02-first-project/02.mdx",
+      "line": 29,
+      "ordinal": 21,
+      "kind": "prose",
+      "text": "'나의 첫 앱'과 '안녕, Flutter!'",
+      "text_sha256": "5e72efddbf92f9bc93cb7c3ab9ef78e8c9dcdc3b2556f2f0b93c24e98422e9a5"
+    },
+    {
+      "id": "02-first-project/02.mdx:22:4b4dfdff6a",
+      "path": "02-first-project/02.mdx",
+      "line": 29,
+      "ordinal": 22,
+      "kind": "prose",
+      "text": "가 코드 속에 보이죠?",
+      "text_sha256": "4b4dfdff6afaacd7e5f99c302bb75847324dd9a1a2047eada228df89f0684203"
+    },
+    {
+      "id": "02-first-project/02.mdx:23:6e7056b1bf",
+      "path": "02-first-project/02.mdx",
+      "line": 29,
+      "ordinal": 23,
+      "kind": "prose",
+      "text": "우리가 부탁한 말이 그대로 들어가 있어요.",
+      "text_sha256": "6e7056b1bf701dbe23ddecc261ccd02c0124b9594a531ba31444591a3ddb9a48"
+    },
+    {
+      "id": "02-first-project/02.mdx:24:9c4461019a",
+      "path": "02-first-project/02.mdx",
+      "line": 29,
+      "ordinal": 24,
+      "kind": "prose",
+      "text": "부탁과 코드가 이렇게 이어진다는 것만 확인하면 충분해요.",
+      "text_sha256": "9c4461019af0389a6291a5b5cfd07fb7ca7106ca7c7916bd822cacdc59487f64"
+    },
+    {
+      "id": "02-first-project/03.mdx:1:a90f694585",
+      "path": "02-first-project/03.mdx",
+      "line": 6,
+      "ordinal": 1,
+      "kind": "prose",
+      "text": "이제 받은 코드를 진짜 화면으로 만들어 볼 차례예요.",
+      "text_sha256": "a90f694585e8be920a65155904e3bcf3567fa8bd4c5b893109ee6665260679df"
+    },
+    {
+      "id": "02-first-project/03.mdx:2:95645ffeaf",
+      "path": "02-first-project/03.mdx",
+      "line": 6,
+      "ordinal": 2,
+      "kind": "prose",
+      "text": "실행이란 코드를 컴퓨터가 읽어서 화면으로 바꾸는 일이에요.",
+      "text_sha256": "95645ffeaf8e4011ed63dc1966161ffdd899ef60db9097b4ab564a951e498ca4"
+    },
+    {
+      "id": "02-first-project/03.mdx:3:fdf5319488",
+      "path": "02-first-project/03.mdx",
+      "line": 6,
+      "ordinal": 3,
+      "kind": "prose",
+      "text": "우리가 준비한 설계도를 컴퓨터가 그림으로 옮기는 셈이죠.",
+      "text_sha256": "fdf5319488fd1cf6c865a53a34d7d8a20aeaaa060be27670a14dabf142b5e50d"
+    },
+    {
+      "id": "02-first-project/03.mdx:4:2b517160b2",
+      "path": "02-first-project/03.mdx",
+      "line": 6,
+      "ordinal": 4,
+      "kind": "prose",
+      "text": "코드는 실행해 보기 전까지는 그냥 글자예요.",
+      "text_sha256": "2b517160b2f04ccd0fdb3c53e73fe92cadb1d710df1772803e69d9b539c3205f"
+    },
+    {
+      "id": "02-first-project/03.mdx:5:3b8629eb91",
+      "path": "02-first-project/03.mdx",
+      "line": 6,
+      "ordinal": 5,
+      "kind": "prose",
+      "text": "실행해야 비로소 앱이 돼요.",
+      "text_sha256": "3b8629eb919d7e0c3dd865c73d841b8615b354f6451ab3458044381c2aebdfbe"
+    },
+    {
+      "id": "02-first-project/03.mdx:6:1d8439d24b",
+      "path": "02-first-project/03.mdx",
+      "line": 8,
+      "ordinal": 6,
+      "kind": "prose",
+      "text": "DartPad에서 이렇게 해 보세요.",
+      "text_sha256": "1d8439d24b6b02854e9e72fb2bc5501fd6f973ed4e79f8f49ff33465b2379e83"
+    },
+    {
+      "id": "02-first-project/03.mdx:7:4635b13b9b",
+      "path": "02-first-project/03.mdx",
+      "line": 10,
+      "ordinal": 7,
+      "kind": "list",
+      "text": "2.2에서 받은 코드를 전부 복사해요.",
+      "text_sha256": "4635b13b9bfd229de80794faacbe5f7addb800d9c18e6d7b6b583ea50658e2c6"
+    },
+    {
+      "id": "02-first-project/03.mdx:8:fbd503f2a0",
+      "path": "02-first-project/03.mdx",
+      "line": 10,
+      "ordinal": 8,
+      "kind": "list",
+      "text": "일부만 말고 처음부터 끝까지 전부요.",
+      "text_sha256": "fbd503f2a0ab076146096dd75abdd322372b882633379316434b204f6fb49bda"
+    },
+    {
+      "id": "02-first-project/03.mdx:9:a1318b6818",
+      "path": "02-first-project/03.mdx",
+      "line": 11,
+      "ordinal": 9,
+      "kind": "list",
+      "text": "DartPad의 코드 칸에 있던 내용을 모두 지워서 빈칸으로 만들어요.",
+      "text_sha256": "a1318b6818271211ba1a8fdc7d98dc78d420ef985f697b70c936ca20c53d01be"
+    },
+    {
+      "id": "02-first-project/03.mdx:10:85f1da6919",
+      "path": "02-first-project/03.mdx",
+      "line": 11,
+      "ordinal": 10,
+      "kind": "list",
+      "text": "그 자리에 복사한 코드를 붙여 넣어요.",
+      "text_sha256": "85f1da6919e60649afb3035742c5d03dd3fb2a2be204323544d2b75678e50d71"
+    },
+    {
+      "id": "02-first-project/03.mdx:11:2ed69cba1f",
+      "path": "02-first-project/03.mdx",
+      "line": 12,
+      "ordinal": 11,
+      "kind": "list",
+      "text": "실행 단추를 눌러요.",
+      "text_sha256": "2ed69cba1fcf3720da0265e93f902d89addded8e0fd8bfa0f1ca9fb762e48832"
+    },
+    {
+      "id": "02-first-project/03.mdx:12:1564330cd2",
+      "path": "02-first-project/03.mdx",
+      "line": 12,
+      "ordinal": 12,
+      "kind": "list",
+      "text": "잠시 기다리면 오른쪽에 결과 화면이 나타나요.",
+      "text_sha256": "1564330cd27c468117e70c9e3d292391768099253025b22ea6c656f21c0ed4be"
+    },
+    {
+      "id": "02-first-project/03.mdx:13:a90b8f8163",
+      "path": "02-first-project/03.mdx",
+      "line": 14,
+      "ordinal": 13,
+      "kind": "prose",
+      "text": "화면이 떴다면 축하해요 — 여러분의 첫 앱이 방금 태어났어요.",
+      "text_sha256": "a90b8f81630a0beee381cdda5ebc8d7ad71c797e016e469950e42ae8639d43e2"
+    },
+    {
+      "id": "02-first-project/03.mdx:14:6e05c84f33",
+      "path": "02-first-project/03.mdx",
+      "line": 16,
+      "ordinal": 14,
+      "kind": "prose",
+      "text": "그런데 여기서 끝이 아니에요.",
+      "text_sha256": "6e05c84f338bed33d468df16a7bb06fa92cdc863470315701fc44c11e332f8b4"
+    },
+    {
+      "id": "02-first-project/03.mdx:15:87b69c6d61",
+      "path": "02-first-project/03.mdx",
+      "line": 16,
+      "ordinal": 15,
+      "kind": "prose",
+      "text": "바이브 코딩의 기본 습관은 부탁한 것과 나온 것을 대조하는 거예요.",
+      "text_sha256": "87b69c6d617e85675da0e91d77e91712343840c7d0bfebe113ec65aa492f6b2b"
+    },
+    {
+      "id": "02-first-project/03.mdx:16:1df20b7548",
+      "path": "02-first-project/03.mdx",
+      "line": 16,
+      "ordinal": 16,
+      "kind": "prose",
+      "text": "우리가 AI에게 부탁했던 내용을 하나씩 확인해요.",
+      "text_sha256": "1df20b7548ad6316d10ffd2abbdf055b0d8168e8028edbc9bbcbf7383019f25a"
+    },
+    {
+      "id": "02-first-project/03.mdx:17:1c99f61428",
+      "path": "02-first-project/03.mdx",
+      "line": 18,
+      "ordinal": 17,
+      "kind": "list",
+      "text": "위쪽에 \"나의 첫 앱\"이라는 제목이 있나요?",
+      "text_sha256": "1c99f61428fe8d79e0f739037ad5baf869af7bae2816f7f7a59716a5ca40515a"
+    },
+    {
+      "id": "02-first-project/03.mdx:18:ea07e4899c",
+      "path": "02-first-project/03.mdx",
+      "line": 19,
+      "ordinal": 18,
+      "kind": "list",
+      "text": "화면 가운데에 인사말이 보이나요?",
+      "text_sha256": "ea07e4899ced07fb6ea5f91f08ad717707cc1dce67966c0c26741a35b49493fa"
+    },
+    {
+      "id": "02-first-project/03.mdx:19:1b80fda5f1",
+      "path": "02-first-project/03.mdx",
+      "line": 21,
+      "ordinal": 19,
+      "kind": "prose",
+      "text": "하나라도 다르면 AI 코딩 도구에게 다시 말해서 고치면 돼요.",
+      "text_sha256": "1b80fda5f151f73b07e9a746b10643ff09122d74949c215c4bc6690fc61ee841"
+    },
+    {
+      "id": "02-first-project/03.mdx:20:68efa52c6a",
+      "path": "02-first-project/03.mdx",
+      "line": 21,
+      "ordinal": 20,
+      "kind": "prose",
+      "text": "이렇게 대조하는 눈이 곧 실력이에요.",
+      "text_sha256": "68efa52c6ae76123907607271584bfa4c441445e02db962300199ce469436ec2"
+    },
+    {
+      "id": "02-first-project/03.mdx:21:73c01c80d8",
+      "path": "02-first-project/03.mdx",
+      "line": 23,
+      "ordinal": 21,
+      "kind": "prose",
+      "text": "실행이 안 될 때는 두 가지를 순서대로 해 보세요.",
+      "text_sha256": "73c01c80d887012364cee85aa13f6c3297c23fc33b355e38f5d002594afb30f7"
+    },
+    {
+      "id": "02-first-project/03.mdx:22:dcd4dbdaed",
+      "path": "02-first-project/03.mdx",
+      "line": 25,
+      "ordinal": 22,
+      "kind": "list",
+      "text": "코드를 전부 지우고 처음부터 다시 붙여 넣어요.",
+      "text_sha256": "dcd4dbdaed5015d236556d6872ad9b5776d4476698b91dfd7fe99b6f98f1aada"
+    },
+    {
+      "id": "02-first-project/03.mdx:23:6894de746a",
+      "path": "02-first-project/03.mdx",
+      "line": 25,
+      "ordinal": 23,
+      "kind": "list",
+      "text": "코드가 반쯤만 붙는 게 가장 흔한 원인이거든요.",
+      "text_sha256": "6894de746a6a023d5510228847e6a9b1476033ba549351f0db62ef5eba04dee5"
+    },
+    {
+      "id": "02-first-project/03.mdx:24:d890118c9d",
+      "path": "02-first-project/03.mdx",
+      "line": 26,
+      "ordinal": 24,
+      "kind": "list",
+      "text": "그래도 안 되면 빨간 글씨로 나온 오류 문구를 그대로 복사해요.",
+      "text_sha256": "d890118c9d545f822f3def034c8de16444e19fdef30929d660dd1ab7bd7c9733"
+    },
+    {
+      "id": "02-first-project/03.mdx:25:97a4216c0a",
+      "path": "02-first-project/03.mdx",
+      "line": 26,
+      "ordinal": 25,
+      "kind": "list",
+      "text": "그리고 AI 코딩 도구에게 \"이 오류가 났어요, 고쳐 주세요\"라고 되물어요.",
+      "text_sha256": "97a4216c0a3ba5b2f0285b5405dd8ef0eb9fd8be2fb82191f2ed76b5760547c0"
+    },
+    {
+      "id": "02-first-project/03.mdx:26:6e10e5b397",
+      "path": "02-first-project/03.mdx",
+      "line": 26,
+      "ordinal": 26,
+      "kind": "list",
+      "text": "오류 문구는 어렵게 보여도 사실 읽으라고 있는 안내문이에요.",
+      "text_sha256": "6e10e5b397a304d632d4cfe226645795d3603bc9d8acd9332307da0fe7f40a33"
+    },
+    {
+      "id": "02-first-project/03.mdx:27:744dce1520",
+      "path": "02-first-project/03.mdx",
+      "line": 26,
+      "ordinal": 27,
+      "kind": "list",
+      "text": "무슨 뜻인지 몰라도 괜찮아요.",
+      "text_sha256": "744dce1520a8a04320d2b304e90da27d697ab808238bf84027095e78e97611f4"
+    },
+    {
+      "id": "02-first-project/03.mdx:28:8fb69402b1",
+      "path": "02-first-project/03.mdx",
+      "line": 26,
+      "ordinal": 28,
+      "kind": "list",
+      "text": "그대로 옮겨 주는 것만으로 충분해요.",
+      "text_sha256": "8fb69402b1b37e95a3dae6ae46394c02d193120bba65d7ce7047415c7d168061"
+    },
+    {
+      "id": "02-first-project/03.mdx:29:7bb4328bee",
+      "path": "02-first-project/03.mdx",
+      "line": 28,
+      "ordinal": 29,
+      "kind": "prose",
+      "text": "부탁하고, 실행하고, 대조하기.",
+      "text_sha256": "7bb4328beeac96e94cafe1d6b71967ca34a4a943518c866336e5246d79a38899"
+    },
+    {
+      "id": "02-first-project/03.mdx:30:8f771f8c57",
+      "path": "02-first-project/03.mdx",
+      "line": 28,
+      "ordinal": 30,
+      "kind": "prose",
+      "text": "이 세 걸음이 바이브 코딩의 한 바퀴예요.",
+      "text_sha256": "8f771f8c5711586fda7fb56cef20a7ceee8058d37588d53312164fe7eb48d8fd"
+    },
+    {
+      "id": "02-first-project/03.mdx:31:cf7f4866bc",
+      "path": "02-first-project/03.mdx",
+      "line": 28,
+      "ordinal": 31,
+      "kind": "prose",
+      "text": "오늘 그 첫 바퀴를 직접 돌려 본 거예요.",
+      "text_sha256": "cf7f4866bc45f3a0309e2b31678f114f004ff8d0d1334c0bdfa4f841a0384234"
+    },
+    {
+      "id": "03-widget-tree/01.mdx:1:0dd955705d",
+      "path": "03-widget-tree/01.mdx",
+      "line": 6,
+      "ordinal": 1,
+      "kind": "prose",
+      "text": "2장에서 '나의 첫 앱'을 실행해 봤어요.",
+      "text_sha256": "0dd955705d392bf731f38da4f9dfe6b6f10350c68d3ad4f4dce732a27bf4ce52"
+    },
+    {
+      "id": "03-widget-tree/01.mdx:2:b80e4add43",
+      "path": "03-widget-tree/01.mdx",
+      "line": 6,
+      "ordinal": 2,
+      "kind": "prose",
+      "text": "화면에는 제목 막대와 글자 한 줄이 떠 있었죠.",
+      "text_sha256": "b80e4add43ee253b9f9feabc49b304290eb9152f72f3644dcc08bc3b4766b11a"
+    },
+    {
+      "id": "03-widget-tree/01.mdx:3:13a3b62c14",
+      "path": "03-widget-tree/01.mdx",
+      "line": 6,
+      "ordinal": 3,
+      "kind": "prose",
+      "text": "이 화면은 무엇으로 만들어졌을까요?",
+      "text_sha256": "13a3b62c14bbc245e32bab560c4e9822df337f69187c58e9d255722a9e1bc501"
+    },
+    {
+      "id": "03-widget-tree/01.mdx:4:d22aeebc6f",
+      "path": "03-widget-tree/01.mdx",
+      "line": 6,
+      "ordinal": 4,
+      "kind": "prose",
+      "text": "답은 위젯이에요.",
+      "text_sha256": "d22aeebc6f2d3571341b2a96bbb7fc3ca4830dc3bae2e47f391351e8eea03294"
+    },
+    {
+      "id": "03-widget-tree/01.mdx:5:dfd98aa812",
+      "path": "03-widget-tree/01.mdx",
+      "line": 8,
+      "ordinal": 5,
+      "kind": "prose",
+      "text": "위젯은 화면을 이루는 부품이에요.",
+      "text_sha256": "dfd98aa81232c0edfb9185952aff5287e645d2bf1a54a7fa773d13630baeeda1"
+    },
+    {
+      "id": "03-widget-tree/01.mdx:6:ea75844028",
+      "path": "03-widget-tree/01.mdx",
+      "line": 8,
+      "ordinal": 6,
+      "kind": "prose",
+      "text": "버튼도 위젯이고, 글자도 위젯이에요.",
+      "text_sha256": "ea7584402818916e04ac3efbcdb81ac88897f55013ec81b6ee985457b4929dd1"
+    },
+    {
+      "id": "03-widget-tree/01.mdx:7:140e8b1f2a",
+      "path": "03-widget-tree/01.mdx",
+      "line": 8,
+      "ordinal": 7,
+      "kind": "prose",
+      "text": "글자 둘레의 여백도 위젯이고, 화면 전체도 하나의 큰 위젯이에요.",
+      "text_sha256": "140e8b1f2a9ca3bd782db48066fb0ad543b5bd992c44d1f47dee50248f1ec09a"
+    },
+    {
+      "id": "03-widget-tree/01.mdx:8:1eed1bbc36",
+      "path": "03-widget-tree/01.mdx",
+      "line": 8,
+      "ordinal": 8,
+      "kind": "prose",
+      "text": "Flutter 공식 문서는 이를 \"모든 것이 위젯\"이라고 말해요.",
+      "text_sha256": "1eed1bbc362414c68cb067ef6b3712eb97407a820aadcdf7e1ccb254cd59a0f3"
+    },
+    {
+      "id": "03-widget-tree/01.mdx:9:2bba1e36ad",
+      "path": "03-widget-tree/01.mdx",
+      "line": 8,
+      "ordinal": 9,
+      "kind": "prose",
+      "text": "눈에 보이는 것부터 자리만 잡아 주는 것까지, 화면의 전부가 부품 하나하나로 되어 있다는 뜻이에요.",
+      "text_sha256": "2bba1e36ad7fbe8d21f05814657813f3453f53893f1533568a25c55943fd2da4"
+    },
+    {
+      "id": "03-widget-tree/01.mdx:10:2be130ed5b",
+      "path": "03-widget-tree/01.mdx",
+      "line": 10,
+      "ordinal": 10,
+      "kind": "prose",
+      "text": "부품은 혼자 있지 않아요.",
+      "text_sha256": "2be130ed5bfe363788959190e2a8fa3df0630911566f8e157165fe1fc6005a98"
+    },
+    {
+      "id": "03-widget-tree/01.mdx:11:fe196abf09",
+      "path": "03-widget-tree/01.mdx",
+      "line": 10,
+      "ordinal": 11,
+      "kind": "prose",
+      "text": "위젯은 다른 위젯을 품어요.",
+      "text_sha256": "fe196abf090ccd0cc3eeb2609a1b51e623cdfa1f0ca8d7e67ec8a8e8b9eb553f"
+    },
+    {
+      "id": "03-widget-tree/01.mdx:12:2c83c8e0ad",
+      "path": "03-widget-tree/01.mdx",
+      "line": 10,
+      "ordinal": 12,
+      "kind": "prose",
+      "text": "품는 쪽을 부모라고 하고, 안기는 쪽을 자식이라고 불러요.",
+      "text_sha256": "2c83c8e0ad5e3be98a119156f626d9c127f8c95467461b99e88e4e478de26081"
+    },
+    {
+      "id": "03-widget-tree/01.mdx:13:f73b12e70e",
+      "path": "03-widget-tree/01.mdx",
+      "line": 10,
+      "ordinal": 13,
+      "kind": "prose",
+      "text": "화면 전체를 맡는 위젯이 제목 막대 위젯을 품고, 제목 막대 위젯이 글자 위젯을 품는 식이에요.",
+      "text_sha256": "f73b12e70e7aa7a43d26d5afce0b7814307bc6b1bee84026a2fde3aca5d8e811"
+    },
+    {
+      "id": "03-widget-tree/01.mdx:14:ef153fb481",
+      "path": "03-widget-tree/01.mdx",
+      "line": 12,
+      "ordinal": 14,
+      "kind": "prose",
+      "text": "부모가 자식을 품고, 그 자식이 또 자식을 품으면서 쌓인 전체 모양을 트리라고 해요.",
+      "text_sha256": "ef153fb4814413da977f5fa91bf2a216145ed6c9bc42800e505ff35f32ee750b"
+    },
+    {
+      "id": "03-widget-tree/01.mdx:15:d96bf9aecd",
+      "path": "03-widget-tree/01.mdx",
+      "line": 12,
+      "ordinal": 15,
+      "kind": "prose",
+      "text": "나무를 뒤집은 모양의 구조도라서 붙은 이름이에요.",
+      "text_sha256": "d96bf9aecd566bee9930f11f8f3e8345b1ae52f465cbdcb327e0aa9e6dddcb0c"
+    },
+    {
+      "id": "03-widget-tree/01.mdx:16:838033d974",
+      "path": "03-widget-tree/01.mdx",
+      "line": 12,
+      "ordinal": 16,
+      "kind": "prose",
+      "text": "맨 위에 뿌리가 하나 있고, 아래로 가지가 뻗어 나가요.",
+      "text_sha256": "838033d974898aa494d86fa0b7374c3b687ace55fd16e61ba1e15d9b0098e5dd"
+    },
+    {
+      "id": "03-widget-tree/01.mdx:17:fa407bad77",
+      "path": "03-widget-tree/01.mdx",
+      "line": 16,
+      "ordinal": 17,
+      "kind": "prose",
+      "text": "위 그림이 바로 '나의 첫 앱' 화면의 트리예요.",
+      "text_sha256": "fa407bad7796b831b62a219db0aada697048a1f284a4534dd12c4ae2f7184f1b"
+    },
+    {
+      "id": "03-widget-tree/01.mdx:18:200b05291d",
+      "path": "03-widget-tree/01.mdx",
+      "line": 16,
+      "ordinal": 18,
+      "kind": "prose",
+      "text": "낯익은 이름이 보이죠?",
+      "text_sha256": "200b05291d6ee48c10dcf64c9374a2f264bdaf1da97b730d38decddde43fe6d7"
+    },
+    {
+      "id": "03-widget-tree/01.mdx:19:698527920c",
+      "path": "03-widget-tree/01.mdx",
+      "line": 16,
+      "ordinal": 19,
+      "kind": "prose",
+      "text": "MaterialApp, Scaffold, AppBar, Center, Text.",
+      "text_sha256": "698527920cd20f58135d57ca8db9ee7be62b71c6c47ebf95a6466947a943c869"
+    },
+    {
+      "id": "03-widget-tree/01.mdx:20:c35cf15f0e",
+      "path": "03-widget-tree/01.mdx",
+      "line": 16,
+      "ordinal": 20,
+      "kind": "prose",
+      "text": "2장에서 이름만 스쳐 봤던 것들이 사실 전부 위젯이었어요.",
+      "text_sha256": "c35cf15f0e273684c9f9948b55fef6aa572a85a224606ffe01ee8957d5709222"
+    },
+    {
+      "id": "03-widget-tree/01.mdx:21:fa60caf1e0",
+      "path": "03-widget-tree/01.mdx",
+      "line": 18,
+      "ordinal": 21,
+      "kind": "prose",
+      "text": "트리의 맨 위, 곧 뿌리는 MaterialApp이에요.",
+      "text_sha256": "fa60caf1e07ef3cb5b670e3e2081e70b83afa27e6cc3ad9f5ac983d4697eeb68"
+    },
+    {
+      "id": "03-widget-tree/01.mdx:22:8fd1b18b09",
+      "path": "03-widget-tree/01.mdx",
+      "line": 18,
+      "ordinal": 22,
+      "kind": "prose",
+      "text": "화면 전체를 품는 가장 큰 부모예요.",
+      "text_sha256": "8fd1b18b0944aceb4b15aa8606558cba53a55a24373a6552524c98e133a16cee"
+    },
+    {
+      "id": "03-widget-tree/01.mdx:23:f77ab53d19",
+      "path": "03-widget-tree/01.mdx",
+      "line": 18,
+      "ordinal": 23,
+      "kind": "prose",
+      "text": "반대로 맨 끝에 매달린 Text는 더는 아무도 품지 않아요.",
+      "text_sha256": "f77ab53d19bdb029e3281ed448294e6c8822067c80f36c15765a5379c32edfc9"
+    },
+    {
+      "id": "03-widget-tree/01.mdx:24:357e11c0e7",
+      "path": "03-widget-tree/01.mdx",
+      "line": 18,
+      "ordinal": 24,
+      "kind": "prose",
+      "text": "그래서 잎이라고 불러요.",
+      "text_sha256": "357e11c0e735437aa992d24707176c1d15467f35ba242302d6217af4c608e842"
+    },
+    {
+      "id": "03-widget-tree/01.mdx:25:2d46ede649",
+      "path": "03-widget-tree/01.mdx",
+      "line": 18,
+      "ordinal": 25,
+      "kind": "prose",
+      "text": "우리가 화면에서 실제로 본 글자가 바로 이 잎이에요.",
+      "text_sha256": "2d46ede6492517c5edb9893b2ce6e83b49a16d8ad6b9c235da8bc7c7da2ba69c"
+    },
+    {
+      "id": "03-widget-tree/01.mdx:26:7a131c2e6f",
+      "path": "03-widget-tree/01.mdx",
+      "line": 20,
+      "ordinal": 26,
+      "kind": "prose",
+      "text": "정리할게요.",
+      "text_sha256": "7a131c2e6fb906cf2478fd2493de86f2f096432b51cb463af92193a875fa6142"
+    },
+    {
+      "id": "03-widget-tree/01.mdx:27:ffba68165c",
+      "path": "03-widget-tree/01.mdx",
+      "line": 20,
+      "ordinal": 27,
+      "kind": "prose",
+      "text": "위젯은 화면의 부품이에요.",
+      "text_sha256": "ffba68165cfd494fb4e27521c790c420b9b2aaf29357fffa3de74613796e26bb"
+    },
+    {
+      "id": "03-widget-tree/01.mdx:28:bcf5d7ae65",
+      "path": "03-widget-tree/01.mdx",
+      "line": 20,
+      "ordinal": 28,
+      "kind": "prose",
+      "text": "부모가 자식을 품으면서 트리를 이뤄요.",
+      "text_sha256": "bcf5d7ae65393a265cb902bac3ab775becb8cbb3012a14897d7e32d689a07a4c"
+    },
+    {
+      "id": "03-widget-tree/01.mdx:29:ecc1d843b0",
+      "path": "03-widget-tree/01.mdx",
+      "line": 20,
+      "ordinal": 29,
+      "kind": "prose",
+      "text": "코드를 읽을 때 이 트리를 머릿속에 그려 보세요.",
+      "text_sha256": "ecc1d843b00d556fa1e7a600c6cfbf6f7de573391b43f1af85aa0d65fbf9c5cf"
+    },
+    {
+      "id": "03-widget-tree/01.mdx:30:5db5377cad",
+      "path": "03-widget-tree/01.mdx",
+      "line": 20,
+      "ordinal": 30,
+      "kind": "prose",
+      "text": "어떤 위젯이 어떤 위젯 안에 있는지가 한눈에 들어와요.",
+      "text_sha256": "5db5377cad3e606cefae1e9b0f7bafcea4a6cb28f6991fbe35c5ecd7bbf7343a"
+    },
+    {
+      "id": "03-widget-tree/02.mdx:1:d977f9f84d",
+      "path": "03-widget-tree/02.mdx",
+      "line": 6,
+      "ordinal": 1,
+      "kind": "prose",
+      "text": "3.1에서 화면 전체가 트리라는 걸 봤어요.",
+      "text_sha256": "d977f9f84dc47c5b507247d713ec2830a9dcfe5d1b945180f7d0b4f89aaf9eb6"
+    },
+    {
+      "id": "03-widget-tree/02.mdx:2:6e44febca8",
+      "path": "03-widget-tree/02.mdx",
+      "line": 6,
+      "ordinal": 2,
+      "kind": "prose",
+      "text": "그런데 코드 어디에 그 트리가 숨어 있을까요?",
+      "text_sha256": "6e44febca8f79e15bd22a317c2fc623b89f9420ca8525309f9b251ad4d72ccf5"
+    },
+    {
+      "id": "03-widget-tree/02.mdx:3:0d32f51822",
+      "path": "03-widget-tree/02.mdx",
+      "line": 6,
+      "ordinal": 3,
+      "kind": "prose",
+      "text": "답은 들여쓰기예요.",
+      "text_sha256": "0d32f5182213dc46761cc7abd803f4a79d08e2bd580ca8a5b0b235a632bf1193"
+    },
+    {
+      "id": "03-widget-tree/02.mdx:4:c598f6013f",
+      "path": "03-widget-tree/02.mdx",
+      "line": 6,
+      "ordinal": 4,
+      "kind": "prose",
+      "text": "규칙은 하나뿐이에요.",
+      "text_sha256": "c598f6013f150f72c68216fac380432bf8f0f05f26472f26de55bed51a2c3c03"
+    },
+    {
+      "id": "03-widget-tree/02.mdx:5:36b9e845a0",
+      "path": "03-widget-tree/02.mdx",
+      "line": 6,
+      "ordinal": 5,
+      "kind": "prose",
+      "text": "안으로 들어갈수록 자식이에요.",
+      "text_sha256": "36b9e845a0c878d9f17d0e32ffe3a5953f88d9ef42877fe85e8973ca2194c8d1"
+    },
+    {
+      "id": "03-widget-tree/02.mdx:6:623e9ccad3",
+      "path": "03-widget-tree/02.mdx",
+      "line": 8,
+      "ordinal": 6,
+      "kind": "prose",
+      "text": "2장에서 실행해 본 코드를 다시 볼게요.",
+      "text_sha256": "623e9ccad3d97ab6228f2b4e2aae674c9922e0407d68f6c8afb2e7dcc9da55e2"
+    },
+    {
+      "id": "03-widget-tree/02.mdx:7:1ae91ee3b0",
+      "path": "03-widget-tree/02.mdx",
+      "line": 23,
+      "ordinal": 7,
+      "kind": "prose",
+      "text": "들여쓰기를 따라 소리 내어 읽어 볼게요.",
+      "text_sha256": "1ae91ee3b0b09b27a62e0159cddadad3d1102561ad59e613739d4deb51e1c842"
+    },
+    {
+      "id": "03-widget-tree/02.mdx:8:82a10b4050",
+      "path": "03-widget-tree/02.mdx",
+      "line": 23,
+      "ordinal": 8,
+      "kind": "prose",
+      "text": "\"MaterialApp이 Scaffold를 품고, Scaffold가 AppBar와 Center를 품고, Center가 Text를 품는다.\"",
+      "text_sha256": "82a10b4050cc5bcefe9464513c90040f70277c74187cd31672077a89d0d67094"
+    },
+    {
+      "id": "03-widget-tree/02.mdx:9:324a203dfe",
+      "path": "03-widget-tree/02.mdx",
+      "line": 23,
+      "ordinal": 9,
+      "kind": "prose",
+      "text": "한 칸 더 안쪽에 있으면 그 위젯의 자식이라는 뜻이에요.",
+      "text_sha256": "324a203dfe56b76db0918995e0442cad6484825f3fe93feecfedbdaeaad36e5e"
+    },
+    {
+      "id": "03-widget-tree/02.mdx:10:4003b7dcc1",
+      "path": "03-widget-tree/02.mdx",
+      "line": 23,
+      "ordinal": 10,
+      "kind": "prose",
+      "text": "계단을 내려가듯 읽으면 돼요.",
+      "text_sha256": "4003b7dcc1cb2e38eda9b68c7b8c6b3399f3f020f6795b3323a5016ebc56d47d"
+    },
+    {
+      "id": "03-widget-tree/02.mdx:11:fb36a5c0b0",
+      "path": "03-widget-tree/02.mdx",
+      "line": 25,
+      "ordinal": 11,
+      "kind": "prose",
+      "text": "코드에는 자식을 넣는 자리에 이름표가 붙어 있어요. child예요.",
+      "text_sha256": "fb36a5c0b0c3dc331f476962cc30a18c0194cbf422eda7cf8f521fee3b528b9b"
+    },
+    {
+      "id": "03-widget-tree/02.mdx:12:dd274fb96f",
+      "path": "03-widget-tree/02.mdx",
+      "line": 25,
+      "ordinal": 12,
+      "kind": "prose",
+      "text": "영어로 '자식'이라는 뜻이에요. child: 다음에 오는 위젯이 곧 자식이에요.",
+      "text_sha256": "dd274fb96f1b445e7db9671a570ff2e396583771b5a353ad5f830ee9da682a66"
+    },
+    {
+      "id": "03-widget-tree/02.mdx:13:c6624cf8ba",
+      "path": "03-widget-tree/02.mdx",
+      "line": 25,
+      "ordinal": 13,
+      "kind": "prose",
+      "text": "위 코드에서 Center의 child는 Text죠.",
+      "text_sha256": "c6624cf8ba816d0a364a10c0cfc79b03c99ac21606e1a7887a588c3042fb1484"
+    },
+    {
+      "id": "03-widget-tree/02.mdx:14:14e49d0375",
+      "path": "03-widget-tree/02.mdx",
+      "line": 25,
+      "ordinal": 14,
+      "kind": "prose",
+      "text": "그래서 \"Center가 Text를 품는다\"라고 읽은 거예요.",
+      "text_sha256": "14e49d037506fb7f56f39e55fdb6c739de05723c5e301ac9076aacaaca095f86"
+    },
+    {
+      "id": "03-widget-tree/02.mdx:15:d737d9b1f1",
+      "path": "03-widget-tree/02.mdx",
+      "line": 27,
+      "ordinal": 15,
+      "kind": "prose",
+      "text": "트리를 읽을 줄 알면 두 가지가 달라져요.",
+      "text_sha256": "d737d9b1f1a15ac7366bd568c6a4a5bb40030f27b70ae86653dca8b985fb6b50"
+    },
+    {
+      "id": "03-widget-tree/02.mdx:16:852c6c3c41",
+      "path": "03-widget-tree/02.mdx",
+      "line": 27,
+      "ordinal": 16,
+      "kind": "prose",
+      "text": "첫째, AI가 만든 코드가 어떤 화면이 될지 실행 전에 그려 볼 수 있어요.",
+      "text_sha256": "852c6c3c414b2a403b038c043ec48280e660591ce5115bece6e64bcc1d4ef307"
+    },
+    {
+      "id": "03-widget-tree/02.mdx:17:f626c52367",
+      "path": "03-widget-tree/02.mdx",
+      "line": 27,
+      "ordinal": 17,
+      "kind": "prose",
+      "text": "코드를 읽고 판단하는 사람의 몫, 1장에서 말한 바이브 코딩의 절반이 바로 이거예요.",
+      "text_sha256": "f626c523674f6b3f401ed51bb498d3d0c19e4867ad3078d07d82de2b9ee88a9e"
+    },
+    {
+      "id": "03-widget-tree/02.mdx:18:d72f26c4f3",
+      "path": "03-widget-tree/02.mdx",
+      "line": 27,
+      "ordinal": 18,
+      "kind": "prose",
+      "text": "둘째, 프롬프트가 좋아져요.",
+      "text_sha256": "d72f26c4f31a8658a43d79d0e556e42867a815e4234c091a4a808583866f0ced"
+    },
+    {
+      "id": "03-widget-tree/02.mdx:19:e6e774af0e",
+      "path": "03-widget-tree/02.mdx",
+      "line": 27,
+      "ordinal": 19,
+      "kind": "prose",
+      "text": "\"위쪽에 제목 막대, 가운데에 인사말을 놓아 줘\"처럼 구조로 부탁할 수 있으니까요.",
+      "text_sha256": "e6e774af0e900f66f90dc0ab9190198bf20b8943cf87a7f411d512e8228fc319"
+    },
+    {
+      "id": "03-widget-tree/02.mdx:20:79959ed403",
+      "path": "03-widget-tree/02.mdx",
+      "line": 29,
+      "ordinal": 20,
+      "kind": "prose",
+      "text": "짧은 연습 하나 해 볼까요.",
+      "text_sha256": "79959ed403bca5269b605f4ea9381d17f4c0cd9f2e84a2d7b6c70dc8d1d92970"
+    },
+    {
+      "id": "03-widget-tree/02.mdx:21:eebb41fa54",
+      "path": "03-widget-tree/02.mdx",
+      "line": 29,
+      "ordinal": 21,
+      "kind": "prose",
+      "text": "위 코드를 보고 종이에 네모와 선으로 트리를 그려 보세요.",
+      "text_sha256": "eebb41fa54b968a3b60eeeaaaecee46a32ec91c90af3b021ad81312b207cfd21"
+    },
+    {
+      "id": "03-widget-tree/02.mdx:22:f49a9ae017",
+      "path": "03-widget-tree/02.mdx",
+      "line": 29,
+      "ordinal": 22,
+      "kind": "prose",
+      "text": "위젯 하나가 네모 하나, 품는 관계가 선 하나예요.",
+      "text_sha256": "f49a9ae01712d008854fbb428cbad5bfa4665bed6ced90a48ce96c14f0cacf20"
+    },
+    {
+      "id": "03-widget-tree/02.mdx:23:e4e3c45dc8",
+      "path": "03-widget-tree/02.mdx",
+      "line": 29,
+      "ordinal": 23,
+      "kind": "prose",
+      "text": "3.1에서 본 트리 그림과 비슷하게 나오면 제대로 읽은 거예요.",
+      "text_sha256": "e4e3c45dc8479972811910cb86d7102392fdbd123183b760550a20bb62648ced"
+    },
+    {
+      "id": "03-widget-tree/03.mdx:1:6877017d64",
+      "path": "03-widget-tree/03.mdx",
+      "line": 6,
+      "ordinal": 1,
+      "kind": "prose",
+      "text": "화면을 바꾸고 싶을 때가 왔어요.",
+      "text_sha256": "6877017d64385a2ab77b9886f0ef8b31376a8e832306ce5ff8c6c6c4dad0a342"
+    },
+    {
+      "id": "03-widget-tree/03.mdx:2:fa56c912d9",
+      "path": "03-widget-tree/03.mdx",
+      "line": 6,
+      "ordinal": 2,
+      "kind": "prose",
+      "text": "이럴 때 코드부터 열면 길을 잃기 쉬워요.",
+      "text_sha256": "fa56c912d97701e0008d57636fd76fd5983326d667756907de2a039b4305e4be"
+    },
+    {
+      "id": "03-widget-tree/03.mdx:3:e737c9c4b1",
+      "path": "03-widget-tree/03.mdx",
+      "line": 6,
+      "ordinal": 3,
+      "kind": "prose",
+      "text": "먼저 트리를 고쳐 그려요.",
+      "text_sha256": "e737c9c4b1e1ae8e1800031f2755fc244221656175f20968662b954e1f32c120"
+    },
+    {
+      "id": "03-widget-tree/03.mdx:4:8196274e39",
+      "path": "03-widget-tree/03.mdx",
+      "line": 6,
+      "ordinal": 4,
+      "kind": "prose",
+      "text": "어디에 무엇이 들어갈지 그림으로 정한 다음에 부탁하는 거예요.",
+      "text_sha256": "8196274e391b4025558af0bdfd188c4afedd7ceeef37bbd6ba6177e399c2e52f"
+    },
+    {
+      "id": "03-widget-tree/03.mdx:5:60f18d78f2",
+      "path": "03-widget-tree/03.mdx",
+      "line": 8,
+      "ordinal": 5,
+      "kind": "prose",
+      "text": "2장에서 만든 '나의 첫 앱'에 버튼을 하나 넣어 볼게요.",
+      "text_sha256": "60f18d78f2f93de48f1bd3c55eeddb72aad943b8ff50e43c516cd6f43042f295"
+    },
+    {
+      "id": "03-widget-tree/03.mdx:6:1b30b27d80",
+      "path": "03-widget-tree/03.mdx",
+      "line": 8,
+      "ordinal": 6,
+      "kind": "prose",
+      "text": "가운데 인사말 아래에 '눌러 보세요' 버튼을 두고 싶어요.",
+      "text_sha256": "1b30b27d806d3dd430586f3eb09c1939e064e7840073e9862b501c9e1023c5c5"
+    },
+    {
+      "id": "03-widget-tree/03.mdx:7:3e8a752397",
+      "path": "03-widget-tree/03.mdx",
+      "line": 8,
+      "ordinal": 7,
+      "kind": "prose",
+      "text": "지금 트리에서 Center의 자식은 Text 하나예요.",
+      "text_sha256": "3e8a75239713cc594677183e564016f922c7913f66d73ef611bec570db9d347e"
+    },
+    {
+      "id": "03-widget-tree/03.mdx:8:9afcaab9ea",
+      "path": "03-widget-tree/03.mdx",
+      "line": 8,
+      "ordinal": 8,
+      "kind": "prose",
+      "text": "그런데 버튼이 들어오면 자식이 둘이 돼요.",
+      "text_sha256": "9afcaab9ea78fe5ea0a06942f7eb981a8ccf78823991090d365153b55a5952ff"
+    },
+    {
+      "id": "03-widget-tree/03.mdx:9:03ffe2f2ea",
+      "path": "03-widget-tree/03.mdx",
+      "line": 8,
+      "ordinal": 9,
+      "kind": "prose",
+      "text": "Center의 child 자리는 하나뿐이라 곤란해요.",
+      "text_sha256": "03ffe2f2eac277777facaa259e3ad839ea41a38d851c62d7095cfcc2c0342b4a"
+    },
+    {
+      "id": "03-widget-tree/03.mdx:10:473643b570",
+      "path": "03-widget-tree/03.mdx",
+      "line": 8,
+      "ordinal": 10,
+      "kind": "prose",
+      "text": "그래서 사이에 새 위젯이 필요해요.",
+      "text_sha256": "473643b570b6fc2b993e6a3994d7f91576dcab11af2ab302490d3a15effa1fbe"
+    },
+    {
+      "id": "03-widget-tree/03.mdx:11:ebbaaa586c",
+      "path": "03-widget-tree/03.mdx",
+      "line": 8,
+      "ordinal": 11,
+      "kind": "prose",
+      "text": "Column이에요.",
+      "text_sha256": "ebbaaa586ce4f91f7115d0abfcfa4341e5248173a40bc9c61ad14712b323e4c7"
+    },
+    {
+      "id": "03-widget-tree/03.mdx:12:bcfe1ec09e",
+      "path": "03-widget-tree/03.mdx",
+      "line": 8,
+      "ordinal": 12,
+      "kind": "prose",
+      "text": "Column은 자식들을 세로로 나란히 늘어놓는 위젯이에요.",
+      "text_sha256": "bcfe1ec09e53b0570431d81c6424cf179ae2e7e825eb1e7eabfe8a6ea9c32eb2"
+    },
+    {
+      "id": "03-widget-tree/03.mdx:13:a5feeaade6",
+      "path": "03-widget-tree/03.mdx",
+      "line": 8,
+      "ordinal": 13,
+      "kind": "prose",
+      "text": "Center의 자식 자리에 Column을 넣고, Column의 자식으로 Text와 버튼을 두면 돼요.",
+      "text_sha256": "a5feeaade6668e073f3601e41efb3219a4d429d3cec2beb5b95a41b8213ba46f"
+    },
+    {
+      "id": "03-widget-tree/03.mdx:14:ea2bd63987",
+      "path": "03-widget-tree/03.mdx",
+      "line": 12,
+      "ordinal": 14,
+      "kind": "prose",
+      "text": "그림이 바꾸기 전과 후의 트리예요.",
+      "text_sha256": "ea2bd6398744583b46db054ca1c5105e51161fce380d623d9829c56aee9b914b"
+    },
+    {
+      "id": "03-widget-tree/03.mdx:15:653a2304d0",
+      "path": "03-widget-tree/03.mdx",
+      "line": 12,
+      "ordinal": 15,
+      "kind": "prose",
+      "text": "Text가 Column 아래로 한 칸 내려가고, 그 옆에 버튼이 생겼어요.",
+      "text_sha256": "653a2304d05c5d01408ccfc0c89124bfe05e5ec8bd90e4d31f491fbbe8206650"
+    },
+    {
+      "id": "03-widget-tree/03.mdx:16:152797772b",
+      "path": "03-widget-tree/03.mdx",
+      "line": 12,
+      "ordinal": 16,
+      "kind": "prose",
+      "text": "트리가 이렇게 머리에 있으면 부탁이 구체적으로 나와요.",
+      "text_sha256": "152797772b0fa25d3e00e47f1b6428ffec28ffdaed5407a52a68348e147cf16a"
+    },
+    {
+      "id": "03-widget-tree/03.mdx:17:2e0f893113",
+      "path": "03-widget-tree/03.mdx",
+      "line": 12,
+      "ordinal": 17,
+      "kind": "prose",
+      "text": "\"가운데 인사말 아래에 '눌러 보세요' 버튼을 추가해 줘.\"",
+      "text_sha256": "2e0f893113cd29a59455dc25cc298dfff96971bd9223c65f515c95bd34399c2f"
+    },
+    {
+      "id": "03-widget-tree/03.mdx:18:2544a13a33",
+      "path": "03-widget-tree/03.mdx",
+      "line": 12,
+      "ordinal": 18,
+      "kind": "prose",
+      "text": "어디에, 무엇을, 어떤 글자로 — 필요한 내용이 한 문장에 다 들어 있어요.",
+      "text_sha256": "2544a13a333ddc6b57747cb6a7a8c0d67624c28d1fa83897ef4c23516996ba8f"
+    },
+    {
+      "id": "03-widget-tree/03.mdx:19:0a9d2c98f1",
+      "path": "03-widget-tree/03.mdx",
+      "line": 14,
+      "ordinal": 19,
+      "kind": "prose",
+      "text": "AI가 코드를 돌려주면 확인할 곳도 이미 알고 있어요.",
+      "text_sha256": "0a9d2c98f1753e7b1c147b2924e9d3f3dd374b998d781e2fafc7f19197d2622c"
+    },
+    {
+      "id": "03-widget-tree/03.mdx:20:b9dbf82f61",
+      "path": "03-widget-tree/03.mdx",
+      "line": 14,
+      "ordinal": 20,
+      "kind": "prose",
+      "text": "Column이 생겼는지, 그 자식이 둘인지예요.",
+      "text_sha256": "b9dbf82f617038ba0355dc5d6af386fea42f0779ceddf94cbd83f976676605d9"
+    },
+    {
+      "id": "03-widget-tree/03.mdx:21:7045cd230d",
+      "path": "03-widget-tree/03.mdx",
+      "line": 14,
+      "ordinal": 21,
+      "kind": "prose",
+      "text": "앞에서 익힌 대로 들여쓰기를 보면 돼요.",
+      "text_sha256": "7045cd230d9f07a699d8fcfdc8833a31c7725fe1b0c78c9cb1e4ba240bd6683c"
+    },
+    {
+      "id": "03-widget-tree/03.mdx:22:3d949cef2f",
+      "path": "03-widget-tree/03.mdx",
+      "line": 14,
+      "ordinal": 22,
+      "kind": "prose",
+      "text": "Column보다 한 단 더 들어간 줄이 두 개면 자식이 둘이라는 뜻이에요.",
+      "text_sha256": "3d949cef2fc7058319eddf2a62d6460e33ede7409a2743f6dfa46c6ae007a415"
+    },
+    {
+      "id": "03-widget-tree/03.mdx:23:3a2b487ce2",
+      "path": "03-widget-tree/03.mdx",
+      "line": 14,
+      "ordinal": 23,
+      "kind": "prose",
+      "text": "하나라도 다르면 그림과 코드를 대조해서 다시 부탁하면 돼요.",
+      "text_sha256": "3a2b487ce2f41c775f6b8184959c26294f86ef23cb14de852acdc7a63b2df374"
+    },
+    {
+      "id": "03-widget-tree/03.mdx:24:b31956dc82",
+      "path": "03-widget-tree/03.mdx",
+      "line": 16,
+      "ordinal": 24,
+      "kind": "prose",
+      "text": "정리해 볼게요.",
+      "text_sha256": "b31956dc8252bda56b787fcb8dd141d4ab60e487c9dba75dd908bd1a39e656cb"
+    },
+    {
+      "id": "03-widget-tree/03.mdx:25:49aa0a98f1",
+      "path": "03-widget-tree/03.mdx",
+      "line": 16,
+      "ordinal": 25,
+      "kind": "prose",
+      "text": "그림 먼저, 부탁은 그다음, 코드는 확인.",
+      "text_sha256": "49aa0a98f1bddfac454940e340a43fe8fbf9a9c5504e8151eb238287e7ca8e6b"
+    },
+    {
+      "id": "03-widget-tree/03.mdx:26:eca23a4753",
+      "path": "03-widget-tree/03.mdx",
+      "line": 16,
+      "ordinal": 26,
+      "kind": "prose",
+      "text": "이 순서가 이번 챕터에서 익힌 습관이에요.",
+      "text_sha256": "eca23a4753b7bc293663b040fb51da51457f812b3f3765b73865027d2c0a63d6"
+    },
+    {
+      "id": "03-widget-tree/03.mdx:27:81b0683bb9",
+      "path": "03-widget-tree/03.mdx",
+      "line": 16,
+      "ordinal": 27,
+      "kind": "prose",
+      "text": "트리를 그릴 줄 알면 바꾸고 싶은 화면을 정확히 말할 수 있고, 돌아온 코드도 스스로 판단할 수 있어요.",
+      "text_sha256": "81b0683bb9afa570594ed18fd339223bc8dffc96aba0b581a20c42402caab608"
+    },
+    {
+      "id": "04-state/01.mdx:1:22b4f2ab81",
+      "path": "04-state/01.mdx",
+      "line": 6,
+      "ordinal": 1,
+      "kind": "prose",
+      "text": "3장 끝에서 '눌러 보세요' 버튼을 화면에 올렸어요.",
+      "text_sha256": "22b4f2ab814dc5b9e52554d5053dd8eaf9aea1ab9d4553aa0bfa5c69bd117787"
+    },
+    {
+      "id": "04-state/01.mdx:2:8dfdc33846",
+      "path": "04-state/01.mdx",
+      "line": 6,
+      "ordinal": 2,
+      "kind": "prose",
+      "text": "한번 눌러 보세요.",
+      "text_sha256": "8dfdc3384646494c05d31a4d171ee763a34387279a8a0d01856585fd63dd97c1"
+    },
+    {
+      "id": "04-state/01.mdx:3:9b618aa782",
+      "path": "04-state/01.mdx",
+      "line": 6,
+      "ordinal": 3,
+      "kind": "prose",
+      "text": "아무 일도 일어나지 않아요.",
+      "text_sha256": "9b618aa782125b666c9851da91f8565ac8f46e84f87f1b191fa25051ac41dce4"
+    },
+    {
+      "id": "04-state/01.mdx:4:62596e4d61",
+      "path": "04-state/01.mdx",
+      "line": 6,
+      "ordinal": 4,
+      "kind": "prose",
+      "text": "지금까지 만든 화면은 사진처럼 멈춰 있었거든요.",
+      "text_sha256": "62596e4d617bfe3f16cdc260f6356838f22fbaebc2b09a5f229a67e754594b3c"
+    },
+    {
+      "id": "04-state/01.mdx:5:f68b5079e4",
+      "path": "04-state/01.mdx",
+      "line": 6,
+      "ordinal": 5,
+      "kind": "prose",
+      "text": "코드에 적힌 그대로, 늘 같은 모습만 보여 줘요.",
+      "text_sha256": "f68b5079e404315b2af5165e4426fd50beee2ff9a966b8f06aa4fe0b5b4a5337"
+    },
+    {
+      "id": "04-state/01.mdx:6:e799aff4ac",
+      "path": "04-state/01.mdx",
+      "line": 6,
+      "ordinal": 6,
+      "kind": "prose",
+      "text": "그래서 '정지 화면'이라고 부를 수 있어요.",
+      "text_sha256": "e799aff4ac65aecea2c39ad7b7eed14567804d43b39ee2bcaada2183bd7aa4c2"
+    },
+    {
+      "id": "04-state/01.mdx:7:c71e5b2298",
+      "path": "04-state/01.mdx",
+      "line": 8,
+      "ordinal": 7,
+      "kind": "prose",
+      "text": "그런데 우리가 매일 쓰는 앱은 달라요.",
+      "text_sha256": "c71e5b22986fcd68624c91641df7c6354e8e601272ed80fb5744e1eccc9761d9"
+    },
+    {
+      "id": "04-state/01.mdx:8:39d5efe671",
+      "path": "04-state/01.mdx",
+      "line": 8,
+      "ordinal": 8,
+      "kind": "prose",
+      "text": "버튼을 누르면 숫자가 올라가고, 스위치를 켜면 색이 바뀌어요.",
+      "text_sha256": "39d5efe67173f2deb818919c10da32ab798fd3c077bcae421c3d1280e763b99b"
+    },
+    {
+      "id": "04-state/01.mdx:9:ba3027b45d",
+      "path": "04-state/01.mdx",
+      "line": 8,
+      "ordinal": 9,
+      "kind": "prose",
+      "text": "화면이 이렇게 반응하려면, 앱이 먼저 무언가를 기억하고 있어야 해요.",
+      "text_sha256": "ba3027b45d07a2e269d9efb6c3041a6a465379bde23363bf0c01f9f3711ee0ae"
+    },
+    {
+      "id": "04-state/01.mdx:10:a6c52c19b2",
+      "path": "04-state/01.mdx",
+      "line": 8,
+      "ordinal": 10,
+      "kind": "prose",
+      "text": "지금까지 몇 번 눌렸는지 기억해야, 다음에 어떤 숫자를 보여 줄지 알 수 있으니까요.",
+      "text_sha256": "a6c52c19b2d6e7500b720b132ad9dae2542ff8b6bb4fb17119ce6ac31b8cdc01"
+    },
+    {
+      "id": "04-state/01.mdx:11:1fdf6be4a8",
+      "path": "04-state/01.mdx",
+      "line": 10,
+      "ordinal": 11,
+      "kind": "prose",
+      "text": "이 '화면이 기억하는 값'을 상태라고 불러요.",
+      "text_sha256": "1fdf6be4a8d3da16b773c11858fc796c88ec1f058df9ee43d589244e2f89774c"
+    },
+    {
+      "id": "04-state/01.mdx:12:f775653967",
+      "path": "04-state/01.mdx",
+      "line": 10,
+      "ordinal": 12,
+      "kind": "prose",
+      "text": "엘리베이터를 떠올려 보세요.",
+      "text_sha256": "f77565396722c2e809720af8c6052b346d51b7efe55f3d97ac39443a41f8a1f0"
+    },
+    {
+      "id": "04-state/01.mdx:13:5e53ca3786",
+      "path": "04-state/01.mdx",
+      "line": 10,
+      "ordinal": 13,
+      "kind": "prose",
+      "text": "문 위의 숫자는 지금 몇 층인지 알려 줘요.",
+      "text_sha256": "5e53ca3786c9a21dcb567f0e56a12ea25ca0a3d4a21f4bf73d88de08f35c1f5d"
+    },
+    {
+      "id": "04-state/01.mdx:14:160cd7c3a0",
+      "path": "04-state/01.mdx",
+      "line": 10,
+      "ordinal": 14,
+      "kind": "prose",
+      "text": "층이 바뀌면 숫자도 바뀌죠.",
+      "text_sha256": "160cd7c3a0501acface4c057d510cd20bb2a56f64c4a8372565221bcd385783e"
+    },
+    {
+      "id": "04-state/01.mdx:15:bd23a462ef",
+      "path": "04-state/01.mdx",
+      "line": 10,
+      "ordinal": 15,
+      "kind": "prose",
+      "text": "여기서 '현재 층'이라는 값이 상태예요.",
+      "text_sha256": "bd23a462efe12b1d03080160cf3f080df9508de59b015854217edc8472890b66"
+    },
+    {
+      "id": "04-state/01.mdx:16:855811a434",
+      "path": "04-state/01.mdx",
+      "line": 10,
+      "ordinal": 16,
+      "kind": "prose",
+      "text": "문 위의 숫자 표시는 그 값을 보여 준 결과고요.",
+      "text_sha256": "855811a4348e23c2e154b16ddfb9ec56aa5cb694af463ac00092194f92749c14"
+    },
+    {
+      "id": "04-state/01.mdx:17:d75d2f8512",
+      "path": "04-state/01.mdx",
+      "line": 12,
+      "ordinal": 17,
+      "kind": "prose",
+      "text": "앱도 마찬가지예요.",
+      "text_sha256": "d75d2f85125519fde8a13463f5c630be8df035266970556595c92f57304cad06"
+    },
+    {
+      "id": "04-state/01.mdx:18:6888fe7b97",
+      "path": "04-state/01.mdx",
+      "line": 12,
+      "ordinal": 18,
+      "kind": "prose",
+      "text": "버튼을 누른 횟수, 입력창에 적은 이름, 알림이 켜져 있는지 꺼져 있는지.",
+      "text_sha256": "6888fe7b9709dc8ffb4b94a9a691380183b9476ee3040f942382e3bf66c802c4"
+    },
+    {
+      "id": "04-state/01.mdx:19:e9b98c5bdf",
+      "path": "04-state/01.mdx",
+      "line": 12,
+      "ordinal": 19,
+      "kind": "prose",
+      "text": "기억하는 값의 종류만 다를 뿐, 전부 상태예요.",
+      "text_sha256": "e9b98c5bdf3f0849b98216b7b81c2ba682c744411cb22d272f8cbd7832ea932f"
+    },
+    {
+      "id": "04-state/01.mdx:20:359960b1a7",
+      "path": "04-state/01.mdx",
+      "line": 14,
+      "ordinal": 20,
+      "kind": "prose",
+      "text": "여기서 관점을 한번 바꿔 볼게요.",
+      "text_sha256": "359960b1a7c3a90b0358203c1bfc6fffdd2be8b1363300b039f4aafa972dca43"
+    },
+    {
+      "id": "04-state/01.mdx:21:d5c791b5b6",
+      "path": "04-state/01.mdx",
+      "line": 14,
+      "ordinal": 21,
+      "kind": "prose",
+      "text": "화면은 상태를 그린 결과예요.",
+      "text_sha256": "d5c791b5b6290871623e26dbcaff36c9292d9d8b280789e316fc3584519b8efc"
+    },
+    {
+      "id": "04-state/01.mdx:22:e815557ab1",
+      "path": "04-state/01.mdx",
+      "line": 14,
+      "ordinal": 22,
+      "kind": "prose",
+      "text": "지금 '안녕, Flutter!'",
+      "text_sha256": "e815557ab1c7e6dcd8a5ef7c38d2cb265586f0d537f196927a773e6f74958a09"
+    },
+    {
+      "id": "04-state/01.mdx:23:33fe45a56d",
+      "path": "04-state/01.mdx",
+      "line": 14,
+      "ordinal": 23,
+      "kind": "prose",
+      "text": "가 보이는 건, 코드에 그 글자가 적혀 있기 때문이에요.",
+      "text_sha256": "33fe45a56dcfc6a5937a27cac696c52aef2b0f6ae39bcd8dfefb8f322bce8a67"
+    },
+    {
+      "id": "04-state/01.mdx:24:014c599384",
+      "path": "04-state/01.mdx",
+      "line": 14,
+      "ordinal": 24,
+      "kind": "prose",
+      "text": "그렇다면 값이 바뀌면요?",
+      "text_sha256": "014c59938494bec47ab4d803f4d58371d93834b9a4b0121f30b1bff764f821e4"
+    },
+    {
+      "id": "04-state/01.mdx:25:b157221932",
+      "path": "04-state/01.mdx",
+      "line": 14,
+      "ordinal": 25,
+      "kind": "prose",
+      "text": "화면도 따라 바뀌어야 해요.",
+      "text_sha256": "b157221932aaefdf3f95bfc7793d9716968107eac88fb64c5a433a8424c41b6a"
+    },
+    {
+      "id": "04-state/01.mdx:26:f0e677cccf",
+      "path": "04-state/01.mdx",
+      "line": 14,
+      "ordinal": 26,
+      "kind": "prose",
+      "text": "누른 횟수가 0에서 1이 되면, 화면의 숫자도 1로 다시 그려져야 하죠.",
+      "text_sha256": "f0e677cccf1ae23ea0406b38d203d88227ebb5328a45d3568ccb98d4d2138908"
+    },
+    {
+      "id": "04-state/01.mdx:27:d86714d585",
+      "path": "04-state/01.mdx",
+      "line": 14,
+      "ordinal": 27,
+      "kind": "prose",
+      "text": "값 따로, 화면 따로면 앱이 거짓말을 하는 셈이에요.",
+      "text_sha256": "d86714d585bbbab5c0345fdf49d6a6f16ef3fac49df5404e470b3228c5e3e3b3"
+    },
+    {
+      "id": "04-state/01.mdx:28:23a646db1a",
+      "path": "04-state/01.mdx",
+      "line": 16,
+      "ordinal": 28,
+      "kind": "prose",
+      "text": "정리하면, 버튼이 반응하려면 두 가지가 필요해요.",
+      "text_sha256": "23a646db1a14e969a540f90118541c3eb39a15f0e313dfb58ead748baa0fd9e0"
+    },
+    {
+      "id": "04-state/01.mdx:29:a56b47625f",
+      "path": "04-state/01.mdx",
+      "line": 16,
+      "ordinal": 29,
+      "kind": "prose",
+      "text": "첫째, 눌렀을 때 값을 바꾸는 것.",
+      "text_sha256": "a56b47625fe45dd56263f669352810543972b020c562d5d1175f74d70cfb8b48"
+    },
+    {
+      "id": "04-state/01.mdx:30:d4d7dcf42e",
+      "path": "04-state/01.mdx",
+      "line": 16,
+      "ordinal": 30,
+      "kind": "prose",
+      "text": "둘째, 바뀐 값으로 화면을 다시 그리는 것.",
+      "text_sha256": "d4d7dcf42e4bbd7c501a2685e16ddec977c89ce2f91a37254bd34c22a052d69b"
+    },
+    {
+      "id": "04-state/01.mdx:31:c8ced309ff",
+      "path": "04-state/01.mdx",
+      "line": 16,
+      "ordinal": 31,
+      "kind": "prose",
+      "text": "지금 우리 버튼에는 둘 다 없어요.",
+      "text_sha256": "c8ced309ff04dad69088bdd56c7889c1e99593ec65f1066b4f6cd6faffbe7da0"
+    },
+    {
+      "id": "04-state/01.mdx:32:d6ddd27a97",
+      "path": "04-state/01.mdx",
+      "line": 16,
+      "ordinal": 32,
+      "kind": "prose",
+      "text": "그래서 눌러도 조용했던 거예요.",
+      "text_sha256": "d6ddd27a97bb46f07e65a10ef56022a9d941deca63f52a5211b24b06c7427158"
+    },
+    {
+      "id": "04-state/01.mdx:33:ee0cd9aa0e",
+      "path": "04-state/01.mdx",
+      "line": 16,
+      "ordinal": 33,
+      "kind": "prose",
+      "text": "그럼 이 두 가지는 AI에게 어떻게 부탁하면 될까요?",
+      "text_sha256": "ee0cd9aa0e0ba04c05b2b983ed31121bcc3c8a894bbace9590b0d14e73a0d4e0"
+    },
+    {
+      "id": "04-state/02.mdx:1:e26de606a3",
+      "path": "04-state/02.mdx",
+      "line": 6,
+      "ordinal": 1,
+      "kind": "prose",
+      "text": "4.1에서 숙제가 하나 남았어요.",
+      "text_sha256": "e26de606a3f6f80899339335be3d90bb6ee0641c3c99526fdc7dfc066641bba7"
+    },
+    {
+      "id": "04-state/02.mdx:2:d0288fc637",
+      "path": "04-state/02.mdx",
+      "line": 6,
+      "ordinal": 2,
+      "kind": "prose",
+      "text": "값을 바꾸는 것만으로는 부족하고, 화면도 다시 그려야 한다는 것이었죠.",
+      "text_sha256": "d0288fc637429affd71acefc3ae9461b35d1fab7aba0769d8b3ea30ef67b11d2"
+    },
+    {
+      "id": "04-state/02.mdx:3:ef43a561e2",
+      "path": "04-state/02.mdx",
+      "line": 6,
+      "ordinal": 3,
+      "kind": "prose",
+      "text": "Flutter는 이 두 가지를 한 번에 해 주는 방법을 준비해 두었어요.",
+      "text_sha256": "ef43a561e2faf03f65f788ef25407f948a80be4afaf0e416153b2f82f71af3fb"
+    },
+    {
+      "id": "04-state/02.mdx:4:3f3926b721",
+      "path": "04-state/02.mdx",
+      "line": 6,
+      "ordinal": 4,
+      "kind": "prose",
+      "text": "이름은 setState예요.",
+      "text_sha256": "3f3926b7213dc7080502d838bfef42191f7f38056a551c46521a5e81e5f15571"
+    },
+    {
+      "id": "04-state/02.mdx:5:43200d172a",
+      "path": "04-state/02.mdx",
+      "line": 8,
+      "ordinal": 5,
+      "kind": "prose",
+      "text": "그 전에 build부터 만나 볼게요.",
+      "text_sha256": "43200d172aec53daf09bb2ddea9ed9a0bd5a403f3a146018cef29ca8c8255762"
+    },
+    {
+      "id": "04-state/02.mdx:6:0d7adee2f3",
+      "path": "04-state/02.mdx",
+      "line": 8,
+      "ordinal": 6,
+      "kind": "prose",
+      "text": "모든 위젯에는 build라는 함수가 있어요.",
+      "text_sha256": "0d7adee2f355112b09cec6b874a4e959c7048f841be2c7ddf6606910a2a57dff"
+    },
+    {
+      "id": "04-state/02.mdx:7:4994b5f220",
+      "path": "04-state/02.mdx",
+      "line": 8,
+      "ordinal": 7,
+      "kind": "prose",
+      "text": "함수는 이름을 붙여 둔 일 묶음이에요.",
+      "text_sha256": "4994b5f2204e5e6dce875600fe640adb26fb2f016420b6e5972575e52c661904"
+    },
+    {
+      "id": "04-state/02.mdx:8:a2ccf832c4",
+      "path": "04-state/02.mdx",
+      "line": 8,
+      "ordinal": 8,
+      "kind": "prose",
+      "text": "이름을 부르면 그 일이 실행돼요. build는 \"내 모습을 그려 줘\"라고 부탁하면 실행되는 그리기 함수예요.",
+      "text_sha256": "a2ccf832c4d70b621d9b20fb3704e0ec1a8bc5724822377356ec76426444fe67"
+    },
+    {
+      "id": "04-state/02.mdx:9:5284675e6c",
+      "path": "04-state/02.mdx",
+      "line": 8,
+      "ordinal": 9,
+      "kind": "prose",
+      "text": "우리가 지금까지 본 화면은 전부 build가 그린 결과였어요.",
+      "text_sha256": "5284675e6ca09a06b75c11a9287644036b21abe463c90564c3ae743b153e705b"
+    },
+    {
+      "id": "04-state/02.mdx:10:510b4f5529",
+      "path": "04-state/02.mdx",
+      "line": 10,
+      "ordinal": 10,
+      "kind": "prose",
+      "text": "이제 핵심 문장이에요. setState를 부르면 상태가 바뀌고, Flutter가 build를 다시 실행해서 바뀐 값으로 화면을 다시 그려요.",
+      "text_sha256": "510b4f5529c6313bbf452f22062219433c3cdd0f979651d70af1f9afb8b82cb0"
+    },
+    {
+      "id": "04-state/02.mdx:11:ec0bfdbf30",
+      "path": "04-state/02.mdx",
+      "line": 10,
+      "ordinal": 11,
+      "kind": "prose",
+      "text": "이 한 문장이 이번 챕터의 심장이에요.",
+      "text_sha256": "ec0bfdbf30d8356aea5a6919cf06e84d4ad28ce8e138eb653bdb58c7728872f7"
+    },
+    {
+      "id": "04-state/02.mdx:12:8c647b5560",
+      "path": "04-state/02.mdx",
+      "line": 10,
+      "ordinal": 12,
+      "kind": "prose",
+      "text": "값 바꾸기와 다시 그리기, 두 가지 숙제가 이 한 줄로 풀려요.",
+      "text_sha256": "8c647b556007d9f048f3bdb50b8ef4d82892dd2608d66f2dd9ab63c850f45356"
+    },
+    {
+      "id": "04-state/02.mdx:13:b0d355cf88",
+      "path": "04-state/02.mdx",
+      "line": 12,
+      "ordinal": 13,
+      "kind": "prose",
+      "text": "흐름을 그림으로 보면 이래요.",
+      "text_sha256": "b0d355cf88c9f3b9d4ece527895a4b76feefcc8955607364cefad2e89fcae207"
+    },
+    {
+      "id": "04-state/02.mdx:14:e23b06d7f0",
+      "path": "04-state/02.mdx",
+      "line": 12,
+      "ordinal": 14,
+      "kind": "prose",
+      "text": "손가락이 버튼을 탭해요.",
+      "text_sha256": "e23b06d7f050d66dd691da12961fd1c74846044032a88eb61a76cb77c623a79a"
+    },
+    {
+      "id": "04-state/02.mdx:15:7d74543c1a",
+      "path": "04-state/02.mdx",
+      "line": 12,
+      "ordinal": 15,
+      "kind": "prose",
+      "text": "그러면 setState가 불려요.",
+      "text_sha256": "7d74543c1a45dad9da6e7097e69ff5e5dc57d4ad632acc1cea732212ff37ea51"
+    },
+    {
+      "id": "04-state/02.mdx:16:5c9c5cdff1",
+      "path": "04-state/02.mdx",
+      "line": 12,
+      "ordinal": 16,
+      "kind": "prose",
+      "text": "Flutter가 build를 다시 실행해요.",
+      "text_sha256": "5c9c5cdff1dc9a1002c8bba1ce5e9d9d5e69a97a9d35f8d2852ea803ce3731ec"
+    },
+    {
+      "id": "04-state/02.mdx:17:4abce87fee",
+      "path": "04-state/02.mdx",
+      "line": 12,
+      "ordinal": 17,
+      "kind": "prose",
+      "text": "새 화면이 나타나요.",
+      "text_sha256": "4abce87feeea5971604d8910ec15843bc41693502561d3e84e600b11b45d52d1"
+    },
+    {
+      "id": "04-state/02.mdx:18:51b8c74bb3",
+      "path": "04-state/02.mdx",
+      "line": 16,
+      "ordinal": 18,
+      "kind": "prose",
+      "text": "코드에서는 이렇게 생겼어요.",
+      "text_sha256": "51b8c74bb3814df822c0fa9040cf6e0e689ea782b2f4c906f8b4a4783e72f02b"
+    },
+    {
+      "id": "04-state/02.mdx:19:e36119a2e6",
+      "path": "04-state/02.mdx",
+      "line": 26,
+      "ordinal": 19,
+      "kind": "prose",
+      "text": "count라는 상태 변수를 만들고, setState 안에서 1을 더해요.",
+      "text_sha256": "e36119a2e60824624c9e0146714543cd4a2162f8d27046c4b7cc44f5f1b1d6f9"
+    },
+    {
+      "id": "04-state/02.mdx:20:93ed179001",
+      "path": "04-state/02.mdx",
+      "line": 26,
+      "ordinal": 20,
+      "kind": "prose",
+      "text": "그러면 Flutter가 알아서 화면을 다시 그려요.",
+      "text_sha256": "93ed179001113635b38e202a33d93a3a0926a32e5a49ab3e37a9e1f8c29758f9"
+    },
+    {
+      "id": "04-state/02.mdx:21:9ff4944858",
+      "path": "04-state/02.mdx",
+      "line": 28,
+      "ordinal": 21,
+      "kind": "prose",
+      "text": "외울 것은 두 이름뿐이에요.",
+      "text_sha256": "9ff49448588e67f9f7ce380970c84a53a0d2a4e75e3497ce581d1a73b28817e1"
+    },
+    {
+      "id": "04-state/02.mdx:22:00c3aa8d1c",
+      "path": "04-state/02.mdx",
+      "line": 28,
+      "ordinal": 22,
+      "kind": "prose",
+      "text": "상태 변수, 그리고 setState.",
+      "text_sha256": "00c3aa8d1c0c0cd39fb52ba1bc5d0d9ee99d74a18ae139113da16851f1942a43"
+    },
+    {
+      "id": "04-state/02.mdx:23:042cb35cc3",
+      "path": "04-state/02.mdx",
+      "line": 28,
+      "ordinal": 23,
+      "kind": "prose",
+      "text": "코드는 AI가 써 줘요.",
+      "text_sha256": "042cb35cc3ae771c83aabf0e623d5eba053c91af9f5d048a6eeb2b28de6a8c4b"
+    },
+    {
+      "id": "04-state/02.mdx:24:89094485af",
+      "path": "04-state/02.mdx",
+      "line": 28,
+      "ordinal": 24,
+      "kind": "prose",
+      "text": "우리는 받은 코드에 이 흐름이 들어 있는지 확인하면 돼요.",
+      "text_sha256": "89094485afec78dfbf312034fc1b144c6fa481f0ecf50dbf4b01b4d3df7d007a"
+    },
+    {
+      "id": "04-state/02.mdx:25:f941711ec6",
+      "path": "04-state/02.mdx",
+      "line": 28,
+      "ordinal": 25,
+      "kind": "prose",
+      "text": "상태 변수가 있는지, 값을 바꾸는 자리가 setState 안인지.",
+      "text_sha256": "f941711ec6cc934729fc37a97ea01098004d210913f14b879086447cc76af02b"
+    },
+    {
+      "id": "04-state/02.mdx:26:89c024d07f",
+      "path": "04-state/02.mdx",
+      "line": 28,
+      "ordinal": 26,
+      "kind": "prose",
+      "text": "그것만 보면 충분해요.",
+      "text_sha256": "89c024d07f957f232930fc20ad679134852b08121bd5662d792b068615d30ff6"
+    },
+    {
+      "id": "04-state/03.mdx:1:bc5a4b547c",
+      "path": "04-state/03.mdx",
+      "line": 6,
+      "ordinal": 1,
+      "kind": "prose",
+      "text": "이번에는 3장에서 만든 '눌러 보세요' 버튼을 진짜로 일하게 해 볼 거예요.",
+      "text_sha256": "bc5a4b547c03720f5d7a81bdef85d02bccc3c22e503dc5a4b9e0a2e20af3c1c0"
+    },
+    {
+      "id": "04-state/03.mdx:2:e8d2836d1f",
+      "path": "04-state/03.mdx",
+      "line": 6,
+      "ordinal": 2,
+      "kind": "prose",
+      "text": "버튼이 눌린 횟수를 화면에 보여 주는 앱이에요.",
+      "text_sha256": "e8d2836d1fd439d34dd1b63fbe063ac5cff799656244bdd828ca1a0a1818d4ab"
+    },
+    {
+      "id": "04-state/03.mdx:3:469b4635cb",
+      "path": "04-state/03.mdx",
+      "line": 6,
+      "ordinal": 3,
+      "kind": "prose",
+      "text": "순서는 3장 습관 그대로예요.",
+      "text_sha256": "469b4635cb0ba30b63cda4182ef565c2954f5d5d6deb1d6b21f8fcc55905988d"
+    },
+    {
+      "id": "04-state/03.mdx:4:e795c2e794",
+      "path": "04-state/03.mdx",
+      "line": 6,
+      "ordinal": 4,
+      "kind": "prose",
+      "text": "그림 먼저, 부탁은 그다음이에요.",
+      "text_sha256": "e795c2e7942cdf7d19c0a48d6524887c03e76ed12d68275d912f21537a83ef92"
+    },
+    {
+      "id": "04-state/03.mdx:5:286fe51f7b",
+      "path": "04-state/03.mdx",
+      "line": 8,
+      "ordinal": 5,
+      "kind": "list",
+      "text": "트리를 그려요.",
+      "text_sha256": "286fe51f7b13b464acb2c59f919caddd77a970ab572d2ae724b042adcf846782"
+    },
+    {
+      "id": "04-state/03.mdx:6:05d2a8d420",
+      "path": "04-state/03.mdx",
+      "line": 8,
+      "ordinal": 6,
+      "kind": "list",
+      "text": "3장 화면에서 인사말이 있던 자리에 숫자 Text를 놓아요.",
+      "text_sha256": "05d2a8d4201af3e9a0dd8530c6cf2adc8a0551013cf79dba9e65ad1bcb0b54a9"
+    },
+    {
+      "id": "04-state/03.mdx:7:adfe4b5e74",
+      "path": "04-state/03.mdx",
+      "line": 8,
+      "ordinal": 7,
+      "kind": "list",
+      "text": "종이에 이렇게 적어 보세요.",
+      "text_sha256": "adfe4b5e74a8884ea82476fdda18ecd7cbe036f2c751af4a9284e4255b723175"
+    },
+    {
+      "id": "04-state/03.mdx:8:53502e1c5f",
+      "path": "04-state/03.mdx",
+      "line": 16,
+      "ordinal": 8,
+      "kind": "prose",
+      "text": "바뀌는 위젯이 어디인지 표시해 두는 게 핵심이에요.",
+      "text_sha256": "53502e1c5f97f435e5d261408ab72315ae176188dfa0072ef44efc6813a4480d"
+    },
+    {
+      "id": "04-state/03.mdx:9:0ff957b82a",
+      "path": "04-state/03.mdx",
+      "line": 16,
+      "ordinal": 9,
+      "kind": "prose",
+      "text": "숫자 Text 하나만 바뀌고, 버튼은 그대로예요.",
+      "text_sha256": "0ff957b82a2a1f43554b3e6531f5ed799dc45d8cd2ae5b50804beb104815bbd1"
+    },
+    {
+      "id": "04-state/03.mdx:10:95b22ebd9a",
+      "path": "04-state/03.mdx",
+      "line": 18,
+      "ordinal": 10,
+      "kind": "list",
+      "text": "프롬프트를 써요.",
+      "text_sha256": "95b22ebd9a2fc3abe6ab588b6fefa87b6268b595c3de758e20de9d408ec82430"
+    },
+    {
+      "id": "04-state/03.mdx:11:c7519b6231",
+      "path": "04-state/03.mdx",
+      "line": 18,
+      "ordinal": 11,
+      "kind": "list",
+      "text": "그림을 보면서 부탁할 말을 먼저 직접 적어 보세요.",
+      "text_sha256": "c7519b62311efa5facc687ba82dc2d6725d5f03058c350ab98d9e3e9ed5e9481"
+    },
+    {
+      "id": "04-state/03.mdx:12:4fb4bd51fb",
+      "path": "04-state/03.mdx",
+      "line": 18,
+      "ordinal": 12,
+      "kind": "list",
+      "text": "다 썼으면 아래 예시와 비교해 보세요.",
+      "text_sha256": "4fb4bd51fbbe2ade44f98c83fed0bb97c06db31be87b349fc4bb37265db09147"
+    },
+    {
+      "id": "04-state/03.mdx:13:a4ad278f0f",
+      "path": "04-state/03.mdx",
+      "line": 20,
+      "ordinal": 13,
+      "kind": "quote",
+      "text": "가운데 숫자가 보이고, 버튼을 누를 때마다 1씩 늘어나게 해 줘.",
+      "text_sha256": "a4ad278f0f6b2559e5099becfee66f8f630196f9c50362dd31bf650303e9f6c0"
+    },
+    {
+      "id": "04-state/03.mdx:14:4146d154b0",
+      "path": "04-state/03.mdx",
+      "line": 20,
+      "ordinal": 14,
+      "kind": "quote",
+      "text": "숫자는 0부터 시작해.",
+      "text_sha256": "4146d154b03a33d1f389c5005d9b27a8c11ec539fa9ee7239125f22d2968b8ee"
+    },
+    {
+      "id": "04-state/03.mdx:15:020d6c8a22",
+      "path": "04-state/03.mdx",
+      "line": 22,
+      "ordinal": 15,
+      "kind": "list",
+      "text": "받은 코드를 확인해요.",
+      "text_sha256": "020d6c8a229e64039f874fb293c7cc134de9c8788aee270ac5abfd10f335a65e"
+    },
+    {
+      "id": "04-state/03.mdx:16:a0e3c34c05",
+      "path": "04-state/03.mdx",
+      "line": 22,
+      "ordinal": 16,
+      "kind": "list",
+      "text": "전부 읽을 필요는 없어요.",
+      "text_sha256": "a0e3c34c0589a342d929e93ca41ffebe07721b5d5a503ce42e0a50951b5763cc"
+    },
+    {
+      "id": "04-state/03.mdx:17:df20e6282c",
+      "path": "04-state/03.mdx",
+      "line": 22,
+      "ordinal": 17,
+      "kind": "list",
+      "text": "두 가지만 찾으면 돼요.",
+      "text_sha256": "df20e6282c8e2ddfad354a07d8d529c216cc36a39dda2d43e8f0a564dd1cf748"
+    },
+    {
+      "id": "04-state/03.mdx:18:adcb197382",
+      "path": "04-state/03.mdx",
+      "line": 23,
+      "ordinal": 18,
+      "kind": "list",
+      "text": "숫자를 기억하는 상태 변수가 있나요?",
+      "text_sha256": "adcb1973827ab17de7a8879e47539690284cb1a00ccb44509e5ee1355b54dc88"
+    },
+    {
+      "id": "04-state/03.mdx:19:8bdd1db7e7",
+      "path": "04-state/03.mdx",
+      "line": 23,
+      "ordinal": 19,
+      "kind": "list",
+      "text": "count 같은 이름이에요.",
+      "text_sha256": "8bdd1db7e7cae885589d5408059f9c3435a7cf48d855b92206989abd2fa08820"
+    },
+    {
+      "id": "04-state/03.mdx:20:5e3a275c97",
+      "path": "04-state/03.mdx",
+      "line": 24,
+      "ordinal": 20,
+      "kind": "list",
+      "text": "setState가 버튼 누름 코드 안에 있나요?",
+      "text_sha256": "5e3a275c9714d0f477ae697455be87adaa85676cc9e01fe26d7fec95d7871ce1"
+    },
+    {
+      "id": "04-state/03.mdx:21:8a2283c1d6",
+      "path": "04-state/03.mdx",
+      "line": 24,
+      "ordinal": 21,
+      "kind": "list",
+      "text": "4.2에서 본 대로, 이게 있어야 화면이 다시 그려져요.",
+      "text_sha256": "8a2283c1d6be2f2120757b8a51c563bf3a1b70f80d889f81af330e5a7234f652"
+    },
+    {
+      "id": "04-state/03.mdx:22:55a1ee2236",
+      "path": "04-state/03.mdx",
+      "line": 26,
+      "ordinal": 22,
+      "kind": "list",
+      "text": "실행해요.",
+      "text_sha256": "55a1ee223668daebc21b7a82f5139c3b54812322112086c8c236cef8b93fac1a"
+    },
+    {
+      "id": "04-state/03.mdx:23:630607096b",
+      "path": "04-state/03.mdx",
+      "line": 26,
+      "ordinal": 23,
+      "kind": "list",
+      "text": "DartPad에서 실행하고 버튼을 세 번 눌러 보세요.",
+      "text_sha256": "630607096b88b4091eafe866494bba1b25a3032020f4715cb542fc3432171a32"
+    },
+    {
+      "id": "04-state/03.mdx:24:5c9777cfea",
+      "path": "04-state/03.mdx",
+      "line": 26,
+      "ordinal": 24,
+      "kind": "list",
+      "text": "숫자가 0, 1, 2, 3으로 바뀌면 성공이에요.",
+      "text_sha256": "5c9777cfea6b45fd1f75c93fd02a5c92659667f5dd176206b391d3222ad185e8"
+    },
+    {
+      "id": "04-state/03.mdx:25:558dab6745",
+      "path": "04-state/03.mdx",
+      "line": 28,
+      "ordinal": 25,
+      "kind": "prose",
+      "text": "잘 안 되는 경우가 하나 있어요.",
+      "text_sha256": "558dab674534d9e38c48b3be6281900821a9295d178b90caed0c90c5ac4307fd"
+    },
+    {
+      "id": "04-state/03.mdx:26:e5cf8b2206",
+      "path": "04-state/03.mdx",
+      "line": 28,
+      "ordinal": 26,
+      "kind": "prose",
+      "text": "눌러도 화면의 숫자가 그대로일 때예요. setState 없이 값만 바꿔서, 값은 늘어도 화면이 다시 그려지지 않은 거예요.",
+      "text_sha256": "e5cf8b22069c81a378f63669285c35cd331d172ed0a6918256c86995ad717bca"
+    },
+    {
+      "id": "04-state/03.mdx:27:f3f20ea7b6",
+      "path": "04-state/03.mdx",
+      "line": 28,
+      "ordinal": 27,
+      "kind": "prose",
+      "text": "오류 문구도 안 나와서 헷갈려요.",
+      "text_sha256": "f3f20ea7b6f4272274ecc8a9ee455f31410290069fcb00dc04dc1c4f27ab6856"
+    },
+    {
+      "id": "04-state/03.mdx:28:512c80ba86",
+      "path": "04-state/03.mdx",
+      "line": 28,
+      "ordinal": 28,
+      "kind": "prose",
+      "text": "AI에게 이렇게 부탁하세요.",
+      "text_sha256": "512c80ba8681b1f957b98160257394da950dc82bd30cd17cbef0c30075a14fde"
+    },
+    {
+      "id": "04-state/03.mdx:29:421cd81561",
+      "path": "04-state/03.mdx",
+      "line": 28,
+      "ordinal": 29,
+      "kind": "prose",
+      "text": "\"숫자를 바꾸는 부분을 setState로 감싸 줘.\"",
+      "text_sha256": "421cd81561feff58a0a0b5b7258eb12fca09ab08607eb3b983a580d7b2d6afd9"
+    },
+    {
+      "id": "04-state/03.mdx:30:b35963545d",
+      "path": "04-state/03.mdx",
+      "line": 28,
+      "ordinal": 30,
+      "kind": "prose",
+      "text": "다시 실행하면 숫자가 움직일 거예요.",
+      "text_sha256": "b35963545d47161556386bcd8dd940a9689eed881d17f271cbde7c47695b0dff"
+    },
+    {
+      "id": "04-state/03.mdx:31:643c08468c",
+      "path": "04-state/03.mdx",
+      "line": 30,
+      "ordinal": 31,
+      "kind": "prose",
+      "text": "오늘 여러분의 앱이 처음으로 손끝에 반응했어요.",
+      "text_sha256": "643c08468c1390898296f9584f97e83578f3fbd0fd19a41908d5b30866a4e68f"
+    },
+    {
+      "id": "04-state/03.mdx:32:d17d5a7a59",
+      "path": "04-state/03.mdx",
+      "line": 30,
+      "ordinal": 32,
+      "kind": "prose",
+      "text": "축하해요.",
+      "text_sha256": "d17d5a7a591a3473080a7ab5b9351777c5dba53700f76e277a4581d4857fb6ed"
+    },
+    {
+      "id": "05-wrap-up/01.mdx:1:3ccdd438a5",
+      "path": "05-wrap-up/01.mdx",
+      "line": 6,
+      "ordinal": 1,
+      "kind": "prose",
+      "text": "이제 배운 것을 전부 모아 하나의 작품을 만들어요.",
+      "text_sha256": "3ccdd438a562e54182ecbac39614ff089d767b7b63322ea24f3e790e9caf89e4"
+    },
+    {
+      "id": "05-wrap-up/01.mdx:2:6e8d6fb088",
+      "path": "05-wrap-up/01.mdx",
+      "line": 6,
+      "ordinal": 2,
+      "kind": "prose",
+      "text": "동그란 사진 자리 아래에 이름, 그 아래 한 줄 소개가 세로로 쌓인 프로필 카드예요.",
+      "text_sha256": "6e8d6fb088a46b81dc87d56e5fcfac3ba20bb64fffd75745665ace5b9c8861f6"
+    },
+    {
+      "id": "05-wrap-up/01.mdx:3:926b140e20",
+      "path": "05-wrap-up/01.mdx",
+      "line": 6,
+      "ordinal": 3,
+      "kind": "prose",
+      "text": "세로로 쌓는 법은 이미 알아요.",
+      "text_sha256": "926b140e20933258f9b07ec4ab403d6bca8b71292c3de86c23f690eba76f36dc"
+    },
+    {
+      "id": "05-wrap-up/01.mdx:4:796e2b414d",
+      "path": "05-wrap-up/01.mdx",
+      "line": 6,
+      "ordinal": 4,
+      "kind": "prose",
+      "text": "Column이 자식들을 세로로 늘어놓는 위젯이었죠.",
+      "text_sha256": "796e2b414dc403a6c0827155e8f4a8a79aade313a61346c3d1acc6f0e079cda0"
+    },
+    {
+      "id": "05-wrap-up/01.mdx:5:5d2973db46",
+      "path": "05-wrap-up/01.mdx",
+      "line": 8,
+      "ordinal": 5,
+      "kind": "prose",
+      "text": "새 위젯은 두 개만 알면 돼요.",
+      "text_sha256": "5d2973db46e93a6a809b56429fc7d0d147b44cd7538c79786c073e4f1b1d0b55"
+    },
+    {
+      "id": "05-wrap-up/01.mdx:6:acdebee959",
+      "path": "05-wrap-up/01.mdx",
+      "line": 8,
+      "ordinal": 6,
+      "kind": "prose",
+      "text": "Card는 내용을 담는 카드 모양 틀이에요.",
+      "text_sha256": "acdebee959d46abdb062e5d5c3c9de19ae18d1938b3defe04a9e1385b73dba10"
+    },
+    {
+      "id": "05-wrap-up/01.mdx:7:101c93d509",
+      "path": "05-wrap-up/01.mdx",
+      "line": 8,
+      "ordinal": 7,
+      "kind": "prose",
+      "text": "CircleAvatar는 동그란 사진 자리예요.",
+      "text_sha256": "101c93d509dc3d5d77e7ac0e1bf7dac995544ee60f5bd4fc9cc7372368a76fa3"
+    },
+    {
+      "id": "05-wrap-up/01.mdx:8:aec7207933",
+      "path": "05-wrap-up/01.mdx",
+      "line": 8,
+      "ordinal": 8,
+      "kind": "prose",
+      "text": "이름이 낯설어도 역할만 기억하면 충분해요.",
+      "text_sha256": "aec720793342efb53f2c7711410335922d3461d39a39101238597fa8d1229f18"
+    },
+    {
+      "id": "05-wrap-up/01.mdx:9:af1f4d1906",
+      "path": "05-wrap-up/01.mdx",
+      "line": 10,
+      "ordinal": 9,
+      "kind": "prose",
+      "text": "3장에서 익힌 습관대로 그림을 먼저 그려요.",
+      "text_sha256": "af1f4d1906c647d31731eb46e65ad56ff393e843a3a4dc340871f1a7b7b18190"
+    },
+    {
+      "id": "05-wrap-up/01.mdx:10:02cb674e1d",
+      "path": "05-wrap-up/01.mdx",
+      "line": 10,
+      "ordinal": 10,
+      "kind": "prose",
+      "text": "완성 카드의 트리는 이렇게 생겼어요.",
+      "text_sha256": "02cb674e1d1052ca1674ba16573889be7bd973aa2a2444c6762958ae80d22ff3"
+    },
+    {
+      "id": "05-wrap-up/01.mdx:11:271de5ba95",
+      "path": "05-wrap-up/01.mdx",
+      "line": 14,
+      "ordinal": 11,
+      "kind": "prose",
+      "text": "Card가 Column을 안고, Column이 세 자식을 세로로 쌓아요.",
+      "text_sha256": "271de5ba95e1e9c8debc50ee8725894d7ab80a2d1b70f6b6c5a1d655470f7123"
+    },
+    {
+      "id": "05-wrap-up/01.mdx:12:19f3149526",
+      "path": "05-wrap-up/01.mdx",
+      "line": 14,
+      "ordinal": 12,
+      "kind": "prose",
+      "text": "CircleAvatar, 이름 Text, 소개 Text.",
+      "text_sha256": "19f314952661aac75bfecd1c222513544b862f871605a9b286af6638043da3a5"
+    },
+    {
+      "id": "05-wrap-up/01.mdx:13:3580d30564",
+      "path": "05-wrap-up/01.mdx",
+      "line": 14,
+      "ordinal": 13,
+      "kind": "prose",
+      "text": "지금까지 해 온 그대로예요.",
+      "text_sha256": "3580d30564cf2c50049e92734d146dcfee04a1304d3a9cef949b8575328d4ff6"
+    },
+    {
+      "id": "05-wrap-up/01.mdx:14:8d58c4bfcc",
+      "path": "05-wrap-up/01.mdx",
+      "line": 16,
+      "ordinal": 14,
+      "kind": "prose",
+      "text": "실습 순서예요.",
+      "text_sha256": "8d58c4bfcc2da9906c2d3915f2a8e24f9ad3bdc714a54f9054049a4e6b80e745"
+    },
+    {
+      "id": "05-wrap-up/01.mdx:15:075b5828bd",
+      "path": "05-wrap-up/01.mdx",
+      "line": 18,
+      "ordinal": 15,
+      "kind": "list",
+      "text": "위 그림을 보고 트리를 종이에 그려요.",
+      "text_sha256": "075b5828bd8d5caf6e685f74a1c71cc3333d08e881728f0d2dfd733731340ec7"
+    },
+    {
+      "id": "05-wrap-up/01.mdx:16:82bb43ea18",
+      "path": "05-wrap-up/01.mdx",
+      "line": 18,
+      "ordinal": 16,
+      "kind": "list",
+      "text": "이름과 소개 자리에는 내 이름, 내 소개를 적어요.",
+      "text_sha256": "82bb43ea18dc759d5b40c0ac1202b0628049da77d866b7dad736d8abc7f906c8"
+    },
+    {
+      "id": "05-wrap-up/01.mdx:17:56fe71a758",
+      "path": "05-wrap-up/01.mdx",
+      "line": 19,
+      "ordinal": 17,
+      "kind": "list",
+      "text": "프롬프트를 직접 써요.",
+      "text_sha256": "56fe71a7585f8d284d460866940e4dbb5c34a22434a842225f81450a8e11fd34"
+    },
+    {
+      "id": "05-wrap-up/01.mdx:18:028459a640",
+      "path": "05-wrap-up/01.mdx",
+      "line": 19,
+      "ordinal": 18,
+      "kind": "list",
+      "text": "예를 들면 이렇게요.",
+      "text_sha256": "028459a64043894ff99d1952baa31f3d8d1971e52918f053a9e2db6251b402ac"
+    },
+    {
+      "id": "05-wrap-up/01.mdx:19:ae874f6e0c",
+      "path": "05-wrap-up/01.mdx",
+      "line": 19,
+      "ordinal": 19,
+      "kind": "list",
+      "text": "\"동그란 사진 자리 아래에 내 이름이 굵게 보이고, 그 아래 한 줄 소개가 보이는 카드를 화면 가운데에 만들어 줘.\"",
+      "text_sha256": "ae874f6e0cb21f00fb176faec5eb6c74854f102e7cff7796838e1f92d9ce7023"
+    },
+    {
+      "id": "05-wrap-up/01.mdx:20:5dd22d34fe",
+      "path": "05-wrap-up/01.mdx",
+      "line": 20,
+      "ordinal": 20,
+      "kind": "list",
+      "text": "받은 코드를 읽어요.",
+      "text_sha256": "5dd22d34fe70019b627bbdaa55ba77f31ab81958af0a79b7397fd0f68d3c8bbd"
+    },
+    {
+      "id": "05-wrap-up/01.mdx:21:ee15d1b1b2",
+      "path": "05-wrap-up/01.mdx",
+      "line": 20,
+      "ordinal": 21,
+      "kind": "list",
+      "text": "들여쓰기를 따라가며 Column의 자식이 셋인지 확인해요.",
+      "text_sha256": "ee15d1b1b285cf8826fd88ecbb4a23423156a8f4ca721cd420aace85c3c823ac"
+    },
+    {
+      "id": "05-wrap-up/01.mdx:22:4a0f17bd46",
+      "path": "05-wrap-up/01.mdx",
+      "line": 21,
+      "ordinal": 22,
+      "kind": "list",
+      "text": "DartPad에서 실행하고 부탁한 모습과 화면을 대조해요.",
+      "text_sha256": "4a0f17bd468c37e8633dc2b56a8b4b05b1aa779fb92d95054a209000913409f2"
+    },
+    {
+      "id": "05-wrap-up/01.mdx:23:4c0b2f26c1",
+      "path": "05-wrap-up/01.mdx",
+      "line": 21,
+      "ordinal": 23,
+      "kind": "list",
+      "text": "다르거나 오류가 나면 문구를 복사해 되물어요.",
+      "text_sha256": "4c0b2f26c193eeb9589852568c4013bba6245bde506608268a5a0331dd271eaa"
+    },
+    {
+      "id": "05-wrap-up/01.mdx:24:22229e0969",
+      "path": "05-wrap-up/01.mdx",
+      "line": 22,
+      "ordinal": 24,
+      "kind": "list",
+      "text": "내 것으로 바꿔요.",
+      "text_sha256": "22229e096920de0b98a5fbffb72c423b040f0d5e3e884d60f83e1f4ce414ec13"
+    },
+    {
+      "id": "05-wrap-up/01.mdx:25:c938d3c166",
+      "path": "05-wrap-up/01.mdx",
+      "line": 22,
+      "ordinal": 25,
+      "kind": "list",
+      "text": "코드에서 이름과 소개 글자를 직접 고쳐요.",
+      "text_sha256": "c938d3c166151927d247aaa66639b31cba5d31dc73a14ca1a8db582a334681e5"
+    },
+    {
+      "id": "05-wrap-up/01.mdx:26:4650546268",
+      "path": "05-wrap-up/01.mdx",
+      "line": 22,
+      "ordinal": 26,
+      "kind": "list",
+      "text": "따옴표 안의 우리말만 바꾸면 돼요.",
+      "text_sha256": "4650546268b891d6b731295f5f2f2423d71c9f3967949d7ab41a8729f8b62c1b"
+    },
+    {
+      "id": "05-wrap-up/01.mdx:27:ebbb212f19",
+      "path": "05-wrap-up/01.mdx",
+      "line": 22,
+      "ordinal": 27,
+      "kind": "list",
+      "text": "코드를 내 손으로 고치는 첫 경험이에요.",
+      "text_sha256": "ebbb212f193604276aeb130d69a79fabe79f50c5c48a08fbc8cb6638abf14dd8"
+    },
+    {
+      "id": "05-wrap-up/01.mdx:28:bdb2b03921",
+      "path": "05-wrap-up/01.mdx",
+      "line": 24,
+      "ordinal": 28,
+      "kind": "prose",
+      "text": "완성한 카드는 이 교재의 채점 대상 작품이 돼요.",
+      "text_sha256": "bdb2b0392138c2b3e06febcf239814462f43876a8dfecd7db5aaf739c9c93010"
+    },
+    {
+      "id": "05-wrap-up/01.mdx:29:36db17650d",
+      "path": "05-wrap-up/01.mdx",
+      "line": 24,
+      "ordinal": 29,
+      "kind": "prose",
+      "text": "채점에서는 종이에 그린 트리와 코드의 들여쓰기가 서로 맞는지를 봐요.",
+      "text_sha256": "36db17650d734ce6ecc06df39018d267daf7da15529eac04a33a382ea145a082"
+    },
+    {
+      "id": "05-wrap-up/01.mdx:30:7af64ce147",
+      "path": "05-wrap-up/01.mdx",
+      "line": 24,
+      "ordinal": 30,
+      "kind": "prose",
+      "text": "그림과 코드가 하나로 이어지면 바이브 코딩의 한 바퀴를 스스로 돈 거예요.",
+      "text_sha256": "7af64ce147e32d243227d4c6d31b8326273c511e7c1bd368761a198d43b38700"
+    },
+    {
+      "id": "05-wrap-up/02.mdx:1:9ace5b68ed",
+      "path": "05-wrap-up/02.mdx",
+      "line": 6,
+      "ordinal": 1,
+      "kind": "prose",
+      "text": "코드를 쓰다 보면 누구나 막혀요.",
+      "text_sha256": "9ace5b68edb22ce9500d1564e5afa0a9bc61357dd6b16b7919b68125c2fcabe9"
+    },
+    {
+      "id": "05-wrap-up/02.mdx:2:832ba99965",
+      "path": "05-wrap-up/02.mdx",
+      "line": 6,
+      "ordinal": 2,
+      "kind": "prose",
+      "text": "화면이 이상하게 나오거나, 오류가 떠서 멈추기도 해요.",
+      "text_sha256": "832ba9996527c513b3fd85ccdcd8455ee5a1b7c8fc39c4a1acea5288b4a9fa51"
+    },
+    {
+      "id": "05-wrap-up/02.mdx:3:28e166305f",
+      "path": "05-wrap-up/02.mdx",
+      "line": 6,
+      "ordinal": 3,
+      "kind": "prose",
+      "text": "그건 실력이 부족하다는 뜻이 아니에요.",
+      "text_sha256": "28e166305f48c2a28a272b6447ee391378a745fbe09f3f9a1bcd4573c1f07c6b"
+    },
+    {
+      "id": "05-wrap-up/02.mdx:4:4224aed8d6",
+      "path": "05-wrap-up/02.mdx",
+      "line": 6,
+      "ordinal": 4,
+      "kind": "prose",
+      "text": "새로운 것을 배우는 중이라는 신호예요.",
+      "text_sha256": "4224aed8d6cbdb426e626470a1303d006024acfe05fc2263861a58c44dcfdf04"
+    },
+    {
+      "id": "05-wrap-up/02.mdx:5:223ff4cd35",
+      "path": "05-wrap-up/02.mdx",
+      "line": 6,
+      "ordinal": 5,
+      "kind": "prose",
+      "text": "중요한 건 막힌 다음에 어떻게 묻느냐예요.",
+      "text_sha256": "223ff4cd35c787d24bf950b7cc62ea2f2dbef2ddc54c4ef7d2d4a64b410005a3"
+    },
+    {
+      "id": "05-wrap-up/02.mdx:6:3a1911a356",
+      "path": "05-wrap-up/02.mdx",
+      "line": 8,
+      "ordinal": 6,
+      "kind": "prose",
+      "text": "좋은 질문에는 세 가지가 들어가요.",
+      "text_sha256": "3a1911a356aa1023078e1783f3c9e8160d60d194bac60793f482630113dd5b8e"
+    },
+    {
+      "id": "05-wrap-up/02.mdx:7:f231d3dae0",
+      "path": "05-wrap-up/02.mdx",
+      "line": 8,
+      "ordinal": 7,
+      "kind": "prose",
+      "text": "① 하려던 것, ② 실제로 일어난 것, ③ 시도해 본 것.",
+      "text_sha256": "f231d3dae0793a7fe8e45a2b1141912c7fc92064a19bef6cd052cfb390a55962"
+    },
+    {
+      "id": "05-wrap-up/02.mdx:8:bb020cdc98",
+      "path": "05-wrap-up/02.mdx",
+      "line": 8,
+      "ordinal": 8,
+      "kind": "prose",
+      "text": "이 셋을 담으면 누구에게 묻든 답이 빨리 와요.",
+      "text_sha256": "bb020cdc9879c1afeed9fdba702401dc1e4928d53df3a85df5a5fc7ad0af5162"
+    },
+    {
+      "id": "05-wrap-up/02.mdx:9:bf8a822ad7",
+      "path": "05-wrap-up/02.mdx",
+      "line": 8,
+      "ordinal": 9,
+      "kind": "prose",
+      "text": "상대가 상황을 다시 캐물을 필요가 없기 때문이에요.",
+      "text_sha256": "bf8a822ad730359997b05a8e317da2b3b323281d69cd4ed720c08017e09e89a8"
+    },
+    {
+      "id": "05-wrap-up/02.mdx:10:02af445074",
+      "path": "05-wrap-up/02.mdx",
+      "line": 10,
+      "ordinal": 10,
+      "kind": "prose",
+      "text": "화면이 뜻대로 안 나올 때는 이렇게 물어요.",
+      "text_sha256": "02af4450740f7e71725cc9e3be6b4fb7d6060391f38d33a4407606d5625d783d"
+    },
+    {
+      "id": "05-wrap-up/02.mdx:11:53c4c8f0b0",
+      "path": "05-wrap-up/02.mdx",
+      "line": 12,
+      "ordinal": 11,
+      "kind": "quote",
+      "text": "가운데에 두 줄이 보이게 하려고 Column을 부탁했는데, 글자가 왼쪽에 붙어 나와요.",
+      "text_sha256": "53c4c8f0b0462c27488d418973ff5c2203a33b414c7459b3462da723791f918d"
+    },
+    {
+      "id": "05-wrap-up/02.mdx:12:ea63a788e8",
+      "path": "05-wrap-up/02.mdx",
+      "line": 12,
+      "ordinal": 12,
+      "kind": "quote",
+      "text": "프롬프트를 어떻게 고치면 될까요?",
+      "text_sha256": "ea63a788e892d4bbdd1ca0c63820518a4d905a8e3c415f78413af49da20c985c"
+    },
+    {
+      "id": "05-wrap-up/02.mdx:13:a7c47133ce",
+      "path": "05-wrap-up/02.mdx",
+      "line": 14,
+      "ordinal": 13,
+      "kind": "prose",
+      "text": "오류가 났을 때는 오류 문구를 그대로 붙이고 물어요.",
+      "text_sha256": "a7c47133ce56a4939dc43f585bc86b0cafb2a70904f59cfd083fc3c711de475a"
+    },
+    {
+      "id": "05-wrap-up/02.mdx:14:103133ae6a",
+      "path": "05-wrap-up/02.mdx",
+      "line": 16,
+      "ordinal": 14,
+      "kind": "quote",
+      "text": "(오류 문구 붙여넣기) 이 오류가 났어요.",
+      "text_sha256": "103133ae6a413025c0383a1ec3f23a716a7eae364badf24eb26e8a0b7e892269"
+    },
+    {
+      "id": "05-wrap-up/02.mdx:15:b40a5bc726",
+      "path": "05-wrap-up/02.mdx",
+      "line": 16,
+      "ordinal": 15,
+      "kind": "quote",
+      "text": "어디를 보면 될까요?",
+      "text_sha256": "b40a5bc726a266ca47777b83c5a3d5aa583789daa6afaefcf6d47d53a7a90741"
+    },
+    {
+      "id": "05-wrap-up/02.mdx:16:2c57b9b3cb",
+      "path": "05-wrap-up/02.mdx",
+      "line": 18,
+      "ordinal": 16,
+      "kind": "prose",
+      "text": "물을 곳에도 순서가 있어요.",
+      "text_sha256": "2c57b9b3cbf51b4012d3a96b117c3c318c13f061c7e303c7071d5709bab7675f"
+    },
+    {
+      "id": "05-wrap-up/02.mdx:17:c0bac335f1",
+      "path": "05-wrap-up/02.mdx",
+      "line": 18,
+      "ordinal": 17,
+      "kind": "prose",
+      "text": "먼저 이 교재의 도우미예요.",
+      "text_sha256": "c0bac335f104434783459d806e33f2a7021d1e5c0882cccbf09d62f316310cd1"
+    },
+    {
+      "id": "05-wrap-up/02.mdx:18:052d190070",
+      "path": "05-wrap-up/02.mdx",
+      "line": 18,
+      "ordinal": 18,
+      "kind": "prose",
+      "text": "지금 읽는 부분을 알고 있어서 교재 내용과 이어서 답해 줘요.",
+      "text_sha256": "052d19007002b0506346c091130ce50f422f2a9299b160a952ae02177cfa4f83"
+    },
+    {
+      "id": "05-wrap-up/02.mdx:19:30b0a2a25c",
+      "path": "05-wrap-up/02.mdx",
+      "line": 18,
+      "ordinal": 19,
+      "kind": "prose",
+      "text": "대화는 평가나 성적에 쓰이지 않으니 편하게 물어도 돼요.",
+      "text_sha256": "30b0a2a25c57ff4b46ad65709cfb22afd79080ecce8a8c47e4b77be42bd40654"
+    },
+    {
+      "id": "05-wrap-up/02.mdx:20:dd8ed4ce7c",
+      "path": "05-wrap-up/02.mdx",
+      "line": 18,
+      "ordinal": 20,
+      "kind": "prose",
+      "text": "다음은 AI 코딩 도구예요.",
+      "text_sha256": "dd8ed4ce7cf4ad099952079aab20c92c69cf0ebfc873a3151dca5020ee1864ba"
+    },
+    {
+      "id": "05-wrap-up/02.mdx:21:21a8040ce2",
+      "path": "05-wrap-up/02.mdx",
+      "line": 18,
+      "ordinal": 21,
+      "kind": "prose",
+      "text": "내 코드와 오류 문구를 직접 보여 주며 묻기 좋아요.",
+      "text_sha256": "21a8040ce202586d45ac951d3af699675c19203c8937cd5bd8f0db73368a8d6e"
+    },
+    {
+      "id": "05-wrap-up/02.mdx:22:41b7f1852f",
+      "path": "05-wrap-up/02.mdx",
+      "line": 18,
+      "ordinal": 22,
+      "kind": "prose",
+      "text": "마지막은 공식 문서예요.",
+      "text_sha256": "41b7f1852f544155014a2751be36692b2e1cdeff3ef758c1b8cdb6a8e5210070"
+    },
+    {
+      "id": "05-wrap-up/02.mdx:23:8921af554b",
+      "path": "05-wrap-up/02.mdx",
+      "line": 18,
+      "ordinal": 23,
+      "kind": "prose",
+      "text": "위젯의 정확한 사용법을 확인할 때 좋아요.",
+      "text_sha256": "8921af554bf22ecf3ec40eaa08624cb7f06f26f5a387c3f2469b635470371fd3"
+    },
+    {
+      "id": "05-wrap-up/02.mdx:24:a82ce56d85",
+      "path": "05-wrap-up/02.mdx",
+      "line": 20,
+      "ordinal": 24,
+      "kind": "prose",
+      "text": "여기까지가 이 교재의 전부예요.",
+      "text_sha256": "a82ce56d851bd4e24b38605e98819197d93c61f35b837dfa3d6daa15ac97b1ac"
+    },
+    {
+      "id": "05-wrap-up/02.mdx:25:c68bf90f68",
+      "path": "05-wrap-up/02.mdx",
+      "line": 20,
+      "ordinal": 25,
+      "kind": "prose",
+      "text": "우리는 화면을 트리로 읽는 법, 그림을 먼저 그리고 구조로 부탁하는 법, 상태와 setState로 화면을 움직이는 법, 부탁한 것과 나온 결과를 대조하는 법을 배웠어요.",
+      "text_sha256": "c68bf90f683b23a425620de7bf2a62cedfba37c99e152e2688492ac8db8a408c"
+    },
+    {
+      "id": "05-wrap-up/02.mdx:26:df95fc7b17",
+      "path": "05-wrap-up/02.mdx",
+      "line": 20,
+      "ordinal": 26,
+      "kind": "prose",
+      "text": "그리고 그 방법으로 숫자 세기 앱과 나만의 카드 앱을 직접 만들었어요.",
+      "text_sha256": "df95fc7b1712e6c7a9c1d483e10387fa5f23724d735d1e96de00038050979da6"
+    },
+    {
+      "id": "05-wrap-up/02.mdx:27:3b09d0825b",
+      "path": "05-wrap-up/02.mdx",
+      "line": 22,
+      "ordinal": 27,
+      "kind": "prose",
+      "text": "새 화면이 궁금해지면 오늘 배운 한 바퀴를 그대로 돌리면 돼요.",
+      "text_sha256": "3b09d0825b3dc5980f981d20b1c78bc0da5328ef7fcd9824a6d38d2adcd3b4a2"
+    },
+    {
+      "id": "05-wrap-up/02.mdx:28:012e0bf882",
+      "path": "05-wrap-up/02.mdx",
+      "line": 22,
+      "ordinal": 28,
+      "kind": "prose",
+      "text": "그림을 그리고, 부탁하고, 확인하기.",
+      "text_sha256": "012e0bf88215acd2e4b8d5b464b5401b173e5c4fe8192a30eea2acf1781057ae"
+    },
+    {
+      "id": "05-wrap-up/02.mdx:29:55c4eb1edd",
+      "path": "05-wrap-up/02.mdx",
+      "line": 22,
+      "ordinal": 29,
+      "kind": "prose",
+      "text": "이 순서는 어떤 앱을 만들 때도 같아요.",
+      "text_sha256": "55c4eb1edd1d658367ecd4b58bf343ee39a53d6ae09a3bae79af3875a458199f"
+    },
+    {
+      "id": "05-wrap-up/02.mdx:30:0a9745e585",
+      "path": "05-wrap-up/02.mdx",
+      "line": 22,
+      "ordinal": 30,
+      "kind": "prose",
+      "text": "막히면 세 가지를 담아 물으면 되고요.",
+      "text_sha256": "0a9745e5856ad43ca017a7971d2b51bc4b83a55ffa13c2e631f5d372eb41df8d"
+    },
+    {
+      "id": "05-wrap-up/02.mdx:31:94e04c1764",
+      "path": "05-wrap-up/02.mdx",
+      "line": 22,
+      "ordinal": 31,
+      "kind": "prose",
+      "text": "여기까지 함께 와 줘서 고마워요.",
+      "text_sha256": "94e04c17643e5ea6c24cf84af89b8a0e51e4572a539bdab56839662575379c41"
+    },
+    {
+      "id": "05-wrap-up/02.mdx:32:1248e16560",
+      "path": "05-wrap-up/02.mdx",
+      "line": 22,
+      "ordinal": 32,
+      "kind": "prose",
+      "text": "다음 화면은 여러분의 차례예요.",
+      "text_sha256": "1248e1656080061a0eff9aad5af79de047c22b110c4026f23298913cfee66943"
+    }
+  ],
+  "reviews": [
+    {
+      "sentence_id": "01-vibe-coding/01.mdx:1:0516ceef1f",
+      "round": 1,
+      "reviewed_at": "2026-08-25T15:46:59Z",
+      "state_before_sha256": "7416b87a2ce937872850055b2c40bac8934644d2f5c780c0a2d58dbd1b8065e8",
+      "reviewer": {
+        "run_id": "sr-1-r1-a1-1787672819303",
+        "model": "claude-haiku-4-5-20251001",
+        "fresh_context": true,
+        "repository_access": false,
+        "raw_neighbor_sentences": false
+      },
+      "dimensions": {
+        "clarity": 2,
+        "consistency": 2,
+        "flow": 2,
+        "logic": 2,
+        "novice_comprehension": 1
+      },
+      "severity": "pass",
+      "issues": [
+        {
+          "problem": "\"코딩\"이라는 용어가 정의 없이 사용되었다. 한국 일상에서 알려진 말이지만, 비전공 학생이 정확한 의미를 모를 수 있다.",
+          "suggestion": "이 문장이나 바로 다음에 \"코딩이란 컴퓨터 프로그래밍, 즉 컴퓨터에 명령을 내리는 작업입니다\"같은 간단한 정의를 추가하여 용어를 명확히 한다."
+        }
+      ],
+      "reader_state_after": {
+        "understood_facts": [
+          "사람들은 코딩을 검은 화면에 알 수 없는 글자를 빠르게 치는 모습으로 떠올리는 경향이 있다"
+        ],
+        "defined_terms": [],
+        "open_questions": [
+          "코딩이 실제로 무엇인가?"
+        ],
+        "evictions": []
+      },
+      "invalidated": false,
+      "invalidated_at": null,
+      "invalidated_reason": null
+    },
+    {
+      "sentence_id": "01-vibe-coding/01.mdx:2:d057a2d690",
+      "round": 1,
+      "reviewed_at": "2026-08-25T15:48:02Z",
+      "state_before_sha256": "44f3926ba191d14f7351f8afd3328a25c2dcb84eed9daa6658d15ec0068757db",
+      "reviewer": {
+        "run_id": "sr-2-r1-a1-1787672882924",
+        "model": "claude-haiku-4-5-20251001",
+        "fresh_context": true,
+        "repository_access": false,
+        "raw_neighbor_sentences": false
+      },
+      "dimensions": {
+        "clarity": 2,
+        "consistency": 2,
+        "flow": 2,
+        "logic": 2,
+        "novice_comprehension": 2
+      },
+      "severity": "pass",
+      "issues": [],
+      "reader_state_after": {
+        "understood_facts": [
+          "사람들은 코딩을 검은 화면에 알 수 없는 글자를 빠르게 치는 모습으로 떠올리는 경향이 있다"
+        ],
+        "defined_terms": [],
+        "open_questions": [
+          "코딩이 실제로 무엇인가?"
+        ],
+        "evictions": []
+      },
+      "invalidated": false,
+      "invalidated_at": null,
+      "invalidated_reason": null
+    },
+    {
+      "sentence_id": "01-vibe-coding/01.mdx:3:2062601e82",
+      "round": 1,
+      "reviewed_at": "2026-08-25T15:48:29Z",
+      "state_before_sha256": "44f3926ba191d14f7351f8afd3328a25c2dcb84eed9daa6658d15ec0068757db",
+      "reviewer": {
+        "run_id": "sr-3-r1-a1-1787672909223",
+        "model": "claude-haiku-4-5-20251001",
+        "fresh_context": true,
+        "repository_access": false,
+        "raw_neighbor_sentences": false
+      },
+      "dimensions": {
+        "clarity": 2,
+        "consistency": 2,
+        "flow": 2,
+        "logic": 2,
+        "novice_comprehension": 2
+      },
+      "severity": "pass",
+      "issues": [],
+      "reader_state_after": {
+        "understood_facts": [
+          "사람들은 코딩을 검은 화면에 알 수 없는 글자를 빠르게 치는 모습으로 떠올리는 경향이 있다",
+          "이 교재에서 하는 코딩은 일반적인 인식과 다르다"
+        ],
+        "defined_terms": [],
+        "open_questions": [
+          "코딩이 실제로 무엇인가?",
+          "이 교재에서 하는 코딩의 다른 점이 정확히 무엇인가?"
+        ],
+        "evictions": []
+      },
+      "invalidated": false,
+      "invalidated_at": null,
+      "invalidated_reason": null
+    },
+    {
+      "sentence_id": "01-vibe-coding/01.mdx:4:291b97b20e",
+      "round": 1,
+      "reviewed_at": "2026-08-25T15:49:45Z",
+      "state_before_sha256": "f9e1cee37c4a704c6c0ed5372fa9ceb255ec8e30dc0e8e40891fa95593f39982",
+      "reviewer": {
+        "run_id": "sr-4-r1-a1-1787672985310",
+        "model": "claude-haiku-4-5-20251001",
+        "fresh_context": true,
+        "repository_access": false,
+        "raw_neighbor_sentences": false
+      },
+      "dimensions": {
+        "clarity": 1,
+        "consistency": 2,
+        "flow": 2,
+        "logic": 1,
+        "novice_comprehension": 1
+      },
+      "severity": "minor",
+      "issues": [
+        {
+          "problem": "'대화로 하는 조립'이 모호함. 한 번에 이해하기 어렵고, 정확히 무엇을 의미하는지 명확하지 않음.",
+          "suggestion": "구체적인 비유나 설명을 추가. 예: '차근차근 단계를 따라가며 만드는 조립처럼' 또는 '상대방과 주고받듯이 진행하는 조립처럼' 등으로 구체화."
+        },
+        {
+          "problem": "왜 '대화로 하는 조립'인지 근거가 불명확. 일반적인 코딩 인식과의 대비가 부족함.",
+          "suggestion": "일반적 인식(검은 화면, 빠른 타이핑, 알 수 없는 글자)과 명시적으로 대비하여, '이 새로운 방식이 어떻게 다른가'를 더 직관적으로 설명."
+        }
+      ],
+      "reader_state_after": {
+        "understood_facts": [
+          "사람들은 코딩을 검은 화면에 알 수 없는 글자를 빠르게 치는 모습으로 떠올리는 경향이 있다",
+          "이 교재에서 하는 코딩은 일반적인 인식과 다르다",
+          "이 교재에서 하는 코딩은 대화로 하는 조립처럼 한다"
+        ],
+        "defined_terms": [],
+        "open_questions": [
+          "코딩이 실제로 무엇인가?",
+          "이 교재에서 하는 코딩의 다른 점이 정확히 무엇인가?",
+          "'대화로 하는 조립'이 정확히 무엇을 의미하는가?"
+        ],
+        "evictions": []
+      },
+      "invalidated": false,
+      "invalidated_at": null,
+      "invalidated_reason": null
+    },
+    {
+      "sentence_id": "01-vibe-coding/01.mdx:5:5977dc16de",
+      "round": 1,
+      "reviewed_at": "2026-08-25T15:51:30Z",
+      "state_before_sha256": "adab100a538b933d80668c187ae57c2875a53a53a39e4b92f9e60b303b5e4663",
+      "reviewer": {
+        "run_id": "sr-5-r1-a1-1787673090966",
+        "model": "claude-haiku-4-5-20251001",
+        "fresh_context": true,
+        "repository_access": false,
+        "raw_neighbor_sentences": false
+      },
+      "dimensions": {
+        "clarity": 1,
+        "consistency": 2,
+        "flow": 2,
+        "logic": 2,
+        "novice_comprehension": 1
+      },
+      "severity": "minor",
+      "issues": [
+        {
+          "problem": "\"부품을 맞춰 보며\"의 정확한 의미가 명확하지 않다. \"조립한다\"? \"시도해본다\"? \"맞춘다\"가 프로그래밍 맥락에서 무엇을 의미하는지 처음 읽는 학습자에게는 약간 모호할 수 있다.",
+          "suggestion": "\"부품을 조립해 보며\" 또는 \"부품을 맞춰 가며\" 등 더 명확한 표현으로 다듬거나, \"부품\"의 프로그래밍 맥락에서의 의미를 미리 한 번 명시하는 것이 도움이 될 것 같다."
+        },
+        {
+          "problem": "\"부품\"이라는 단어가 일상 어휘이지만, 프로그래밍 맥락에서의 정확한 의미(위젯? 컴포넌트? 함수?)가 명확하지 않아 초보자가 정확한 개념을 파악하기 어려울 수 있다.",
+          "suggestion": "이후 문장이나 다음 섹션에서 \"부품\"이 정확히 무엇을 지칭하는지 명확히 설명하면 학습자의 이해도가 크게 향상될 것이다."
+        }
+      ],
+      "reader_state_after": {
+        "understood_facts": [
+          "사람들은 코딩을 검은 화면에 알 수 없는 글자를 빠르게 치는 모습으로 떠올리는 경향이 있다",
+          "이 교재에서 하는 코딩은 일반적인 인식과 다르다",
+          "이 교재에서 하는 코딩은 대화로 하는 조립처럼 한다",
+          "원하는 것을 말로 설명하면 부품이 만들어진다",
+          "부품을 맞춰 보며 앱을 완성한다"
+        ],
+        "defined_terms": [],
+        "open_questions": [
+          "코딩이 실제로 무엇인가?",
+          "이 교재에서 하는 코딩의 다른 점이 정확히 무엇인가?",
+          "'대화로 하는 조립'이 정확히 무엇을 의미하는가?",
+          "부품이 정확히 무엇인가?"
+        ],
+        "evictions": []
+      },
+      "invalidated": false,
+      "invalidated_at": null,
+      "invalidated_reason": null
+    },
+    {
+      "sentence_id": "01-vibe-coding/01.mdx:6:6a5f909d8c",
+      "round": 1,
+      "reviewed_at": "2026-08-25T15:53:21Z",
+      "state_before_sha256": "cdf8672ceaf5272a42193e9742bc7ed678b522f0fadbd44c951387a542d9e718",
+      "reviewer": {
+        "run_id": "sr-6-r1-a1-1787673201084",
+        "model": "claude-haiku-4-5-20251001",
+        "fresh_context": true,
+        "repository_access": false,
+        "raw_neighbor_sentences": false
+      },
+      "dimensions": {
+        "clarity": 2,
+        "consistency": 2,
+        "flow": 2,
+        "logic": 2,
+        "novice_comprehension": 2
+      },
+      "severity": "pass",
+      "issues": [],
+      "reader_state_after": {
+        "understood_facts": [
+          "사람들은 코딩을 검은 화면에 알 수 없는 글자를 빠르게 치는 모습으로 떠올리는 경향이 있다",
+          "이 교재에서 하는 코딩은 일반적인 인식과 다르다",
+          "이 교재에서 하는 코딩은 대화로 하는 조립처럼 한다",
+          "원하는 것을 말로 설명하면 부품이 만들어진다",
+          "부품을 맞춰 보며 앱을 완성한다",
+          "복잡한 것을 한 번에 만들지 않는다"
+        ],
+        "defined_terms": [],
+        "open_questions": [
+          "코딩이 실제로 무엇인가?",
+          "이 교재에서 하는 코딩의 다른 점이 정확히 무엇인가?",
+          "'대화로 하는 조립'이 정확히 무엇을 의미하는가?",
+          "부품이 정확히 무엇인가?"
+        ],
+        "evictions": []
+      },
+      "invalidated": false,
+      "invalidated_at": null,
+      "invalidated_reason": null
+    }
+  ],
+  "reader_state": {
+    "understood_facts": [
+      "사람들은 코딩을 검은 화면에 알 수 없는 글자를 빠르게 치는 모습으로 떠올리는 경향이 있다",
+      "이 교재에서 하는 코딩은 일반적인 인식과 다르다",
+      "이 교재에서 하는 코딩은 대화로 하는 조립처럼 한다",
+      "원하는 것을 말로 설명하면 부품이 만들어진다",
+      "부품을 맞춰 보며 앱을 완성한다",
+      "복잡한 것을 한 번에 만들지 않는다"
+    ],
+    "defined_terms": [],
+    "open_questions": [
+      "코딩이 실제로 무엇인가?",
+      "이 교재에서 하는 코딩의 다른 점이 정확히 무엇인가?",
+      "'대화로 하는 조립'이 정확히 무엇을 의미하는가?",
+      "부품이 정확히 무엇인가?"
+    ],
+    "evictions": []
+  },
+  "exceptions": []
+}

@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "chapter_id": "03-widget-tree",
+  "gap_sec": 2,
+  "total_duration_sec": 27.28,
+  "scenes": [
+    {
+      "index": 0,
+      "start_sec": 0,
+      "duration_sec": 4.24,
+      "narration": "이 챕터에서는 화면을 그림으로 읽는 법을 배워요.",
+      "visual": {
+        "type": "title",
+        "text": "위젯 트리 이해하기"
+      }
+    },
+    {
+      "index": 1,
+      "start_sec": 6.24,
+      "duration_sec": 3.52,
+      "narration": "버튼도, 글자도, 화면 전체도 전부 위젯이에요.",
+      "visual": {
+        "type": "bullets",
+        "items": [
+          "모든 것이 위젯",
+          "부모가 자식을 품어요",
+          "쌓인 전체가 트리"
+        ]
+      }
+    },
+    {
+      "index": 2,
+      "start_sec": 11.76,
+      "duration_sec": 2.64,
+      "narration": "첫 화면의 트리는 이렇게 생겼어요.",
+      "visual": {
+        "type": "figure",
+        "media_id": "fig-01"
+      }
+    },
+    {
+      "index": 3,
+      "start_sec": 16.4,
+      "duration_sec": 5.28,
+      "narration": "코드의 들여쓰기가 곧 트리예요. 안으로 들어갈수록 자식이에요.",
+      "visual": {
+        "type": "code",
+        "text": "Center(\n  child: Text('안녕, Flutter!'),\n)"
+      }
+    },
+    {
+      "index": 4,
+      "start_sec": 23.68,
+      "duration_sec": 3.6,
+      "narration": "화면을 바꿀 때는 트리를 먼저 고쳐 그려요.",
+      "visual": {
+        "type": "figure",
+        "media_id": "fig-02"
+      }
+    }
+  ]
+}

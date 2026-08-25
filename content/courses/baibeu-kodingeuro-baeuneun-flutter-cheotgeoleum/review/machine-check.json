@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "course_id": "01M0WK073ZX0BQY9QHJKYRNHRY",
-  "checked_at": "2026-08-25T15:34:36Z",
+  "checked_at": "2026-08-25T15:42:50Z",
   "pass": false,
-  "blocker_count": 1,
+  "blocker_count": 5,
   "warning_count": 0,
   "inputs": [
     {
@@ -65,6 +65,26 @@
     {
       "path": "chapters/05-wrap-up/02.mdx",
       "sha256": "ed783c58121b8ea47d524274c807c7e3c2f617dd1f34cc04689ed8d659eb4dbe"
+    },
+    {
+      "path": "chapters/01-vibe-coding/media.json",
+      "sha256": "ca953a497a98177d5c1697d2c40dbd68d1fc6347d57d8b8edcebcd591f16beeb"
+    },
+    {
+      "path": "chapters/02-first-project/media.json",
+      "sha256": "38b523cbb4a9ff6d034f814c8e6f6128cc521e1f086b641806680d65f69cf2c4"
+    },
+    {
+      "path": "chapters/03-widget-tree/media.json",
+      "sha256": "b7396494e0456e9b6e29e2e10329af6917fbb0611cb48432a0ff7f1db62da0e7"
+    },
+    {
+      "path": "chapters/04-state/media.json",
+      "sha256": "5875083a2af564822d444ea67e79ea832602215c13bcaf2ebf2d482fa4ab1c9f"
+    },
+    {
+      "path": "chapters/05-wrap-up/media.json",
+      "sha256": "796c25eca293d0bae007a983bebca8f0aae8a9e77c88f91a98e2f709c0276d14"
     }
   ],
   "standards": {
@@ -77,7 +97,43 @@
       "code": "ST09",
       "kind": "static",
       "grade": "block",
-      "message": "manual-review.json이 없습니다 — 수동 검토가 기록되지 않았습니다",
+      "message": "수동 검토 MR01가 아직 처리되지 않았습니다",
+      "path": "review/manual-review.json",
+      "line": null,
+      "detail": null
+    },
+    {
+      "code": "ST09",
+      "kind": "static",
+      "grade": "block",
+      "message": "수동 검토 MR02가 아직 처리되지 않았습니다",
+      "path": "review/manual-review.json",
+      "line": null,
+      "detail": null
+    },
+    {
+      "code": "ST09",
+      "kind": "static",
+      "grade": "block",
+      "message": "수동 검토 MR03가 아직 처리되지 않았습니다",
+      "path": "review/manual-review.json",
+      "line": null,
+      "detail": null
+    },
+    {
+      "code": "ST09",
+      "kind": "static",
+      "grade": "block",
+      "message": "수동 검토 MR04가 아직 처리되지 않았습니다",
+      "path": "review/manual-review.json",
+      "line": null,
+      "detail": null
+    },
+    {
+      "code": "ST09",
+      "kind": "static",
+      "grade": "block",
+      "message": "수동 검토 MR05가 아직 처리되지 않았습니다",
       "path": "review/manual-review.json",
       "line": null,
       "detail": null

@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "chapter_id": "01-vibe-coding",
+  "items": [
+    {
+      "id": "fig-01",
+      "kind": "infographic",
+      "alt": "사람이 원하는 화면을 말로 설명하면 AI 코딩 도구가 코드를 만들고 그 코드가 앱이 되는 관계를 나타낸 그림. 학습자는 결과를 읽고 확인한 뒤 고쳐 달라고 다시 말하는 화살표로 되돌아간다.",
+      "purpose": "말로 부탁하고 읽고 고치는 바이브 코딩의 순환을 한눈에 보게 한다",
+      "source": "ops/runs/gen-flutter-202608252251/figures/ch1-fig-01.png",
+      "r2_key": "media/01-vibe-coding/fig-01.png",
+      "url": "https://media.local.opencourse.invalid/media/01-vibe-coding/fig-01.png",
+      "bytes": 67340,
+      "sha256": "7850a19219250278f166c225155cbd4df5f889516d2d36ce3773e5106561477c",
+      "uploaded_at": "2026-08-25T15:42:14Z",
+      "status": "active",
+      "cleanup_marked_at": null
+    },
+    {
+      "id": "aud-01",
+      "kind": "audio",
+      "alt": null,
+      "purpose": "챕터 개요 나레이션",
+      "source": "ops/runs/gen-flutter-202608252251/audio/01-vibe-coding/aud-01.mp3",
+      "r2_key": "media/01-vibe-coding/aud-01.mp3",
+      "url": "https://media.local.opencourse.invalid/media/01-vibe-coding/aud-01.mp3",
+      "bytes": 377324,
+      "sha256": "36cef661947d415993fd474bd176e9c74fa195249f3a9694a0066e0cf35fb472",
+      "uploaded_at": "2026-08-25T15:42:14Z",
+      "status": "active",
+      "cleanup_marked_at": null
+    }
+  ],
+  "video": {
+    "audio_item": "aud-01",
+    "timeline_file": "timeline.json",
+    "captions_file": "captions.vtt",
+    "duration_sec": 31.36
+  }
+}

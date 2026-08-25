@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "chapter_id": "04-state",
+  "items": [
+    {
+      "id": "fig-01",
+      "kind": "infographic",
+      "alt": "setState가 화면을 다시 그리는 흐름. 버튼을 탭하면 setState가 상태를 바꾸고, build가 다시 실행되어 새 화면이 나타나는 네 단계가 화살표로 이어져 있다.",
+      "purpose": "setState에서 새 화면까지의 인과 사슬을 시각화한다",
+      "source": "ops/runs/gen-flutter-202608252251/figures/ch4-fig-01.png",
+      "r2_key": "media/04-state/fig-01.png",
+      "url": "https://media.local.opencourse.invalid/media/04-state/fig-01.png",
+      "bytes": 70913,
+      "sha256": "c7e3e17c3517f865ce1ee9db1dcb1e10d05739c8f8d404a33d9ac6163150f290",
+      "uploaded_at": "2026-08-25T15:42:14Z",
+      "status": "active",
+      "cleanup_marked_at": null
+    },
+    {
+      "id": "aud-01",
+      "kind": "audio",
+      "alt": null,
+      "purpose": "챕터 개요 나레이션",
+      "source": "ops/runs/gen-flutter-202608252251/audio/04-state/aud-01.mp3",
+      "r2_key": "media/04-state/aud-01.mp3",
+      "url": "https://media.local.opencourse.invalid/media/04-state/aud-01.mp3",
+      "bytes": 375308,
+      "sha256": "ec4e2ae29f085f2fc91cda71321563fc2a4786a16467831252727b4925fc2c40",
+      "uploaded_at": "2026-08-25T15:42:14Z",
+      "status": "active",
+      "cleanup_marked_at": null
+    }
+  ],
+  "video": {
+    "audio_item": "aud-01",
+    "timeline_file": "timeline.json",
+    "captions_file": "captions.vtt",
+    "duration_sec": 31.2
+  }
+}
