@@ -7,6 +7,7 @@
     "node": ">=22"
   },
   "scripts": {
+    "check": "pnpm --filter @opencourse/content build && node packages/content/dist/machine-check/cli.js",
     "build": "pnpm -r build",
     "test": "pnpm -r test",
     "typecheck": "pnpm -r typecheck",

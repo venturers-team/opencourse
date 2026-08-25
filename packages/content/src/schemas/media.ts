@@ -7,6 +7,7 @@ export const MediaItemSchema = z
     id: mediaId,
     kind: z.enum(["infographic", "audio"]),
     alt: z.string().nullable(),
+    purpose: z.string().nullable(),
     source: nonempty,
     r2_key: z.string().nullable(),
     url: z.string().url().nullable(),

@@ -81,6 +81,7 @@ export function writeFixtureCourse(root: string, sabotage: Sabotage = {}) {
         id: "fig-01",
         kind: "infographic",
         alt: "위젯 트리를 나타낸 그림",
+        purpose: "트리 구조를 눈으로 확인하게 한다",
         source: `ops/runs/gen-fixture-202608251200/${chapterId}/fig-01.png`,
         r2_key: `media/${chapterId}/fig-01.png`,
         url:
@@ -98,6 +99,7 @@ export function writeFixtureCourse(root: string, sabotage: Sabotage = {}) {
         id: "aud-01",
         kind: "audio",
         alt: null,
+        purpose: "챕터 개요 나레이션",
         source: `ops/runs/gen-fixture-202608251200/${chapterId}/aud-01.mp3`,
         r2_key: `media/${chapterId}/aud-01.mp3`,
         url: `https://media.example.com/${chapterId}/aud-01.mp3`,
