@@ -6,6 +6,7 @@ import {
   sha256Hex,
   sentenceSha256,
   shortHash,
+  thresholdsContentSha256,
 } from "./fingerprint.js";
 import { ulid } from "./ids.js";
 import { MR_CODES } from "./schemas/manual-review.js";
@@ -240,7 +241,9 @@ export function writeFixtureCourse(root: string, sabotage: Sabotage = {}) {
       standards: {
         scoring_rules_sha256: std("scoring-rules.md"),
         manual_review_items_sha256: std("manual-review-items.md"),
-        thresholds_sha256: std("thresholds.json"),
+        thresholds_sha256: thresholdsContentSha256(
+          JSON.parse(readFileSync(join(standardsDir, "thresholds.json"), "utf8")),
+        ),
       },
       defects: machineDefects,
     }),
@@ -271,7 +274,9 @@ export function writeFixtureCourse(root: string, sabotage: Sabotage = {}) {
       protocol: {
         review_protocol_sha256: std("review-protocol.md"),
         beginner_baseline_sha256: std("beginner-baseline.md"),
-        thresholds_sha256: std("thresholds.json"),
+        thresholds_sha256: thresholdsContentSha256(
+          JSON.parse(readFileSync(join(standardsDir, "thresholds.json"), "utf8")),
+        ),
       },
       source_sha256: bodyAll,
       status: sabotage.sentenceNotClean ? "revision_required" : "clean_pass",
@@ -351,7 +356,9 @@ export function writeFixtureCourse(root: string, sabotage: Sabotage = {}) {
       protocol: {
         review_protocol_sha256: std("review-protocol.md"),
         beginner_baseline_sha256: std("beginner-baseline.md"),
-        thresholds_sha256: std("thresholds.json"),
+        thresholds_sha256: thresholdsContentSha256(
+          JSON.parse(readFileSync(join(standardsDir, "thresholds.json"), "utf8")),
+        ),
       },
       status: "clean_pass",
       reviews: [

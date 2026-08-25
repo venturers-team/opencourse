@@ -1,0 +1,352 @@
+{
+  "schema_version": 1,
+  "course_id": "01M0WK073ZX0BQY9QHJKYRNHRY",
+  "protocol": {
+    "review_protocol_sha256": "a9d3853570d0302b7a46d50ceca0bc5f558ea3d821d35d0d0171a47ac89bb12d",
+    "beginner_baseline_sha256": "a34d6b34db149fe0376b18636113e92c023b1ebddc341e308d3e2c8da779d897",
+    "thresholds_sha256": "986a7f0cc8e041c4e3b5ff5d4ac80a4060c4b109f8c0e9f012ece66f922974c7"
+  },
+  "status": "clean_pass",
+  "reviews": [
+    {
+      "chapter_id": "01-vibe-coding",
+      "round": 1,
+      "reviewed_at": "2026-08-25T21:44:44Z",
+      "body_sha256": "6cb35ebaff8958a489c26e6804d67a7cc6e5787f7101d72ceede472c472ed01c",
+      "context": {
+        "prior_chapters": []
+      },
+      "reviewer": {
+        "run_id": "sec-01-vibe-coding-r1-1787694284580",
+        "model": "claude-sonnet-5",
+        "read_whole_chapter": true
+      },
+      "dimensions": {
+        "completeness": 2,
+        "sequence": 2,
+        "frame_consistency": 2,
+        "evidence": 1,
+        "learner_exit": 2
+      },
+      "severity": "pass",
+      "missing": [],
+      "issues": [
+        {
+          "problem": "'AI가 만든 코드가 늘 정답은 아니에요. 엉뚱한 화면이 나오기도 하고, 요청과 다른 결과가 나오기도 해요'라는 주장에 구체적 예시나 스크린샷이 없어, 코딩을 처음 접하는 독자가 실제로 어떤 상황을 말하는 건지 상상하기 어렵다.",
+          "suggestion": "간단한 예시 한 문장(예: '버튼을 눌러도 반응이 없는 화면', '요청한 색과 다른 색이 나온 화면')이나 스크린샷을 덧붙여 주장을 구체화한다."
+        }
+      ],
+      "covered": [
+        "바이브 코딩은 말로 설명하면 AI가 코드를 만들고 사람이 결과를 판단·수정하는 방식이라는 정의",
+        "코드는 컴퓨터에게 내리는 지시문이라는 정의",
+        "문법은 프로그래밍 언어의 쓰기 규칙이라는 정의",
+        "프로그래밍 경험이 없어도 시작 가능한 이유: 첫 코드 작성은 AI가 대신함",
+        "이 교재의 목표는 AI가 쓴 코드를 읽고 판단해 더 나은 방향으로 이끄는 힘을 기르는 것",
+        "교재는 다섯 챕터로 이어지며 앞 챕터 결과물이 다음 챕터 재료가 되어 순서대로 읽기를 권장",
+        "각 챕터는 읽기→그려보기→실습 순서로 진행되며 그림은 네모와 화살표 수준이면 충분",
+        "챕터 첫머리에 90초 개요 영상이 있어 전체 흐름을 먼저 보여줌",
+        "도우미(AI 챗봇)는 평가·성적에 쓰이지 않으며 자유롭게 질문 가능",
+        "준비물은 노트북·인터넷·시간 세 가지이며, 설치 없이 DartPad로 시작 가능하고 AI 코딩 도구는 수업에서 안내"
+      ],
+      "defines": [
+        "바이브 코딩",
+        "코드",
+        "문법",
+        "DartPad"
+      ],
+      "invalidated": false,
+      "invalidated_at": null,
+      "invalidated_reason": null
+    },
+    {
+      "chapter_id": "02-first-project",
+      "round": 1,
+      "reviewed_at": "2026-08-25T21:46:35Z",
+      "body_sha256": "9494502c95452b8519b96dd5be3a579f88f7b1747f884ea1481d86e3203c380c",
+      "context": {
+        "prior_chapters": [
+          {
+            "chapter_id": "01-vibe-coding",
+            "body_sha256": "6cb35ebaff8958a489c26e6804d67a7cc6e5787f7101d72ceede472c472ed01c"
+          }
+        ]
+      },
+      "reviewer": {
+        "run_id": "sec-02-first-project-r1-1787694395081",
+        "model": "claude-sonnet-5",
+        "read_whole_chapter": true
+      },
+      "dimensions": {
+        "completeness": 2,
+        "sequence": 2,
+        "frame_consistency": 1,
+        "evidence": 1,
+        "learner_exit": 2
+      },
+      "severity": "minor",
+      "missing": [
+        {
+          "what": "2.1에서 설명한 프로젝트 폴더 구조(pubspec.yaml, android, ios)와 2.3의 DartPad 실습 사이를 잇는 한두 문장",
+          "why_needed": "2.1에서 자세히 짚은 폴더·파일들이 2.3의 실습 화면에는 하나도 나타나지 않는데 그 이유를 설명하지 않아, 독자가 방금 배운 지도와 실제 실습이 서로 다른 세계처럼 느껴질 수 있다."
+        }
+      ],
+      "issues": [
+        {
+          "problem": "2.1에서 소개한 프로젝트 폴더 지도(pubspec.yaml, android, ios 등)가 2.3의 실습(DartPad)에서는 전혀 등장하지 않아 두 장면이 이어지지 않는다. 독자는 방금 배운 폴더들을 실습에서 확인할 기회가 없어 개념과 실습이 따로 논다는 인상을 받는다.",
+          "suggestion": "2.1 끝이나 2.3 시작에 '지금은 DartPad로 연습하기 때문에 이 폴더들이 보이지 않아요. 나중에 실제 프로젝트를 열면 만나게 될 거예요' 같은 한 문장을 넣어 두 경험을 이어준다."
+        },
+        {
+          "problem": "'코드 하나로 여러 기기의 앱을 만든다는 이 특징은 Flutter 공식 문서가 가장 먼저 소개하는 내용이기도 해요'라는 문장은 검증할 근거 없이 권위에 기대는 진술이며, 주장을 뒷받침하는 데 꼭 필요하지도 않다.",
+          "suggestion": "출처를 확인할 수 없다면 이 문장을 빼거나 '이 특징 덕분에 코드 하나로 여러 기기용 앱을 만들 수 있어요' 정도로 단순화한다."
+        }
+      ],
+      "covered": [
+        "Flutter는 구글이 만든, 코드 하나로 여러 기기용 앱을 만드는 도구라는 정의",
+        "프로젝트는 여러 파일을 한 폴더에 모은 묶음이라는 정의",
+        "lib/main.dart가 앱의 화면과 동작을 정하며 기억해야 할 유일한 파일이라는 안내",
+        "pubspec.yaml은 이름표이자 재료 목록, android/ios 폴더는 기기별 포장 폴더이며 지금은 열지 않아도 된다는 안내",
+        "프롬프트는 AI에게 건네는 부탁의 문장이며, 무엇과 어디를 담아야 좋은 프롬프트라는 요령",
+        "AI가 돌려준 코드에서 따옴표 안 문자열이 프롬프트 내용과 일치하는지 확인하는 첫 코드 읽기 요령",
+        "실행은 코드를 컴퓨터가 읽어 화면으로 바꾸는 일이라는 정의",
+        "DartPad에 코드를 붙여넣고 실행해 결과를 프롬프트와 대조하는 절차",
+        "실행이 안 될 때 전체 재복사 후 오류 문구를 그대로 AI에게 되묻는 대처법",
+        "부탁-실행-대조를 바이브 코딩의 한 바퀴로 요약"
+      ],
+      "defines": [
+        "프로젝트",
+        "폴더",
+        "lib/main.dart",
+        "pubspec.yaml",
+        "프롬프트",
+        "실행"
+      ],
+      "invalidated": false,
+      "invalidated_at": null,
+      "invalidated_reason": null
+    },
+    {
+      "chapter_id": "03-widget-tree",
+      "round": 1,
+      "reviewed_at": "2026-08-25T21:48:00Z",
+      "body_sha256": "78989071843327b7db83efa4b364e110a52bfd402d063f78934edb55f2227ab8",
+      "context": {
+        "prior_chapters": [
+          {
+            "chapter_id": "01-vibe-coding",
+            "body_sha256": "6cb35ebaff8958a489c26e6804d67a7cc6e5787f7101d72ceede472c472ed01c"
+          },
+          {
+            "chapter_id": "02-first-project",
+            "body_sha256": "9494502c95452b8519b96dd5be3a579f88f7b1747f884ea1481d86e3203c380c"
+          }
+        ]
+      },
+      "reviewer": {
+        "run_id": "sec-03-widget-tree-r1-1787694480887",
+        "model": "claude-sonnet-5",
+        "read_whole_chapter": true
+      },
+      "dimensions": {
+        "completeness": 1,
+        "sequence": 2,
+        "frame_consistency": 2,
+        "evidence": 1,
+        "learner_exit": 1
+      },
+      "severity": "minor",
+      "missing": [
+        {
+          "what": "child가 위젯 '하나'만 받는다고 배운 직후, 여러 자식을 담는 children: [ ] 문법이 한 번도 언급되지 않음",
+          "why_needed": "3.3의 핵심 예시가 Column에 자식을 '둘' 넣는 상황인데, 실제 Dart 코드에서는 child: 위젯 대신 children: [위젯, 위젯] 형태의 대괄호 목록을 쓴다. 이 문법 차이를 짚어주지 않으면 학습자는 AI가 돌려준 실제 코드를 보고 왜 child가 아니라 처음 보는 children과 대괄호가 나오는지 스스로 판단할 수 없고, 챕터가 가르친 '들여쓰기로 자식 수 세기' 검증법을 엉뚱하게 적용할 위험이 있다."
+        },
+        {
+          "what": "버튼 위젯의 실제 이름(예: ElevatedButton, TextButton 등)이 한 번도 언급되지 않음",
+          "why_needed": "그림과 설명은 '버튼'이라는 일반 명사로만 지칭하는데, AI가 돌려주는 실제 코드에는 구체적인 위젯 이름이 등장한다. 이름을 미리 알려주지 않으면 학습자가 코드에서 어떤 줄이 자신이 그린 '버튼' 네모에 해당하는지 알아보지 못한다."
+        }
+      ],
+      "issues": [
+        {
+          "problem": "3.2에서 child:는 위젯 '하나'를 넣는 자리라고 명확히 가르쳤는데, 3.3은 \"Column의 자식으로 Text와 버튼을 두면 돼요\"라고만 하고 실제 코드나 children: [...] 문법을 전혀 보여주지 않은 채 넘어간다. 이는 completeness와 evidence 모두에 걸리는 공백이다 — 핵심 예시에 대한 코드 근거가 빠져 있다.",
+          "suggestion": "3.3에 짧은 코드 스니펫을 추가해 child: 자리에 Column을 넣고, Column(children: [Text(...), 버튼(...)]) 형태로 여러 자식을 담는다는 것을 보여준다. child와 children의 차이(하나 vs 여럿, 대괄호 목록)를 한두 문장으로 짚어준다."
+        },
+        {
+          "problem": "코드 확인 절차를 \"Column보다 한 단 더 들어간 줄이 두 개면 자식이 둘\"이라고 설명하는데, 실제로는 children: [ 라는 줄이 한 겹 더 끼어들어 들여쓰기 단수가 어긋날 수 있다. 이는 evidence와 learner_exit에 함께 걸리는 문제 — 학습자가 이 기준으로 AI의 코드를 검증하다가 실제와 안 맞으면 자신이 뭔가 잘못했다고 오해하거나(이탈 위험), 반대로 잘못된 코드를 맞다고 넘길 수 있다.",
+          "suggestion": "검증 문장을 실제 코드 형태에 맞춰 \"children: [ 다음 줄부터 위젯이 몇 개 나열되어 있는지 세어보라\"는 식으로 구체화한다."
+        },
+        {
+          "problem": "3.3의 핵심 변경 결과(트리 변경 후)를 fig-02 이미지로만 제시하고 실제 코드 변화는 전혀 보여주지 않아, '그림 먼저, 부탁은 그다음, 코드는 확인'이라는 챕터의 마무리 습관 중 '코드는 확인' 단계를 학습자가 직접 연습해 볼 근거가 부족하다.",
+          "suggestion": "3.3 끝에 AI가 돌려줄 법한 최종 코드 예시(Column + children 두 개)를 짧게 보여주고, 그림과 대조하는 실제 사례를 한 번 보여준다."
+        }
+      ],
+      "covered": [
+        "위젯은 화면을 이루는 부품이며 '모든 것이 위젯'이라는 정의",
+        "위젯은 부모-자식 관계로 서로를 품으며 그 전체 구조를 트리라고 부름",
+        "트리의 맨 위는 뿌리(MaterialApp), 맨 끝에 매달린 것은 잎(Text)",
+        "코드의 들여쓰기 깊이가 곧 트리에서의 부모-자식 관계를 나타냄",
+        "child:는 코드에서 자식 위젯을 넣는 자리를 가리키는 이름표",
+        "화면을 바꿀 때는 코드보다 먼저 위젯 트리 그림을 고쳐 그리고 그다음에 프롬프트를 작성",
+        "Center의 child는 하나뿐이라 자식이 둘 이상 필요할 때는 Column처럼 여러 자식을 세로로 늘어놓는 위젯을 사이에 넣어야 함",
+        "AI가 돌려준 코드는 미리 그려둔 트리·들여쓰기와 대조해 확인",
+        "'그림 먼저, 부탁은 그다음, 코드는 확인'을 이번 챕터의 습관으로 정리"
+      ],
+      "defines": [
+        "위젯",
+        "부모",
+        "자식",
+        "트리",
+        "뿌리",
+        "잎",
+        "child",
+        "Column"
+      ],
+      "invalidated": false,
+      "invalidated_at": null,
+      "invalidated_reason": null
+    },
+    {
+      "chapter_id": "04-state",
+      "round": 1,
+      "reviewed_at": "2026-08-25T21:49:29Z",
+      "body_sha256": "e025a0a9ac404cddcfc882424f97b4c28bb9dad168d99c05217ce787ef6360db",
+      "context": {
+        "prior_chapters": [
+          {
+            "chapter_id": "01-vibe-coding",
+            "body_sha256": "6cb35ebaff8958a489c26e6804d67a7cc6e5787f7101d72ceede472c472ed01c"
+          },
+          {
+            "chapter_id": "02-first-project",
+            "body_sha256": "9494502c95452b8519b96dd5be3a579f88f7b1747f884ea1481d86e3203c380c"
+          },
+          {
+            "chapter_id": "03-widget-tree",
+            "body_sha256": "78989071843327b7db83efa4b364e110a52bfd402d063f78934edb55f2227ab8"
+          }
+        ]
+      },
+      "reviewer": {
+        "run_id": "sec-04-state-r1-1787694569932",
+        "model": "claude-sonnet-5",
+        "read_whole_chapter": true
+      },
+      "dimensions": {
+        "completeness": 1,
+        "sequence": 2,
+        "frame_consistency": 2,
+        "evidence": 1,
+        "learner_exit": 2
+      },
+      "severity": "minor",
+      "missing": [
+        {
+          "what": "setState를 쓰려면 코드 전체가 StatefulWidget이라는 특별한 상자(클래스) 안에 있어야 한다는 언급이 없음",
+          "why_needed": "AI가 실제로 돌려주는 코드는 3장까지 본 것과 다른 class 구조(StatefulWidget, State<...>)를 갖게 되는데, 이 챕터가 그 구조 변화를 예고하지 않으면 학습자가 4.3 실습에서 받은 코드를 보고 왜 구조 전체가 달라졌는지 당황하거나 낯설어할 수 있음"
+        }
+      ],
+      "issues": [
+        {
+          "problem": "4.2의 예시 코드 `int count = 0; setState(() { count = count + 1; });` 가 실제로는 단독으로 실행될 수 없는 코드(setState는 State 클래스 안에서만 호출 가능)인데, '코드에서는 이렇게 생겼어요'라고만 제시해 마치 그대로 동작하는 완전한 코드처럼 보임",
+          "suggestion": "이 코드는 핵심만 보여 주기 위해 단순화한 것이고 실제 코드에는 이를 감싸는 부분이 더 있다는 점을 한 문장으로 덧붙이기"
+        },
+        {
+          "problem": "4.3 체크리스트가 '상태 변수 있는지'와 'setState가 안에 있는지' 두 곳만 보라고 하는데, 실제 받은 코드에는 StatefulWidget/State 클래스라는 낯선 구조가 함께 나타날 것이므로 이 부분에 대한 짧은 안내가 없으면 확인 자체가 아니라 코드 전체를 보는 순간부터 막막할 수 있음",
+          "suggestion": "체크리스트 앞에 '코드에 처음 보는 class가 늘어나 있어도 정상이다, 우리가 볼 곳은 이 두 곳뿐이다' 같은 한 줄을 추가"
+        }
+      ],
+      "covered": [
+        "상태는 화면이 기억하는 값이며, 화면은 상태를 그린 결과라는 정의",
+        "버튼이 반응하려면 값 바꾸기와 다시 그리기 두 가지가 필요하다는 정리",
+        "build는 위젯이 자기 모습을 그리는 함수라는 정의",
+        "setState를 부르면 상태가 바뀌고 build가 다시 실행되어 화면이 다시 그려진다는 핵심 원리",
+        "상태 변수와 setState, 두 이름만 기억하면 되고 코드는 AI가 작성한다는 안내",
+        "받은 코드 확인은 상태 변수 존재 여부와 setState가 탭 핸들러 안에 있는지 두 곳만 보면 된다는 절차",
+        "숫자 세기 버튼 실습: 트리 그리기(바뀌는 위젯 표시)→프롬프트 작성→코드 확인→DartPad 실행 순서",
+        "setState 누락 시 오류 문구 없이 값만 바뀌고 화면은 그대로인 증상과 대처법(setState로 감싸달라고 재요청)"
+      ],
+      "defines": [
+        "상태",
+        "함수",
+        "build",
+        "setState",
+        "상태 변수"
+      ],
+      "invalidated": false,
+      "invalidated_at": null,
+      "invalidated_reason": null
+    },
+    {
+      "chapter_id": "05-wrap-up",
+      "round": 1,
+      "reviewed_at": "2026-08-25T21:50:29Z",
+      "body_sha256": "9657ba615bd575bf1e9b6bc095393c96cf54d1c99512cc06640aa4c13c66be5c",
+      "context": {
+        "prior_chapters": [
+          {
+            "chapter_id": "01-vibe-coding",
+            "body_sha256": "6cb35ebaff8958a489c26e6804d67a7cc6e5787f7101d72ceede472c472ed01c"
+          },
+          {
+            "chapter_id": "02-first-project",
+            "body_sha256": "9494502c95452b8519b96dd5be3a579f88f7b1747f884ea1481d86e3203c380c"
+          },
+          {
+            "chapter_id": "03-widget-tree",
+            "body_sha256": "78989071843327b7db83efa4b364e110a52bfd402d063f78934edb55f2227ab8"
+          },
+          {
+            "chapter_id": "04-state",
+            "body_sha256": "e025a0a9ac404cddcfc882424f97b4c28bb9dad168d99c05217ce787ef6360db"
+          }
+        ]
+      },
+      "reviewer": {
+        "run_id": "sec-05-wrap-up-r1-1787694629306",
+        "model": "claude-sonnet-5",
+        "read_whole_chapter": true
+      },
+      "dimensions": {
+        "completeness": 1,
+        "sequence": 2,
+        "frame_consistency": 2,
+        "evidence": 1,
+        "learner_exit": 2
+      },
+      "severity": "minor",
+      "missing": [
+        {
+          "what": "완성한 프로필 카드(채점 대상 작품)를 언제, 어떤 방법으로 제출해 채점받는지에 대한 안내",
+          "why_needed": "이 챕터에서 처음 '채점 대상 작품'이라는 개념이 등장하는데 제출 경로나 방식이 전혀 설명되지 않아, 학습자가 실습을 끝내고도 교재의 최종 목표를 완료할 방법을 모르게 됨"
+        }
+      ],
+      "issues": [
+        {
+          "problem": "'채점 대상 작품'이라는 개념이 사전 예고 없이 이 챕터에서 갑자기 등장한다. 채점 기준은 '트리와 들여쓰기 일치'로만 언급되고 누가·언제·어떻게 채점하는지는 없다.",
+          "suggestion": "채점 주체와 제출 방법을 한 문장이라도 덧붙이거나, 앞선 챕터에서 최종 작품이 채점된다는 점을 미리 언급해 학습자가 놀라지 않게 할 것"
+        },
+        {
+          "problem": "'좋은 질문의 세 요소(하려던 것·일어난 것·시도해 본 것)'를 가르치면서 제시한 두 예시 질문 모두 ③시도해 본 것에 해당하는 문장이 빠져 있어, 방금 설명한 근거와 예시가 어긋난다.",
+          "suggestion": "두 예시 중 최소 하나에 '이렇게 바꿔봤는데 안 됐어요' 같은 시도 문구를 넣어 세 요소를 온전히 보여줄 것"
+        }
+      ],
+      "covered": [
+        "Card는 내용을 담는 카드 모양 틀, CircleAvatar는 동그란 사진 자리라는 위젯 정의",
+        "트리 그리기→프롬프트 작성→코드 확인→실행 대조라는 기존 습관을 그대로 적용해 프로필 카드를 완성하는 실습 절차",
+        "완성한 카드는 채점 대상 작품이며 트리와 코드 들여쓰기 일치 여부가 채점 기준이라는 안내",
+        "받은 코드의 따옴표 안 문자열(이름·소개)을 직접 고쳐 처음으로 코드를 손으로 수정하는 경험",
+        "좋은 질문에는 하려던 것·실제 일어난 것·시도해 본 것 세 가지 정보가 필요하다는 원칙",
+        "화면 문제 상황과 오류 문구 상황 각각에 대한 질문 예시 문장",
+        "질문할 곳의 우선순위: 교재 도우미 → AI 코딩 도구 → 공식 문서, 도우미 대화는 평가에 쓰이지 않음",
+        "교재 전체를 트리 읽기·그림 먼저 그리고 구조로 부탁하기·상태와 setState로 화면 움직이기·부탁과 결과 대조하기로 요약하는 마무리",
+        "새 화면을 만들 때도 그리기→부탁→확인 순서를 그대로 반복하면 된다는 안내로 교재를 맺음"
+      ],
+      "defines": [
+        "Card",
+        "CircleAvatar"
+      ],
+      "invalidated": false,
+      "invalidated_at": null,
+      "invalidated_reason": null
+    }
+  ],
+  "exceptions": []
+}

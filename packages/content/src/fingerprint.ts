@@ -57,3 +57,16 @@ export function courseContentSha256(courseRaw: unknown): string {
   for (const key of COURSE_VOLATILE_KEYS) delete clone[key];
   return sha256Hex(stableStringify(clone));
 }
+
+/**
+ * 임계값 내용 지문 (docs/11 §4·§5, 2026-08-26).
+ * source(judgement→measured)·updatedAt 같은 측정 기록 메타데이터는 판정에 쓰이지 않으므로
+ * 제외하고, 실제 상한 값({ thresholds, learnerState })만 안정 직렬화해 해시한다.
+ * course.json 내용 지문과 같은 원리다 — 실측 전환이 검수를 무효화해서는 안 된다.
+ */
+export function thresholdsContentSha256(raw: unknown): string {
+  const doc = raw as { thresholds?: unknown; learnerState?: unknown };
+  return sha256Hex(
+    stableStringify({ thresholds: doc.thresholds ?? null, learnerState: doc.learnerState ?? null }),
+  );
+}

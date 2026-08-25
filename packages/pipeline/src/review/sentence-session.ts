@@ -2,6 +2,7 @@ import { appendFileSync, existsSync, mkdirSync, readFileSync, writeFileSync } fr
 import { dirname, join } from "node:path";
 import {
   CourseSchema,
+  thresholdsContentSha256,
   combinedSha256,
   extractReviewUnits,
   makeSentenceReviewSchema,
@@ -95,7 +96,9 @@ export class SentenceReviewSession {
     const protocol = {
       review_protocol_sha256: std("review-protocol.md"),
       beginner_baseline_sha256: std("beginner-baseline.md"),
-      thresholds_sha256: std("thresholds.json"),
+      thresholds_sha256: thresholdsContentSha256(
+        JSON.parse(readFileSync(join(standardsDir, "thresholds.json"), "utf8")),
+      ),
     };
 
     const path = join(courseDir, "review", "sentence-review.json");

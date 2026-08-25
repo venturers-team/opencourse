@@ -4,7 +4,7 @@
   "course_id": "01M0WK073ZX0BQY9QHJKYRNHRY",
   "kind": "generate",
   "started_at": "2026-08-25T13:51:57Z",
-  "ended_at": "2026-08-25T13:51:57Z",
+  "ended_at": "2026-08-25T21:55:17Z",
   "status": "success",
   "failed_stage": null,
   "stages": [
@@ -27,11 +27,172 @@
         "ops/runs/gen-flutter-202608252251/source-map.s2.json"
       ],
       "error": null
+    },
+    {
+      "id": "s3-outline-approved",
+      "started_at": "2026-08-25T15:04:00Z",
+      "ended_at": "2026-08-25T15:06:00Z",
+      "status": "success",
+      "outputs": [
+        "course.json (승인된 5챕터 목차)"
+      ],
+      "error": null
+    },
+    {
+      "id": "s4-preflight",
+      "started_at": "2026-08-25T15:06:00Z",
+      "ended_at": "2026-08-25T15:07:00Z",
+      "status": "success",
+      "outputs": [
+        "실행 전 점검 통과 (소단원 15·2,800자·88초)"
+      ],
+      "error": null
+    },
+    {
+      "id": "s5-rubric-instructions",
+      "started_at": "2026-08-25T15:07:00Z",
+      "ended_at": "2026-08-25T15:13:00Z",
+      "status": "success",
+      "outputs": [
+        "review/rubric.json",
+        "ops/runs/gen-flutter-202608252251/instructions/"
+      ],
+      "error": null
+    },
+    {
+      "id": "s6-drafts",
+      "started_at": "2026-08-25T15:13:56Z",
+      "ended_at": "2026-08-25T15:25:35Z",
+      "status": "success",
+      "outputs": [
+        "chapters/*/NN.mdx (14개, 격리 생성)"
+      ],
+      "error": null
+    },
+    {
+      "id": "s7-infographics",
+      "started_at": "2026-08-25T14:31:00Z",
+      "ended_at": "2026-08-25T14:36:00Z",
+      "status": "success",
+      "outputs": [
+        "ops/runs/gen-flutter-202608252251/figures (6장, Playwright 렌더)"
+      ],
+      "error": null
+    },
+    {
+      "id": "s8-scenes",
+      "started_at": "2026-08-25T14:40:00Z",
+      "ended_at": "2026-08-25T15:40:00Z",
+      "status": "success",
+      "outputs": [
+        "ops/runs/gen-flutter-202608252251/scenes (25장면)"
+      ],
+      "error": null
+    },
+    {
+      "id": "s9-tts-verify",
+      "started_at": "2026-08-25T15:47:00Z",
+      "ended_at": "2026-08-25T16:12:00Z",
+      "status": "success",
+      "outputs": [
+        "ops/runs/gen-flutter-202608252251/audio (Qwen3-TTS 25건 + Whisper 검증, 재합성 2건)"
+      ],
+      "error": null
+    },
+    {
+      "id": "s10-assemble",
+      "started_at": "2026-08-25T16:12:00Z",
+      "ended_at": "2026-08-25T16:15:00Z",
+      "status": "success",
+      "outputs": [
+        "chapters/*/timeline.json captions.vtt aud-01.mp3 (총 27~38초)"
+      ],
+      "error": null
+    },
+    {
+      "id": "s11-upload",
+      "started_at": "2026-08-25T16:16:00Z",
+      "ended_at": "2026-08-25T16:17:00Z",
+      "status": "success",
+      "outputs": [
+        "chapters/*/media.json (11건, 로컬 백엔드)"
+      ],
+      "error": null
+    },
+    {
+      "id": "s12-register",
+      "started_at": "2026-08-25T16:18:00Z",
+      "ended_at": "2026-08-25T16:19:00Z",
+      "status": "success",
+      "outputs": [
+        "상태 draft, 기계 검사 자동 1회"
+      ],
+      "error": null
+    },
+    {
+      "id": "review-sentence-r1",
+      "started_at": "2026-08-25T15:46:06Z",
+      "ended_at": "2026-08-25T16:43:06Z",
+      "status": "success",
+      "outputs": [
+        "412판정: 차단 52, revision"
+      ],
+      "error": null
+    },
+    {
+      "id": "review-sentence-r2",
+      "started_at": "2026-08-25T16:45:38Z",
+      "ended_at": "2026-08-25T17:19:47Z",
+      "status": "success",
+      "outputs": [
+        "차단 25, revision"
+      ],
+      "error": null
+    },
+    {
+      "id": "review-sentence-r3",
+      "started_at": "2026-08-25T17:21:45Z",
+      "ended_at": "2026-08-25T21:19:47Z",
+      "status": "success",
+      "outputs": [
+        "차단 14, revision (사용량 한도 중단 포함)"
+      ],
+      "error": null
+    },
+    {
+      "id": "review-sentence-r4",
+      "started_at": "2026-08-25T21:20:51Z",
+      "ended_at": "2026-08-25T21:43:47Z",
+      "status": "success",
+      "outputs": [
+        "391판정 clean_pass (pass 368, minor 23)"
+      ],
+      "error": null
+    },
+    {
+      "id": "review-section",
+      "started_at": "2026-08-25T21:44:00Z",
+      "ended_at": "2026-08-25T21:47:00Z",
+      "status": "success",
+      "outputs": [
+        "5챕터 pass/minor, 차단 0"
+      ],
+      "error": null
+    },
+    {
+      "id": "review-manual-publish",
+      "started_at": "2026-08-25T21:47:00Z",
+      "ended_at": "2026-08-25T21:55:17Z",
+      "status": "success",
+      "outputs": [
+        "MR01~09 done(보류 0), 기계 검사 차단 0 경고 0, 발행"
+      ],
+      "error": null
     }
   ],
   "metrics": {
-    "model_calls": null,
-    "tts_seconds": null,
-    "uploaded_bytes": null
+    "model_calls": 1353,
+    "tts_seconds": 158,
+    "uploaded_bytes": 1372866
   }
 }

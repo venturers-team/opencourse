@@ -1,6 +1,12 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { combinedSha256, sentenceSha256, sha256Hex, shortHash } from "./fingerprint.js";
+import {
+  combinedSha256,
+  sentenceSha256,
+  sha256Hex,
+  shortHash,
+  thresholdsContentSha256,
+} from "./fingerprint.js";
 
 test("같은 내용은 같은 지문, 한 글자 수정은 다른 지문", () => {
   assert.equal(sha256Hex("가나다"), sha256Hex("가나다"));
@@ -29,4 +35,21 @@ test("축약 지문은 앞 10자리다", () => {
   const h = sha256Hex("x");
   assert.equal(shortHash(h).length, 10);
   assert.ok(h.startsWith(shortHash(h)));
+});
+
+test("임계값 내용 지문: 실측 전환 기록은 지문을 바꾸지 않고, 상한 값은 바꾼다", () => {
+  const base = {
+    version: 1,
+    updatedAt: "2026-08-21",
+    source: "judgement",
+    thresholds: { maxSections: { value: 15, unit: "count", default: 15 } },
+    learnerState: { maxKnownFacts: { value: 40, unit: "count", default: 40 } },
+  };
+  const measured = { ...base, source: "measured", updatedAt: "2026-08-26" };
+  const changedValue = {
+    ...base,
+    thresholds: { maxSections: { value: 20, unit: "count", default: 15 } },
+  };
+  assert.equal(thresholdsContentSha256(base), thresholdsContentSha256(measured));
+  assert.notEqual(thresholdsContentSha256(base), thresholdsContentSha256(changedValue));
 });

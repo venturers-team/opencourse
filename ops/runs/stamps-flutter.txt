@@ -11,3 +11,6 @@
 2026-08-25T17:21:45Z sentence-round3-start
 2026-08-25T21:19:47Z sentence-round3-done
 2026-08-25T21:20:51Z sentence-round4-start
+2026-08-25T21:43:47Z sentence-round4-done
+2026-08-25T21:44:00Z section-review-start
+2026-08-25T21:55:17Z manual-review-done publish

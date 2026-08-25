@@ -35,8 +35,9 @@ const PUNCT_GUARD: Record<string, string> = { ".": "\u0001", "!": "\u0002", "?":
 const PUNCT_RESTORE: Record<string, string> = { "\u0001": ".", "\u0002": "!", "\u0003": "?" };
 
 function guardQuotedPunctuation(text: string): string {
-  return text.replace(/([\x27"\u2018\u201c])([^\x27"\u2018\u2019\u201c\u201d]{0,80}?)([\x27"\u2019\u201d])/gu, (m) =>
-    m.replace(/[.!?]/gu, (ch) => PUNCT_GUARD[ch] as string),
+  return text.replace(
+    /([\x27"\u2018\u201c])([^\x27"\u2018\u2019\u201c\u201d]{0,80}?)([\x27"\u2019\u201d])/gu,
+    (m) => m.replace(/[.!?]/gu, (ch) => PUNCT_GUARD[ch] as string),
   );
 }
 
@@ -45,7 +46,9 @@ function segmentText(value: string): string[] {
   if (!clean) return [];
   const segmenter = new Intl.Segmenter("ko", { granularity: "sentence" });
   return [...segmenter.segment(guardQuotedPunctuation(clean))]
-    .map(({ segment }) => segment.replace(/[\u0001-\u0003]/gu, (ch) => PUNCT_RESTORE[ch] as string).trim())
+    .map(({ segment }) =>
+      segment.replace(/[\u0001-\u0003]/gu, (ch) => PUNCT_RESTORE[ch] as string).trim(),
+    )
     .filter(Boolean);
 }
 

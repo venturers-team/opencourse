@@ -1,6 +1,6 @@
 import { existsSync, readFileSync, writeFileSync, mkdirSync } from "node:fs";
 import { join } from "node:path";
-import { courseContentSha256, sha256Hex } from "../fingerprint.js";
+import { courseContentSha256, sha256Hex, thresholdsContentSha256 } from "../fingerprint.js";
 import { extractReviewUnits } from "../units.js";
 import { DEFECT_CODES, MachineCheckSchema, type MachineCheck } from "../schemas/machine-check.js";
 import { staticRules, type StaticInput } from "./static-rules.js";
@@ -119,7 +119,9 @@ export function runMachineCheck(
     standards: {
       scoring_rules_sha256: stdHash("scoring-rules.md"),
       manual_review_items_sha256: stdHash("manual-review-items.md"),
-      thresholds_sha256: stdHash("thresholds.json"),
+      thresholds_sha256: thresholdsContentSha256(
+        JSON.parse(readFileSync(join(standardsDir, "thresholds.json"), "utf8")),
+      ),
     },
     defects,
   });

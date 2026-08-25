@@ -1,6 +1,11 @@
 import { readFileSync, existsSync } from "node:fs";
 import { join } from "node:path";
-import { combinedSha256, courseContentSha256, sha256Hex } from "./fingerprint.js";
+import {
+  combinedSha256,
+  courseContentSha256,
+  sha256Hex,
+  thresholdsContentSha256,
+} from "./fingerprint.js";
 import { CourseSchema, type Course } from "./schemas/course.js";
 import { MachineCheckSchema } from "./schemas/machine-check.js";
 import { SentenceReviewSchema } from "./schemas/sentence-review.js";
@@ -50,6 +55,10 @@ export function chapterBodySha256(courseDir: string, course: Course, chapterId: 
 export function canPublish(courseDir: string, standardsDir: string): GateResult {
   const reasons: string[] = [];
   const std = (name: string) => fileHash(join(standardsDir, name));
+  const thresholdsHash = () =>
+    thresholdsContentSha256(
+      JSON.parse(readFileSync(join(standardsDir, "thresholds.json"), "utf8")),
+    );
 
   // 교재 정보
   const courseRaw = tryReadJson(join(courseDir, "course.json"));
@@ -81,7 +90,7 @@ export function canPublish(courseDir: string, standardsDir: string): GateResult 
       if (
         s.scoring_rules_sha256 !== std("scoring-rules.md") ||
         s.manual_review_items_sha256 !== std("manual-review-items.md") ||
-        s.thresholds_sha256 !== std("thresholds.json")
+        s.thresholds_sha256 !== thresholdsHash()
       ) {
         reasons.push("기계 검사가 무효입니다: 검수 기준 문서의 지문이 바뀌었습니다");
       }
@@ -104,7 +113,7 @@ export function canPublish(courseDir: string, standardsDir: string): GateResult 
       if (
         p.review_protocol_sha256 !== std("review-protocol.md") ||
         p.beginner_baseline_sha256 !== std("beginner-baseline.md") ||
-        p.thresholds_sha256 !== std("thresholds.json")
+        p.thresholds_sha256 !== thresholdsHash()
       ) {
         reasons.push("문장 검수가 무효입니다: 검수 기준 문서의 지문이 바뀌었습니다");
       }

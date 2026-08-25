@@ -1,17 +1,49 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-21",
-  "source": "judgement",
+  "updatedAt": "2026-08-26",
+  "source": "measured",
   "thresholds": {
-    "maxSections": { "value": 15, "unit": "count", "default": 15 },
-    "maxSectionChars": { "value": 3000, "unit": "chars", "default": 3000 },
-    "maxOverviewSeconds": { "value": 90, "unit": "seconds", "default": 90 },
-    "maxConcurrentJobs": { "value": 2, "unit": "count", "default": 2 },
-    "minFreeStorageGB": { "value": 1, "unit": "GB", "default": 1 }
+    "maxSections": {
+      "value": 15,
+      "unit": "count",
+      "default": 15
+    },
+    "maxSectionChars": {
+      "value": 3000,
+      "unit": "chars",
+      "default": 3000
+    },
+    "maxOverviewSeconds": {
+      "value": 90,
+      "unit": "seconds",
+      "default": 90
+    },
+    "maxConcurrentJobs": {
+      "value": 2,
+      "unit": "count",
+      "default": 2
+    },
+    "minFreeStorageGB": {
+      "value": 1,
+      "unit": "GB",
+      "default": 1
+    }
   },
   "learnerState": {
-    "maxKnownFacts": { "value": 40, "unit": "count", "default": 40 },
-    "maxDefinedTerms": { "value": 40, "unit": "count", "default": 40 },
-    "maxOpenQuestions": { "value": 20, "unit": "count", "default": 20 }
+    "maxKnownFacts": {
+      "value": 40,
+      "unit": "count",
+      "default": 40
+    },
+    "maxDefinedTerms": {
+      "value": 40,
+      "unit": "count",
+      "default": 40
+    },
+    "maxOpenQuestions": {
+      "value": 20,
+      "unit": "count",
+      "default": 20
+    }
   }
 }
