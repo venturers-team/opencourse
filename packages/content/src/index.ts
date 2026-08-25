@@ -17,3 +17,7 @@ export * from "./schemas/manual-review.js";
 export * from "./schemas/misc.js";
 export * from "./can-publish.js";
 export * from "./fixture.js";
+export * from "./units.js";
+export * from "./machine-check/static-rules.js";
+export * from "./machine-check/structure-rules.js";
+export * from "./machine-check/run.js";

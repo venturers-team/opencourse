@@ -28,6 +28,22 @@ importers:
         specifier: ^5.6.3
         version: 5.9.3
 
+  packages/pipeline:
+    dependencies:
+      '@opencourse/content':
+        specifier: workspace:*
+        version: link:../content
+      zod:
+        specifier: ^3.23.8
+        version: 3.25.76
+    devDependencies:
+      '@types/node':
+        specifier: ^22.9.0
+        version: 22.20.1
+      typescript:
+        specifier: ^5.6.3
+        version: 5.9.3
+
 packages:
 
   '@types/node@22.20.1':
