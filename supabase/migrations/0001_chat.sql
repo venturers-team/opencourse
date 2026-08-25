@@ -102,8 +102,10 @@ begin
 end;
 $$;
 
--- Edge Function(service_role)만 부른다 — 클라이언트 직접 호출 차단
+-- Edge Function(service_role)만 부른다 — 클라이언트 직접 호출 차단.
+-- PUBLIC 기본 grant를 걷어내면 service_role도 잃으므로 명시적으로 되돌려 준다.
 revoke execute on function public.consume_quota from public, anon, authenticated;
+grant execute on function public.consume_quota to service_role;
 
 -- ── 대화 3일 자동 삭제 ──────────────────────────────────────────────────────
 create or replace function public.purge_stale_conversations()
@@ -118,6 +120,7 @@ as $$
   select count(*)::int from gone;
 $$;
 revoke execute on function public.purge_stale_conversations from public, anon, authenticated;
+grant execute on function public.purge_stale_conversations to service_role;
 
 -- pg_cron은 프로젝트 생성 뒤 대시보드에서 확장을 켜고 아래를 실행한다 (10단계 절차):
 --   select cron.schedule('purge-conversations', '17 * * * *',

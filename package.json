@@ -20,7 +20,8 @@
     "metrics": "pnpm ops metrics",
     "board": "pnpm ops board",
     "board:check": "pnpm ops board:check",
-    "e2e": "node e2e/run.mjs"
+    "e2e": "node e2e/run.mjs",
+    "e2e:backend": "playwright test --config e2e/backend.config.ts"
   },
   "devDependencies": {
     "prettier": "^3.3.3",

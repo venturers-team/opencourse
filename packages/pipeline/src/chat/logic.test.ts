@@ -1,5 +1,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
+import { join } from "node:path";
 import { buildMessages, looksLikeInjection, openRouterBody, quotaDecision } from "./logic.js";
 
 /** 챗봇 순수 로직 (10단계 준비) — 한도·격리·주입 필터의 단위 증거. */
@@ -66,4 +68,21 @@ test("긴 입력은 잘린다 — 문맥 폭주·질문 폭주 방지", () => {
 test("OpenRouter 본문: ZDR을 요청 파라미터로도 강제한다", () => {
   const body = openRouterBody("m", []);
   assert.deepEqual(body.provider, { data_collection: "deny", allow_fallbacks: true });
+});
+
+test("Edge Function의 로직 사본이 정본과 한 글자도 다르지 않다", () => {
+  // 이 테스트는 dist/chat에서 돈다 — 정본 소스는 ../../src/chat에 있다
+  const canonical = readFileSync(
+    join(import.meta.dirname ?? __dirname, "../../src/chat/logic.ts"),
+    "utf8",
+  );
+  const copy = readFileSync(
+    join(import.meta.dirname ?? __dirname, "../../../../supabase/functions/chat/logic.ts"),
+    "utf8",
+  );
+  assert.equal(
+    copy,
+    canonical,
+    "cp packages/pipeline/src/chat/logic.ts supabase/functions/chat/logic.ts 로 동기화하십시오",
+  );
 });

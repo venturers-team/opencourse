@@ -1,7 +1,8 @@
 // 오픈코스 챗봇 Edge Function (구현 계획 10단계 — 유일한 서버).
 // 순서가 곧 안전장치다: 세션 검증 → 주입 1차 필터(한도 소모 없음) →
 // 원자적 한도 소비(consume_quota) → 문맥 번들(공개 산출물)만 읽기 → OpenRouter(ZDR).
-// 순수 로직은 packages/pipeline/src/chat/logic.ts와 공유한다 (import 없는 파일).
+// 순수 로직은 packages/pipeline/src/chat/logic.ts의 사본 ./logic.ts를 쓴다 —
+// 함수 번들은 폴더 밖을 못 가져가므로 사본을 두고, 동기화는 파이프라인 테스트가 강제한다.
 import { createClient } from "jsr:@supabase/supabase-js@2";
 import {
   buildMessages,
@@ -11,10 +12,11 @@ import {
   openRouterBody,
   USER_DAILY_LIMIT,
   type ChatTurn,
-} from "../../../packages/pipeline/src/chat/logic.ts";
+} from "./logic.ts";
 
 const SITE_ORIGIN = Deno.env.get("OPENCOURSE_SITE_ORIGIN") ?? "";
 const OPENROUTER_KEY = Deno.env.get("OPENROUTER_API_KEY") ?? "";
+const OPENROUTER_BASE = Deno.env.get("OPENROUTER_BASE_URL") ?? "https://openrouter.ai"; // 통합 시험용 모의 서버 주입점
 const MODEL = Deno.env.get("OPENCOURSE_CHAT_MODEL") ?? "anthropic/claude-haiku-4.5";
 
 const json = (status: number, body: Record<string, unknown>) =>
@@ -115,7 +117,7 @@ Deno.serve(async (req) => {
     question,
     history,
   });
-  const orRes = await fetch("https://openrouter.ai/api/v1/chat/completions", {
+  const orRes = await fetch(`${OPENROUTER_BASE}/api/v1/chat/completions`, {
     method: "POST",
     headers: {
       Authorization: `Bearer ${OPENROUTER_KEY}`,
