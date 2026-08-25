@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "course_id": "01M0WK073ZX0BQY9QHJKYRNHRY",
+  "verified_at": "2026-08-25",
+  "verification_note": "세 출처 전부 열어 생존(HTTP 200)과 제목·라이선스 표기를 확인했다",
+  "sources": [
+    {
+      "id": "src-001",
+      "title": "Flutter 공식 문서",
+      "publisher": "Google",
+      "url": "https://docs.flutter.dev/",
+      "fetched_at": "2026-08-25",
+      "http_status": 200,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution_required": true,
+      "use_kind": "concept-reference",
+      "use_note": "위젯·상태·레이아웃의 개념 정의만 참조. 문장 발췌 없음",
+      "used_for": "위젯 트리·setState 개념 설명"
+    },
+    {
+      "id": "src-002",
+      "title": "Dart 언어 투어",
+      "publisher": "Google",
+      "url": "https://dart.dev/language",
+      "fetched_at": "2026-08-25",
+      "http_status": 200,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution_required": true,
+      "use_kind": "concept-reference",
+      "use_note": "코드 예제의 문법 확인용. 문장 발췌 없음",
+      "used_for": "예제 코드의 Dart 문법 검증"
+    },
+    {
+      "id": "src-003",
+      "title": "Material Design 3 가이드",
+      "publisher": "Google",
+      "url": "https://m3.material.io/",
+      "fetched_at": "2026-08-25",
+      "http_status": 200,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution_required": true,
+      "use_kind": "concept-reference",
+      "use_note": "기본 위젯의 시각 용어 참조",
+      "used_for": "버튼·카드 등 화면 요소 명칭"
+    }
+  ],
+  "sections": [],
+  "agent_added": [],
+  "not_derived_from": []
+}

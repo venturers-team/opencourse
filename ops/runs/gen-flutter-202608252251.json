@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "run_id": "gen-flutter-202608252251",
+  "course_id": "01M0WK073ZX0BQY9QHJKYRNHRY",
+  "kind": "generate",
+  "started_at": "2026-08-25T13:51:57Z",
+  "ended_at": "2026-08-25T13:51:57Z",
+  "status": "success",
+  "failed_stage": null,
+  "stages": [
+    {
+      "id": "s1-create",
+      "started_at": "2026-08-25T13:51:57Z",
+      "ended_at": "2026-08-25T13:51:57Z",
+      "status": "success",
+      "outputs": [
+        "content/courses/baibeu-kodingeuro-baeuneun-flutter-cheotgeoleum/course.json"
+      ],
+      "error": null
+    },
+    {
+      "id": "s2-sources",
+      "started_at": "2026-08-25T13:51:57Z",
+      "ended_at": "2026-08-25T13:51:57Z",
+      "status": "success",
+      "outputs": [
+        "ops/runs/gen-flutter-202608252251/source-map.s2.json"
+      ],
+      "error": null
+    }
+  ],
+  "metrics": {
+    "model_calls": null,
+    "tts_seconds": null,
+    "uploaded_bytes": null
+  }
+}

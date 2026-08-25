@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "id": "01M0WK073ZX0BQY9QHJKYRNHRY",
+  "title": "바이브 코딩으로 배우는 Flutter 첫걸음",
+  "slug": "baibeu-kodingeuro-baeuneun-flutter-cheotgeoleum",
+  "summary": "AI 코딩 도구와 대화하며 만드는 첫 Flutter 앱",
+  "topic": "AI 코딩 도구와 대화하며 만드는 첫 Flutter 앱",
+  "audience": "프로그래밍이 처음인 비전공 대학생",
+  "difficulty": "beginner",
+  "language": "ko",
+  "learning_outcomes": [
+    "위젯 트리로 화면 구조를 읽고 그릴 수 있다",
+    "AI 도구에게 원하는 화면을 구조로 설명하는 프롬프트를 쓸 수 있다",
+    "받은 코드를 트리와 대조해 읽고 작은 수정을 직접 할 수 있다",
+    "setState로 사용자 입력에 반응하는 화면을 만들 수 있다"
+  ],
+  "prerequisites": [
+    "없음"
+  ],
+  "content_style": "차분하고 친근한 설명체",
+  "status": "generating",
+  "created_at": "2026-08-25T13:50:49Z",
+  "updated_at": "2026-08-25T13:50:49Z",
+  "published_at": null,
+  "style_version": "v1",
+  "estimated_minutes": 300,
+  "edit_count": 0,
+  "rewrite_after_publish_count": 0,
+  "chapters": [
+    {
+      "id": "01-overview",
+      "title": "임시 — 목차 승인 전",
+      "summary": "목차가 승인되면 교체된다",
+      "estimated_minutes": 300,
+      "outcomes": [
+        "위젯 트리로 화면 구조를 읽고 그릴 수 있다",
+        "AI 도구에게 원하는 화면을 구조로 설명하는 프롬프트를 쓸 수 있다",
+        "받은 코드를 트리와 대조해 읽고 작은 수정을 직접 할 수 있다",
+        "setState로 사용자 입력에 반응하는 화면을 만들 수 있다"
+      ],
+      "subchapters": [
+        {
+          "file": "01.mdx",
+          "title": "임시"
+        }
+      ]
+    }
+  ],
+  "generated_by": {
+    "run_id": "gen-flutter-202608252251",
+    "style_version": "v1"
+  }
+}
