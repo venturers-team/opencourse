@@ -21,11 +21,13 @@
     "board": "pnpm ops board",
     "board:check": "pnpm ops board:check",
     "e2e": "node e2e/run.mjs",
-    "e2e:backend": "playwright test --config e2e/backend.config.ts"
+    "e2e:backend": "playwright test --config e2e/backend.config.ts",
+    "qa:a11y": "node e2e/a11y.mjs"
   },
   "devDependencies": {
     "prettier": "^3.3.3",
     "typescript": "^5.6.3",
-    "@playwright/test": "^1.48.2"
+    "@playwright/test": "^1.48.2",
+    "lighthouse": "^12.8.2"
   }
 }

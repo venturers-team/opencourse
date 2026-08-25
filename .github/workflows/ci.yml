@@ -22,6 +22,7 @@ jobs:
       - run: pnpm format:check
       - run: pnpm board:check
       - run: pnpm e2e
+      - run: pnpm qa:a11y
 
   # 빌드 실패 메일 (docs/06 4순위). 저장소 변수 NOTIFY_EMAIL과
   # 시크릿 MAIL_USERNAME·MAIL_APP_PASSWORD(Gmail 앱 비밀번호)를 넣으면 켜진다 — 9단계 절차.
