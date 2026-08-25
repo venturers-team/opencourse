@@ -196,10 +196,14 @@ export function Assistant({
     }
   })();
 
+  /* 백엔드(ask·login)가 아직 연결되지 않았고 데모도 아니면, 여는 순간 장애 화면 —
+     "질문 탓이 아니"라고 말하고 교재는 계속 읽게 한다 (10단계 전의 정직한 상태). */
+  const backendMissing = !ask && !login && !demo;
   const view = forced ?? {
     open,
-    mode:
-      auth === "out"
+    mode: backendMissing
+      ? ("error" as const)
+      : auth === "out"
         ? ("login" as const)
         : phase === "error"
           ? ("error" as const)
@@ -262,6 +266,16 @@ export function Assistant({
     setOpen(false);
     setTimeout(() => launcherRef.current?.focus(), 40);
   }, [forced]);
+
+  /* Esc는 포커스가 패널 밖(런처 등)에 있어도 닫는다 — 패널 안 핸들러는 전파를 멈추므로 중복 없음. */
+  useEffect(() => {
+    if (!open || forced) return;
+    const onKey = (e: globalThis.KeyboardEvent) => {
+      if (e.key === "Escape") close();
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [open, forced, close]);
 
   const onPanelKeyDown = (e: KeyboardEvent<HTMLDivElement>) => {
     if (e.key === "Escape") {

@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && node scripts/emit-context.mjs",
     "typecheck": "tsc --noEmit",
     "test": "echo 'site: E2E는 저장소 루트 e2e 스위트가 담당한다'",
     "lint": "next lint --no-cache || true"

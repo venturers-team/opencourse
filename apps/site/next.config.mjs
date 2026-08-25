@@ -4,6 +4,7 @@
 const preview = process.env.OPENCOURSE_PREVIEW === "1";
 const nextConfig = {
   ...(preview ? {} : { output: "export" }),
+  trailingSlash: true,
   images: { unoptimized: true },
   transpilePackages: ["@opencourse/ui"],
   env: { OPENCOURSE_PREVIEW: preview ? "1" : "" },

@@ -19,10 +19,12 @@
     "status": "pnpm ops status",
     "metrics": "pnpm ops metrics",
     "board": "pnpm ops board",
-    "board:check": "pnpm ops board:check"
+    "board:check": "pnpm ops board:check",
+    "e2e": "node e2e/run.mjs"
   },
   "devDependencies": {
     "prettier": "^3.3.3",
-    "typescript": "^5.6.3"
+    "typescript": "^5.6.3",
+    "@playwright/test": "^1.48.2"
   }
 }

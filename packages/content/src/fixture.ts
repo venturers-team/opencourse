@@ -74,7 +74,7 @@ export function writeFixtureCourse(root: string, sabotage: Sabotage = {}) {
   const std = (name: string) => sha256Hex(readFileSync(join(standardsDir, name)));
 
   // 본문과 미디어
-  const mdx1 = `---\ntitle: 위젯이 뭐예요\nsummary: 위젯의 뜻\n---\n\n${SENT1}\n`;
+  const mdx1 = `---\ntitle: 위젯이 뭐예요\nsummary: 위젯의 뜻\n---\n\n${SENT1}\n\n![](media:fig-01)\n`;
   const mdx2 = `---\ntitle: 실습\nsummary: 트리 그리기\n---\n\n${SENT2}\n`;
   writeFileSync(join(courseDir, "chapters", CH1, "01.mdx"), mdx1);
   writeFileSync(join(courseDir, "chapters", CH2, "01.mdx"), mdx2);
