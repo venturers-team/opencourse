@@ -125,6 +125,7 @@ const RoundSchema = z
     started_at: isoDatetime,
     ended_at: isoDatetime.nullable(),
     clean_pass: z.boolean(),
+    source_sha256: sha256,
     ended_reason: z
       .enum(["clean_pass", "revision", "halted_max_rounds", "halted_loop", "invalidated"])
       .nullable(),

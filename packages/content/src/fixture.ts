@@ -269,6 +269,7 @@ export function writeFixtureCourse(root: string, sabotage: Sabotage = {}) {
           started_at: T,
           ended_at: T,
           clean_pass: !sabotage.sentenceNotClean,
+          source_sha256: bodyAll,
           ended_reason: sabotage.sentenceNotClean ? "revision" : "clean_pass",
         },
       ],
