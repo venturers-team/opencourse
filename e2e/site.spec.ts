@@ -160,3 +160,52 @@ test("테마 전환이 동작하고 새로 고침에도 남는다", async ({ pag
   const kept = await page.evaluate(() => document.documentElement.dataset.theme);
   expect(kept).toBe(after);
 });
+
+test("키보드만으로: 404·처리방침·챕터 목차까지 전 화면 도달", async ({ page }) => {
+  // 404 — Tab으로 복귀 링크에 닿고 Enter로 홈에 돌아온다
+  await page.goto("/no-such-course/");
+  let reached = false;
+  for (let i = 0; i < 15; i += 1) {
+    await page.keyboard.press("Tab");
+    const text = await page.evaluate(() => document.activeElement?.textContent ?? "");
+    if (text.includes("교재 목록 보러 가기")) {
+      reached = true;
+      break;
+    }
+  }
+  expect(reached).toBe(true);
+  await page.keyboard.press("Enter");
+  await expect(page).toHaveURL(/\/$/);
+
+  // 처리방침 — 푸터 링크가 키보드로 열린다
+  reached = false;
+  for (let i = 0; i < 60; i += 1) {
+    await page.keyboard.press("Tab");
+    const text = await page.evaluate(() => document.activeElement?.textContent ?? "");
+    if (text.includes("개인정보 처리방침")) {
+      reached = true;
+      break;
+    }
+  }
+  expect(reached).toBe(true);
+  await page.keyboard.press("Enter");
+  await expect(page).toHaveURL(/\/privacy\/$/);
+  await expect(page.getByRole("heading", { level: 1, name: "개인정보 처리방침" })).toBeVisible();
+
+  // 챕터 본문 — 사이드 목차의 소제목 앵커에 키보드로 닿고, 포커스가 보인다
+  await page.goto("/fixture-course/01-intro/");
+  const anchor = page.getByRole("link", { name: "1.1 위젯이 뭐예요" });
+  await anchor.focus();
+  const outline = await anchor.evaluate((el) => getComputedStyle(el).outlineStyle);
+  expect(outline).not.toBe("none"); // :focus-visible 규칙이 실제로 작동한다
+  await page.keyboard.press("Enter");
+  await expect(page).toHaveURL(/#s-1$/);
+
+  // 테마 토글도 키보드로 조작된다
+  const toggle = page.getByRole("button", { name: "테마 전환" });
+  await toggle.focus();
+  const before = await page.evaluate(() => document.documentElement.dataset.theme);
+  await page.keyboard.press("Enter");
+  const after = await page.evaluate(() => document.documentElement.dataset.theme);
+  expect(after).not.toBe(before);
+});

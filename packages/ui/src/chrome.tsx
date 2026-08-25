@@ -82,7 +82,7 @@ export function SiteFooter({
       >
         <span>© 2026 오픈코스</span>
         <span style={{ display: "flex", gap: 20 }}>
-          <a href="/privacy" style={{ color: "var(--mut)" }}>
+          <a href="/privacy/" style={{ color: "var(--mut)" }}>
             개인정보 처리방침
           </a>
           <a href={repoUrl} style={{ color: "var(--mut)" }}>
