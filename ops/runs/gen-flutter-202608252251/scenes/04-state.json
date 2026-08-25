@@ -1,0 +1,11 @@
+{
+  "chapter_id": "04-state",
+  "note": "S8 장면 목록 — 시간값은 S9 음성 실측 뒤 확정",
+  "scenes": [
+    { "index": 0, "narration": "이 챕터에서는 화면이 손끝에 반응하게 만들어요.", "visual": { "type": "title", "text": "상태로 움직이는 화면" } },
+    { "index": 1, "narration": "상태는 화면이 기억하는 값이에요. 화면은 그 값을 그린 결과고요.", "visual": { "type": "bullets", "items": ["상태 = 기억하는 값", "화면 = 상태를 그린 결과"] } },
+    { "index": 2, "narration": "setState를 부르면 Flutter가 build를 다시 실행해 화면을 다시 그려요.", "visual": { "type": "figure", "media_id": "fig-01" } },
+    { "index": 3, "narration": "외울 것은 상태 변수와 setState, 두 이름뿐이에요.", "visual": { "type": "code", "text": "setState(() {\n  count = count + 1;\n});" } },
+    { "index": 4, "narration": "실습에서 숫자 세기 버튼을 직접 만들어 봐요.", "visual": { "type": "title", "text": "실습 — 숫자 세기 버튼" } }
+  ]
+}

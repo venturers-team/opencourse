@@ -1,0 +1,11 @@
+{
+  "chapter_id": "05-wrap-up",
+  "note": "S8 장면 목록 — 시간값은 S9 음성 실측 뒤 확정",
+  "scenes": [
+    { "index": 0, "narration": "마지막 챕터예요. 배운 전부로 작품 하나를 만들어요.", "visual": { "type": "title", "text": "마무리 — 나만의 카드 앱" } },
+    { "index": 1, "narration": "동그란 사진, 이름, 한 줄 소개가 세로로 쌓인 프로필 카드예요.", "visual": { "type": "figure", "media_id": "fig-01" } },
+    { "index": 2, "narration": "트리를 그리고, 부탁하고, 코드를 확인하는 한 바퀴를 그대로 돌려요.", "visual": { "type": "bullets", "items": ["트리 그리기", "프롬프트 쓰기", "코드 확인"] } },
+    { "index": 3, "narration": "막히면 하려던 것, 일어난 것, 시도한 것 — 세 가지를 담아 물어보세요.", "visual": { "type": "bullets", "items": ["하려던 것", "실제로 일어난 것", "시도해 본 것"] } },
+    { "index": 4, "narration": "여기까지 온 걸 축하해요. 다음 화면도 같은 방법으로 만들 수 있어요.", "visual": { "type": "title", "text": "첫걸음 완주" } }
+  ]
+}
