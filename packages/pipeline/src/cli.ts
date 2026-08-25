@@ -1,9 +1,11 @@
 #!/usr/bin/env node
+import { readFileSync } from "node:fs";
 import { resolve, join } from "node:path";
 import { courseStatus, createCourse, repoPaths, setStatus } from "./lifecycle.js";
 import { registerDraft } from "./draft-register.js";
 import { loadThresholds, preflight } from "./thresholds.js";
 import { writeStatusBoard } from "./ops/board.js";
+import { renderInfographicPng } from "./media/render.js";
 
 /**
  * 생성 파이프라인 CLI — 저장소 루트에서 실행한다.
@@ -12,6 +14,7 @@ import { writeStatusBoard } from "./ops/board.js";
  *   pnpm course preflight --sections N --chars N --seconds N
  *   pnpm course register <슬러그>
  *   pnpm course publish <슬러그> | hide <슬러그>
+ *   pnpm course render <입력.html> <출력.png>   (S7 인포그래픽)
  */
 const paths = repoPaths(process.cwd());
 const [cmd, ...rest] = process.argv.slice(2);
@@ -121,7 +124,23 @@ switch (cmd) {
     );
     break;
   }
+  case "render": {
+    const [htmlPath, outPath] = rest;
+    if (!htmlPath || !outPath) {
+      console.error("사용법: pnpm course render <입력.html> <출력.png>");
+      process.exit(1);
+    }
+    const html = readFileSync(htmlPath, "utf8");
+    renderInfographicPng(html, outPath).then(
+      () => console.log(`렌더 완료: ${outPath}`),
+      (err: unknown) => {
+        console.error(`렌더 실패: ${err instanceof Error ? err.message : String(err)}`);
+        process.exit(1);
+      },
+    );
+    break;
+  }
   default:
-    console.error("명령: create | status | preflight | register | publish | hide");
+    console.error("명령: create | status | preflight | register | publish | hide | render");
     process.exit(1);
 }

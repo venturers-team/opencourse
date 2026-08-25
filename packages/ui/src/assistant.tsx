@@ -324,6 +324,7 @@ export function Assistant({
           }}
           aria-expanded={isOpen}
           aria-controls="oc-assistant"
+          {...(isMobile ? { "aria-label": "질문하기" } : {})}
           style={{
             position: "fixed",
             zIndex: 40,

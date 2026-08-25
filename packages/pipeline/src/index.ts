@@ -10,6 +10,8 @@ export * from "./lifecycle.js";
 export * from "./draft-register.js";
 export * from "./media/backend.js";
 export * from "./media/synth.js";
+// media/render.js는 여기서 내보내지 않는다 — Playwright를 끌고 오므로 사이트 빌드(webpack)가
+// 배럴을 통해 번들하려 든다. 소비자는 CLI(pnpm course render) 또는 딥 임포트로 쓴다.
 export * from "./review/state.js";
 export * from "./review/sentence-session.js";
 export * from "./review/section-session.js";

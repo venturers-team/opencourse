@@ -12,7 +12,8 @@
   },
   "dependencies": {
     "@opencourse/content": "workspace:*",
-    "zod": "^3.23.8"
+    "zod": "^3.23.8",
+    "playwright": "^1.62.1"
   },
   "devDependencies": {
     "@types/node": "^22.9.0",

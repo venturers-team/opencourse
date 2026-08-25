@@ -32,7 +32,7 @@ export function SiteHeader({
           gap: 14,
         }}
       >
-        <a href="/" style={{ flex: "none" }} aria-label="오픈코스 홈">
+        <a href="/" style={{ flex: "none" }} aria-label="OPENCOURSE 홈">
           <Wordmark />
         </a>
         {contextLabel ? (

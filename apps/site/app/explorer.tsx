@@ -289,7 +289,6 @@ export function CourseExplorer({
             <a
               key={c.slug}
               href={`/${c.slug}/`}
-              aria-label={c.title}
               style={{ ...cardStyle, display: "flex", flexDirection: "column" }}
             >
               <div
@@ -327,7 +326,7 @@ export function CourseExplorer({
                   <Badge>{c.audience}</Badge>
                   {draftSlugs.includes(c.slug) ? <Badge>초안</Badge> : null}
                 </div>
-                <h3
+                <h2
                   style={{
                     margin: "2px 0 0",
                     fontSize: 17,
@@ -337,7 +336,7 @@ export function CourseExplorer({
                   }}
                 >
                   {c.title}
-                </h3>
+                </h2>
                 <p
                   style={{
                     margin: 0,
