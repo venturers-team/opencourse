@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "course_id": "01M0WK073ZX0BQY9QHJKYRNHRY",
-  "checked_at": "2026-08-25T15:17:47Z",
+  "checked_at": "2026-08-25T15:34:36Z",
   "pass": false,
-  "blocker_count": 2,
-  "warning_count": 1,
+  "blocker_count": 1,
+  "warning_count": 0,
   "inputs": [
     {
       "path": "course.json",
@@ -20,7 +20,51 @@
     },
     {
       "path": "chapters/01-vibe-coding/03.mdx",
-      "sha256": "e3f7303709a3b3bb71fe30c25a46f2f50883af1eb94aa68ad4a2f678160796e0"
+      "sha256": "2888d40d92ad17a094efc4095e090283ec62a3282d577ab814ff7e542c8af803"
+    },
+    {
+      "path": "chapters/02-first-project/01.mdx",
+      "sha256": "73e7b82019edaa8c22ee305cf45a110ede14e492ee64c3148bbf34a78e20b216"
+    },
+    {
+      "path": "chapters/02-first-project/02.mdx",
+      "sha256": "cc98277e9b6c0bae6f0ab1bdc56ae0770f3e5c170dbfba0a8784aff49822ad1f"
+    },
+    {
+      "path": "chapters/02-first-project/03.mdx",
+      "sha256": "5ffbe76a5a9671a2b5a2f8bbbeea01b5ce0008ef24599c6ce565f00d9a665c0f"
+    },
+    {
+      "path": "chapters/03-widget-tree/01.mdx",
+      "sha256": "81b2bb6d663d7ea63270360ff4b510b064651801ac876f72aa03465b8201098f"
+    },
+    {
+      "path": "chapters/03-widget-tree/02.mdx",
+      "sha256": "02f156cd148f59c46ebc905c99497de66f43977e30ae6c499c48c1633dc87924"
+    },
+    {
+      "path": "chapters/03-widget-tree/03.mdx",
+      "sha256": "6c8b8e1f67e6fae6e0854ab5994163c4f03582b1248382bf4307687114af3fe2"
+    },
+    {
+      "path": "chapters/04-state/01.mdx",
+      "sha256": "e7e3cac2fc6de9f31f642b709dceb7ff9886008ed78b5a526ea5b2d9431595ca"
+    },
+    {
+      "path": "chapters/04-state/02.mdx",
+      "sha256": "af006bfc5f79a889592ddd6beddfbbc6e755cab39606f5444328cb6cb9678c00"
+    },
+    {
+      "path": "chapters/04-state/03.mdx",
+      "sha256": "f003f7286fb2cbcbe102f8141c1f6605b68be37235331a14056fed02651e3dd9"
+    },
+    {
+      "path": "chapters/05-wrap-up/01.mdx",
+      "sha256": "827ac1eaf744638ff98ceaf9de91dbbf3414e707364cbc20f634e7ad3813e17c"
+    },
+    {
+      "path": "chapters/05-wrap-up/02.mdx",
+      "sha256": "ed783c58121b8ea47d524274c807c7e3c2f617dd1f34cc04689ed8d659eb4dbe"
     }
   ],
   "standards": {
@@ -29,24 +73,6 @@
     "thresholds_sha256": "986a7f0cc8e041c4e3b5ff5d4ac80a4060c4b109f8c0e9f012ece66f922974c7"
   },
   "defects": [
-    {
-      "code": "ST02",
-      "kind": "static",
-      "grade": "block",
-      "message": "source-map.json이 없어 어떤 자료에서 왔는지 확인할 수 없습니다",
-      "path": "review/source-map.json",
-      "line": null,
-      "detail": null
-    },
-    {
-      "code": "ST08",
-      "kind": "static",
-      "grade": "warn",
-      "message": "rubric.json이 없습니다",
-      "path": "review/rubric.json",
-      "line": null,
-      "detail": null
-    },
     {
       "code": "ST09",
       "kind": "static",

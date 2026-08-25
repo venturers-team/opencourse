@@ -1,0 +1,102 @@
+[
+ {
+  "text": "이 챕터에서는 바이브 코딩이 무엇인지 알아봐요.",
+  "out": "ops/runs/gen-flutter-202608252251/audio/01-vibe-coding/scene-0.wav"
+ },
+ {
+  "text": "원하는 것을 말로 설명하면 AI 코딩 도구가 코드를 만들어 줘요.",
+  "out": "ops/runs/gen-flutter-202608252251/audio/01-vibe-coding/scene-1.wav"
+ },
+ {
+  "text": "사람이 방향을 정하고, AI가 코드를 쓰고, 그 코드가 앱이 돼요.",
+  "out": "ops/runs/gen-flutter-202608252251/audio/01-vibe-coding/scene-2.wav"
+ },
+ {
+  "text": "챕터마다 읽고, 그려 보고, 실습하는 순서로 진행해요.",
+  "out": "ops/runs/gen-flutter-202608252251/audio/01-vibe-coding/scene-3.wav"
+ },
+ {
+  "text": "노트북과 인터넷만 있으면 지금 시작할 수 있어요.",
+  "out": "ops/runs/gen-flutter-202608252251/audio/01-vibe-coding/scene-4.wav"
+ },
+ {
+  "text": "이 챕터에서는 첫 프로젝트를 만들어 실행까지 해 봐요.",
+  "out": "ops/runs/gen-flutter-202608252251/audio/02-first-project/scene-0.wav"
+ },
+ {
+  "text": "프로젝트에서 기억할 곳은 lib 폴더의 main.dart 하나예요.",
+  "out": "ops/runs/gen-flutter-202608252251/audio/02-first-project/scene-1.wav"
+ },
+ {
+  "text": "좋은 부탁은 무엇이 어디에 보일지를 말해 줘요.",
+  "out": "ops/runs/gen-flutter-202608252251/audio/02-first-project/scene-2.wav"
+ },
+ {
+  "text": "받은 코드는 따옴표 안의 우리말부터 찾아 읽어요.",
+  "out": "ops/runs/gen-flutter-202608252251/audio/02-first-project/scene-3.wav"
+ },
+ {
+  "text": "부탁하고, 실행하고, 대조하기 — 이 세 걸음이 한 바퀴예요.",
+  "out": "ops/runs/gen-flutter-202608252251/audio/02-first-project/scene-4.wav"
+ },
+ {
+  "text": "이 챕터에서는 화면을 그림으로 읽는 법을 배워요.",
+  "out": "ops/runs/gen-flutter-202608252251/audio/03-widget-tree/scene-0.wav"
+ },
+ {
+  "text": "버튼도, 글자도, 화면 전체도 전부 위젯이에요.",
+  "out": "ops/runs/gen-flutter-202608252251/audio/03-widget-tree/scene-1.wav"
+ },
+ {
+  "text": "첫 화면의 트리는 이렇게 생겼어요.",
+  "out": "ops/runs/gen-flutter-202608252251/audio/03-widget-tree/scene-2.wav"
+ },
+ {
+  "text": "코드의 들여쓰기가 곧 트리예요. 안으로 들어갈수록 자식이에요.",
+  "out": "ops/runs/gen-flutter-202608252251/audio/03-widget-tree/scene-3.wav"
+ },
+ {
+  "text": "화면을 바꿀 때는 트리를 먼저 고쳐 그려요.",
+  "out": "ops/runs/gen-flutter-202608252251/audio/03-widget-tree/scene-4.wav"
+ },
+ {
+  "text": "이 챕터에서는 화면이 손끝에 반응하게 만들어요.",
+  "out": "ops/runs/gen-flutter-202608252251/audio/04-state/scene-0.wav"
+ },
+ {
+  "text": "상태는 화면이 기억하는 값이에요. 화면은 그 값을 그린 결과고요.",
+  "out": "ops/runs/gen-flutter-202608252251/audio/04-state/scene-1.wav"
+ },
+ {
+  "text": "setState를 부르면 Flutter가 build를 다시 실행해 화면을 다시 그려요.",
+  "out": "ops/runs/gen-flutter-202608252251/audio/04-state/scene-2.wav"
+ },
+ {
+  "text": "외울 것은 상태 변수와 setState, 두 이름뿐이에요.",
+  "out": "ops/runs/gen-flutter-202608252251/audio/04-state/scene-3.wav"
+ },
+ {
+  "text": "실습에서 숫자 세기 버튼을 직접 만들어 봐요.",
+  "out": "ops/runs/gen-flutter-202608252251/audio/04-state/scene-4.wav"
+ },
+ {
+  "text": "마지막 챕터예요. 배운 전부로 작품 하나를 만들어요.",
+  "out": "ops/runs/gen-flutter-202608252251/audio/05-wrap-up/scene-0.wav"
+ },
+ {
+  "text": "동그란 사진, 이름, 한 줄 소개가 세로로 쌓인 프로필 카드예요.",
+  "out": "ops/runs/gen-flutter-202608252251/audio/05-wrap-up/scene-1.wav"
+ },
+ {
+  "text": "트리를 그리고, 부탁하고, 코드를 확인하는 한 바퀴를 그대로 돌려요.",
+  "out": "ops/runs/gen-flutter-202608252251/audio/05-wrap-up/scene-2.wav"
+ },
+ {
+  "text": "막히면 하려던 것, 일어난 것, 시도한 것 — 세 가지를 담아 물어보세요.",
+  "out": "ops/runs/gen-flutter-202608252251/audio/05-wrap-up/scene-3.wav"
+ },
+ {
+  "text": "여기까지 온 걸 축하해요. 다음 화면도 같은 방법으로 만들 수 있어요.",
+  "out": "ops/runs/gen-flutter-202608252251/audio/05-wrap-up/scene-4.wav"
+ }
+]
