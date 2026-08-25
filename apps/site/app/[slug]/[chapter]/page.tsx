@@ -2,11 +2,12 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import ReactMarkdown, { defaultUrlTransform } from "react-markdown";
 import remarkGfm from "remark-gfm";
-import { Assistant, OverviewPlayer, PageShell } from "@opencourse/ui";
+import { OverviewPlayer, PageShell } from "@opencourse/ui";
 import { collect } from "../../../lib/content";
 import { loadChapter, type ChapterData } from "../../../lib/course";
 import { IconChevronLeft, IconChevronRight, IconClock } from "../../icons";
 import { DesktopToc, InfographicFigure, MarkRead, MobileToc } from "./reader";
+import { LiveAssistant } from "./assistant-live";
 
 /**
  * 화면 3 — 챕터 본문 (docs/04·12, 디자인 원본 section.dc.html).
@@ -311,7 +312,11 @@ export default function ChapterPage({ params }: { params: { slug: string; chapte
           </nav>
         </article>
       </div>
-      <Assistant contextLabel={`챕터 ${number} ${chapter.title}`} />
+      <LiveAssistant
+        contextLabel={`챕터 ${number} ${chapter.title}`}
+        courseSlug={page.slug}
+        chapterId={chapter.id}
+      />
     </PageShell>
   );
 }

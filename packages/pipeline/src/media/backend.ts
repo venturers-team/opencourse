@@ -51,3 +51,80 @@ export class LocalMediaBackend implements MediaBackend {
     }
   }
 }
+
+/**
+ * R2 백엔드 (9단계). 자격 증명은 wrangler 로그인이 갖고 있고, 여기는 명령 템플릿만 안다
+ * — TTS·Whisper 어댑터와 같은 방식. 공개 URL은 버킷의 공개 도메인 접두사로 만들고,
+ * verify는 그 URL에 HEAD 요청으로 실제 응답을 확인한다 (docs/10: URL 응답 확인).
+ *
+ * 기본 명령: wrangler r2 object put {bucket}/{key} --file {file} --remote
+ * 환경: OPENCOURSE_R2_BUCKET, OPENCOURSE_R2_PUBLIC_URL (예: https://media.example.dev)
+ *       OPENCOURSE_R2_PUT_CMD (선택 — 명령 템플릿 재정의, {bucket}·{key}·{file} 치환)
+ */
+export class R2MediaBackend implements MediaBackend {
+  readonly name = "r2";
+  constructor(
+    private readonly bucket: string,
+    private readonly publicUrl: string,
+    private readonly putTemplate = "wrangler r2 object put {bucket}/{key} --file {file} --remote",
+    private readonly exec: (cmd: string, args: string[]) => Promise<void> = async (cmd, args) => {
+      const { execFile } = await import("node:child_process");
+      const { promisify } = await import("node:util");
+      await promisify(execFile)(cmd, args, { maxBuffer: 1024 * 1024 * 64 });
+    },
+    private readonly fetchImpl: typeof fetch = fetch,
+  ) {}
+
+  static fromEnv(env: NodeJS.ProcessEnv = process.env): R2MediaBackend {
+    const bucket = env.OPENCOURSE_R2_BUCKET;
+    const publicUrl = env.OPENCOURSE_R2_PUBLIC_URL;
+    if (!bucket || !publicUrl) {
+      throw new Error(
+        "R2 설정이 없습니다 — OPENCOURSE_R2_BUCKET과 OPENCOURSE_R2_PUBLIC_URL을 지정하십시오 (9단계)",
+      );
+    }
+    return new R2MediaBackend(bucket, publicUrl, env.OPENCOURSE_R2_PUT_CMD ?? undefined);
+  }
+
+  async upload(localPath: string, key: string): Promise<UploadedMedia> {
+    const bytes = statSync(localPath).size;
+    const sha256 = sha256Hex(readFileSync(localPath));
+    const parts = this.putTemplate
+      .split(/\s+/u)
+      .filter(Boolean)
+      .map((part) =>
+        part.replace(/\{(\w+)\}/gu, (_, name: string) => {
+          if (name === "bucket") return this.bucket;
+          if (name === "key") return key;
+          if (name === "file") return localPath;
+          return "";
+        }),
+      );
+    const [cmd, ...args] = parts;
+    if (!cmd) throw new Error("R2 업로드 명령 템플릿이 비어 있습니다");
+    await this.exec(cmd, args);
+    return { key, url: `${this.publicUrl.replace(/\/$/u, "")}/${key}`, bytes, sha256 };
+  }
+
+  async verify(uploaded: UploadedMedia): Promise<boolean> {
+    try {
+      const res = await this.fetchImpl(uploaded.url, { method: "HEAD" });
+      if (!res.ok) return false;
+      const len = res.headers.get("content-length");
+      return len === null || Number(len) === uploaded.bytes;
+    } catch {
+      return false;
+    }
+  }
+}
+
+/** 환경에 R2 설정이 있으면 R2, 없으면 로컬 — S11이 이 함수 하나만 부른다. */
+export function mediaBackendFromEnv(
+  storeDir: string,
+  env: NodeJS.ProcessEnv = process.env,
+): MediaBackend {
+  if (env.OPENCOURSE_R2_BUCKET && env.OPENCOURSE_R2_PUBLIC_URL) {
+    return R2MediaBackend.fromEnv(env);
+  }
+  return new LocalMediaBackend(storeDir);
+}

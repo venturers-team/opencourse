@@ -1,0 +1,20 @@
+# Supabase 무료 요금제 자동 정지 대비 (구현 계획 10단계).
+# 주 2회 REST에 익명 조회를 보내 프로젝트를 깨어 있게 한다.
+# 저장소 변수 SUPABASE_URL·SUPABASE_ANON_KEY(공개 가능 키)를 넣으면 켜진다 — 10단계 절차.
+name: keep-alive
+on:
+  schedule:
+    - cron: "23 3 * * 1,4"
+  workflow_dispatch:
+
+jobs:
+  ping:
+    if: ${{ vars.SUPABASE_URL != '' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Supabase 핑
+        run: |
+          curl -fsS "${{ vars.SUPABASE_URL }}/rest/v1/global_counters?select=day&limit=1" \
+            -H "apikey: ${{ vars.SUPABASE_ANON_KEY }}" \
+            -H "Authorization: Bearer ${{ vars.SUPABASE_ANON_KEY }}" \
+            -o /dev/null

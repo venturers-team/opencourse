@@ -7,6 +7,7 @@ import { checkStatusBoard, writeStatusBoard } from "./ops/board.js";
 import { recordManualReview } from "./ops/manual.js";
 import { canPurge, listAssets, markCleanup, unmarkCleanup } from "./ops/assets.js";
 import { activateStyle, listStyles } from "./ops/styles.js";
+import { fetchMonthlyBuildUsage } from "./ops/builds.js";
 import { SentenceReviewSession } from "./review/sentence-session.js";
 import { SectionReviewSession } from "./review/section-session.js";
 import { collectPublishable } from "./publishing.js";

@@ -213,3 +213,40 @@ test("보드: 본문 수정(지문 드리프트)도 낡은 보드로 드러난�
     rmSync(root, { recursive: true, force: true });
   }
 });
+
+test("월별 빌드 집계: 이번 달 배포만 센다 (9단계 준비)", async () => {
+  const { countMonthlyDeployments, fetchMonthlyBuildUsage } = await import("./builds.js");
+  const now = new Date("2026-08-25T12:00:00Z");
+  assert.equal(
+    countMonthlyDeployments(
+      [
+        { created_on: "2026-08-01T00:10:00Z" },
+        { created_on: "2026-08-25T09:00:00Z" },
+        { created_on: "2026-07-31T23:59:00Z" },
+        { created_on: "2025-08-10T00:00:00Z" },
+      ],
+      now,
+    ),
+    2,
+  );
+  const usage = await fetchMonthlyBuildUsage(
+    {
+      CLOUDFLARE_API_TOKEN: "t",
+      CLOUDFLARE_ACCOUNT_ID: "a",
+      CLOUDFLARE_PAGES_PROJECT: "p",
+    } as NodeJS.ProcessEnv,
+    (async () =>
+      new Response(
+        JSON.stringify({
+          result: [{ created_on: "2026-08-20T00:00:00Z" }, { created_on: "2026-06-01T00:00:00Z" }],
+        }),
+        { status: 200 },
+      )) as typeof fetch,
+    now,
+  );
+  assert.deepEqual(usage, { used: 1, limit: 500, month: "2026-08" });
+  await assert.rejects(
+    () => fetchMonthlyBuildUsage({} as NodeJS.ProcessEnv),
+    /Cloudflare 설정이 없습니다/,
+  );
+});

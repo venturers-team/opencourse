@@ -22,3 +22,25 @@ jobs:
       - run: pnpm format:check
       - run: pnpm board:check
       - run: pnpm e2e
+
+  # 빌드 실패 메일 (docs/06 4순위). 저장소 변수 NOTIFY_EMAIL과
+  # 시크릿 MAIL_USERNAME·MAIL_APP_PASSWORD(Gmail 앱 비밀번호)를 넣으면 켜진다 — 9단계 절차.
+  notify-failure:
+    needs: check
+    if: ${{ failure() && vars.NOTIFY_EMAIL != '' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          username: ${{ secrets.MAIL_USERNAME }}
+          password: ${{ secrets.MAIL_APP_PASSWORD }}
+          subject: "[오픈코스] CI 실패 — ${{ github.ref_name }} ${{ github.sha }}"
+          to: ${{ vars.NOTIFY_EMAIL }}
+          from: 오픈코스 CI
+          body: |
+            빌드가 실패했습니다.
+            브랜치: ${{ github.ref_name }}
+            커밋: ${{ github.sha }}
+            실행: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
