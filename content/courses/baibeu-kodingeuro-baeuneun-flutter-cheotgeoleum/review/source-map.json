@@ -2,7 +2,7 @@
   "schema_version": 1,
   "course_id": "01M0WK073ZX0BQY9QHJKYRNHRY",
   "verified_at": "2026-08-25",
-  "verification_note": "세 출처 전부 열어 생존(HTTP 200)과 제목·라이선스 표기를 확인했다",
+  "verification_note": "출처 2건 전부 열어 생존(HTTP 200)·제목·라이선스 문구(CC BY 4.0 푸터)를 확인했다. M3 가이드는 라이선스를 확증할 수 없어 출처에서 제외 — 본문이 쓰는 위젯 명칭은 Flutter 공식 문서 범위다",
   "sources": [
     {
       "id": "src-001",
@@ -31,20 +31,6 @@
       "use_kind": "concept-reference",
       "use_note": "코드 예제의 문법 확인용. 문장 발췌 없음",
       "used_for": "예제 코드의 Dart 문법 검증"
-    },
-    {
-      "id": "src-003",
-      "title": "Material Design 3 가이드",
-      "publisher": "Google",
-      "url": "https://m3.material.io/",
-      "fetched_at": "2026-08-25",
-      "http_status": 200,
-      "license": "CC BY 4.0",
-      "license_url": "https://creativecommons.org/licenses/by/4.0/",
-      "attribution_required": true,
-      "use_kind": "concept-reference",
-      "use_note": "기본 위젯의 시각 용어 참조",
-      "used_for": "버튼·카드 등 화면 요소 명칭"
     }
   ],
   "sections": [
@@ -83,8 +69,7 @@
     {
       "path": "chapters/03-widget-tree/03.mdx",
       "source_ids": [
-        "src-001",
-        "src-003"
+        "src-001"
       ]
     },
     {
@@ -109,8 +94,7 @@
     {
       "path": "chapters/05-wrap-up/01.mdx",
       "source_ids": [
-        "src-001",
-        "src-003"
+        "src-001"
       ]
     }
   ],

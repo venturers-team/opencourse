@@ -5,3 +5,5 @@
 2026-08-25T15:23:33Z ch4-done
 2026-08-25T15:25:35Z ch5-done s6-end
 2026-08-25T15:46:06Z sentence-review-start
+2026-08-25T16:43:06Z sentence-round1-done
+2026-08-25T16:45:38Z sentence-round2-start

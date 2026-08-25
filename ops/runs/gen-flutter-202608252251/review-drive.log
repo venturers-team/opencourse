@@ -1,1 +1,487 @@
 [1] 01-vibe-coding/01.mdx:6:6a5f909d8c → pass — 남음 406
+[2] 01-vibe-coding/01.mdx:7:db6539e316 → pass (문제 1) — 남음 405
+[3] 01-vibe-coding/01.mdx:8:08f2660c41 → pass — 남음 404
+[1] 01-vibe-coding/01.mdx:9:3952f7c8f2 → minor (문제 2) — 남음 403
+[2] 01-vibe-coding/01.mdx:10:01bea70a5c → pass — 남음 402
+[1] 01-vibe-coding/01.mdx:11:541e2207f7 → pass — 남음 401
+[2] 01-vibe-coding/01.mdx:12:8460cf6a67 → major (문제 1) — 남음 400
+[3] 01-vibe-coding/01.mdx:13:9bfabf8489 → pass — 남음 399
+[4] 01-vibe-coding/01.mdx:14:c479f7bc1b → pass — 남음 398
+[5] 01-vibe-coding/01.mdx:15:64dc90250a → pass — 남음 397
+[6] 01-vibe-coding/01.mdx:16:2649c6afc3 → pass (문제 1) — 남음 396
+[7] 01-vibe-coding/01.mdx:17:8764348b94 → pass — 남음 395
+[1] 01-vibe-coding/01.mdx:18:51e74a6237 → pass — 남음 394
+[2] 01-vibe-coding/01.mdx:19:161de7ae9b → pass — 남음 393
+[3] 01-vibe-coding/01.mdx:20:66a2c60fe9 → pass — 남음 392
+[4] 01-vibe-coding/01.mdx:21:f92644d726 → pass (문제 1) — 남음 391
+[5] 01-vibe-coding/01.mdx:22:176c659706 → pass (문제 1) — 남음 390
+[6] 01-vibe-coding/01.mdx:23:d4fe44c743 → pass — 남음 389
+[7] 01-vibe-coding/01.mdx:24:30b7da3d47 → minor (문제 3) — 남음 388
+[8] 01-vibe-coding/01.mdx:25:cb79d6610d → pass — 남음 387
+[9] 01-vibe-coding/01.mdx:26:480c50e584 → pass — 남음 386
+[10] 01-vibe-coding/01.mdx:27:af490cf803 → pass — 남음 385
+[11] 01-vibe-coding/02.mdx:1:a6eb120330 → pass (문제 1) — 남음 384
+[12] 01-vibe-coding/02.mdx:2:e73f75218d → pass — 남음 383
+[13] 01-vibe-coding/02.mdx:3:30e2ec762e → critical (문제 3) — 남음 382
+[14] 01-vibe-coding/02.mdx:4:ab180b86b9 → pass (문제 1) — 남음 381
+[15] 01-vibe-coding/02.mdx:5:a8d4f5f271 → pass — 남음 380
+[16] 01-vibe-coding/02.mdx:6:70438123be → pass (문제 1) — 남음 379
+[17] 01-vibe-coding/02.mdx:7:573c40a881 → minor (문제 3) — 남음 378
+[18] 01-vibe-coding/02.mdx:8:bdc1fa9220 → pass (문제 1) — 남음 377
+[19] 01-vibe-coding/02.mdx:9:5b4b2427dd → pass — 남음 376
+[20] 01-vibe-coding/02.mdx:10:4b8d6873be → pass — 남음 375
+[21] 01-vibe-coding/02.mdx:11:1c7baccaf9 → pass (문제 1) — 남음 374
+[22] 01-vibe-coding/02.mdx:12:bbda498494 → pass (문제 1) — 남음 373
+[23] 01-vibe-coding/02.mdx:13:9502774e57 → pass — 남음 372
+[24] 01-vibe-coding/02.mdx:14:ddbc563ee5 → pass — 남음 371
+[25] 01-vibe-coding/02.mdx:15:65309653f6 → pass — 남음 370
+[26] 01-vibe-coding/02.mdx:16:5188ce72e2 → pass — 남음 369
+[27] 01-vibe-coding/02.mdx:17:2c6825c203 → pass — 남음 368
+[28] 01-vibe-coding/02.mdx:18:6174fbd14a → pass — 남음 367
+[29] 01-vibe-coding/02.mdx:19:686f8cb686 → pass — 남음 366
+[30] 01-vibe-coding/02.mdx:20:f8f51ad55c → pass — 남음 365
+[31] 01-vibe-coding/02.mdx:21:04bef4535b → pass — 남음 364
+[32] 01-vibe-coding/02.mdx:22:7b157607b2 → pass (문제 1) — 남음 363
+[33] 01-vibe-coding/02.mdx:23:e9dce7df86 → pass — 남음 362
+[34] 01-vibe-coding/02.mdx:24:a89b8ea8fb → pass — 남음 361
+[35] 01-vibe-coding/02.mdx:25:e085526b44 → pass (문제 1) — 남음 360
+[36] 01-vibe-coding/02.mdx:26:375f0a9424 → pass (문제 1) — 남음 359
+[37] 01-vibe-coding/02.mdx:27:518c3f75c7 → pass — 남음 358
+[38] 01-vibe-coding/02.mdx:28:7bc3ecf25e → pass (문제 1) — 남음 357
+[39] 01-vibe-coding/02.mdx:29:317717c4c3 → pass — 남음 356
+[40] 01-vibe-coding/02.mdx:30:f4f10af59a → pass — 남음 355
+[41] 01-vibe-coding/02.mdx:31:a4d9e97fb5 → pass — 남음 354
+[42] 01-vibe-coding/02.mdx:32:9b6473dd6b → pass (문제 1) — 남음 353
+[43] 01-vibe-coding/02.mdx:33:7b2eae28eb → critical (문제 1) — 남음 352
+[44] 01-vibe-coding/02.mdx:34:a5728309a1 → minor (문제 2) — 남음 351
+[45] 01-vibe-coding/03.mdx:1:e238828f89 → pass (문제 1) — 남음 350
+[46] 01-vibe-coding/03.mdx:2:346579eee7 → pass — 남음 349
+[47] 01-vibe-coding/03.mdx:3:1c138f7a59 → pass (문제 1) — 남음 348
+[48] 01-vibe-coding/03.mdx:4:cea0322d84 → critical (문제 1) — 남음 347
+[49] 01-vibe-coding/03.mdx:5:a5e1389499 → pass — 남음 346
+[50] 01-vibe-coding/03.mdx:6:0e6db4e33b → pass — 남음 345
+[51] 01-vibe-coding/03.mdx:7:30253babe4 → pass — 남음 344
+[52] 01-vibe-coding/03.mdx:8:ae6d6765ce → pass (문제 1) — 남음 343
+[53] 01-vibe-coding/03.mdx:9:17b4cdae72 → pass (문제 1) — 남음 342
+[54] 01-vibe-coding/03.mdx:10:6174c69cc0 → pass — 남음 341
+[55] 01-vibe-coding/03.mdx:11:309be28a4f → pass (문제 1) — 남음 340
+[56] 01-vibe-coding/03.mdx:12:86186889d1 → pass (문제 1) — 남음 339
+[57] 01-vibe-coding/03.mdx:13:08bd73a208 → pass (문제 1) — 남음 338
+[58] 01-vibe-coding/03.mdx:14:3fc7584409 → critical (문제 1) — 남음 337
+[59] 01-vibe-coding/03.mdx:15:aee36b67ee → pass — 남음 336
+[60] 01-vibe-coding/03.mdx:16:72985a7457 → pass — 남음 335
+[61] 01-vibe-coding/03.mdx:17:76498ac324 → pass — 남음 334
+[62] 01-vibe-coding/03.mdx:18:99291555fc → pass — 남음 333
+[63] 01-vibe-coding/03.mdx:19:99f1275a28 → critical (문제 2) — 남음 332
+[64] 01-vibe-coding/03.mdx:20:927dc2dc71 → pass — 남음 331
+[65] 01-vibe-coding/03.mdx:21:ac825f8c68 → minor (문제 2) — 남음 330
+[66] 01-vibe-coding/03.mdx:22:f651791236 → minor (문제 2) — 남음 329
+[67] 01-vibe-coding/03.mdx:23:ed5d05589c → pass — 남음 328
+[68] 01-vibe-coding/03.mdx:24:7340e68da6 → minor (문제 2) — 남음 327
+[69] 01-vibe-coding/03.mdx:25:df2784be9b → critical (문제 3) — 남음 326
+[70] 01-vibe-coding/03.mdx:26:a0ae394442 → pass (문제 1) — 남음 325
+[71] 01-vibe-coding/03.mdx:27:12039f4225 → pass (문제 1) — 남음 324
+[72] 01-vibe-coding/03.mdx:28:8e6d76ec62 → pass (문제 1) — 남음 323
+[73] 01-vibe-coding/03.mdx:29:6e2ba32003 → pass — 남음 322
+[74] 01-vibe-coding/03.mdx:30:2495c016a1 → minor (문제 2) — 남음 321
+[75] 01-vibe-coding/03.mdx:31:7d508c4f45 → pass — 남음 320
+[76] 01-vibe-coding/03.mdx:32:35fb078139 → pass — 남음 319
+[77] 01-vibe-coding/03.mdx:33:8542ddf7e6 → minor (문제 2) — 남음 318
+[78] 01-vibe-coding/03.mdx:34:de7db36f38 → pass (문제 1) — 남음 317
+[79] 01-vibe-coding/03.mdx:35:db94f6c0f4 → minor (문제 2) — 남음 316
+[80] 01-vibe-coding/03.mdx:36:7db81f8129 → pass — 남음 315
+[81] 02-first-project/01.mdx:1:9aa2109239 → pass — 남음 314
+[82] 02-first-project/01.mdx:2:c75f9326ab → pass — 남음 313
+[83] 02-first-project/01.mdx:3:0fb637d3f3 → pass — 남음 312
+[84] 02-first-project/01.mdx:4:ee45c120ac → pass — 남음 311
+[85] 02-first-project/01.mdx:5:b1e012c643 → major (문제 2) — 남음 310
+[86] 02-first-project/01.mdx:6:1d0e0c7b13 → pass — 남음 309
+[87] 02-first-project/01.mdx:7:b3737737e0 → pass — 남음 308
+[88] 02-first-project/01.mdx:8:397b5cfd10 → pass — 남음 307
+[89] 02-first-project/01.mdx:9:6352e8a988 → pass — 남음 306
+[90] 02-first-project/01.mdx:10:4c5288b438 → pass — 남음 305
+[91] 02-first-project/01.mdx:11:d451c7bee9 → pass — 남음 304
+[92] 02-first-project/01.mdx:12:9e666c7c61 → pass (문제 1) — 남음 303
+[93] 02-first-project/01.mdx:13:99f1275a28 → critical (문제 2) — 남음 302
+[94] 02-first-project/01.mdx:14:bd9f82e9b7 → minor (문제 3) — 남음 301
+[95] 02-first-project/01.mdx:15:ea641fd8aa → pass — 남음 300
+[96] 02-first-project/01.mdx:16:c5bdd8e0c8 → pass (문제 1) — 남음 299
+[97] 02-first-project/01.mdx:17:029998f895 → pass (문제 1) — 남음 298
+[98] 02-first-project/01.mdx:18:cc36c32d93 → pass — 남음 297
+[99] 02-first-project/01.mdx:19:9dec942e17 → minor (문제 3) — 남음 296
+[100] 02-first-project/01.mdx:20:f29edd0f5a → minor (문제 2) — 남음 295
+[101] 02-first-project/01.mdx:21:0c65b6b573 → pass — 남음 294
+[102] 02-first-project/01.mdx:22:b930d38124 → major (문제 1) — 남음 293
+[103] 02-first-project/01.mdx:23:a9da8ffc19 → pass — 남음 292
+[104] 02-first-project/01.mdx:24:d25f6bee73 → pass (문제 1) — 남음 291
+[105] 02-first-project/01.mdx:25:b30f20098c → critical (문제 2) — 남음 290
+[106] 02-first-project/01.mdx:26:a2b26ee24d → pass (문제 1) — 남음 289
+[107] 02-first-project/01.mdx:27:bb36e9e16f → pass — 남음 288
+[108] 02-first-project/02.mdx:1:07219848c9 → pass (문제 1) — 남음 287
+[109] 02-first-project/02.mdx:2:655b468464 → pass — 남음 286
+[110] 02-first-project/02.mdx:3:102e262111 → pass — 남음 285
+[111] 02-first-project/02.mdx:4:0e96c5bcf1 → pass — 남음 284
+[112] 02-first-project/02.mdx:5:3c11faf80f → pass — 남음 283
+[113] 02-first-project/02.mdx:6:0eb9a927e3 → pass (문제 1) — 남음 282
+[114] 02-first-project/02.mdx:7:15a5baa342 → pass — 남음 281
+[115] 02-first-project/02.mdx:8:21287e5cd1 → pass (문제 1) — 남음 280
+[116] 02-first-project/02.mdx:9:68fb847762 → pass — 남음 279
+[117] 02-first-project/02.mdx:10:028459a640 → critical (문제 1) — 남음 278
+[118] 02-first-project/02.mdx:11:10166c5419 → critical (문제 2) — 남음 277
+[119] 02-first-project/02.mdx:12:97bafc65cd → pass — 남음 276
+[120] 02-first-project/02.mdx:13:c0e5511a05 → minor (문제 1) — 남음 275
+[121] 02-first-project/02.mdx:14:29a6517e5f → pass — 남음 274
+[122] 02-first-project/02.mdx:15:386527ac17 → pass — 남음 273
+[123] 02-first-project/02.mdx:16:04b6a791f1 → pass — 남음 272
+[124] 02-first-project/02.mdx:17:932985c4d1 → pass — 남음 271
+[125] 02-first-project/02.mdx:18:9d3a9bde05 → pass — 남음 270
+[126] 02-first-project/02.mdx:19:07f467f5a0 → minor (문제 2) — 남음 269
+[127] 02-first-project/02.mdx:20:1627389080 → critical (문제 3) — 남음 268
+[128] 02-first-project/02.mdx:21:5e72efddbf → pass (문제 1) — 남음 267
+[129] 02-first-project/02.mdx:22:4b4dfdff6a → critical (문제 2) — 남음 266
+[130] 02-first-project/02.mdx:23:6e7056b1bf → pass — 남음 265
+[131] 02-first-project/02.mdx:24:9c4461019a → pass — 남음 264
+[132] 02-first-project/03.mdx:1:a90f694585 → pass — 남음 263
+[133] 02-first-project/03.mdx:2:95645ffeaf → pass — 남음 262
+[134] 02-first-project/03.mdx:3:fdf5319488 → pass — 남음 261
+[135] 02-first-project/03.mdx:4:2b517160b2 → pass — 남음 260
+[136] 02-first-project/03.mdx:5:3b8629eb91 → pass — 남음 259
+[137] 02-first-project/03.mdx:6:1d8439d24b → pass — 남음 258
+[138] 02-first-project/03.mdx:7:4635b13b9b → pass — 남음 257
+  재시도 1: 02-first-project/03.mdx:8:fbd503f2a0 — Expected property name or '}' in JSON at position 429 (line 1 column 430)
+[139] 02-first-project/03.mdx:8:fbd503f2a0 → critical (문제 1) — 남음 256
+[140] 02-first-project/03.mdx:9:a1318b6818 → pass — 남음 255
+[141] 02-first-project/03.mdx:10:85f1da6919 → pass — 남음 254
+[142] 02-first-project/03.mdx:11:2ed69cba1f → pass — 남음 253
+[143] 02-first-project/03.mdx:12:1564330cd2 → pass — 남음 252
+[144] 02-first-project/03.mdx:13:a90b8f8163 → pass — 남음 251
+[145] 02-first-project/03.mdx:14:6e05c84f33 → pass (문제 1) — 남음 250
+[146] 02-first-project/03.mdx:15:87b69c6d61 → pass — 남음 249
+[147] 02-first-project/03.mdx:16:1df20b7548 → pass — 남음 248
+[148] 02-first-project/03.mdx:17:1c99f61428 → pass — 남음 247
+[149] 02-first-project/03.mdx:18:ea07e4899c → pass — 남음 246
+[150] 02-first-project/03.mdx:19:1b80fda5f1 → pass — 남음 245
+[151] 02-first-project/03.mdx:20:68efa52c6a → pass — 남음 244
+[152] 02-first-project/03.mdx:21:73c01c80d8 → minor (문제 1) — 남음 243
+[153] 02-first-project/03.mdx:22:dcd4dbdaed → pass (문제 1) — 남음 242
+[154] 02-first-project/03.mdx:23:6894de746a → critical (문제 2) — 남음 241
+[155] 02-first-project/03.mdx:24:d890118c9d → minor (문제 1) — 남음 240
+[156] 02-first-project/03.mdx:25:97a4216c0a → pass — 남음 239
+[157] 02-first-project/03.mdx:26:6e10e5b397 → pass — 남음 238
+[158] 02-first-project/03.mdx:27:744dce1520 → pass — 남음 237
+[159] 02-first-project/03.mdx:28:8fb69402b1 → pass — 남음 236
+[160] 02-first-project/03.mdx:29:7bb4328bee → pass — 남음 235
+[161] 02-first-project/03.mdx:30:8f771f8c57 → pass — 남음 234
+[162] 02-first-project/03.mdx:31:cf7f4866bc → pass — 남음 233
+[163] 03-widget-tree/01.mdx:1:0dd955705d → pass — 남음 232
+[164] 03-widget-tree/01.mdx:2:b80e4add43 → pass — 남음 231
+[165] 03-widget-tree/01.mdx:3:13a3b62c14 → pass — 남음 230
+[166] 03-widget-tree/01.mdx:4:d22aeebc6f → pass (문제 1) — 남음 229
+[167] 03-widget-tree/01.mdx:5:dfd98aa812 → pass — 남음 228
+[168] 03-widget-tree/01.mdx:6:ea75844028 → pass — 남음 227
+[169] 03-widget-tree/01.mdx:7:140e8b1f2a → pass — 남음 226
+[170] 03-widget-tree/01.mdx:8:1eed1bbc36 → pass — 남음 225
+[171] 03-widget-tree/01.mdx:9:2bba1e36ad → pass — 남음 224
+[172] 03-widget-tree/01.mdx:10:2be130ed5b → pass (문제 1) — 남음 223
+  재시도 1: 03-widget-tree/01.mdx:11:fe196abf09 — [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "issues",
+ 
+[173] 03-widget-tree/01.mdx:11:fe196abf09 → pass — 남음 222
+[174] 03-widget-tree/01.mdx:12:2c83c8e0ad → pass — 남음 221
+[175] 03-widget-tree/01.mdx:13:f73b12e70e → pass — 남음 220
+[176] 03-widget-tree/01.mdx:14:ef153fb481 → pass — 남음 219
+[177] 03-widget-tree/01.mdx:15:d96bf9aecd → minor (문제 2) — 남음 218
+[178] 03-widget-tree/01.mdx:16:838033d974 → pass (문제 1) — 남음 217
+[179] 03-widget-tree/01.mdx:17:fa407bad77 → pass — 남음 216
+[180] 03-widget-tree/01.mdx:18:200b05291d → critical (문제 3) — 남음 215
+[181] 03-widget-tree/01.mdx:19:698527920c → critical (문제 3) — 남음 214
+[182] 03-widget-tree/01.mdx:20:c35cf15f0e → pass — 남음 213
+[183] 03-widget-tree/01.mdx:21:fa60caf1e0 → pass — 남음 212
+[184] 03-widget-tree/01.mdx:22:8fd1b18b09 → pass — 남음 211
+[185] 03-widget-tree/01.mdx:23:f77ab53d19 → pass — 남음 210
+[186] 03-widget-tree/01.mdx:24:357e11c0e7 → critical (문제 2) — 남음 209
+[187] 03-widget-tree/01.mdx:25:2d46ede649 → critical (문제 2) — 남음 208
+[188] 03-widget-tree/01.mdx:26:7a131c2e6f → pass — 남음 207
+[189] 03-widget-tree/01.mdx:27:ffba68165c → pass — 남음 206
+[190] 03-widget-tree/01.mdx:28:bcf5d7ae65 → pass — 남음 205
+[191] 03-widget-tree/01.mdx:29:ecc1d843b0 → pass — 남음 204
+[192] 03-widget-tree/01.mdx:30:5db5377cad → critical (문제 3) — 남음 203
+[193] 03-widget-tree/02.mdx:1:d977f9f84d → pass — 남음 202
+[194] 03-widget-tree/02.mdx:2:6e44febca8 → pass — 남음 201
+[195] 03-widget-tree/02.mdx:3:0d32f51822 → critical (문제 2) — 남음 200
+[196] 03-widget-tree/02.mdx:4:c598f6013f → pass — 남음 199
+[197] 03-widget-tree/02.mdx:5:36b9e845a0 → minor (문제 2) — 남음 198
+[198] 03-widget-tree/02.mdx:6:623e9ccad3 → pass — 남음 197
+[199] 03-widget-tree/02.mdx:7:1ae91ee3b0 → critical (문제 3) — 남음 196
+[200] 03-widget-tree/02.mdx:8:82a10b4050 → pass — 남음 195
+[201] 03-widget-tree/02.mdx:9:324a203dfe → pass — 남음 194
+[202] 03-widget-tree/02.mdx:10:4003b7dcc1 → pass — 남음 193
+[203] 03-widget-tree/02.mdx:11:fb36a5c0b0 → pass — 남음 192
+[204] 03-widget-tree/02.mdx:12:dd274fb96f → pass — 남음 191
+[205] 03-widget-tree/02.mdx:13:c6624cf8ba → pass — 남음 190
+[206] 03-widget-tree/02.mdx:14:14e49d0375 → pass — 남음 189
+[207] 03-widget-tree/02.mdx:15:d737d9b1f1 → minor (문제 1) — 남음 188
+[208] 03-widget-tree/02.mdx:16:852c6c3c41 → pass — 남음 187
+[209] 03-widget-tree/02.mdx:17:f626c52367 → pass — 남음 186
+[210] 03-widget-tree/02.mdx:18:d72f26c4f3 → major (문제 1) — 남음 185
+[211] 03-widget-tree/02.mdx:19:e6e774af0e → pass (문제 1) — 남음 184
+[212] 03-widget-tree/02.mdx:20:79959ed403 → pass — 남음 183
+[213] 03-widget-tree/02.mdx:21:eebb41fa54 → pass — 남음 182
+[214] 03-widget-tree/02.mdx:22:f49a9ae017 → pass — 남음 181
+[215] 03-widget-tree/02.mdx:23:e4e3c45dc8 → pass — 남음 180
+[216] 03-widget-tree/03.mdx:1:6877017d64 → pass (문제 1) — 남음 179
+[217] 03-widget-tree/03.mdx:2:fa56c912d9 → pass — 남음 178
+[218] 03-widget-tree/03.mdx:3:e737c9c4b1 → pass (문제 1) — 남음 177
+[219] 03-widget-tree/03.mdx:4:8196274e39 → pass — 남음 176
+[220] 03-widget-tree/03.mdx:5:60f18d78f2 → pass — 남음 175
+[221] 03-widget-tree/03.mdx:6:1b30b27d80 → pass — 남음 174
+[222] 03-widget-tree/03.mdx:7:3e8a752397 → pass — 남음 173
+[223] 03-widget-tree/03.mdx:8:9afcaab9ea → pass (문제 1) — 남음 172
+[224] 03-widget-tree/03.mdx:9:03ffe2f2ea → pass (문제 1) — 남음 171
+[225] 03-widget-tree/03.mdx:10:473643b570 → critical (문제 3) — 남음 170
+[226] 03-widget-tree/03.mdx:11:ebbaaa586c → critical (문제 5) — 남음 169
+[227] 03-widget-tree/03.mdx:12:bcfe1ec09e → pass — 남음 168
+[228] 03-widget-tree/03.mdx:13:a5feeaade6 → pass — 남음 167
+[229] 03-widget-tree/03.mdx:14:ea2bd63987 → pass (문제 1) — 남음 166
+[230] 03-widget-tree/03.mdx:15:653a2304d0 → pass — 남음 165
+[231] 03-widget-tree/03.mdx:16:152797772b → minor (문제 1) — 남음 164
+[232] 03-widget-tree/03.mdx:17:2e0f893113 → pass — 남음 163
+[233] 03-widget-tree/03.mdx:18:2544a13a33 → pass — 남음 162
+[234] 03-widget-tree/03.mdx:19:0a9d2c98f1 → pass — 남음 161
+[235] 03-widget-tree/03.mdx:20:b9dbf82f61 → pass (문제 1) — 남음 160
+[236] 03-widget-tree/03.mdx:21:7045cd230d → pass — 남음 159
+[237] 03-widget-tree/03.mdx:22:3d949cef2f → pass — 남음 158
+[238] 03-widget-tree/03.mdx:23:3a2b487ce2 → pass — 남음 157
+[239] 03-widget-tree/03.mdx:24:b31956dc82 → pass — 남음 156
+[240] 03-widget-tree/03.mdx:25:49aa0a98f1 → pass (문제 1) — 남음 155
+[241] 03-widget-tree/03.mdx:26:eca23a4753 → pass — 남음 154
+[242] 03-widget-tree/03.mdx:27:81b0683bb9 → pass — 남음 153
+[243] 04-state/01.mdx:1:22b4f2ab81 → pass — 남음 152
+[244] 04-state/01.mdx:2:8dfdc33846 → critical (문제 1) — 남음 151
+[245] 04-state/01.mdx:3:9b618aa782 → pass — 남음 150
+[246] 04-state/01.mdx:4:62596e4d61 → pass — 남음 149
+[247] 04-state/01.mdx:5:f68b5079e4 → pass — 남음 148
+[248] 04-state/01.mdx:6:e799aff4ac → critical (문제 2) — 남음 147
+[249] 04-state/01.mdx:7:c71e5b2298 → pass (문제 1) — 남음 146
+[250] 04-state/01.mdx:8:39d5efe671 → pass — 남음 145
+[251] 04-state/01.mdx:9:ba3027b45d → pass — 남음 144
+[252] 04-state/01.mdx:10:a6c52c19b2 → pass — 남음 143
+[253] 04-state/01.mdx:11:1fdf6be4a8 → pass — 남음 142
+[254] 04-state/01.mdx:12:f775653967 → pass (문제 1) — 남음 141
+[255] 04-state/01.mdx:13:5e53ca3786 → pass — 남음 140
+[256] 04-state/01.mdx:14:160cd7c3a0 → critical (문제 2) — 남음 139
+[257] 04-state/01.mdx:15:bd23a462ef → pass — 남음 138
+[258] 04-state/01.mdx:16:855811a434 → pass — 남음 137
+[259] 04-state/01.mdx:17:d75d2f8512 → critical (문제 2) — 남음 136
+[260] 04-state/01.mdx:18:6888fe7b97 → critical (문제 2) — 남음 135
+[261] 04-state/01.mdx:19:e9b98c5bdf → pass (문제 1) — 남음 134
+[262] 04-state/01.mdx:20:359960b1a7 → pass (문제 1) — 남음 133
+[263] 04-state/01.mdx:21:d5c791b5b6 → minor (문제 2) — 남음 132
+[264] 04-state/01.mdx:22:e815557ab1 → critical (문제 2) — 남음 131
+[265] 04-state/01.mdx:23:33fe45a56d → pass — 남음 130
+[266] 04-state/01.mdx:24:014c599384 → critical (문제 2) — 남음 129
+[267] 04-state/01.mdx:25:b157221932 → minor (문제 1) — 남음 128
+[268] 04-state/01.mdx:26:f0e677cccf → pass (문제 1) — 남음 127
+[269] 04-state/01.mdx:27:d86714d585 → pass (문제 1) — 남음 126
+[270] 04-state/01.mdx:28:23a646db1a → pass (문제 1) — 남음 125
+[271] 04-state/01.mdx:29:a56b47625f → critical (문제 3) — 남음 124
+[272] 04-state/01.mdx:30:d4d7dcf42e → pass (문제 1) — 남음 123
+[273] 04-state/01.mdx:31:c8ced309ff → major (문제 1) — 남음 122
+[274] 04-state/01.mdx:32:d6ddd27a97 → pass — 남음 121
+[275] 04-state/01.mdx:33:ee0cd9aa0e → pass — 남음 120
+[276] 04-state/02.mdx:1:e26de606a3 → pass (문제 1) — 남음 119
+[277] 04-state/02.mdx:2:d0288fc637 → pass (문제 1) — 남음 118
+[278] 04-state/02.mdx:3:ef43a561e2 → critical (문제 2) — 남음 117
+[279] 04-state/02.mdx:4:3f3926b721 → pass (문제 1) — 남음 116
+[280] 04-state/02.mdx:5:43200d172a → minor (문제 1) — 남음 115
+[281] 04-state/02.mdx:6:0d7adee2f3 → critical (문제 3) — 남음 114
+[282] 04-state/02.mdx:7:4994b5f220 → pass (문제 1) — 남음 113
+[283] 04-state/02.mdx:8:a2ccf832c4 → minor (문제 3) — 남음 112
+[284] 04-state/02.mdx:9:5284675e6c → pass — 남음 111
+[285] 04-state/02.mdx:10:510b4f5529 → pass — 남음 110
+[286] 04-state/02.mdx:11:ec0bfdbf30 → pass — 남음 109
+[287] 04-state/02.mdx:12:8c647b5560 → critical (문제 3) — 남음 108
+[288] 04-state/02.mdx:13:b0d355cf88 → pass — 남음 107
+[289] 04-state/02.mdx:14:e23b06d7f0 → pass (문제 1) — 남음 106
+[290] 04-state/02.mdx:15:7d74543c1a → critical (문제 2) — 남음 105
+[291] 04-state/02.mdx:16:5c9c5cdff1 → pass — 남음 104
+[292] 04-state/02.mdx:17:4abce87fee → minor (문제 1) — 남음 103
+[293] 04-state/02.mdx:18:51b8c74bb3 → pass — 남음 102
+[294] 04-state/02.mdx:19:e36119a2e6 → pass — 남음 101
+[295] 04-state/02.mdx:20:93ed179001 → pass — 남음 100
+[296] 04-state/02.mdx:21:9ff4944858 → pass — 남음 99
+[297] 04-state/02.mdx:22:00c3aa8d1c → critical (문제 2) — 남음 98
+[298] 04-state/02.mdx:23:042cb35cc3 → pass — 남음 97
+[299] 04-state/02.mdx:24:89094485af → pass — 남음 96
+[300] 04-state/02.mdx:25:f941711ec6 → critical (문제 2) — 남음 95
+[301] 04-state/02.mdx:26:89c024d07f → critical (문제 1) — 남음 94
+[302] 04-state/03.mdx:1:bc5a4b547c → pass — 남음 93
+[303] 04-state/03.mdx:2:e8d2836d1f → pass — 남음 92
+[304] 04-state/03.mdx:3:469b4635cb → minor (문제 1) — 남음 91
+[305] 04-state/03.mdx:4:e795c2e794 → pass — 남음 90
+[306] 04-state/03.mdx:5:286fe51f7b → pass (문제 1) — 남음 89
+[307] 04-state/03.mdx:6:05d2a8d420 → minor (문제 1) — 남음 88
+[308] 04-state/03.mdx:7:adfe4b5e74 → pass — 남음 87
+[309] 04-state/03.mdx:8:53502e1c5f → pass — 남음 86
+[310] 04-state/03.mdx:9:0ff957b82a → pass — 남음 85
+[311] 04-state/03.mdx:10:95b22ebd9a → major (문제 1) — 남음 84
+[312] 04-state/03.mdx:11:c7519b6231 → pass — 남음 83
+[313] 04-state/03.mdx:12:4fb4bd51fb → pass — 남음 82
+[314] 04-state/03.mdx:13:a4ad278f0f → pass — 남음 81
+[315] 04-state/03.mdx:14:4146d154b0 → pass (문제 1) — 남음 80
+[316] 04-state/03.mdx:15:020d6c8a22 → pass — 남음 79
+[317] 04-state/03.mdx:16:a0e3c34c05 → pass — 남음 78
+[318] 04-state/03.mdx:17:df20e6282c → critical (문제 3) — 남음 77
+[319] 04-state/03.mdx:18:adcb197382 → pass — 남음 76
+[320] 04-state/03.mdx:19:8bdd1db7e7 → pass (문제 1) — 남음 75
+[321] 04-state/03.mdx:20:5e3a275c97 → major (문제 1) — 남음 74
+[322] 04-state/03.mdx:21:8a2283c1d6 → minor (문제 1) — 남음 73
+[323] 04-state/03.mdx:22:55a1ee2236 → critical (문제 3) — 남음 72
+[324] 04-state/03.mdx:23:630607096b → pass — 남음 71
+[325] 04-state/03.mdx:24:5c9777cfea → pass — 남음 70
+[326] 04-state/03.mdx:25:558dab6745 → minor (문제 1) — 남음 69
+[327] 04-state/03.mdx:26:e5cf8b2206 → pass — 남음 68
+  재시도 1: 04-state/03.mdx:27:f3f20ea7b6 — [
+  {
+    "code": "invalid_union",
+    "unionErrors": [
+      {
+        "issues": [
+          {
+            "code": "inv
+[328] 04-state/03.mdx:27:f3f20ea7b6 → pass (문제 1) — 남음 67
+[329] 04-state/03.mdx:28:512c80ba86 → pass — 남음 66
+[330] 04-state/03.mdx:29:421cd81561 → minor (문제 3) — 남음 65
+[331] 04-state/03.mdx:30:b35963545d → pass (문제 1) — 남음 64
+[332] 04-state/03.mdx:31:643c08468c → pass — 남음 63
+[333] 04-state/03.mdx:32:d17d5a7a59 → pass — 남음 62
+[334] 05-wrap-up/01.mdx:1:3ccdd438a5 → pass — 남음 61
+[335] 05-wrap-up/01.mdx:2:6e8d6fb088 → pass — 남음 60
+[336] 05-wrap-up/01.mdx:3:926b140e20 → pass (문제 1) — 남음 59
+[337] 05-wrap-up/01.mdx:4:796e2b414d → pass — 남음 58
+[338] 05-wrap-up/01.mdx:5:5d2973db46 → pass — 남음 57
+[339] 05-wrap-up/01.mdx:6:acdebee959 → pass (문제 1) — 남음 56
+[340] 05-wrap-up/01.mdx:7:101c93d509 → pass — 남음 55
+[341] 05-wrap-up/01.mdx:8:aec7207933 → pass — 남음 54
+[342] 05-wrap-up/01.mdx:9:af1f4d1906 → pass — 남음 53
+[343] 05-wrap-up/01.mdx:10:02cb674e1d → pass — 남음 52
+[344] 05-wrap-up/01.mdx:11:271de5ba95 → pass — 남음 51
+[345] 05-wrap-up/01.mdx:12:19f3149526 → critical (문제 3) — 남음 50
+[346] 05-wrap-up/01.mdx:13:3580d30564 → pass (문제 1) — 남음 49
+[347] 05-wrap-up/01.mdx:14:8d58c4bfcc → pass (문제 1) — 남음 48
+[348] 05-wrap-up/01.mdx:15:075b5828bd → pass — 남음 47
+[349] 05-wrap-up/01.mdx:16:82bb43ea18 → pass — 남음 46
+  재시도 1: 05-wrap-up/01.mdx:17:56fe71a758 — [
+  {
+    "code": "invalid_union",
+    "unionErrors": [
+      {
+        "issues": [
+          {
+            "code": "inv
+[350] 05-wrap-up/01.mdx:17:56fe71a758 → pass (문제 1) — 남음 45
+[351] 05-wrap-up/01.mdx:18:028459a640 → pass (문제 1) — 남음 44
+[352] 05-wrap-up/01.mdx:19:ae874f6e0c → pass — 남음 43
+[353] 05-wrap-up/01.mdx:20:5dd22d34fe → pass (문제 1) — 남음 42
+[354] 05-wrap-up/01.mdx:21:ee15d1b1b2 → pass — 남음 41
+[355] 05-wrap-up/01.mdx:22:4a0f17bd46 → pass — 남음 40
+[356] 05-wrap-up/01.mdx:23:4c0b2f26c1 → pass — 남음 39
+[357] 05-wrap-up/01.mdx:24:22229e0969 → critical (문제 3) — 남음 38
+[358] 05-wrap-up/01.mdx:25:c938d3c166 → pass — 남음 37
+[359] 05-wrap-up/01.mdx:26:4650546268 → pass — 남음 36
+[360] 05-wrap-up/01.mdx:27:ebbb212f19 → pass (문제 1) — 남음 35
+[361] 05-wrap-up/01.mdx:28:bdb2b03921 → pass — 남음 34
+[362] 05-wrap-up/01.mdx:29:36db17650d → pass — 남음 33
+[363] 05-wrap-up/01.mdx:30:7af64ce147 → pass — 남음 32
+[364] 05-wrap-up/02.mdx:1:9ace5b68ed → pass — 남음 31
+[365] 05-wrap-up/02.mdx:2:832ba99965 → pass — 남음 30
+[366] 05-wrap-up/02.mdx:3:28e166305f → pass — 남음 29
+[367] 05-wrap-up/02.mdx:4:4224aed8d6 → minor (문제 2) — 남음 28
+[368] 05-wrap-up/02.mdx:5:223ff4cd35 → pass — 남음 27
+[369] 05-wrap-up/02.mdx:6:3a1911a356 → pass — 남음 26
+[370] 05-wrap-up/02.mdx:7:f231d3dae0 → minor (문제 1) — 남음 25
+[371] 05-wrap-up/02.mdx:8:bb020cdc98 → pass (문제 1) — 남음 24
+[372] 05-wrap-up/02.mdx:9:bf8a822ad7 → minor (문제 3) — 남음 23
+[373] 05-wrap-up/02.mdx:10:02af445074 → pass — 남음 22
+[374] 05-wrap-up/02.mdx:11:53c4c8f0b0 → pass — 남음 21
+[375] 05-wrap-up/02.mdx:12:ea63a788e8 → pass — 남음 20
+[376] 05-wrap-up/02.mdx:13:a7c47133ce → pass — 남음 19
+[377] 05-wrap-up/02.mdx:14:103133ae6a → critical (문제 2) — 남음 18
+[378] 05-wrap-up/02.mdx:15:b40a5bc726 → critical (문제 1) — 남음 17
+[379] 05-wrap-up/02.mdx:16:2c57b9b3cb → minor (문제 1) — 남음 16
+[380] 05-wrap-up/02.mdx:17:c0bac335f1 → pass (문제 1) — 남음 15
+[381] 05-wrap-up/02.mdx:18:052d190070 → pass (문제 1) — 남음 14
+[382] 05-wrap-up/02.mdx:19:30b0a2a25c → pass — 남음 13
+[383] 05-wrap-up/02.mdx:20:dd8ed4ce7c → pass (문제 1) — 남음 12
+[384] 05-wrap-up/02.mdx:21:21a8040ce2 → pass — 남음 11
+[385] 05-wrap-up/02.mdx:22:41b7f1852f → minor (문제 2) — 남음 10
+[386] 05-wrap-up/02.mdx:23:8921af554b → minor (문제 2) — 남음 9
+[387] 05-wrap-up/02.mdx:24:a82ce56d85 → pass — 남음 8
+[388] 05-wrap-up/02.mdx:25:c68bf90f68 → pass — 남음 7
+[389] 05-wrap-up/02.mdx:26:df95fc7b17 → pass — 남음 6
+[390] 05-wrap-up/02.mdx:27:3b09d0825b → pass — 남음 5
+[391] 05-wrap-up/02.mdx:28:012e0bf882 → pass — 남음 4
+[392] 05-wrap-up/02.mdx:29:55c4eb1edd → pass — 남음 3
+[393] 05-wrap-up/02.mdx:30:0a9745e585 → critical (문제 2) — 남음 2
+[394] 05-wrap-up/02.mdx:31:94e04c1764 → pass — 남음 1
+[395] 05-wrap-up/02.mdx:32:1248e16560 → pass — 남음 0 · 회차 종료
+완료: 412/412, 상태 revision_required, 차단 52건
+  차단: 01-vibe-coding/01.mdx:12:8460cf6a67
+  차단: 01-vibe-coding/02.mdx:3:30e2ec762e
+  차단: 01-vibe-coding/02.mdx:33:7b2eae28eb
+  차단: 01-vibe-coding/03.mdx:4:cea0322d84
+  차단: 01-vibe-coding/03.mdx:14:3fc7584409
+  차단: 01-vibe-coding/03.mdx:19:99f1275a28
+  차단: 01-vibe-coding/03.mdx:25:df2784be9b
+  차단: 02-first-project/01.mdx:5:b1e012c643
+  차단: 02-first-project/01.mdx:13:99f1275a28
+  차단: 02-first-project/01.mdx:22:b930d38124
+  차단: 02-first-project/01.mdx:25:b30f20098c
+  차단: 02-first-project/02.mdx:10:028459a640
+  차단: 02-first-project/02.mdx:11:10166c5419
+  차단: 02-first-project/02.mdx:20:1627389080
+  차단: 02-first-project/02.mdx:22:4b4dfdff6a
+  차단: 02-first-project/03.mdx:8:fbd503f2a0
+  차단: 02-first-project/03.mdx:23:6894de746a
+  차단: 03-widget-tree/01.mdx:18:200b05291d
+  차단: 03-widget-tree/01.mdx:19:698527920c
+  차단: 03-widget-tree/01.mdx:24:357e11c0e7
+  차단: 03-widget-tree/01.mdx:25:2d46ede649
+  차단: 03-widget-tree/01.mdx:30:5db5377cad
+  차단: 03-widget-tree/02.mdx:3:0d32f51822
+  차단: 03-widget-tree/02.mdx:7:1ae91ee3b0
+  차단: 03-widget-tree/02.mdx:18:d72f26c4f3
+  차단: 03-widget-tree/03.mdx:10:473643b570
+  차단: 03-widget-tree/03.mdx:11:ebbaaa586c
+  차단: 04-state/01.mdx:2:8dfdc33846
+  차단: 04-state/01.mdx:6:e799aff4ac
+  차단: 04-state/01.mdx:14:160cd7c3a0
+  차단: 04-state/01.mdx:17:d75d2f8512
+  차단: 04-state/01.mdx:18:6888fe7b97
+  차단: 04-state/01.mdx:22:e815557ab1
+  차단: 04-state/01.mdx:24:014c599384
+  차단: 04-state/01.mdx:29:a56b47625f
+  차단: 04-state/01.mdx:31:c8ced309ff
+  차단: 04-state/02.mdx:3:ef43a561e2
+  차단: 04-state/02.mdx:6:0d7adee2f3
+  차단: 04-state/02.mdx:12:8c647b5560
+  차단: 04-state/02.mdx:15:7d74543c1a
+  차단: 04-state/02.mdx:22:00c3aa8d1c
+  차단: 04-state/02.mdx:25:f941711ec6
+  차단: 04-state/02.mdx:26:89c024d07f
+  차단: 04-state/03.mdx:10:95b22ebd9a
+  차단: 04-state/03.mdx:17:df20e6282c
+  차단: 04-state/03.mdx:20:5e3a275c97
+  차단: 04-state/03.mdx:22:55a1ee2236
+  차단: 05-wrap-up/01.mdx:12:19f3149526
+  차단: 05-wrap-up/01.mdx:24:22229e0969
+  차단: 05-wrap-up/02.mdx:14:103133ae6a
+  차단: 05-wrap-up/02.mdx:15:b40a5bc726
+  차단: 05-wrap-up/02.mdx:30:0a9745e585
+[1] 01-vibe-coding/01.mdx:12:454409c7da → pass — 남음 385
+[2] 01-vibe-coding/01.mdx:13:9bfabf8489 → pass — 남음 384

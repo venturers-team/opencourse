@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "course_id": "01M0WK073ZX0BQY9QHJKYRNHRY",
-  "checked_at": "2026-08-25T15:42:50Z",
+  "checked_at": "2026-08-25T16:45:30Z",
   "pass": false,
   "blocker_count": 5,
   "warning_count": 0,
@@ -12,59 +12,59 @@
     },
     {
       "path": "chapters/01-vibe-coding/01.mdx",
-      "sha256": "b5a3154ec3dadfba417106c9c30703c3998c3b31a917172cd81b5427a8fa10b7"
+      "sha256": "3fcd0009216d0488aa35374f2a0da16aaf7654cb8ef50c90345c975d4ebd6e21"
     },
     {
       "path": "chapters/01-vibe-coding/02.mdx",
-      "sha256": "9836eb9fc40a75fa2fb1f585cba7e1777ab505ddc124610a0a2a8000405a478a"
+      "sha256": "a81945f1404305d1761b565034b7aaa92bcd543cb177ce0bc593dd172c1b06ee"
     },
     {
       "path": "chapters/01-vibe-coding/03.mdx",
-      "sha256": "2888d40d92ad17a094efc4095e090283ec62a3282d577ab814ff7e542c8af803"
+      "sha256": "0e85c859b01b62f3df6bca8b24a6117f0b3a59f5d83c22dffa2b0eaec0a58dd8"
     },
     {
       "path": "chapters/02-first-project/01.mdx",
-      "sha256": "73e7b82019edaa8c22ee305cf45a110ede14e492ee64c3148bbf34a78e20b216"
+      "sha256": "30424b2b0dfe1ac2877aac37c3f8369113d7f62523df5f225310b0a70a84cd65"
     },
     {
       "path": "chapters/02-first-project/02.mdx",
-      "sha256": "cc98277e9b6c0bae6f0ab1bdc56ae0770f3e5c170dbfba0a8784aff49822ad1f"
+      "sha256": "3241a5029035b384c461eda77bb7eee1a02c8c0382cbdd818aedf17ed2ea4977"
     },
     {
       "path": "chapters/02-first-project/03.mdx",
-      "sha256": "5ffbe76a5a9671a2b5a2f8bbbeea01b5ce0008ef24599c6ce565f00d9a665c0f"
+      "sha256": "ee8fc305965dbdc6e833840369d3cbf2736fe34a824661ff24c629c52f1db995"
     },
     {
       "path": "chapters/03-widget-tree/01.mdx",
-      "sha256": "81b2bb6d663d7ea63270360ff4b510b064651801ac876f72aa03465b8201098f"
+      "sha256": "8c5a848c7355dd6f19fc97ca63e918e37080ff1fb64daa9a6969b4eb99f89914"
     },
     {
       "path": "chapters/03-widget-tree/02.mdx",
-      "sha256": "02f156cd148f59c46ebc905c99497de66f43977e30ae6c499c48c1633dc87924"
+      "sha256": "f4be79446d14347c78a4a6df7d8fc4d5fda586f168724781dd129be68328226d"
     },
     {
       "path": "chapters/03-widget-tree/03.mdx",
-      "sha256": "6c8b8e1f67e6fae6e0854ab5994163c4f03582b1248382bf4307687114af3fe2"
+      "sha256": "209da6c705b62fe365c88dbbc0ea4a1f204a8916187725cccc95b7267ea7745c"
     },
     {
       "path": "chapters/04-state/01.mdx",
-      "sha256": "e7e3cac2fc6de9f31f642b709dceb7ff9886008ed78b5a526ea5b2d9431595ca"
+      "sha256": "e3cb3d0e743d7e47dfb33faf44619b4b58bcdb4a2c812114922013e94fb1a7ea"
     },
     {
       "path": "chapters/04-state/02.mdx",
-      "sha256": "af006bfc5f79a889592ddd6beddfbbc6e755cab39606f5444328cb6cb9678c00"
+      "sha256": "9605a030b76754a593fb423be33d5b2ddd61873cfeef528bdb135d4832ba2bf6"
     },
     {
       "path": "chapters/04-state/03.mdx",
-      "sha256": "f003f7286fb2cbcbe102f8141c1f6605b68be37235331a14056fed02651e3dd9"
+      "sha256": "8a1e11a09b6ae4f822ce8ecf90067784b48ac3db968a02b3406b11f85d7b364c"
     },
     {
       "path": "chapters/05-wrap-up/01.mdx",
-      "sha256": "827ac1eaf744638ff98ceaf9de91dbbf3414e707364cbc20f634e7ad3813e17c"
+      "sha256": "2ff61d1ecc8a35e53668ba39bbe9d6b7ecd3e05b592e3896894c06209845fce4"
     },
     {
       "path": "chapters/05-wrap-up/02.mdx",
-      "sha256": "ed783c58121b8ea47d524274c807c7e3c2f617dd1f34cc04689ed8d659eb4dbe"
+      "sha256": "6f7447bdaf9fe7cbf468c94ab5939dae4a4dd1c5910b838441f38110118f8890"
     },
     {
       "path": "chapters/01-vibe-coding/media.json",

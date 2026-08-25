@@ -99,7 +99,7 @@ function reviewOnce(unit, readerState, errorHint) {
     `\n[판정할 문장] (종류: ${unit.kind}, id: ${unit.id})\n${unit.text}`,
   ].join("\n");
   const out = execFileSync(
-    "claude",
+    "/Users/gimjungwook/.local/bin/claude", // PATH의 cmux 심은 호출마다 세션 훅을 얹어 수십 배 느리다
     ["-p", prompt, "--model", MODEL, "--output-format", "json"],
     { maxBuffer: 1024 * 1024 * 16, timeout: 180_000 },
   ).toString();
