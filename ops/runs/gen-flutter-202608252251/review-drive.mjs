@@ -15,6 +15,13 @@ const root = join(runDir, "../../..");
 const courseDir = join(root, "content/courses/baibeu-kodingeuro-baeuneun-flutter-cheotgeoleum");
 const MODEL = "claude-haiku-4-5-20251001";
 
+const course = JSON.parse(
+  (await import("node:fs")).readFileSync(join(courseDir, "course.json"), "utf8"),
+);
+const subTitles = {};
+for (const ch of course.chapters)
+  for (const sub of ch.subchapters) subTitles[`${ch.id}/${sub.file}`] = `${ch.title} — ${sub.title}`;
+
 const session = SentenceReviewSession.open(courseDir, join(root, "content/standards"), {
   chainPath: join(runDir, "learner-state.jsonl"),
 });
@@ -98,6 +105,7 @@ function reviewOnce(unit, readerState, errorHint) {
     RUBRIC,
     errorHint ? `\n[직전 시도 거부 사유 — 고쳐서 다시] ${errorHint}` : "",
     `\n[학습자 상태]\n${JSON.stringify(readerState, null, 1)}`,
+    `\n[위치] 이 문장은 소단원 「${subTitles[unit.path] ?? unit.path}」${unit.ordinal === 1 ? "의 첫 단위다 — 학습자 화면에는 소단원 제목이 먼저 보이므로, 새 절의 시작에서 화제가 바뀌는 것은 튀는 것이 아니다" : " 안에 있다"}.`,
     `\n[판정할 문장] (종류: ${unit.kind}, id: ${unit.id})\n${unit.text}`,
   ].join("\n");
   const out = execFileSync(
