@@ -1,0 +1,130 @@
+/**
+ * 오픈코스 디자인 토큰 — 정본은 Claude Design 프로젝트의 .dc.html 파일들이다.
+ * 여기 값은 그 원본에서 그대로 추출했다 (구현 계획 7단계). 값을 바꾸려면
+ * 디자인 원본을 먼저 바꾸고 여기로 옮긴다.
+ */
+:root,
+[data-theme="light"] {
+  --bg: #ffffff;
+  --bg2: #f4f6fa;
+  --card: #ffffff;
+  --line: #eceff4;
+  --txt: #1b2230;
+  --mut: #7b8494;
+  --blue: #3b6ef5;
+  --blue-h: #2f5ce0;
+  --tint: #eef3fe;
+  --tint-txt: #2b5bd7;
+  --chip: #f2f4f8;
+  --chip-txt: #4e5968;
+  --warn-bg: #fff3e0;
+  --warn-txt: #8a5300;
+  --err-bg: #fdecec;
+  --err-txt: #b3261e;
+  --sh: 0 2px 10px rgba(27, 34, 48, 0.05);
+  --sh-h: 0 12px 28px rgba(27, 34, 48, 0.1);
+  --sh-panel: 0 18px 48px rgba(27, 34, 48, 0.18);
+}
+
+[data-theme="dark"] {
+  --bg: #17171c;
+  --bg2: #1e1e25;
+  --card: #22222b;
+  --line: rgba(255, 255, 255, 0.09);
+  --txt: #eceded;
+  --mut: #9198a6;
+  --blue: #6b93ff;
+  --blue-h: #87a8ff;
+  --tint: rgba(107, 147, 255, 0.16);
+  --tint-txt: #a5bdff;
+  --chip: rgba(255, 255, 255, 0.07);
+  --chip-txt: #c6cbd5;
+  --warn-bg: rgba(255, 176, 32, 0.16);
+  --warn-txt: #ffd58a;
+  --err-bg: rgba(255, 107, 107, 0.15);
+  --err-txt: #ff9d9d;
+  --sh: 0 2px 10px rgba(0, 0, 0, 0.35);
+  --sh-h: 0 12px 28px rgba(0, 0, 0, 0.5);
+  --sh-panel: 0 18px 48px rgba(0, 0, 0, 0.55);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Pretendard Variable", Pretendard, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background: var(--bg);
+  color: var(--txt);
+}
+
+a {
+  color: var(--blue);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--blue-h);
+}
+
+/* 보이는 키보드 포커스 — 접근성 1차 요구사항 (docs/12) */
+:focus-visible {
+  outline: 2px solid var(--blue);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+@keyframes ocdot {
+  0%,
+  60%,
+  100% {
+    opacity: 0.25;
+    transform: translateY(0);
+  }
+  30% {
+    opacity: 1;
+    transform: translateY(-3px);
+  }
+}
+@keyframes ocbob {
+  0%,
+  100% {
+    transform: translateY(0) rotate(-4deg);
+  }
+  50% {
+    transform: translateY(-3px) rotate(4deg);
+  }
+}
+@keyframes ocblink {
+  0%,
+  86%,
+  100% {
+    transform: scaleY(1);
+  }
+  92% {
+    transform: scaleY(0.15);
+  }
+}
+@keyframes ocrise {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

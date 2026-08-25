@@ -1,0 +1,28 @@
+{
+  "name": "@opencourse/site",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "typecheck": "tsc --noEmit",
+    "test": "echo 'site: E2E는 저장소 루트 e2e 스위트가 담당한다'",
+    "lint": "next lint --no-cache || true"
+  },
+  "dependencies": {
+    "@opencourse/content": "workspace:*",
+    "@opencourse/pipeline": "workspace:*",
+    "@opencourse/ui": "workspace:*",
+    "next": "14.2.35",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-markdown": "^9.0.1",
+    "remark-gfm": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5.6.3"
+  }
+}
