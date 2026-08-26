@@ -23,12 +23,8 @@ function validVerdict() {
     dimensions: { clarity: 2, consistency: 2, flow: 2, logic: 2, novice_comprehension: 2 },
     severity: "pass",
     issues: [],
-    reader_state_after: {
-      understood_facts: ["위젯은 부품이다"],
-      defined_terms: [],
-      open_questions: [],
-      evictions: [],
-    },
+    state_after_sha256: sha256Hex("state-after"),
+    evictions: [],
     invalidated: false,
     invalidated_at: null,
     invalidated_reason: null,
@@ -96,7 +92,6 @@ test("학습자 상태 상한: 40·40·20을 넘으면 거부된다", () => {
       understood_facts: many(40),
       defined_terms: [],
       open_questions: [],
-      evictions: [],
     }).success,
   );
   assert.equal(
@@ -104,7 +99,6 @@ test("학습자 상태 상한: 40·40·20을 넘으면 거부된다", () => {
       understood_facts: many(41),
       defined_terms: [],
       open_questions: [],
-      evictions: [],
     }).success,
     false,
   );
@@ -113,7 +107,6 @@ test("학습자 상태 상한: 40·40·20을 넘으면 거부된다", () => {
       understood_facts: [],
       defined_terms: [],
       open_questions: many(21),
-      evictions: [],
     }).success,
     false,
   );

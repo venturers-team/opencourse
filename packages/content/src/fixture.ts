@@ -264,12 +264,18 @@ export function writeFixtureCourse(root: string, sabotage: Sabotage = {}) {
     understood_facts: ["위젯은 화면의 가장 작은 부품이다"],
     defined_terms: [{ term: "위젯", definition: "화면을 이루는 가장 작은 부품" }],
     open_questions: [],
-    evictions: [],
   };
+  const readerStateSha = sha256Hex(
+    JSON.stringify({
+      understood_facts: readerState.understood_facts,
+      defined_terms: readerState.defined_terms,
+      open_questions: readerState.open_questions,
+    }),
+  );
   writeFileSync(
     join(courseDir, "review", "sentence-review.json"),
     j({
-      schema_version: 1,
+      schema_version: 2,
       course_id: courseId,
       protocol: {
         review_protocol_sha256: std("review-protocol.md"),
@@ -306,7 +312,8 @@ export function writeFixtureCourse(root: string, sabotage: Sabotage = {}) {
         dimensions: { clarity: 2, consistency: 2, flow: 2, logic: 2, novice_comprehension: 2 },
         severity: "pass",
         issues: [],
-        reader_state_after: readerState,
+        state_after_sha256: readerStateSha,
+        evictions: [],
         invalidated: false,
         invalidated_at: null,
         invalidated_reason: null,

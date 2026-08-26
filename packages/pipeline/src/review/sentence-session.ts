@@ -5,6 +5,7 @@ import {
   thresholdsContentSha256,
   combinedSha256,
   extractReviewUnits,
+  makeReaderStateSchema,
   makeSentenceReviewSchema,
   makeSentenceVerdictSchema,
   sha256Hex,
@@ -13,7 +14,13 @@ import {
   type SentenceReview,
   DEFAULT_CAPS,
 } from "@opencourse/content";
-import { emptyReaderState, evictionErrors, readerStateSha256, type ReaderState } from "./state.js";
+import {
+  emptyReaderState,
+  evictionErrors,
+  readerStateSha256,
+  type EvictionRecord,
+  type ReaderState,
+} from "./state.js";
 
 /**
  * 문장 단위 격리 검수 세션 (구현 계획 4단계, content/standards/review-protocol.md).
@@ -42,7 +49,10 @@ export interface SentenceReviewerOutput {
   };
   severity: "pass" | "minor" | "major" | "critical";
   issues: { problem: string; suggestion: string | null }[];
+  /** 판정 뒤 학습자 상태 — 파일에는 지문만 남고, 전체는 사슬 로그(jsonl)에 남는다. */
   reader_state_after: ReaderState;
+  /** 이번 전이에서 버린 항목 — 사유 없는 버림은 기록 거부된다. */
+  evictions: EvictionRecord[];
 }
 
 export interface NextUnit {
@@ -105,7 +115,7 @@ export class SentenceReviewSession {
     let doc: Doc;
     if (!existsSync(path)) {
       doc = {
-        schema_version: 1,
+        schema_version: 2,
         course_id: course.id,
         protocol,
         source_sha256: sourceSha,
@@ -176,8 +186,44 @@ export class SentenceReviewSession {
       options.chainPath ?? null,
       now,
     );
+    session.restoreReaderState();
     session.flush();
     return session;
+  }
+
+  /**
+   * doc.reader_state를 유효 접두사의 끝 상태로 맞춘다.
+   * 마지막 유효 판정의 state_after_sha256과 일치하는 스냅숏을 사슬 로그에서 찾는다.
+   * 무효화로 되감을 때 사슬 로그가 없으면 재개할 수 없다 — 그것이 로그의 존재 이유다.
+   */
+  private restoreReaderState(): void {
+    let lastValid: { unitId: string; sha: string } | null = null;
+    for (const unit of this.units) {
+      const v = this.validVerdict(unit.id);
+      if (!v) break;
+      lastValid = { unitId: unit.id, sha: v.state_after_sha256 };
+    }
+    if (!lastValid) {
+      this.doc.reader_state = emptyReaderState();
+      return;
+    }
+    if (readerStateSha256(this.doc.reader_state as ReaderState) === lastValid.sha) return; // 이미 정합
+    if (this.chainPath && existsSync(this.chainPath)) {
+      const lines = readFileSync(this.chainPath, "utf8").split("\n").filter(Boolean);
+      for (let i = lines.length - 1; i >= 0; i -= 1) {
+        const entry = JSON.parse(lines[i] as string) as { unit_id: string; state: ReaderState };
+        if (
+          entry.unit_id === lastValid.unitId &&
+          readerStateSha256(entry.state) === lastValid.sha
+        ) {
+          this.doc.reader_state = entry.state;
+          return;
+        }
+      }
+    }
+    /* 사슬 로그가 없거나 스냅숏이 없다 — 빈 상태로 표시만 해 둔다.
+       재개를 시도하면 stateBefore의 지문 검증이 명확한 오류로 막는다 (읽기용 열람은 계속 된다). */
+    this.doc.reader_state = emptyReaderState();
   }
 
   /** 유효한(무효화되지 않은) 최신 판정. */
@@ -253,16 +299,25 @@ export class SentenceReviewSession {
     return null;
   }
 
-  /** unit 직전까지의 학습자 상태 — 앞 문장들의 유효 판정을 순서대로 접는다. */
+  /** unit 직전까지의 학습자 상태 — 유효 접두사의 끝(doc.reader_state)을 지문으로 검증해 준다. */
   private stateBefore(unitId: string): ReaderState {
-    let state = emptyReaderState();
+    let lastSha: string | null = null;
     for (const unit of this.units) {
-      if (unit.id === unitId) return state;
+      if (unit.id === unitId) {
+        const state = this.doc.reader_state as ReaderState;
+        const expected = lastSha ?? readerStateSha256(emptyReaderState());
+        if (readerStateSha256(state) !== expected) {
+          throw new Error(
+            `학습자 상태 사슬이 어긋났습니다 (${unitId} 직전) — 세션을 다시 여십시오`,
+          );
+        }
+        return state;
+      }
       const verdict = this.validVerdict(unit.id);
       if (!verdict) {
         throw new Error(`사슬이 끊겼습니다: ${unit.id}에 유효한 판정이 없습니다`);
       }
-      state = verdict.reader_state_after as ReaderState;
+      lastSha = verdict.state_after_sha256;
     }
     throw new Error(`문장을 찾을 수 없습니다: ${unitId}`);
   }
@@ -272,6 +327,12 @@ export class SentenceReviewSession {
     const target = this.next();
     if (!target) throw new Error("판정할 문장이 없습니다");
     const before = target.readerState;
+    // 장부 상한(40/40/20)은 이제 판정 스키마 밖이므로 여기서 강제한다
+    const after = makeReaderStateSchema(this.caps).parse(output.reader_state_after) as ReaderState;
+    const evictionProblems = evictionErrors(before, after, output.evictions);
+    if (evictionProblems.length > 0) {
+      throw new Error(`기록 거부 — ${evictionProblems.join("; ")}`);
+    }
     const verdict = makeSentenceVerdictSchema(this.caps).parse({
       sentence_id: target.unit.id,
       round: target.round,
@@ -281,22 +342,19 @@ export class SentenceReviewSession {
       dimensions: output.dimensions,
       severity: output.severity,
       issues: output.issues,
-      reader_state_after: output.reader_state_after,
+      state_after_sha256: readerStateSha256(after),
+      evictions: output.evictions,
       invalidated: false,
       invalidated_at: null,
       invalidated_reason: null,
     });
-    const evictionProblems = evictionErrors(before, output.reader_state_after);
-    if (evictionProblems.length > 0) {
-      throw new Error(`기록 거부 — ${evictionProblems.join("; ")}`);
-    }
     this.doc.reviews.push(verdict);
-    this.doc.reader_state = output.reader_state_after;
+    this.doc.reader_state = after;
     if (this.chainPath) {
       mkdirSync(dirname(this.chainPath), { recursive: true });
       appendFileSync(
         this.chainPath,
-        JSON.stringify({ unit_id: target.unit.id, state: output.reader_state_after }) + "\n",
+        JSON.stringify({ unit_id: target.unit.id, state: after }) + "\n",
       );
     }
     const remaining = this.units.filter((u) => !this.validVerdict(u.id)).length;

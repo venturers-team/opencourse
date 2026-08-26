@@ -60,16 +60,16 @@ const RUBRIC = `너는 교재 문장 하나를 판정하는 격리 검수자다.
 {"dimensions":{"clarity":0|1|2,"consistency":0|1|2,"flow":0|1|2,"logic":0|1|2,"novice_comprehension":0|1|2},"issues":[{"problem":"...","suggestion":"..."}],"state_delta":{"add_facts":[],"add_terms":[],"add_questions":[],"resolve_questions":[],"remove":[]}}
 - 0점이나 1점을 준 차원이 있으면 issues에 구체적 문제와 수정 제안을 적어라. 전부 2점이면 issues는 빈 배열.`;
 
-/** 변화분을 상태에 접는다 — 상한 초과 시 프로토콜대로 오래된 항목부터 버리고 기록한다. */
-function applyDelta(before, delta, unitId) {
+/** 변화분을 상태에 접는다 — 버림 기록은 전이 속성이라 별도 배열로 낸다 (docs/11 §5 v2). */
+function applyDelta(before, delta) {
   const after = {
     understood_facts: [...before.understood_facts],
     defined_terms: before.defined_terms.map((t) => ({ ...t })),
     open_questions: [...before.open_questions],
-    evictions: [...before.evictions],
   };
+  const evictions = [];
   const evict = (list, item, reason) => {
-    after.evictions.push({ list, item, reason, at_unit: unitId });
+    evictions.push({ list, item, reason });
   };
   for (const r of delta.remove ?? []) {
     if (r.list === "defined_terms") {
@@ -97,7 +97,7 @@ function applyDelta(before, delta, unitId) {
     }
   };
   cap("understood_facts", 40); cap("defined_terms", 40, "term"); cap("open_questions", 20);
-  return after;
+  return { after, evictions };
 }
 
 function reviewOnce(unit, readerState, errorHint) {
@@ -129,7 +129,7 @@ for (;;) {
     try {
       const r = reviewOnce(target.unit, target.readerState, lastError);
       const severity = expectedSentenceSeverity(r.dimensions);
-      const readerStateAfter = applyDelta(target.readerState, r.state_delta ?? {}, target.unit.id);
+      const { after, evictions } = applyDelta(target.readerState, r.state_delta ?? {});
       const { remaining, roundClosed } = session.submit({
         reviewer: {
           run_id: `sr-${target.unit.ordinal}-r${target.round}-a${attempt}-${Date.now()}`,
@@ -141,7 +141,8 @@ for (;;) {
         dimensions: r.dimensions,
         severity,
         issues: r.issues ?? [],
-        reader_state_after: readerStateAfter,
+        reader_state_after: after,
+        evictions,
       });
       count += 1;
       console.log(

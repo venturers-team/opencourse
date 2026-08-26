@@ -42,8 +42,8 @@ function passOutput(unitId: string, state: ReaderState, n: number): SentenceRevi
     reader_state_after: {
       ...state,
       understood_facts: [...state.understood_facts, `요지 ${n}을 이해했다`],
-      evictions: [],
     },
+    evictions: [],
   };
 }
 
@@ -53,12 +53,16 @@ function majorOutput(unitId: string, state: ReaderState, n: number): SentenceRev
     dimensions: { clarity: 0, consistency: 2, flow: 2, logic: 2, novice_comprehension: 2 },
     severity: "major",
     issues: [{ problem: "가리키는 말의 대상이 문장 안에 없다", suggestion: "주어를 명시한다" }],
-    reader_state_after: { ...state, evictions: [] },
+    reader_state_after: { ...state },
+    evictions: [],
   };
 }
 
 function cleanRun(courseDir: string, standardsDir: string): SentenceReviewSession {
-  const session = SentenceReviewSession.open(courseDir, standardsDir, { now });
+  const session = SentenceReviewSession.open(courseDir, standardsDir, {
+    now,
+    chainPath: join(courseDir, "..", "chain.jsonl"),
+  });
   session.startRound();
   let n = 0;
   for (let next = session.next(); next; next = session.next()) {
@@ -95,7 +99,10 @@ test("격리: 검수자에게 넘어가는 것에 이웃 문장의 원문이 없
       join(courseDir, "chapters/01-intro/01.mdx"),
       "---\ntitle: 위젯이 뭐예요\nsummary: 위젯의 뜻\n---\n\n앞문장표식앞문장. 가운데문장표식가운데. 뒷문장표식뒷문장.\n",
     );
-    const session = SentenceReviewSession.open(courseDir, standardsDir, { now });
+    const session = SentenceReviewSession.open(courseDir, standardsDir, {
+      now,
+      chainPath: join(courseDir, "..", "chain.jsonl"),
+    });
     session.startRound();
     const first = session.next();
     assert.ok(first);
@@ -117,7 +124,10 @@ test("기록 거부: 격리 증거·판정표·문제 목록이 어긋난 판정
   const root = mkdtempSync(join(tmpdir(), "oc-refuse-"));
   try {
     const { courseDir, standardsDir } = makeCourse(root);
-    const session = SentenceReviewSession.open(courseDir, standardsDir, { now });
+    const session = SentenceReviewSession.open(courseDir, standardsDir, {
+      now,
+      chainPath: join(courseDir, "..", "chain.jsonl"),
+    });
     session.startRound();
     const next = session.next();
     assert.ok(next);
@@ -152,7 +162,10 @@ test("장부: 상한 초과는 거부되고, 버림 기록 없는 삭제도 거�
   const root = mkdtempSync(join(tmpdir(), "oc-ledger-"));
   try {
     const { courseDir, standardsDir } = makeCourse(root);
-    const session = SentenceReviewSession.open(courseDir, standardsDir, { now });
+    const session = SentenceReviewSession.open(courseDir, standardsDir, {
+      now,
+      chainPath: join(courseDir, "..", "chain.jsonl"),
+    });
     session.startRound();
     const first = session.next();
     assert.ok(first);
@@ -164,7 +177,6 @@ test("장부: 상한 초과는 거부되고, 버림 기록 없는 삭제도 거�
           understood_facts: Array.from({ length: 41 }, (_, i) => `사실 ${i}`),
           defined_terms: [],
           open_questions: [],
-          evictions: [],
         },
       }),
     );
@@ -180,7 +192,6 @@ test("장부: 상한 초과는 거부되고, 버림 기록 없는 삭제도 거�
             understood_facts: [],
             defined_terms: [],
             open_questions: [],
-            evictions: [],
           },
         }),
       /버림 기록/u,
@@ -192,15 +203,14 @@ test("장부: 상한 초과는 거부되고, 버림 기록 없는 삭제도 거�
         understood_facts: ["요지 2를 이해했다"],
         defined_terms: [],
         open_questions: [],
-        evictions: [
-          {
-            list: "understood_facts",
-            item: "요지 1을 이해했다",
-            reason: "상한 시험을 위해 오래된 항목을 버림",
-            at_unit: second.unit.id,
-          },
-        ],
       },
+      evictions: [
+        {
+          list: "understood_facts",
+          item: "요지 1을 이해했다",
+          reason: "상한 시험을 위해 오래된 항목을 버림",
+        },
+      ],
     });
     assert.equal(session.progress().status, "clean_pass");
   } finally {
@@ -216,7 +226,10 @@ test("무효화: 본문을 고치면 그 지점부터 뒤 판정만 무효가 �
 
     // 1챕터 끝에 문장을 추가 — 추가 지점 이후(2챕터 문장)만 무효여야 한다
     appendFileSync(join(courseDir, "chapters/01-intro/01.mdx"), "\n새로 끼워 넣은 문장이다.\n");
-    const session = SentenceReviewSession.open(courseDir, standardsDir, { now });
+    const session = SentenceReviewSession.open(courseDir, standardsDir, {
+      now,
+      chainPath: join(courseDir, "..", "chain.jsonl"),
+    });
     assert.equal(session.invalidatedCount(), 1); // 2챕터 판정만
     const p = session.progress();
     assert.equal(p.total, 3);
@@ -248,7 +261,10 @@ test("회차 상한: 6회를 넘기면 멈추고 관리자 판단을 요구한�
       "---\ntitle: t2\nsummary: s2\n---\n\n둘째 챕터 문장이다.\n",
     );
     for (let round = 1; round <= 6; round += 1) {
-      const session = SentenceReviewSession.open(courseDir, standardsDir, { now });
+      const session = SentenceReviewSession.open(courseDir, standardsDir, {
+        now,
+        chainPath: join(courseDir, "..", "chain.jsonl"),
+      });
       session.startRound();
       let n = round * 100;
       for (let next = session.next(); next; next = session.next()) {
@@ -262,7 +278,10 @@ test("회차 상한: 6회를 넘기면 멈추고 관리자 판단을 요구한�
         `---\ntitle: t\nsummary: s\n---\n\n기준 문장 ${round}번이다.\n`,
       );
     }
-    const session = SentenceReviewSession.open(courseDir, standardsDir, { now });
+    const session = SentenceReviewSession.open(courseDir, standardsDir, {
+      now,
+      chainPath: join(courseDir, "..", "chain.jsonl"),
+    });
     assert.throws(() => session.startRound(), /회차 상한/u);
   } finally {
     rmSync(root, { recursive: true, force: true });
@@ -276,7 +295,10 @@ test("루프 감지: 이전 회차의 원문 지문으로 되돌아오면 멈춘
     const original = readFileSync(join(courseDir, "chapters/01-intro/01.mdx"), "utf8");
 
     // 1회차: 중대 판정으로 끝난다
-    const s1 = SentenceReviewSession.open(courseDir, standardsDir, { now });
+    const s1 = SentenceReviewSession.open(courseDir, standardsDir, {
+      now,
+      chainPath: join(courseDir, "..", "chain.jsonl"),
+    });
     s1.startRound();
     let n = 0;
     for (let next = s1.next(); next; next = s1.next()) {
@@ -285,7 +307,10 @@ test("루프 감지: 이전 회차의 원문 지문으로 되돌아오면 멈춘
     }
     // 수정 → 2회차 → 다시 중대
     appendFileSync(join(courseDir, "chapters/01-intro/01.mdx"), "\n고친 문장이다.\n");
-    const s2 = SentenceReviewSession.open(courseDir, standardsDir, { now });
+    const s2 = SentenceReviewSession.open(courseDir, standardsDir, {
+      now,
+      chainPath: join(courseDir, "..", "chain.jsonl"),
+    });
     s2.startRound();
     for (let next = s2.next(); next; next = s2.next()) {
       n += 1;
@@ -293,7 +318,10 @@ test("루프 감지: 이전 회차의 원문 지문으로 되돌아오면 멈춘
     }
     // 원래 본문으로 되돌림 → 루프
     writeFileSync(join(courseDir, "chapters/01-intro/01.mdx"), original);
-    const s3 = SentenceReviewSession.open(courseDir, standardsDir, { now });
+    const s3 = SentenceReviewSession.open(courseDir, standardsDir, {
+      now,
+      chainPath: join(courseDir, "..", "chain.jsonl"),
+    });
     assert.throws(() => s3.startRound(), /맴돌고/u);
   } finally {
     rmSync(root, { recursive: true, force: true });
