@@ -9,10 +9,10 @@
       "purpose": "폴더가 많아도 기억할 곳은 하나뿐임을 지도로 안심시킨다",
       "source": "ops/runs/gen-flutter-202608252251/figures/ch2-fig-01.png",
       "r2_key": "media/02-first-project/fig-01.png",
-      "url": "https://media.local.opencourse.invalid/media/02-first-project/fig-01.png",
+      "url": "https://opencourse-537.pages.dev/media/02-first-project/fig-01.png",
       "bytes": 80102,
       "sha256": "60968c1e6b89b57e250bedcbb27c69fc5bd6f44749e0b647b222a8507f856b5c",
-      "uploaded_at": "2026-08-25T15:42:14Z",
+      "uploaded_at": "2026-08-26T03:35:34Z",
       "status": "active",
       "cleanup_marked_at": null
     },
@@ -23,10 +23,10 @@
       "purpose": "챕터 개요 나레이션",
       "source": "ops/runs/gen-flutter-202608252251/audio/02-first-project/aud-01.mp3",
       "r2_key": "media/02-first-project/aud-01.mp3",
-      "url": "https://media.local.opencourse.invalid/media/02-first-project/aud-01.mp3",
+      "url": "https://opencourse-537.pages.dev/media/02-first-project/aud-01.mp3",
       "bytes": 354284,
       "sha256": "c3139d24812270e5a6a7f5937149150d16fdb021063cb29ad6b1e8bc33d5a8a9",
-      "uploaded_at": "2026-08-25T15:42:14Z",
+      "uploaded_at": "2026-08-26T03:35:34Z",
       "status": "active",
       "cleanup_marked_at": null
     }

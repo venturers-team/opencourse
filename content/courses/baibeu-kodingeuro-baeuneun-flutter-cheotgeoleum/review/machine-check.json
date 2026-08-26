@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "course_id": "01M0WK073ZX0BQY9QHJKYRNHRY",
-  "checked_at": "2026-08-25T22:00:23Z",
+  "checked_at": "2026-08-26T03:35:34Z",
   "pass": true,
   "blocker_count": 0,
   "warning_count": 0,
@@ -68,23 +68,23 @@
     },
     {
       "path": "chapters/01-vibe-coding/media.json",
-      "sha256": "ca953a497a98177d5c1697d2c40dbd68d1fc6347d57d8b8edcebcd591f16beeb"
+      "sha256": "58cfffe3feb04a6a64d505b6b963a315dc6f31a5434ff5efe587f012f8c813bd"
     },
     {
       "path": "chapters/02-first-project/media.json",
-      "sha256": "38b523cbb4a9ff6d034f814c8e6f6128cc521e1f086b641806680d65f69cf2c4"
+      "sha256": "b960d2b9c24b318c077a7d7c6405f32bbbbd52517e8e23eef257a7c0a9d7b878"
     },
     {
       "path": "chapters/03-widget-tree/media.json",
-      "sha256": "b7396494e0456e9b6e29e2e10329af6917fbb0611cb48432a0ff7f1db62da0e7"
+      "sha256": "569dbf988d3a1a1c9a5f90adb652d94e5af19ddf4aa9239933f1cbe1c8f591fa"
     },
     {
       "path": "chapters/04-state/media.json",
-      "sha256": "5875083a2af564822d444ea67e79ea832602215c13bcaf2ebf2d482fa4ab1c9f"
+      "sha256": "2572dd44deaffb37457b3603f361ad9ba1988a6ed06ac86c8e5c60a3e33f366e"
     },
     {
       "path": "chapters/05-wrap-up/media.json",
-      "sha256": "796c25eca293d0bae007a983bebca8f0aae8a9e77c88f91a98e2f709c0276d14"
+      "sha256": "96c896e02969bb47495af1d84733deed263b8916738ac06ddc19332866a51a77"
     }
   ],
   "standards": {

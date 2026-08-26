@@ -118,13 +118,23 @@ export class R2MediaBackend implements MediaBackend {
   }
 }
 
-/** 환경에 R2 설정이 있으면 R2, 없으면 로컬 — S11이 이 함수 하나만 부른다. */
+/**
+ * 환경으로 백엔드를 고른다 — S11이 이 함수 하나만 부른다.
+ * 1) R2 (OPENCOURSE_R2_BUCKET + OPENCOURSE_R2_PUBLIC_URL) — 미디어가 GB 규모로 컸을 때
+ * 2) Pages 자산 (OPENCOURSE_MEDIA_DIR + OPENCOURSE_MEDIA_BASE_URL) — 사이트와 함께
+ *    배포되는 정적 파일. 카드·구독 없이 무료 (2026-08-26 채택, 교재당 ~1.4MB 실측).
+ *    본문↔미디어가 같은 커밋에 실리므로 깨진 주소가 구조적으로 불가능하다.
+ * 3) 로컬 폴더 — 개발 기본값
+ */
 export function mediaBackendFromEnv(
   storeDir: string,
   env: NodeJS.ProcessEnv = process.env,
 ): MediaBackend {
   if (env.OPENCOURSE_R2_BUCKET && env.OPENCOURSE_R2_PUBLIC_URL) {
     return R2MediaBackend.fromEnv(env);
+  }
+  if (env.OPENCOURSE_MEDIA_DIR && env.OPENCOURSE_MEDIA_BASE_URL) {
+    return new LocalMediaBackend(env.OPENCOURSE_MEDIA_DIR, env.OPENCOURSE_MEDIA_BASE_URL);
   }
   return new LocalMediaBackend(storeDir);
 }

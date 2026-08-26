@@ -9,10 +9,10 @@
       "purpose": "말로 부탁하고 읽고 고치는 바이브 코딩의 순환을 한눈에 보게 한다",
       "source": "ops/runs/gen-flutter-202608252251/figures/ch1-fig-01.png",
       "r2_key": "media/01-vibe-coding/fig-01.png",
-      "url": "https://media.local.opencourse.invalid/media/01-vibe-coding/fig-01.png",
+      "url": "https://opencourse-537.pages.dev/media/01-vibe-coding/fig-01.png",
       "bytes": 67340,
       "sha256": "7850a19219250278f166c225155cbd4df5f889516d2d36ce3773e5106561477c",
-      "uploaded_at": "2026-08-25T15:42:14Z",
+      "uploaded_at": "2026-08-26T03:35:34Z",
       "status": "active",
       "cleanup_marked_at": null
     },
@@ -23,10 +23,10 @@
       "purpose": "챕터 개요 나레이션",
       "source": "ops/runs/gen-flutter-202608252251/audio/01-vibe-coding/aud-01.mp3",
       "r2_key": "media/01-vibe-coding/aud-01.mp3",
-      "url": "https://media.local.opencourse.invalid/media/01-vibe-coding/aud-01.mp3",
+      "url": "https://opencourse-537.pages.dev/media/01-vibe-coding/aud-01.mp3",
       "bytes": 377324,
       "sha256": "36cef661947d415993fd474bd176e9c74fa195249f3a9694a0066e0cf35fb472",
-      "uploaded_at": "2026-08-25T15:42:14Z",
+      "uploaded_at": "2026-08-26T03:35:34Z",
       "status": "active",
       "cleanup_marked_at": null
     }

@@ -9,10 +9,10 @@
       "purpose": "setState에서 새 화면까지의 인과 사슬을 시각화한다",
       "source": "ops/runs/gen-flutter-202608252251/figures/ch4-fig-01.png",
       "r2_key": "media/04-state/fig-01.png",
-      "url": "https://media.local.opencourse.invalid/media/04-state/fig-01.png",
+      "url": "https://opencourse-537.pages.dev/media/04-state/fig-01.png",
       "bytes": 70913,
       "sha256": "c7e3e17c3517f865ce1ee9db1dcb1e10d05739c8f8d404a33d9ac6163150f290",
-      "uploaded_at": "2026-08-25T15:42:14Z",
+      "uploaded_at": "2026-08-26T03:35:34Z",
       "status": "active",
       "cleanup_marked_at": null
     },
@@ -23,10 +23,10 @@
       "purpose": "챕터 개요 나레이션",
       "source": "ops/runs/gen-flutter-202608252251/audio/04-state/aud-01.mp3",
       "r2_key": "media/04-state/aud-01.mp3",
-      "url": "https://media.local.opencourse.invalid/media/04-state/aud-01.mp3",
+      "url": "https://opencourse-537.pages.dev/media/04-state/aud-01.mp3",
       "bytes": 375308,
       "sha256": "ec4e2ae29f085f2fc91cda71321563fc2a4786a16467831252727b4925fc2c40",
-      "uploaded_at": "2026-08-25T15:42:14Z",
+      "uploaded_at": "2026-08-26T03:35:34Z",
       "status": "active",
       "cleanup_marked_at": null
     }

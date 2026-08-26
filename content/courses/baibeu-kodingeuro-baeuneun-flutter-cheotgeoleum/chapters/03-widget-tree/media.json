@@ -9,10 +9,10 @@
       "purpose": "코드와 같은 구조의 트리를 눈으로 확인하게 한다",
       "source": "ops/runs/gen-flutter-202608252251/figures/ch3-fig-01.png",
       "r2_key": "media/03-widget-tree/fig-01.png",
-      "url": "https://media.local.opencourse.invalid/media/03-widget-tree/fig-01.png",
+      "url": "https://opencourse-537.pages.dev/media/03-widget-tree/fig-01.png",
       "bytes": 71058,
       "sha256": "00a89f4098791e16b11ec88c3a22d9d92ad890a4617236b029a6b45b28abaf9c",
-      "uploaded_at": "2026-08-25T15:42:14Z",
+      "uploaded_at": "2026-08-26T03:35:34Z",
       "status": "active",
       "cleanup_marked_at": null
     },
@@ -23,10 +23,10 @@
       "purpose": "자식이 둘이 될 때 Column이 필요한 이유를 전후 비교로 보게 한다",
       "source": "ops/runs/gen-flutter-202608252251/figures/ch3-fig-02.png",
       "r2_key": "media/03-widget-tree/fig-02.png",
-      "url": "https://media.local.opencourse.invalid/media/03-widget-tree/fig-02.png",
+      "url": "https://opencourse-537.pages.dev/media/03-widget-tree/fig-02.png",
       "bytes": 70600,
       "sha256": "ef2ca0110c57c8782f975ab11a53fabae35c81c8ddb688f75644cdb18f4d14d4",
-      "uploaded_at": "2026-08-25T15:42:14Z",
+      "uploaded_at": "2026-08-26T03:35:34Z",
       "status": "active",
       "cleanup_marked_at": null
     },
@@ -37,10 +37,10 @@
       "purpose": "챕터 개요 나레이션",
       "source": "ops/runs/gen-flutter-202608252251/audio/03-widget-tree/aud-01.mp3",
       "r2_key": "media/03-widget-tree/aud-01.mp3",
-      "url": "https://media.local.opencourse.invalid/media/03-widget-tree/aud-01.mp3",
+      "url": "https://opencourse-537.pages.dev/media/03-widget-tree/aud-01.mp3",
       "bytes": 328364,
       "sha256": "0bf4cd5bf2f25625a1a86c4f496eedcd1b378efe9d145e198b1d860acc3da3af",
-      "uploaded_at": "2026-08-25T15:42:14Z",
+      "uploaded_at": "2026-08-26T03:35:34Z",
       "status": "active",
       "cleanup_marked_at": null
     }

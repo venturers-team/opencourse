@@ -9,10 +9,10 @@
       "purpose": "실습 목표물의 구조를 종이에 옮겨 그릴 수 있게 한다",
       "source": "ops/runs/gen-flutter-202608252251/figures/ch5-fig-01.png",
       "r2_key": "media/05-wrap-up/fig-01.png",
-      "url": "https://media.local.opencourse.invalid/media/05-wrap-up/fig-01.png",
+      "url": "https://opencourse-537.pages.dev/media/05-wrap-up/fig-01.png",
       "bytes": 62674,
       "sha256": "fb947db67cae166dc68e3f8ff5e89036fc8b62b2db6b947cd93b62cd94bb32f5",
-      "uploaded_at": "2026-08-25T15:42:14Z",
+      "uploaded_at": "2026-08-26T03:35:34Z",
       "status": "active",
       "cleanup_marked_at": null
     },
@@ -23,10 +23,10 @@
       "purpose": "챕터 개요 나레이션",
       "source": "ops/runs/gen-flutter-202608252251/audio/05-wrap-up/aud-01.mp3",
       "r2_key": "media/05-wrap-up/aud-01.mp3",
-      "url": "https://media.local.opencourse.invalid/media/05-wrap-up/aud-01.mp3",
+      "url": "https://opencourse-537.pages.dev/media/05-wrap-up/aud-01.mp3",
       "bytes": 461708,
       "sha256": "68dc1c80e708343b3411ef967b7a4fc3f7b5b8429dfd79deabf18c291a68e715",
-      "uploaded_at": "2026-08-25T15:42:14Z",
+      "uploaded_at": "2026-08-26T03:35:34Z",
       "status": "active",
       "cleanup_marked_at": null
     }
